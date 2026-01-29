@@ -5,10 +5,11 @@
 ![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)
 ![Issues](https://img.shields.io/github/issues/everett7623/airport-recommendations-2026)
 ![Repo Size](https://img.shields.io/github/repo-size/everett7623/airport-recommendations-2026)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)
 
 ![Index Count](https://img.shields.io/badge/Index-21%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
+![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 
 > **📌 本项目定位：** 机场推荐索引与筛选工具 | 覆盖免费试用、入门经济、性价比、高端专线、按量计费等全类型 | 支持关键词搜索与标签筛选 | 每月更新
 

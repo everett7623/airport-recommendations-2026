@@ -145,4 +145,4 @@ https://github.com/MetaCubeX/ClashMetaForAndroid/releases
 - 分流规则（Netflix / ChatGPT 专线）
 - 自建订阅备份
 
-详见 [docs/advanced.md](docs/advanced.md)（后续补充）
+详见 [advanced.md](advanced.md)（后续补充）

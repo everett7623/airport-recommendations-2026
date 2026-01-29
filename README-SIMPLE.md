@@ -1,9 +1,8 @@
 # 🚀 2026 最新稳定高速机场推荐 | 科学上网梯子指南
 
-![Last Updated](https://img.shields.io/badge/Last%20Update-2026--01--29-brightgreen.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
-![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)
-![Index](https://img.shields.io/badge/Index-21%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-21%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 
 > **⚠️ 前言：** 本项目旨在为科研、外贸、开发人员提供稳定的网络加速服务推荐。请遵守当地法律法规，合理使用网络资源。

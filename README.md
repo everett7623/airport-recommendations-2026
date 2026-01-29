@@ -2,7 +2,13 @@
 
 ![Last Updated](https://img.shields.io/badge/Last%20Update-2026--01--29-brightgreen.svg)
 ![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/airport-recommendations-2026?style=social)
+![Forks](https://img.shields.io/github/forks/YOUR_USERNAME/airport-recommendations-2026?style=social)
+![Issues](https://img.shields.io/github/issues/YOUR_USERNAME/airport-recommendations-2026)
+![Repo Size](https://img.shields.io/github/repo-size/YOUR_USERNAME/airport-recommendations-2026)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
+![Index Count](https://img.shields.io/badge/Index-21%20Airports-informational)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=YOUR_USERNAME.airport-recommendations-2026)
 
 > **📌 本项目定位：** 机场推荐索引与筛选工具 | 覆盖免费试用、入门经济、性价比、高端专线、按量计费等全类型 | 支持关键词搜索与标签筛选 | 每月更新
 
@@ -33,7 +39,6 @@
 - ✅ **价格更新：** 光年梯7折优惠码 GNT70，极连云8折优惠码 JLY888
 - ✅ **功能优化：** 新增完整服务商索引表格，支持按线路/场景筛选
 - ✅ **内容完善：** 更新流媒体解锁测试结果，补充ChatGPT可用性验证
-
 * 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)** (实时更新，内容更全)
 
 ### 历史更新

@@ -8,6 +8,7 @@
 ![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)
 
 > **📌 本项目定位：** 机场推荐索引与筛选工具 | 覆盖免费试用、入门经济、性价比、高端专线、按量计费等全类型 | 支持关键词搜索与标签筛选 | 每月更新
+> 如果这个项目对你有帮助，请点个 Star ⭐ 支持一下！
 
 **关键词：** 机场推荐、VPN推荐、科学上网、翻墙工具、梯子推荐、SS机场、V2Ray机场、Trojan机场、IPLC专线、IEPL专线、流媒体解锁、Netflix机场、ChatGPT节点、稳定机场、高速机场、2026机场推荐
 

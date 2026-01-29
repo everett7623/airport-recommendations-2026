@@ -1,101 +1,148 @@
-# 📚 机场客户端配置保姆级教程
+# 📚 机场客户端配置保姆级教程（全平台）
 
-> 本教程将指导你如何在 Windows、macOS、Android 和 iOS 上配置机场订阅。
-
----
-
-## 🖥️ Windows - 使用 Clash Verge
-
-Clash Verge 是目前 Windows 上最推荐的 Clash 客户端，界面现代，支持中文，基于开源内核。
-
-### 1. 下载与安装
-- **下载地址：** [GitHub Releases](https://github.com/clash-verge-rev/clash-verge-rev/releases)
-- 选择 `Clash.Verge_x64-setup.exe` 下载并安装。
-
-### 2. 导入订阅
-1.  登录机场后台，找到 **"一键订阅"** -> **"复制 Clash 订阅链接"**。
-2.  打开 Clash Verge，点击左侧 **"订阅"** (Profiles)。
-3.  在顶部输入框粘贴链接，点击 **"导入"** (Import)。
-4.  下载成功后，点击该卡片选中它（变成蓝色）。
-
-### 3. 开启代理
-1.  点击左侧 **"代理"** (Proxies)，选择一个节点（建议选 `自动选择` 或延迟低的节点）。
-2.  点击左侧 **"设置"** (Settings)。
-3.  打开 **"系统代理"** (System Proxy) 开关。
-4.  现在你可以访问 Google 了！
+> **前言：** 买机场后你需要“客户端 + 导入订阅”才能使用。  
+> 本文适用于 Clash / Shadowrocket / v2rayN 全平台。
 
 ---
 
-## 🍎 macOS - 使用 ClashX Pro
+## ✅ 核心步骤概览（所有平台通用）
 
-### 1. 下载与安装
-- **下载地址：** [GitHub Releases](https://github.com/yichengchen/clashX/releases)
-- 下载 `ClashX.Pro.dmg`，拖入应用程序文件夹。
-
-### 2. 导入订阅
-1.  复制机场的 **Clash 订阅链接**。
-2.  打开 ClashX，状态栏会出现一个小猫咪图标。
-3.  点击图标 -> **配置** -> **托管配置** -> **管理**。
-4.  点击 **"添加"**，粘贴链接，名称随意填，点击确定。
-5.  软件会自动更新配置文件。
-
-### 3. 开启代理
-1.  点击状态栏小猫咪图标。
-2.  **出站模式** 选择 **"规则判断"**。
-3.  勾选 **"设置为系统代理"**。
-4.  在 **Global** 或 **Proxy** 策略组中选择一个节点即可。
+1. 购买机场套餐
+2. 在官网复制订阅链接（Clash/V2Ray/Shadowrocket）
+3. 下载客户端
+4. 导入订阅
+5. 选择 Rule 模式
+6. 开启系统代理 → 完成
 
 ---
 
-## 🤖 Android - 使用 Clash for Android (CFA)
+## 🖥️ Windows（Clash Verge 推荐）
 
-### 1. 下载与安装
-- **下载地址：** [GitHub Releases](https://github.com/Kr328/ClashForAndroid/releases)
-- 下载 `cfa-x.x.x-premium-universal-release.apk` 并安装。
+### 1）下载安装
 
-### 2. 导入订阅
-1.  复制机场的 **Clash 订阅链接**。
-2.  打开 App，点击 **"配置"** (Profiles)。
-3.  点击右上角 **"+"** 号 -> **"从 URL 导入"**。
-4.  粘贴链接，名称填机场名，点击右上角保存图标。
-5.  回到配置列表，**点击选中**刚才添加的配置（圆点变色）。
+下载地址：
+https://github.com/clash-verge-rev/clash-verge-rev/releases
 
-### 3. 开启代理
-1.  回到主界面，点击 **"已停止"** (Stopped) 按钮启动。
-2.  如果是首次运行，系统会弹出 "连接请求"，点击 **"确定"**。
-3.  点击 **"代理"** (Proxy) 按钮进入节点选择页面，选择节点即可。
+选择：
+
+- `Clash.Verge_x64-setup.exe`
 
 ---
 
-## 📱 iOS - 使用 Shadowrocket (小火箭)
+### 2）导入订阅（最关键）
 
-> ⚠️ 注意：需要非中国区 Apple ID 才能下载。
-
-### 1. 下载与安装
-- 使用美区 ID 登录 App Store，搜索 **Shadowrocket** 并下载。
-
-### 2. 导入订阅
-1.  登录机场后台，找到 **"一键订阅"**。
-2.  通常有 **"导入到 Shadowrocket"** 按钮，点击会自动跳转并导入。
-3.  如果无法自动跳转：
-    - 复制 **订阅链接**。
-    - 打开 Shadowrocket，它会自动检测剪贴板并提示导入，点击 **"导入"**。
-    - 或者：点击右上角 **"+"** -> 类型选择 **"Subscribe"** -> URL 粘贴链接 -> 备注填机场名 -> 点击完成。
-
-### 3. 开启代理
-1.  在首页找到刚才导入的分组，点击展开。
-2.  选择一个节点（前面会出现小黄点）。
-3.  打开顶部的 **"未连接"** 开关。
-4.  首次连接会弹出 "添加 VPN 配置" 提示，点击 **"允许"** 并输入锁屏密码。
-5.  **全局路由** 建议选择 **"配置"** (Config) 模式，这样国内流量不走代理，省流量且速度快。
+1. 打开 Clash Verge
+2. 左侧点击 **Profiles（订阅）**
+3. 粘贴订阅链接
+4. 点击 Import
+5. 必须单击配置卡片 → 高亮才生效
 
 ---
 
-## 💡 进阶技巧：分流规则
+### 3）开启代理
 
-为了获得最佳体验，建议使用 **"规则模式"** (Rule / PAC)：
-- **国内网站**：直连，不消耗机场流量。
-- **国外网站**：自动走代理。
-- **广告域名**：自动屏蔽。
+1. Proxies → 模式选择 Rule
+2. Settings → 打开 System Proxy
+3. 浏览器访问 Google 测试
 
-大部分 Clash 和 Shadowrocket 订阅链接已经内置了优秀的规则，通常不需要手动设置，保持默认的 **"规则判断"** 或 **"配置"** 模式即可。
+---
+
+### 常见坑
+
+- 时间必须自动同步
+- 不要同时开 VPN + Clash
+- 更新订阅最常解决问题
+
+---
+
+## 🍎 macOS（ClashX Pro 推荐）
+
+### 导入订阅流程
+
+1. 菜单栏小猫图标
+2. Config → Remote Config → Manage
+3. Add → 粘贴订阅链接
+4. Outbound Mode → Rule
+5. 勾选 Set as System Proxy
+
+✅ 完成
+
+---
+
+## 🤖 Android（Clash Meta 推荐）
+
+下载：
+https://github.com/MetaCubeX/ClashMetaForAndroid/releases
+
+### 导入订阅
+
+1. Profiles → +
+2. From URL → 粘贴订阅
+3. 保存并选中配置
+4. 返回主页 → Start
+
+---
+
+### Android 常见问题
+
+- MIUI 需关闭省电限制
+- 首次启动必须允许 VPN 权限
+
+---
+
+## 📱 iOS（Shadowrocket 小火箭）
+
+⚠️ 国区 App Store 无法下载，需要美区 ID。
+
+### 导入方式
+
+✅ 自动导入：
+
+1. Safari 打开机场官网
+2. 点击“一键导入 Shadowrocket”
+3. 点击打开即可
+
+✅ 手动导入：
+
+1. 复制订阅链接
+2. Shadowrocket → + → Subscribe
+3. 粘贴 URL 保存
+
+---
+
+### 推荐设置
+
+- 模式选择 Config（智能分流）
+- 每周更新一次订阅
+
+---
+
+## 🔄 如何更新订阅（必会）
+
+机场节点经常变动，必须更新：
+
+- Windows/Mac：Profiles → Update
+- iOS：下拉刷新或右上角刷新按钮
+- Android：配置页点击更新
+
+---
+
+## ✅ 新手最佳使用模式
+
+推荐长期设置：
+
+- Rule 模式（国内直连，国外代理）
+- 自动选择节点（避免手动切换）
+- 主力 + 备用机场双保险
+
+---
+
+## 🚀 下一步
+
+如果你想进阶：
+
+- TUN 模式（全局接管）
+- 分流规则（Netflix / ChatGPT 专线）
+- 自建订阅备份
+
+详见 docs/advanced.md（后续补充）

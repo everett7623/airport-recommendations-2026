@@ -1,39 +1,10 @@
 {
   "version": "2026-02-02",
   "tags_vocabulary": {
-    "line_type": [
-      "IPLC专线",
-      "IEPL专线",
-      "BGP专线",
-      "隧道中转",
-      "公网中转",
-      "原生IP",
-      "华为云BGP",
-      "多线国际"
-    ],
-    "scenario": [
-      "流媒体",
-      "ChatGPT",
-      "游戏加速",
-      "办公稳定",
-      "出海加速",
-      "家庭共享"
-    ],
-    "billing": [
-      "月付",
-      "年付",
-      "按量",
-      "不限时流量"
-    ],
-    "feature": [
-      "试用",
-      "低价",
-      "不限设备",
-      "三网优化",
-      "老牌",
-      "新人优惠",
-      "不限速"
-    ]
+    "line_type": ["IPLC专线", "IEPL专线", "BGP专线", "隧道中转", "公网中转", "原生IP", "华为云BGP", "多线国际"],
+    "scenario": ["流媒体", "ChatGPT", "游戏加速", "办公稳定", "出海加速", "家庭共享"],
+    "billing": ["月付", "年付", "按量", "不限时流量"],
+    "feature": ["试用", "低价", "不限设备", "三网优化", "老牌", "新人优惠", "不限速"]
   },
   "categories": {
     "free_trial": {
@@ -46,12 +17,7 @@
           "line_type": "IEPL专线",
           "pricing": "免费试用",
           "trial": "1天/5GB",
-          "tags": [
-            "试用",
-            "IEPL专线",
-            "免费",
-            "新手友好"
-          ],
+          "tags": ["试用", "IEPL专线", "免费", "新手友好"],
           "rating": 5
         },
         {
@@ -60,11 +26,7 @@
           "line_type": "公网中转",
           "pricing": "免费试用",
           "trial": "提供试用入口",
-          "tags": [
-            "试用",
-            "多地区",
-            "配置验证"
-          ],
+          "tags": ["试用", "多地区", "配置验证"],
           "rating": 4
         }
       ]
@@ -78,11 +40,7 @@
           "url": "https://s.y8o.de/newhua99",
           "line_type": "隧道中转",
           "pricing": "¥3.99/月起",
-          "tags": [
-            "不限设备",
-            "便宜",
-            "隧道中转"
-          ],
+          "tags": ["不限设备", "便宜", "隧道中转"],
           "rating": 4
         },
         {
@@ -90,11 +48,7 @@
           "url": "https://s.y8o.de/onestep",
           "line_type": "公网中转",
           "pricing": "¥5/月起",
-          "tags": [
-            "平价",
-            "易用",
-            "按量可选"
-          ],
+          "tags": ["平价", "易用", "按量可选"],
           "rating": 4
         },
         {
@@ -102,11 +56,7 @@
           "url": "https://s.y8o.de/mitce",
           "line_type": "公网中转",
           "pricing": "$0.6-2/月",
-          "tags": [
-            "超低价",
-            "住宅IP",
-            "多地区"
-          ],
+          "tags": ["超低价", "住宅IP", "多地区"],
           "rating": 3
         }
       ]
@@ -120,11 +70,7 @@
           "url": "https://s.y8o.de/fastlink",
           "line_type": "BGP/IPLC",
           "pricing": "¥20/月起",
-          "tags": [
-            "老牌",
-            "稳定",
-            "主力推荐"
-          ],
+          "tags": ["老牌", "稳定", "主力推荐"],
           "rating": 4
         },
         {
@@ -134,18 +80,8 @@
           "pricing": "¥17/月起",
           "multiplier": "0.8-1倍",
           "nodes": "60+",
-          "unlock": [
-            "Netflix",
-            "Disney+",
-            "TikTok",
-            "ChatGPT"
-          ],
-          "tags": [
-            "高性价比",
-            "IPLC专线",
-            "流媒体",
-            "晚高峰稳定"
-          ],
+          "unlock": ["Netflix", "Disney+", "TikTok", "ChatGPT"],
+          "tags": ["高性价比", "IPLC专线", "流媒体", "晚高峰稳定"],
           "rating": 5
         },
         {
@@ -156,11 +92,7 @@
           "multiplier": "1倍",
           "team": "新加坡",
           "coupon": "GNT70（7折）",
-          "tags": [
-            "SS专线",
-            "7折优惠",
-            "稳定"
-          ],
+          "tags": ["SS专线", "7折优惠", "稳定"],
           "rating": 5
         },
         {
@@ -171,11 +103,7 @@
           "multiplier": "1倍",
           "team": "海外团队",
           "coupon": "TNT85（85折）",
-          "tags": [
-            "超低价",
-            "IPLC专线",
-            "原生IP"
-          ],
+          "tags": ["超低价", "IPLC专线", "原生IP"],
           "rating": 5
         },
         {
@@ -186,11 +114,7 @@
           "nodes": "60+",
           "optimization": "三网优化",
           "coupon": "JLY888（8折）",
-          "tags": [
-            "IPLC专线",
-            "三网优化",
-            "出海加速"
-          ],
+          "tags": ["IPLC专线", "三网优化", "出海加速"],
           "rating": 5
         },
         {
@@ -201,11 +125,7 @@
           "protocol": "Trojan",
           "device_limit": "不限设备",
           "coupon": "XDM888（8折）",
-          "tags": [
-            "不限设备",
-            "永久流量包",
-            "IEPL专线"
-          ],
+          "tags": ["不限设备", "永久流量包", "IEPL专线"],
           "rating": 5
         },
         {
@@ -213,11 +133,7 @@
           "url": "https://s.y8o.de/flyingcat",
           "line_type": "IEPL/IPLC 专线",
           "pricing": "¥15.00/月起",
-          "tags": [
-            "高端专线",
-            "游戏加速",
-            "极速稳定"
-          ],
+          "tags": ["高端专线", "游戏加速", "极速稳定"],
           "rating": 5
         },
         {
@@ -225,11 +141,7 @@
           "url": "https://s.y8o.de/69yun",
           "line_type": "IPLC专线",
           "pricing": "¥9.6/月起",
-          "tags": [
-            "IPLC专线",
-            "Emby",
-            "性价比"
-          ],
+          "tags": ["IPLC专线", "Emby", "性价比"],
           "rating": 4
         },
         {
@@ -237,11 +149,7 @@
           "url": "https://s.y8o.de/ssrdog",
           "line_type": "原生IP",
           "pricing": "¥25/月起",
-          "tags": [
-            "原生IP",
-            "流媒体",
-            "Netflix"
-          ],
+          "tags": ["原生IP", "流媒体", "Netflix"],
           "rating": 4
         },
         {
@@ -249,11 +157,7 @@
           "url": "https://s.y8o.de/ByWave",
           "line_type": "IEPL",
           "pricing": "¥30-110/月",
-          "tags": [
-            "IEPL",
-            "万兆带宽",
-            "高端"
-          ],
+          "tags": ["IEPL", "万兆带宽", "高端"],
           "rating": 4
         }
       ]
@@ -267,11 +171,7 @@
           "url": "https://s.y8o.de/wgetcloud",
           "line_type": "华为云BGP",
           "pricing": "¥69/月起",
-          "tags": [
-            "华为云",
-            "企业级",
-            "SLA保障"
-          ],
+          "tags": ["华为云", "企业级", "SLA保障"],
           "rating": 5
         },
         {
@@ -280,11 +180,7 @@
           "line_type": "唯云专线",
           "pricing": "¥117/月起",
           "established": "2017",
-          "tags": [
-            "佩奇",
-            "老牌",
-            "自研面板"
-          ],
+          "tags": ["佩奇", "老牌", "自研面板"],
           "rating": 5
         },
         {
@@ -292,11 +188,7 @@
           "url": "https://s.y8o.de/tag",
           "line_type": "IEPL专线",
           "pricing": "¥109/月起",
-          "tags": [
-            "全球覆盖",
-            "低延迟",
-            "游戏加速"
-          ],
+          "tags": ["全球覆盖", "低延迟", "游戏加速"],
           "rating": 5
         },
         {
@@ -304,11 +196,7 @@
           "url": "https://s.y8o.de/flowercloud",
           "line_type": "BGP/IEPL",
           "pricing": "¥39/月起",
-          "tags": [
-            "Trojan",
-            "老牌",
-            "稳定"
-          ],
+          "tags": ["Trojan", "老牌", "稳定"],
           "rating": 4
         },
         {
@@ -316,11 +204,7 @@
           "url": "https://s.y8o.de/dler",
           "line_type": "BGP/IEPL 专线",
           "pricing": "¥299/年起",
-          "tags": [
-            "墙洞",
-            "老牌",
-            "企业级"
-          ],
+          "tags": ["墙洞", "老牌", "企业级"],
           "rating": 5
         },
         {
@@ -328,11 +212,7 @@
           "url": "https://s.y8o.de/mesl",
           "line_type": "Premium IEPL",
           "pricing": "¥50.00/月起",
-          "tags": [
-            "低调",
-            "顶级线路",
-            "不宣传"
-          ],
+          "tags": ["低调", "顶级线路", "不宣传"],
           "rating": 5
         },
         {
@@ -340,11 +220,7 @@
           "url": "https://immtele.com/",
           "line_type": "IEPL/IPLC 专线",
           "pricing": "¥50.00/月起",
-          "tags": [
-            "一线大厂",
-            "电信优化",
-            "高端"
-          ],
+          "tags": ["一线大厂", "电信优化", "高端"],
           "rating": 5
         },
         {
@@ -352,11 +228,7 @@
           "url": "https://www.amytele.co/",
           "line_type": "IEPL 专线",
           "pricing": "¥30.00/月起",
-          "tags": [
-            "佩奇系",
-            "流媒体",
-            "稳定"
-          ],
+          "tags": ["佩奇系", "流媒体", "稳定"],
           "rating": 5
         },
         {
@@ -364,11 +236,7 @@
           "url": "https://www.kuromis.com/",
           "line_type": "IEPL 专线",
           "pricing": "¥45.00/月起",
-          "tags": [
-            "贵族机场",
-            "高性能",
-            "库洛米"
-          ],
+          "tags": ["贵族机场", "高性能", "库洛米"],
           "rating": 5
         },
         {
@@ -376,11 +244,7 @@
           "url": "https://s.y8o.de/ytoo",
           "line_type": "多线国际",
           "pricing": "¥98/年起",
-          "tags": [
-            "年付",
-            "全球覆盖",
-            "多地区"
-          ],
+          "tags": ["年付", "全球覆盖", "多地区"],
           "rating": 4
         }
       ]
@@ -394,11 +258,7 @@
           "url": "https://s.y8o.de/Gatern",
           "billing": "按量+周期",
           "expiry": "不限时",
-          "tags": [
-            "按量",
-            "不限时",
-            "灵活"
-          ],
+          "tags": ["按量", "不限时", "灵活"],
           "rating": 4
         },
         {
@@ -406,10 +266,7 @@
           "url": "https://s.y8o.de/skylumo",
           "billing": "一次性流量包",
           "expiry": "永不过期",
-          "tags": [
-            "永不过期",
-            "大流量包"
-          ],
+          "tags": ["永不过期", "大流量包"],
           "rating": 4
         },
         {
@@ -417,11 +274,7 @@
           "url": "https://s.y8o.de/mojie",
           "billing": "纯按量",
           "expiry": "长期有效",
-          "tags": [
-            "按量",
-            "老牌",
-            "备用"
-          ],
+          "tags": ["按量", "老牌", "备用"],
           "rating": 3
         },
         {
@@ -429,10 +282,7 @@
           "url": "https://s.y8o.de/onestep",
           "billing": "按量购买",
           "expiry": "不限时",
-          "tags": [
-            "按量",
-            "临时使用"
-          ],
+          "tags": ["按量", "临时使用"],
           "rating": 3
         }
       ]

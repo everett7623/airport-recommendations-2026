@@ -400,22 +400,7 @@
 
 ---
 
-### 4. Dler Cloud ☁️
-
-**🔗 官网：** [https://s.y8o.de/dler](https://s.y8o.de/dler)
-
-| 项目 | 说明 |
-|-----|------|
-| **线路类型** | BGP/IEPL专线 |
-| **价格** | ¥299/年起 |
-| **核心特色** | 俗称"墙洞"，骨灰级老牌，企业级稳定性 |
-| **推荐指数** | ⭐⭐⭐⭐⭐ |
-
-**核心标签：** `墙洞` `老牌` `企业级` `稳定`
-
----
-
-### 5. MESL ⚫
+### 4. MESL ⚫
 
 **🔗 官网：** [https://s.y8o.de/mesl](https://s.y8o.de/mesl)
 
@@ -430,7 +415,7 @@
 
 ---
 
-### 6. ImmTelecom 📶
+### 5. ImmTelecom 📶
 
 **🔗 官网：** [https://immtele.com/](https://immtele.com/)
 
@@ -445,7 +430,7 @@
 
 ---
 
-### 7. AmyTelecom 🐷
+### 6. AmyTelecom 🐷
 
 **🔗 官网：** [https://www.amytele.co/](https://www.amytele.co/)
 
@@ -460,7 +445,7 @@
 
 ---
 
-### 8. Kuromis 😈
+### 7. Kuromis 😈
 
 **🔗 官网：** [https://www.kuromis.com/](https://www.kuromis.com/)
 
@@ -475,7 +460,7 @@
 
 ---
 
-### 9. FlowerCloud 🌸
+### 8. FlowerCloud 🌸
 
 **🔗 官网：** [https://s.y8o.de/flowercloud](https://s.y8o.de/flowercloud)
 
@@ -490,7 +475,7 @@
 
 ---
 
-### 10. YToo 🌐
+### 9. YToo 🌐
 
 **🔗 官网：** [https://s.y8o.de/ytoo](https://s.y8o.de/ytoo)
 

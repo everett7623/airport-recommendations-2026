@@ -32,10 +32,9 @@
 
 ## 📢 最新活动与公告
 
-### 2026-02-02 更新
-- ✅ **新增高端专线：** Dler Cloud、MESL、ImmTelecom、AmyTelecom、Kuromis
-- ✅ **新增性价比：** 光速云、光年梯、TNTCloud、极连云、星岛梦、**飞猫云**
-- ✅ **分类调整：** 将飞猫云调整至性价比专区，排序优化
+### 2026-03-08 更新
+- ✅ **新增高端专线：** MESL、ImmTelecom、AmyTelecom、Kuromis
+- ✅ **新增性价比：** 全球云**
 * 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)** (实时更新，内容更全)
 
 ---
@@ -299,7 +298,24 @@
 
 ---
 
-### 8. 69云
+### 8. 全球云
+
+**🔗 官网：** [https://s.y8o.de/globalyun](https://s.y8o.de/globalyun))
+
+| 项目 | 说明 |
+|-----|------|
+| **线路类型** | IEPL/IPLC专线 |
+| **价格** | ¥20.00/月起 |
+| **核心特色** | 主打4K流媒体解锁，延迟极低 |
+| **推荐指数** | ⭐⭐⭐⭐⭐ |
+
+**核心标签：** `高端专线` `流媒体全解锁` `极速稳定`
+
+**适合人群：** 影音玩家、对延迟敏感用户、4K党
+
+---
+
+### 9. 69云
 
 **🔗 官网：** [https://s.y8o.de/69yun](https://s.y8o.de/69yun)
 
@@ -314,7 +330,7 @@
 
 ---
 
-### 9. SsrDog 🎬
+### 10. SsrDog 🎬
 
 **🔗 官网：** [https://s.y8o.de/ssrdog](https://s.y8o.de/ssrdog)
 
@@ -329,7 +345,7 @@
 
 ---
 
-### 10. Bywave
+### 11. Bywave
 
 **🔗 官网：** [https://s.y8o.de/ByWave](https://s.y8o.de/ByWave)
 

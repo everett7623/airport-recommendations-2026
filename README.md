@@ -300,7 +300,7 @@
 
 ### 8. 全球云
 
-**🔗 官网：** [https://s.y8o.de/globalyun](https://s.y8o.de/globalyun))
+**🔗 官网：** [https://s.y8o.de/globalyun](https://s.y8o.de/globalyun)
 
 | 项目 | 说明 |
 |-----|------|

@@ -34,7 +34,7 @@
 
 ### 2026-03-08 更新
 - ✅ **新增高端专线：** MESL、ImmTelecom、AmyTelecom、Kuromis
-- ✅ **新增性价比：** 全球云**
+- ✅ **新增性价比：** 全球云 **
 * 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)** (实时更新，内容更全)
 
 ---

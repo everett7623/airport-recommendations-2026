@@ -22,7 +22,7 @@
 
 ## 📢 最新活动与公告
 
-* **[2026-02-02]** 新增 **飞猫云**、**光速云**、**光年梯**、**极连云**、**星岛梦**、**TNT** 等高性价比专线机场，以及 **ImmTelecom**、**AmyTelecom** 等高端大厂。
+* **[2026-03-08]** 新增 **全球云**。
 * 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)** (实时更新，内容更全)
 
 ---
@@ -51,6 +51,7 @@
 | **[极连云](https://s.y8o.de/jly)** | IPLC/IEPL | ¥15.5/月 | **三网入口优化**，年付仅¥96起，原生IP全解锁，**8折优惠: JLY888** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/jly) |
 | **[星岛梦](https://s.y8o.de/stardream)** | IEPL专线 | ¥16/月 | **不限设备数**，提供**永久不限时**大流量包，Trojan协议稳定，**8折: XDM888** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/stardream) |
 | **[飞猫云](https://s.y8o.de/flyingcat)** | IEPL/IPLC | ¥15/月 | **低延迟游戏加速**，秒开4K/8K视频，全平台支持，极速稳定 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/flyingcat) |
+| **[全球云](https://s.y8o.de/globalyun)** | IEPL/IPLC | ¥20/月 | **低延迟流媒体解锁**，秒开4K/8K视频，全平台支持，极速稳定 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/globalyun) |
 | **[69云](https://s.y8o.de/69yun)** | IPLC专线 | ¥9.6/月 | IPLC专线，深度整合Emby影音服务，节点数量多 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/69yun) |
 | **[SsrDog](https://s.y8o.de/ssrdog)** | 原生IP | ¥25/月 | 主打原生IP，流媒体解锁稳定，Netflix/Disney+观影首选 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/ssrdog) |
 | **[Bywave](https://s.y8o.de/ByWave)** | IEPL专线 | ¥30/月 | 万兆金融级专线，按速分级，高端体验 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/ByWave) |

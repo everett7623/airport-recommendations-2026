@@ -67,7 +67,7 @@
 
 | 机场名称 | 线路 | 价格 | 特色 | 直达 |
 | :--- | :--- | :--- | :--- | :---: |
-| **[WgetCloud](https://s.y8o.de/wgetcloud)** | 华为云BGP | ¥69/月 | 机场界的"爱马仕"，华为云入口，多链路自动切换，极致SLA | [官网](https://s.y8o.de/wgetcloud) |
+| **[WgetCloud](https://s.y8o.de/wgetcloud)** | 华为云BGP | ¥79/月 | 机场界的"爱马仕"，华为云入口，多链路自动切换，极致SLA | [官网](https://s.y8o.de/wgetcloud) |
 | **[Nexitally](https://s.y8o.de/naiixi)** | 唯云专线 | ¥117/月 | 佩奇机场，老牌王者，自研面板，丰富流媒体支持 | [官网](https://s.y8o.de/naiixi) |
 | **[TAG](https://s.y8o.de/tag)** | IEPL专线 | ¥109/月 | 节点覆盖全球最广（200+地区），冷门地区IP首选 | [官网](https://s.y8o.de/tag) 
 | **[MESL](https://s.y8o.de/mesl)** | Premium | ¥50/月 | 极度低调的顶级机场，不超售，带宽充裕 | [官网](https://s.y8o.de/mesl) |

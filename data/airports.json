@@ -1,5 +1,5 @@
 {
-  "version": "2026-03-08",
+  "version": "2026-03-24",
   "tags_vocabulary": {
     "line_type": ["IPLC专线", "IEPL专线", "BGP专线", "隧道中转", "公网中转", "原生IP", "华为云BGP", "多线国际"],
     "scenario": ["流媒体", "ChatGPT", "游戏加速", "办公稳定", "出海加速", "家庭共享"],
@@ -7,64 +7,326 @@
     "feature": ["试用", "低价", "不限设备", "三网优化", "老牌", "新人优惠", "不限速"]
   },
   "categories": {
-    "free_trial": {
-      "name": "免费试用专区",
-      "description": "拒绝盲选，先体验节点质量，满意再付费",
-      "airports": [
-        {"name": "Bitz Net", "url": "https://s.y8o.de/Bitz", "line_type": "IEPL专线", "pricing": "免费试用", "trial": "1天/5GB", "tags": ["试用", "IEPL专线", "免费", "新手友好"], "rating": 5},
-        {"name": "SKYLUMO", "url": "https://s.y8o.de/skylumo", "line_type": "公网中转", "pricing": "免费试用", "trial": "提供试用入口", "tags": ["试用", "多地区", "配置验证"], "rating": 4}
-      ]
-    },
-    "budget": {
-      "name": "入门经济型",
-      "description": "价格友好，适合预算有限的学生党",
-      "airports": [
-        {"name": "新华云", "url": "https://s.y8o.de/newhua99", "line_type": "隧道中转", "pricing": "¥3.99/月起", "tags": ["不限设备", "便宜", "隧道中转"], "rating": 4},
-        {"name": "OneStep", "url": "https://s.y8o.de/onestep", "line_type": "公网中转", "pricing": "¥5/月起", "tags": ["平价", "易用", "按量可选"], "rating": 4},
-        {"name": "Mitce", "url": "https://s.y8o.de/mitce", "line_type": "公网中转", "pricing": "$0.6-2/月", "tags": ["超低价", "住宅IP", "多地区"], "rating": 3}
-      ]
-    },
-    "balanced": {
-      "name": "性价比均衡",
-      "description": "价格适中，性能稳定，适合大多数用户",
-      "airports": [
-        {"name": "Fastlink", "url": "https://s.y8o.de/fastlink", "line_type": "BGP/IPLC", "pricing": "¥20/月起", "tags": ["老牌", "稳定", "主力推荐"], "rating": 4},
-        {"name": "光速云", "url": "https://s.y8o.de/lightspeed", "line_type": "隧道/IPLC", "pricing": "¥17/月起", "multiplier": "0.8-1倍", "unlock": ["Netflix", "Disney+", "TikTok", "ChatGPT"], "tags": ["高性价比", "IPLC专线", "流媒体", "晚高峰稳定"], "rating": 5},
-        {"name": "光年梯", "url": "https://s.y8o.de/lightyearti", "line_type": "IEPL专线", "pricing": "¥18/月起", "multiplier": "1倍", "coupon": "GNT70", "tags": ["SS专线", "7折优惠", "稳定"], "rating": 5},
-        {"name": "TNTCloud", "url": "https://s.y8o.de/tnt", "line_type": "IPLC专线", "pricing": "¥8/月起(年付)", "multiplier": "1倍", "coupon": "TNT85", "tags": ["超低价", "IPLC专线", "原生IP"], "rating": 5},
-        {"name": "极连云", "url": "https://s.y8o.de/jly", "line_type": "IPLC/IEPL", "pricing": "¥15.5/月起", "nodes": "60+", "coupon": "JLY888", "tags": ["IPLC专线", "三网优化", "出海加速"], "rating": 5},
-        {"name": "星岛梦", "url": "https://s.y8o.de/stardream", "line_type": "IEPL专线", "pricing": "¥16/月起", "protocol": "Trojan", "device_limit": "不限设备", "coupon": "XDM888", "tags": ["不限设备", "永久流量包", "IEPL专线"], "rating": 5},
-        {"name": "飞猫云", "url": "https://s.y8o.de/flyingcat", "line_type": "IEPL/IPLC 专线", "pricing": "¥15.00/月起", "tags": ["高端专线", "游戏加速", "极速稳定"], "rating": 5},
-        {"name": "全球云", "url": "https://s.y8o.de/globalyun", "line_type": "IEPL/IPLC 专线", "pricing": "¥20.00/月起", "tags": ["高端专线", "流媒体全解锁", "极速稳定"], "rating": 5},
-        {"name": "69云", "url": "https://s.y8o.de/69yun", "line_type": "IPLC专线", "pricing": "¥9.6/月起", "tags": ["IPLC专线", "Emby", "性价比"], "rating": 4},
-        {"name": "SsrDog", "url": "https://s.y8o.de/ssrdog", "line_type": "原生IP", "pricing": "¥25/月起", "tags": ["原生IP", "流媒体", "Netflix"], "rating": 4},
-        {"name": "Bywave", "url": "https://s.y8o.de/ByWave", "line_type": "IEPL", "pricing": "¥30/月起", "tags": ["IEPL", "万兆带宽", "高端"], "rating": 4}
-      ]
-    },
-    "premium": {
-      "name": "高端专线",
-      "description": "追求极致稳定、低延迟，适合商务办公和专业用户",
-      "airports": [
-        {"name": "WgetCloud", "url": "https://s.y8o.de/wgetcloud", "line_type": "华为云BGP", "pricing": "¥69/月起", "tags": ["华为云", "企业级", "SLA保障"], "rating": 5},
-        {"name": "Nexitally", "url": "https://s.y8o.de/naiixi", "line_type": "唯云专线", "pricing": "¥117/月起", "established": "2017", "tags": ["佩奇", "老牌", "自研面板"], "rating": 5},
-        {"name": "TAG", "url": "https://s.y8o.de/tag", "line_type": "IEPL专线", "pricing": "¥109/月起", "tags": ["全球覆盖", "低延迟", "游戏加速"], "rating": 5},
-        {"name": "MESL", "url": "https://s.y8o.de/mesl", "line_type": "Premium IEPL", "pricing": "¥50.00/月起", "tags": ["低调", "顶级线路", "不宣传"], "rating": 5},
-        {"name": "ImmTelecom", "url": "https://immtele.com/", "line_type": "IEPL/IPLC专线", "pricing": "¥50.00/月起", "tags": ["一线大厂", "电信优化", "高端"], "rating": 5},
-        {"name": "AmyTelecom", "url": "https://www.amytele.co/", "line_type": "IEPL专线", "pricing": "¥30.00/月起", "tags": ["佩奇系", "流媒体", "稳定"], "rating": 5},
-        {"name": "Kuromis", "url": "https://www.kuromis.com/", "line_type": "IEPL专线", "pricing": "¥34.00/月起", "tags": ["贵族机场", "高性能", "库洛米"], "rating": 5},
-        {"name": "FlowerCloud", "url": "https://s.y8o.de/flowercloud", "line_type": "BGP/IEPL", "pricing": "¥39/月起", "tags": ["Trojan", "老牌", "稳定"], "rating": 4},
-        {"name": "YToo", "url": "https://s.y8o.de/ytoo", "line_type": "多线国际", "pricing": "¥98/年起", "tags": ["年付", "全球覆盖", "多地区"], "rating": 4}
-      ]
-    },
-    "pay_as_you_go": {
-      "name": "按量计费",
-      "description": "用多少付多少，流量不过期，适合备用",
-      "airports": [
-        {"name": "Gatern", "url": "https://s.y8o.de/Gatern", "billing": "按量+周期", "expiry": "不限时", "tags": ["按量", "不限时", "灵活"], "rating": 4},
-        {"name": "SKYLUMO", "url": "https://s.y8o.de/skylumo", "billing": "一次性流量包", "expiry": "永不过期", "tags": ["永不过期", "大流量包"], "rating": 4},
-        {"name": "魔戒", "url": "https://s.y8o.de/mojie", "billing": "纯按量", "expiry": "长期有效", "tags": ["按量", "老牌", "备用"], "rating": 3},
-        {"name": "OneStep", "url": "https://s.y8o.de/onestep", "billing": "按量购买", "expiry": "不限时", "tags": ["按量", "临时使用"], "rating": 3}
-      ]
-    }
+  "free_trial": {
+    "title": "免费试用专区",
+    "icon": "🎁",
+    "description": "拒绝盲选：提供试用套餐或者流量，先测试节点质量与兼容性，满意再订阅",
+    "airports": [
+      {
+        "name": "网际快车",
+        "url": "https://s.y8o.de/wjkc",
+        "lineType": "中转专线",
+        "pricing": "免费试用, ¥6.8起",
+        "description": "网际快车，可直接体验快车专用VPN或三方通用订阅，有家宽节点、原生节点，50+国家，AI和流媒体全解锁。试用券: vpsknow（1天/5GB）",
+        "features": ["流量不过期", "不限设备数", "家宽节点", "稳定不断流"],
+        "tags": ["白嫖", "试用", "高速体验"],
+        "isNew": true
+      },
+      {
+        "name": "Runway",
+        "url": "https://s.y8o.de/runway",
+        "lineType": "BGP专线",
+        "pricing": "免费试用, ¥9.9/月起",
+        "description": "Runway，可直接体验其BGP专线节点表现，适合先验证延迟与稳定性。提供注册试用流量（1天/6GB）",
+        "features": ["注册即用", "试用1天6GB", "BGP专线", "适合先测再买"],
+        "tags": ["白嫖", "试用", "高速体验"],
+        "isNew": true
+      },
+      {
+        "name": "Bitz Net",
+        "url": "https://s.y8o.de/Bitz",
+        "lineType": "IEPL专线",
+        "pricing": "免费试用",
+        "description": "Bitz，可直接体验其 IEPL 专线节点表现，适合先验证延迟与稳定性。提供注册试用流量（1天/5GB）",
+        "features": ["注册即用", "试用1天5GB", "IEPL专线", "适合先测再买"],
+        "tags": ["白嫖", "试用", "高速体验"]
+      },
+      {
+        "name": "SKYLUMO",
+        "url": "https://s.y8o.de/skylumo",
+        "lineType": "公网中转",
+        "pricing": "免费试用, ¥3.99/月起",
+        "description": "SKYLUMO，提供试用入口，以低门槛月付为主打，覆盖多个常用地区，适合预算有限用户作为入门日用方案。",
+        "features": ["提供试用入口", "日用入门", "多地区节点", "低价月付"],
+        "tags": ["试用", "新手测试", "入门"]
+      }
+    ]
+  },
+  "budget": {
+    "title": "入门经济型",
+    "icon": "💸",
+    "description": "价格友好，适合预算有限的新手与学生党，满足日常上网等需求",
+    "airports": [
+      {
+        "name": "新华云",
+        "url": "https://s.y8o.de/newhua99",
+        "lineType": "隧道中转",
+        "pricing": "¥3.99/月起",
+        "description": "新华云，主打极致性价比的隧道中转机场。不限制设备数量，非常适合多设备党或宿舍/家庭共享。支持 Netflix、ChatGPT、Disney+ 等流媒体解锁，节点覆盖港日新美及土耳其等冷门区。",
+        "features": ["不限设备数", "月付¥3.99起", "隧道加密", "流媒体解锁"],
+        "tags": ["高性价比", "不限设备", "学生党推荐"]
+      },
+      {
+        "name": "OneStep",
+        "url": "https://s.y8o.de/onestep",
+        "lineType": "公网中转",
+        "pricing": "¥5/月起",
+        "description": "OneStep 提供价格友好的公网中转方案，使用门槛低、上手快，适合轻度上网用户。",
+        "features": ["价格亲民", "上手简单", "多协议支持", "轻度使用"],
+        "tags": ["平价", "易用", "轻度"]
+      },
+      {
+        "name": "Mitce",
+        "url": "https://s.y8o.de/mitce",
+        "lineType": "公网中转",
+        "pricing": "$0.6/月起",
+        "description": "提供多国家线路与多客户端支持，包含住宅 IP 等类型节点，适合追求极低价格的用户。",
+        "features": ["多国家线路", "多客户端支持", "住宅IP节点", "低价入门"],
+        "tags": ["超低价", "多地区", "入门"]
+      }
+    ]
+  },
+  "balanced": {
+    "title": "性价比均衡机场",
+    "icon": "⚖️",
+    "description": "价格适中，性能稳定，适合日常使用、流媒体观影和大多数用户",
+    "airports": [
+      {
+        "name": "Fastlink",
+        "url": "https://s.y8o.de/fastlink",
+        "lineType": "BGP/IPLC专线",
+        "pricing": "¥20/月起",
+        "description": "运营多年的老牌机场，采用 BGP、IPLC 混合架构，节点覆盖广、稳定性高，适合作为主力机场。",
+        "features": ["混合线路架构", "老牌稳定运营", "节点覆盖广", "流媒体支持"],
+        "tags": ["性价比", "老牌", "主力推荐"]
+      },
+      {
+        "name": "全球云",
+        "url": "https://s.y8o.de/globalyun",
+        "lineType": "IPLC/IEPL专线",
+        "pricing": "¥20/月起(年付¥99起)",
+        "description": "专注出海专线加速与流媒体解锁。采用企业级 IPLC/IEPL 专线，结合智能负载均衡与三网入口优化，2Gbps+ 带宽接入，晚高峰稳定。原生节点完美解锁 Netflix、Disney+、TikTok 及 ChatGPT。专属优惠码: vpsknow（年付8折）",
+        "features": ["IPLC/IEPL专线", "原生节点流媒体全解锁", "晚高峰高冗余不卡顿", "轻量版年付99元起"],
+        "tags": ["流媒体", "专线", "高性价比"],
+        "isNew": true
+      },
+      {
+        "name": "光速云",
+        "url": "https://s.y8o.de/lightspeed",
+        "lineType": "IPLC专线",
+        "pricing": "¥17/月起",
+        "description": "主打极高性价比的隧道中转与 IPLC 专线机场。拥有 60+ 独立 IP 节点，带宽冗余充足。原生 IP 稳定解锁 Netflix、TikTok 等流媒体，是晚高峰稳定观影的优质选择。",
+        "features": ["IPLC专线", "原生IP流媒体", "晚高峰不限速", "月付¥17起"],
+        "tags": ["高性价比", "流媒体", "大流量"]
+      },
+      {
+        "name": "光年梯",
+        "url": "https://s.y8o.de/lightyearti",
+        "lineType": "IEPL专线",
+        "pricing": "¥18/月起",
+        "description": "新加坡团队运营的 IEPL SS 专线机场。全节点 1 倍率，晚高峰不限速，稳定解锁 ChatGPT 及流媒体。新用户 7 折优惠码：GNT70 (有效期至2026年)，折后性价比极高。",
+        "features": ["IEPL专线", "全节点1倍率", "7折优惠中", "不限时套餐"],
+        "tags": ["SS协议", "稳定", "新加坡背景"]
+      },
+      {
+        "name": "TNTCloud",
+        "url": "https://s.y8o.de/tnt",
+        "lineType": "IPLC专线",
+        "pricing": "¥8/月起(年付)",
+        "description": "海外团队运营的 IPLC 内网专线机场，全节点原生 IP，稳定解锁 TikTok 及 AI 工具。特色限量包年付仅需¥98（约¥8/月），适合追求专线品质但流量需求不大的用户。新人85折优惠码：TNT85。",
+        "features": ["IPLC专线", "原生IP", "低价限量包", "海外团队"],
+        "tags": ["限量包", "原生IP", "高品质"]
+      },
+      {
+        "name": "极连云",
+        "url": "https://s.y8o.de/jly",
+        "lineType": "IPLC/IEPL专线",
+        "pricing": "¥15.5/月起",
+        "description": "专注出海加速的 IPLC/IEPL 专线机场，三网入口优化保障稳定性。拥有 60+ 独立 IP 节点，全线原生 IP 完美解锁 ChatGPT、Netflix 等流媒体。年付轻量版仅需 96 元，性价比极高。8折优惠码：JLY888。",
+        "features": ["IPLC/IEPL专线", "原生IP全解锁", "三网优化", "年付¥96起"],
+        "tags": ["专线", "流媒体", "高性价比"]
+      },
+      {
+        "name": "星岛梦",
+        "url": "https://s.y8o.de/stardream",
+        "lineType": "IEPL专线",
+        "pricing": "¥16/月起",
+        "description": "高品质 IEPL 专线机场，Trojan 协议稳定抗封锁。全节点不限速、无倍率、不限设备数，完美解锁 Netflix/Disney+/ChatGPT/TikTok。月付仅需 ¥16，更提供 1TB 永久不限时流量包（¥680），是长期备用与主力使用的双重优选。优惠码：XDM888 (8折)。",
+        "features": ["IEPL专线", "永久不限时包", "不限设备数", "无倍率"],
+        "tags": ["不限时", "不限设备", "流媒体"]
+      },
+      {
+        "name": "飞猫云",
+        "url": "https://s.y8o.de/flyingcat",
+        "lineType": "IEPL/IPLC专线",
+        "pricing": "¥15.00/月起",
+        "description": "主打 IEPL/IPLC 顶级专线，极低延迟秒开 4K 流媒体与国际服游戏，追求极致稳定体验的首选。",
+        "features": ["IEPL/IPLC专线", "4K/8K秒开", "游戏低延迟", "全平台支持"],
+        "tags": ["高端专线", "游戏加速", "极速稳定"]
+      },
+      {
+        "name": "69云",
+        "url": "https://s.y8o.de/69yun",
+        "lineType": "IPLC专线",
+        "pricing": "¥9.6/月起",
+        "description": "以 IPLC 专线为核心，节点数量多，提供多档流量分级套餐，深度整合 Emby 影音服务。",
+        "features": ["IPLC专线", "节点覆盖广", "分级流量套餐", "Emby生态"],
+        "tags": ["性价比", "IPLC", "Emby"]
+      },
+      {
+        "name": "SsrDog",
+        "url": "https://s.y8o.de/ssrdog",
+        "lineType": "原生IP专线",
+        "pricing": "¥25/月起",
+        "description": "主打原生 IP 专线节点，流媒体解锁稳定，适合 Netflix、Disney+ 观影用户。",
+        "features": ["流媒体解锁", "原生IP节点", "按量/订阅可选", "节点稳定"],
+        "tags": ["流媒体", "原生IP", "按量"]
+      },
+      {
+        "name": "Bywave",
+        "url": "https://s.y8o.de/ByWave",
+        "lineType": "IEPL专线",
+        "pricing": "¥30/月起",
+        "description": "基于万兆金融级 IEPL 专线，按流量与速度阶梯定价，稳定解锁主流流媒体。",
+        "features": ["IEPL专线", "分级套餐", "流媒体解锁", "万兆带宽"],
+        "tags": ["高端", "EMBY", "进阶"]
+      }
+    ]
+  },
+  "premium": {
+    "title": "高端专线机场",
+    "icon": "👑",
+    "description": "追求极致稳定、低延迟与速度，适合商务办公、游戏加速及专业用户",
+    "airports": [
+      {
+        "name": "WgetCloud",
+        "url": "https://s.y8o.de/wgetcloud",
+        "lineType": "BGP专线",
+        "pricing": "¥79/月起",
+        "description": "基于华为云 BGP 入口的专线网络，主打极致稳定性。多节点自动切换，适合对 SLA 有高要求的用户。",
+        "features": ["华为云入口", "多节点自动切换", "稳定性优先", "企业级SLA"],
+        "tags": ["稳定", "企业级", "不差钱"]
+      },
+      {
+        "name": "Nexitally",
+        "url": "https://s.y8o.de/naiixi",
+        "lineType": "高端专线",
+        "pricing": "¥117/月起",
+        "description": "2017 年成立的老牌佩奇机场，自研面板，唯云专线，适合对稳定性和流媒体解锁有持续需求的用户。",
+        "features": ["老牌大厂", "自研面板", "唯云专线", "流媒体解锁"],
+        "tags": ["佩奇", "稳定", "流媒体"]
+      },
+      {
+        "name": "TAG",
+        "url": "https://s.y8o.de/tag",
+        "lineType": "IEPL专线",
+        "pricing": "¥109/月起",
+        "description": "以节点覆盖广著称，延迟低丢包少，拥有大量冷门地区节点，适合有全球业务需求的用户。",
+        "features": ["IEPL专线", "低延迟", "低丢包率", "全球节点覆盖"],
+        "tags": ["低延迟", "全球节点", "高端"]
+      },
+      {
+        "name": "MESL",
+        "url": "https://s.y8o.de/mesl",
+        "lineType": "IEPL专线",
+        "pricing": "¥50/月起",
+        "description": "极其低调的顶级机场，不依赖TG宣传。拥有极高的带宽接入能力，主要服务于对线路质量有苛刻要求的专业用户。",
+        "features": ["极度低调", "海量带宽", "不超售", "专业首选"],
+        "tags": ["低调", "顶级线路", "不宣传"],
+        "isNew": true
+      },
+      {
+        "name": "ImmTelecom",
+        "url": "https://immtele.com/",
+        "lineType": "IEPL/IPLC专线",
+        "pricing": "¥50/月起",
+        "description": "电信专属高端线路，定位与库洛米一致。主打极致稳定与低延迟，适合对网络质量有极高要求的用户。",
+        "features": ["电信专线", "超低延迟", "高端定位", "极致稳定"],
+        "tags": ["一线大厂", "电信优化", "高端"],
+        "isNew": true
+      },
+      {
+        "name": "AmyTelecom",
+        "url": "https://www.amytele.co/",
+        "lineType": "IEPL专线",
+        "pricing": "¥273/年起",
+        "description": "著名的"佩奇"分站，俗称"按摩院"。拥有极佳的流媒体解锁能力和稳定的专线传输，业界口碑老牌劲旅。",
+        "features": ["佩奇分站", "流媒体解锁强", "稳定性高", "老牌机场"],
+        "tags": ["佩奇系", "流媒体解锁", "稳定"],
+        "isNew": true
+      },
+      {
+        "name": "Kuromis",
+        "url": "https://www.kuromis.com/",
+        "lineType": "IEPL专线",
+        "pricing": "¥34/月起",
+        "description": "库洛米，高端专线中的"贵族"。虽然价格不菲，但提供顶级的带宽冗余和速率体验，适合预算充足追求极致的用户。",
+        "features": ["顶级带宽", "奢华体验", "即使高峰也稳", "全专线"],
+        "tags": ["贵族机场", "IEPL专线", "高峰期稳定"],
+        "isNew": true
+      },
+      {
+        "name": "FlowerCloud",
+        "url": "https://s.y8o.de/flowercloud",
+        "lineType": "BGP/IEPL专线",
+        "pricing": "¥39/月起",
+        "description": "花云，采用 Trojan 协议，线路质量极其稳定，适合对协议安全性和连接稳定性要求高的用户。",
+        "features": ["Trojan协议", "多地区节点", "稳定线路", "流媒体解锁"],
+        "tags": ["老牌", "Trojan", "口碑好"]
+      },
+      {
+        "name": "YToo",
+        "url": "https://s.y8o.de/ytoo",
+        "lineType": "多线国际加速",
+        "pricing": "¥98/年起",
+        "description": "覆盖大量非主流地区，采用多线国际传输架构。年付轻量套餐也能使用完整全球节点池。",
+        "features": ["全球多地节点", "轻量年付可选", "团队套餐", "主流客户端"],
+        "tags": ["全球覆盖", "备用方案", "团队"]
+      }
+    ]
+  },
+  "payAsYouGo": {
+    "title": "按量计费机场",
+    "icon": "💰",
+    "description": "用多少付多少，无过期时间，适合作为主力备份或轻度使用",
+    "airports": [
+      {
+        "name": "Gatern",
+        "url": "https://s.y8o.de/Gatern",
+        "lineType": "混合线路",
+        "pricing": "按量付费",
+        "description": "提供按量与周期套餐并存的灵活方案，不限时流量包适合作为高质量备用。",
+        "features": ["按量/周期可选", "不限时流量包", "流媒体解锁", "多设备支持"],
+        "tags": ["备份首选", "灵活", "按量"]
+      },
+      {
+        "name": "SKYLUMO",
+        "url": "https://s.y8o.de/skylumo",
+        "lineType": "高速专线",
+        "pricing": "¥9.90起",
+        "description": "提供流量永不过期的一次性流量包方案，覆盖全球 80+ 地区，适合备用或轻度使用。",
+        "features": ["流量永不过期", "80+地区接入", "大流量包", "高带宽"],
+        "tags": ["备用", "不限时", "大流量"]
+      },
+      {
+        "name": "魔戒",
+        "url": "https://s.y8o.de/mojie",
+        "lineType": "公网中转",
+        "pricing": "按GB计费",
+        "description": "纯按流量计费模式，流量长期有效，节点稳定，老用户的长期备用首选。",
+        "features": ["纯按量计费", "流量长期有效", "节点稳定", "规则清晰"],
+        "tags": ["老牌", "按量", "长期备用"]
+      },
+      {
+        "name": "OneStep",
+        "url": "https://s.y8o.de/onestep",
+        "lineType": "公网中转",
+        "pricing": "按量购买",
+        "description": "支持按量购买流量包，流量不限时，即买即用，适合临时或低频使用场景。",
+        "features": ["按量购买", "不限时", "即买即用", "轻度使用"],
+        "tags": ["按量", "不限时", "临时使用"]
+      }
+    ]
   }
+}
 }

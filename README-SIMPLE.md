@@ -2,7 +2,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-21%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-23%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 
 > **⚠️ 前言：** 本项目旨在为科研、外贸、开发人员提供稳定的网络加速服务推荐。请遵守当地法律法规，合理使用网络资源。
@@ -22,7 +22,7 @@
 
 ## 📢 最新活动与公告
 
-* **[2026-03-08]** 新增 **全球云**。
+* **[2026-03-24]** 新增免费试用：**网际快车**、**Runway**；新增高端专线：**MESL**、**ImmTelecom**、**AmyTelecom**、**Kuromis**；新增性价比：**全球云**。
 * 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)** (实时更新，内容更全)
 
 ---
@@ -51,7 +51,7 @@
 | **[极连云](https://s.y8o.de/jly)** | IPLC/IEPL | ¥15.5/月 | **三网入口优化**，年付仅¥96起，原生IP全解锁，**8折优惠: JLY888** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/jly) |
 | **[星岛梦](https://s.y8o.de/stardream)** | IEPL专线 | ¥16/月 | **不限设备数**，提供**永久不限时**大流量包，Trojan协议稳定，**8折: XDM888** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/stardream) |
 | **[飞猫云](https://s.y8o.de/flyingcat)** | IEPL/IPLC | ¥15/月 | **低延迟游戏加速**，秒开4K/8K视频，全平台支持，极速稳定 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/flyingcat) |
-| **[全球云](https://s.y8o.de/globalyun)** | IEPL/IPLC | ¥20/月 | **低延迟流媒体解锁**，秒开4K/8K视频，全平台支持，极速稳定 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/globalyun) |
+| **[全球云](https://s.y8o.de/globalyun)** | IEPL/IPLC | ¥20/月 | **低延迟流媒体解锁**，2Gbps+带宽，三网优化，年付¥99起，**优惠码: vpsknow** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/globalyun) |
 | **[69云](https://s.y8o.de/69yun)** | IPLC专线 | ¥9.6/月 | IPLC专线，深度整合Emby影音服务，节点数量多 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/69yun) |
 | **[SsrDog](https://s.y8o.de/ssrdog)** | 原生IP | ¥25/月 | 主打原生IP，流媒体解锁稳定，Netflix/Disney+观影首选 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/ssrdog) |
 | **[Bywave](https://s.y8o.de/ByWave)** | IEPL专线 | ¥30/月 | 万兆金融级专线，按速分级，高端体验 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/ByWave) |
@@ -69,10 +69,10 @@
 | :--- | :--- | :--- | :--- | :---: |
 | **[WgetCloud](https://s.y8o.de/wgetcloud)** | 华为云BGP | ¥79/月 | 机场界的"爱马仕"，华为云入口，多链路自动切换，极致SLA | [官网](https://s.y8o.de/wgetcloud) |
 | **[Nexitally](https://s.y8o.de/naiixi)** | 唯云专线 | ¥117/月 | 佩奇机场，老牌王者，自研面板，丰富流媒体支持 | [官网](https://s.y8o.de/naiixi) |
-| **[TAG](https://s.y8o.de/tag)** | IEPL专线 | ¥109/月 | 节点覆盖全球最广（200+地区），冷门地区IP首选 | [官网](https://s.y8o.de/tag) 
-| **[MESL](https://s.y8o.de/mesl)** | Premium | ¥50/月 | 极度低调的顶级机场，不超售，带宽充裕 | [官网](https://s.y8o.de/mesl) |
+| **[TAG](https://s.y8o.de/tag)** | IEPL专线 | ¥109/月 | 节点覆盖全球最广（200+地区），冷门地区IP首选 | [官网](https://s.y8o.de/tag) |
+| **[MESL](https://s.y8o.de/mesl)** | Premium IEPL | ¥50/月 | 极度低调的顶级机场，不超售，带宽充裕 | [官网](https://s.y8o.de/mesl) |
 | **[ImmTelecom](https://immtele.com/)** | IEPL/IPLC | ¥50/月 | 电信专属高端线路，对标库洛米，极致稳定 | [官网](https://immtele.com/) |
-| **[AmyTelecom](https://www.amytele.co/)** | IEPL专线 | ¥30/月 | 佩奇分站，俗称"按摩院"，流媒体解锁能力强 | [官网](https://www.amytele.co/) |
+| **[AmyTelecom](https://www.amytele.co/)** | IEPL专线 | ¥273/年 | 佩奇分站，俗称"按摩院"，流媒体解锁能力强 | [官网](https://www.amytele.co/) |
 | **[Kuromis](https://www.kuromis.com/)** | IEPL专线 | ¥34/月 | 库洛米，高端专线中的"贵族"，带宽顶级 | [官网](https://www.kuromis.com/) |
 | **[FlowerCloud](https://s.y8o.de/flowercloud)** | BGP/IEPL | ¥39/月 | 花云，Trojan协议，线路质量极其稳定，老牌口碑好 | [官网](https://s.y8o.de/flowercloud) |
 
@@ -83,6 +83,8 @@
 不想包月？或者想先白嫖测试？看这里。
 
 ### 免费试用
+* **[网际快车](https://s.y8o.de/wjkc)** 🆕: 使用试用券 `vpsknow` 获得 **1天/5GB**，家宽节点+原生节点，50+国家，AI和流媒体全解锁。
+* **[Runway](https://s.y8o.de/runway)** 🆕: 注册即送 **1天/6GB** 流量，BGP专线，适合先测试延迟再决定是否订阅。
 * **[Bitz Net](https://s.y8o.de/Bitz)**: 注册即送 **5GB** 流量，IEPL 专线，试用满意再买。
 * **[SKYLUMO](https://s.y8o.de/skylumo)**: 提供试用入口，可体验全球80+地区节点。
 
@@ -115,8 +117,8 @@
 **A:** 物理专线，不经过公网防火墙（GFW），因此**不过墙**，在敏感时期（如开会）依然能保持极高的稳定性，延迟极低，但成本较高。
 
 ### Q: 如何选择适合自己的机场？
-**A:** 
-- 新手先试用：Bitz Net、SKYLUMO
+**A:** 
+- 新手先试用：网际快车、Bitz Net、Runway
 - 预算有限：新华云、SKYLUMO（¥3-10/月）
 - 日常使用：光速云、光年梯、极连云（¥15-30/月）
 - 游戏/低延迟：飞猫云、TAG
@@ -124,14 +126,14 @@
 - 轻度使用：Gatern、魔戒（按量付费）
 
 ### Q: 为什么连不上？
-**A:** 
+**A:** 
 1. 检查订阅链接是否过期
 2. 检查系统时间是否同步
 3. 尝试更新订阅链接
 4. 切换其他节点测试
 
 ### Q: 机场会不会跑路？
-**A:** 
+**A:** 
 - 优先选择运营时间长的老牌机场
 - 购买月付套餐，避免大额年付
 - 同时备用2-3个机场

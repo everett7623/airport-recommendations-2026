@@ -22,7 +22,7 @@
 
 ## 📢 最新活动与公告
 
-* **[2026-03-24]** 新增免费试用：**网际快车**、**Runway**；新增高端专线：**MESL**、**ImmTelecom**、**AmyTelecom**、**Kuromis**；新增性价比：**全球云**。
+* **[2026-04-07] 新增入门：唯兔云。
 * 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)** (实时更新，内容更全)
 
 ---
@@ -33,6 +33,7 @@
 
 | 机场 | 线路 | 价格 | 特色 | 推荐度 | 直达 |
 | :--- | :--- | :--- | :--- | :---: | :---: |
+| **[FastLink](https://s.y8o.de/fastlink)** | BGP/IPLC | ¥20/月 | 老牌大厂，Anycast技术，节点覆盖全球，稳定性极高 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/fastlink) |
 | **[光速云](https://s.y8o.de/lightspeed)** | 隧道/IPLC | ¥17/月 | 60+独立IP，晚高峰不限速，性价比之王 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightspeed) |
 | **[光年梯](https://s.y8o.de/lightyearti)** | IEPL专线 | ¥18/月 | SS专线稳定，**7折优惠码: GNT70** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightyearti) |
 | **[极连云](https://s.y8o.de/jly)** | IPLC/IEPL | ¥15.5/月 | 三网优化，年付仅¥96，**8折: JLY888** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/jly) |
@@ -45,17 +46,18 @@
 
 | 机场名称 | 类型 | 价格起步 | 核心特色 | 推荐指数 | 直达链接 |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| **[光速云](https://s.y8o.de/lightspeed)** | 隧道/IPLC | ¥17/月 | **隧道中转+IPLC**，60+独立IP，原生解锁流媒体，晚高峰冗余充足 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightspeed) |
-| **[光年梯](https://s.y8o.de/lightyearti)** | IEPL专线 | ¥18/月 | **新加坡团队**，SS协议专线，全节点1倍率，**7折优惠码: GNT70** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightyearti) |
-| **[TNTCloud](https://s.y8o.de/tnt)** | IPLC专线 | ¥8/月(年) | **海外团队**，特色**限量包**年付仅98元，适合流量需求不大的高质量用户，**85折: TNT85** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/tnt) |
-| **[极连云](https://s.y8o.de/jly)** | IPLC/IEPL | ¥15.5/月 | **三网入口优化**，年付仅¥96起，原生IP全解锁，**8折优惠: JLY888** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/jly) |
-| **[星岛梦](https://s.y8o.de/stardream)** | IEPL专线 | ¥16/月 | **不限设备数**，提供**永久不限时**大流量包，Trojan协议稳定，**8折: XDM888** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/stardream) |
-| **[飞猫云](https://s.y8o.de/flyingcat)** | IEPL/IPLC | ¥15/月 | **低延迟游戏加速**，秒开4K/8K视频，全平台支持，极速稳定 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/flyingcat) |
-| **[全球云](https://s.y8o.de/globalyun)** | IEPL/IPLC | ¥20/月 | **低延迟流媒体解锁**，2Gbps+带宽，三网优化，年付¥99起，**优惠码: vpsknow** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/globalyun) |
+| **[FastLink](https://s.y8o.de/fastlink)** | BGP/IPLC | ¥20/月 | 老牌大厂，Anycast技术，节点覆盖全球，稳定性极高 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/fastlink) |
+| **[光速云](https://s.y8o.de/lightspeed)** | 隧道/IPLC | ¥17/月 | **隧道中转+IPLC**，60+独立IP，原生解锁流媒体，晚高峰冗余充足 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightspeed) |
+| **[光年梯](https://s.y8o.de/lightyearti)** | IEPL专线 | ¥18/月 | **新加坡团队**，SS协议专线，全节点1倍率，**7折优惠码: GNT70** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightyearti) |
+| **[TNTCloud](https://s.y8o.de/tnt)** | IPLC专线 | ¥8/月(年) | **海外团队**，特色**限量包**年付仅98元，适合流量需求不大的高质量用户，**85折: TNT85** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/tnt) |
+| **[极连云](https://s.y8o.de/jly)** | IPLC/IEPL | ¥15.5/月 | **三网入口优化**，年付仅¥96起，原生IP全解锁，**8折优惠: JLY888** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/jly) |
+| **[星岛梦](https://s.y8o.de/stardream)** | IEPL专线 | ¥16/月 | **不限设备数**，提供**永久不限时**大流量包，Trojan协议稳定，**8折: XDM888** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/stardream) |
+| **[飞猫云](https://s.y8o.de/flyingcat)** | IEPL/IPLC | ¥15/月 | **低延迟游戏加速**，秒开4K/8K视频，全平台支持，极速稳定 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/flyingcat) |
+| **[全球云](https://s.y8o.de/globalyun)** | IEPL/IPLC | ¥20/月 | **低延迟流媒体解锁**，2Gbps+带宽，三网优化，年付¥99起，**优惠码: vpsknow** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/globalyun) |
+| **[唯兔云](https://s.y8o.de/wty)** | IEPL/IPLC | ¥79.9/年 | **性价比流媒体解锁**，全平台支持，极速稳定，年付¥79.9起，**优惠码: rabbit** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/wty) |
 | **[69云](https://s.y8o.de/69yun)** | IPLC专线 | ¥9.6/月 | IPLC专线，深度整合Emby影音服务，节点数量多 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/69yun) |
 | **[SsrDog](https://s.y8o.de/ssrdog)** | 原生IP | ¥25/月 | 主打原生IP，流媒体解锁稳定，Netflix/Disney+观影首选 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/ssrdog) |
 | **[Bywave](https://s.y8o.de/ByWave)** | IEPL专线 | ¥30/月 | 万兆金融级专线，按速分级，高端体验 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/ByWave) |
-| **[FastLink](https://s.y8o.de/fastlink)** | BGP/IPLC | ¥20/月 | 老牌大厂，Anycast技术，节点覆盖全球，稳定性极高 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/fastlink) |
 
 > 💡 **选择建议：** 如果追求极致性价比，首选 **极连云** 或 **TNT**；如果追求游戏和极速体验，**飞猫云** 是不二之选；大流量需求选 **光速云**。
 
@@ -67,14 +69,14 @@
 
 | 机场名称 | 线路 | 价格 | 特色 | 直达 |
 | :--- | :--- | :--- | :--- | :---: |
-| **[WgetCloud](https://s.y8o.de/wgetcloud)** | 华为云BGP | ¥79/月 | 机场界的"爱马仕"，华为云入口，多链路自动切换，极致SLA | [官网](https://s.y8o.de/wgetcloud) |
-| **[Nexitally](https://s.y8o.de/naiixi)** | 唯云专线 | ¥117/月 | 佩奇机场，老牌王者，自研面板，丰富流媒体支持 | [官网](https://s.y8o.de/naiixi) |
-| **[TAG](https://s.y8o.de/tag)** | IEPL专线 | ¥109/月 | 节点覆盖全球最广（200+地区），冷门地区IP首选 | [官网](https://s.y8o.de/tag) |
-| **[MESL](https://s.y8o.de/mesl)** | Premium IEPL | ¥50/月 | 极度低调的顶级机场，不超售，带宽充裕 | [官网](https://s.y8o.de/mesl) |
-| **[ImmTelecom](https://immtele.com/)** | IEPL/IPLC | ¥50/月 | 电信专属高端线路，对标库洛米，极致稳定 | [官网](https://immtele.com/) |
-| **[AmyTelecom](https://www.amytele.co/)** | IEPL专线 | ¥273/年 | 佩奇分站，俗称"按摩院"，流媒体解锁能力强 | [官网](https://www.amytele.co/) |
-| **[Kuromis](https://www.kuromis.com/)** | IEPL专线 | ¥34/月 | 库洛米，高端专线中的"贵族"，带宽顶级 | [官网](https://www.kuromis.com/) |
-| **[FlowerCloud](https://s.y8o.de/flowercloud)** | BGP/IEPL | ¥39/月 | 花云，Trojan协议，线路质量极其稳定，老牌口碑好 | [官网](https://s.y8o.de/flowercloud) |
+| **[WgetCloud](https://s.y8o.de/wgetcloud)** | 华为云BGP | ¥79/月 | 机场界的"爱马仕"，华为云入口，多链路自动切换，极致SLA | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/wgetcloud) |
+| **[Nexitally](https://s.y8o.de/naiixi)** | 唯云专线 | ¥117/月 | 佩奇机场，老牌王者，自研面板，丰富流媒体支持 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/naiixi) |
+| **[TAG](https://s.y8o.de/tag)** | IEPL专线 | ¥109/月 | 节点覆盖全球最广（200+地区），冷门地区IP首选 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/tag) |
+| **[FlowerCloud](https://s.y8o.de/flowercloud)** | BGP/IEPL | ¥39/月 | 花云，Trojan协议，线路质量极其稳定，老牌口碑好 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/flowercloud) |
+| **[MESL](https://s.y8o.de/mesl)** | Premium IEPL | ¥50/月 | 极度低调的顶级机场，不超售，带宽充裕 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/mesl) |
+| **[ImmTelecom](https://immtele.com/)** | IEPL/IPLC | ¥50/月 | 电信专属高端线路，对标库洛米，极致稳定 | ⭐⭐⭐⭐⭐ | [官网](https://immtele.com/) |
+| **[AmyTelecom](https://www.amytele.co/)** | IEPL专线 | ¥273/年 | 佩奇分站，俗称"按摩院"，流媒体解锁能力强 | ⭐⭐⭐⭐⭐ | [官网](https://www.amytele.co/) |
+| **[Kuromis](https://www.kuromis.com/)** | IEPL专线 | ¥34/月 | 库洛米，高端专线中的"贵族"，带宽顶级 | ⭐⭐⭐⭐⭐ | [官网](https://www.kuromis.com/) |
 
 ---
 

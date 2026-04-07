@@ -34,9 +34,9 @@
 | 机场 | 线路 | 价格 | 特色 | 推荐度 | 直达 |
 | :--- | :--- | :--- | :--- | :---: | :---: |
 | **[FastLink](https://s.y8o.de/fastlink)** | BGP/IPLC | ¥20/月 | 老牌大厂，Anycast技术，节点覆盖全球，稳定性极高 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/fastlink) |
-| **[光速云](https://s.y8o.de/lightspeed)** | 隧道/IPLC | ¥17/月 | 60+独立IP，晚高峰不限速，性价比之王 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightspeed) |
-| **[光年梯](https://s.y8o.de/lightyearti)** | IEPL专线 | ¥18/月 | SS专线稳定，**7折优惠码: GNT70** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightyearti) |
-| **[极连云](https://s.y8o.de/jly)** | IPLC/IEPL | ¥15.5/月 | 三网优化，年付仅¥96，**8折: JLY888** | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/jly) |
+| **[光速云](https://s.y8o.de/lightspeed)** | 隧道/IPLC | ¥17/月 | 60+独立IP，晚高峰不限速，性价比之王 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightspeed) |
+| **[光年梯](https://s.y8o.de/lightyearti)** | IEPL专线 | ¥18/月 | SS专线稳定，**7折优惠码: GNT70** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightyearti) |
+| **[极连云](https://s.y8o.de/jly)** | IPLC/IEPL | ¥15.5/月 | 三网优化，年付仅¥96，**8折: JLY888** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/jly) |
 
 ---
 

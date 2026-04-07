@@ -1,5 +1,5 @@
 {
-  "version": "2026-03-24",
+  "version": "2026-04-07",
   "tags_vocabulary": {
     "line_type": ["IPLC专线", "IEPL专线", "BGP专线", "隧道中转", "公网中转", "原生IP", "华为云BGP", "多线国际"],
     "scenario": ["流媒体", "ChatGPT", "游戏加速", "办公稳定", "出海加速", "家庭共享"],
@@ -57,6 +57,15 @@
     "icon": "💸",
     "description": "价格友好，适合预算有限的新手与学生党，满足日常上网等需求",
     "airports": [
+      {
+        name: "唯兔云",
+        url: "https://s.y8o.de/wty",
+        lineType: "IPLC专线",
+        pricing: "¥79.9/年起（¥14.90/月起）",
+        description: "唯兔云，主打高性价比IPLC专线的，SS协议，不限设备数且无倍率，完美解锁 Netflix、ChatGPT、TikTok 等流媒体及 AI 服务。拥有专业客服团队保障。年付 79.9 元（约 ¥6.6/月），另有不限时套餐可选。新人优惠码：rabbit。",
+        features: ["IPLC专线", "不限设备数", "流媒体/TikTok解锁", "年付¥79.9起"],
+        tags: ["高性价比", "流媒体", "不限时套餐可选"]
+      },     
       {
         "name": "新华云",
         "url": "https://s.y8o.de/newhua99",

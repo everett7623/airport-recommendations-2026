@@ -1,5 +1,5 @@
 {
-  "version": "2026-04-07",
+  "version": "2026-05-21",
   "tags_vocabulary": {
     "line_type": ["IPLC专线", "IEPL专线", "BGP专线", "隧道中转", "公网中转", "原生IP", "华为云BGP", "多线国际"],
     "scenario": ["流媒体", "ChatGPT", "游戏加速", "办公稳定", "出海加速", "家庭共享"],
@@ -23,16 +23,6 @@
         "isNew": true
       },
       {
-        "name": "Runway",
-        "url": "https://s.y8o.de/runway",
-        "lineType": "BGP专线",
-        "pricing": "免费试用, ¥9.9/月起",
-        "description": "Runway，可直接体验其BGP专线节点表现，适合先验证延迟与稳定性。提供注册试用流量（1天/6GB）",
-        "features": ["注册即用", "试用1天6GB", "BGP专线", "适合先测再买"],
-        "tags": ["白嫖", "试用", "高速体验"],
-        "isNew": true
-      },
-      {
         "name": "Bitz Net",
         "url": "https://s.y8o.de/Bitz",
         "lineType": "IEPL专线",
@@ -40,15 +30,6 @@
         "description": "Bitz，可直接体验其 IEPL 专线节点表现，适合先验证延迟与稳定性。提供注册试用流量（1天/5GB）",
         "features": ["注册即用", "试用1天5GB", "IEPL专线", "适合先测再买"],
         "tags": ["白嫖", "试用", "高速体验"]
-      },
-      {
-        "name": "SKYLUMO",
-        "url": "https://s.y8o.de/skylumo",
-        "lineType": "公网中转",
-        "pricing": "免费试用, ¥3.99/月起",
-        "description": "SKYLUMO，提供试用入口，以低门槛月付为主打，覆盖多个常用地区，适合预算有限用户作为入门日用方案。",
-        "features": ["提供试用入口", "日用入门", "多地区节点", "低价月付"],
-        "tags": ["试用", "新手测试", "入门"]
       }
     ]
   },
@@ -58,6 +39,15 @@
     "description": "价格友好，适合预算有限的新手与学生党，满足日常上网等需求",
     "airports": [
       {
+        "name": "SKYLUMO",
+        "url": "https://s.y8o.de/skylumo",
+        "lineType": "公网中转",
+        "pricing": "免费试用, ¥3.99/月起",
+        "description": "SKYLUMO，提供试用入口，以低门槛月付为主打，覆盖多个常用地区，适合预算有限用户作为入门日用方案。",
+        "features": ["提供试用入口", "日用入门", "多地区节点", "低价月付"],
+        "tags": ["试用", "新手测试", "入门"]
+      },  
+      {
         name: "唯兔云",
         url: "https://s.y8o.de/wty",
         lineType: "IPLC专线",
@@ -66,24 +56,6 @@
         features: ["IPLC专线", "不限设备数", "流媒体/TikTok解锁", "年付¥79.9起"],
         tags: ["高性价比", "流媒体", "不限时套餐可选"]
       },     
-      {
-        "name": "新华云",
-        "url": "https://s.y8o.de/newhua99",
-        "lineType": "隧道中转",
-        "pricing": "¥3.99/月起",
-        "description": "新华云，主打极致性价比的隧道中转机场。不限制设备数量，非常适合多设备党或宿舍/家庭共享。支持 Netflix、ChatGPT、Disney+ 等流媒体解锁，节点覆盖港日新美及土耳其等冷门区。",
-        "features": ["不限设备数", "月付¥3.99起", "隧道加密", "流媒体解锁"],
-        "tags": ["高性价比", "不限设备", "学生党推荐"]
-      },
-      {
-        "name": "OneStep",
-        "url": "https://s.y8o.de/onestep",
-        "lineType": "公网中转",
-        "pricing": "¥5/月起",
-        "description": "OneStep 提供价格友好的公网中转方案，使用门槛低、上手快，适合轻度上网用户。",
-        "features": ["价格亲民", "上手简单", "多协议支持", "轻度使用"],
-        "tags": ["平价", "易用", "轻度"]
-      },
       {
         "name": "Mitce",
         "url": "https://s.y8o.de/mitce",
@@ -165,15 +137,6 @@
         "tags": ["不限时", "不限设备", "流媒体"]
       },
       {
-        "name": "飞猫云",
-        "url": "https://s.y8o.de/flyingcat",
-        "lineType": "IEPL/IPLC专线",
-        "pricing": "¥15.00/月起",
-        "description": "主打 IEPL/IPLC 顶级专线，极低延迟秒开 4K 流媒体与国际服游戏，追求极致稳定体验的首选。",
-        "features": ["IEPL/IPLC专线", "4K/8K秒开", "游戏低延迟", "全平台支持"],
-        "tags": ["高端专线", "游戏加速", "极速稳定"]
-      },
-      {
         "name": "69云",
         "url": "https://s.y8o.de/69yun",
         "lineType": "IPLC专线",
@@ -208,15 +171,6 @@
     "description": "追求极致稳定、低延迟与速度，适合商务办公、游戏加速及专业用户",
     "airports": [
       {
-        "name": "WgetCloud",
-        "url": "https://s.y8o.de/wgetcloud",
-        "lineType": "BGP专线",
-        "pricing": "¥79/月起",
-        "description": "基于华为云 BGP 入口的专线网络，主打极致稳定性。多节点自动切换，适合对 SLA 有高要求的用户。",
-        "features": ["华为云入口", "多节点自动切换", "稳定性优先", "企业级SLA"],
-        "tags": ["稳定", "企业级", "不差钱"]
-      },
-      {
         "name": "Nexitally",
         "url": "https://s.y8o.de/naiixi",
         "lineType": "高端专线",
@@ -246,13 +200,22 @@
       },
       {
         "name": "ImmTelecom",
-        "url": "https://immtele.com/",
+        "url": "https://s.y8o.de/immtele",
         "lineType": "IEPL/IPLC专线",
         "pricing": "¥50/月起",
         "description": "电信专属高端线路，定位与库洛米一致。主打极致稳定与低延迟，适合对网络质量有极高要求的用户。",
         "features": ["电信专线", "超低延迟", "高端定位", "极致稳定"],
         "tags": ["一线大厂", "电信优化", "高端"],
         "isNew": true
+      },
+      {
+        "name": "WgetCloud",
+        "url": "https://s.y8o.de/wgetcloud",
+        "lineType": "BGP专线",
+        "pricing": "¥79/月起",
+        "description": "基于华为云 BGP 入口的专线网络，主打极致稳定性。多节点自动切换，适合对 SLA 有高要求的用户。",
+        "features": ["华为云入口", "多节点自动切换", "稳定性优先", "企业级SLA"],
+        "tags": ["稳定", "企业级", "不差钱"]
       },
       {
         "name": "AmyTelecom",
@@ -325,15 +288,6 @@
         "description": "纯按流量计费模式，流量长期有效，节点稳定，老用户的长期备用首选。",
         "features": ["纯按量计费", "流量长期有效", "节点稳定", "规则清晰"],
         "tags": ["老牌", "按量", "长期备用"]
-      },
-      {
-        "name": "OneStep",
-        "url": "https://s.y8o.de/onestep",
-        "lineType": "公网中转",
-        "pricing": "按量购买",
-        "description": "支持按量购买流量包，流量不限时，即买即用，适合临时或低频使用场景。",
-        "features": ["按量购买", "不限时", "即买即用", "轻度使用"],
-        "tags": ["按量", "不限时", "临时使用"]
       }
     ]
   }

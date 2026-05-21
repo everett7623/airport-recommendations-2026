@@ -545,8 +545,8 @@
 
 ### 客户端下载
 
-- **Windows:** [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [V2RayN](https://github.com/2dust/v2rayN/releases)
-- **macOS:** [ClashX Pro](https://github.com/yichengchen/clashX/releases) / [Surge](https://nssurge.com/)
+- **Windows:** [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [V2RayN](https://github.com/2dust/v2rayN/releases)
+- **macOS:** [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases)  / [Surge](https://nssurge.com/)
 - **iOS:** Shadowrocket（小火箭）/ Quantumult X
 - **Android:** [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases) / [V2RayNG](https://github.com/2dust/v2rayNG/releases)
 
@@ -561,9 +561,9 @@
 ### Q1: 如何选择适合自己的机场？
 
 **A:** 根据使用场景选择：
-- 新手先试用：网际快车、Bitz Net、Runway
-- 预算有限：新华云、SKYLUMO、唯兔云
-- 日常使用：光速云、光年梯、全球云
+- 新手先试用：网际快车、Bitz Net
+- 预算有限：SKYLUMO、唯兔云
+- 日常使用：Fastlink、光速云、全球云
 - 商务办公：WgetCloud、Nexitally、TAG
 - 轻度使用：Gatern、魔戒
 

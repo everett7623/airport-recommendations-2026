@@ -515,7 +515,7 @@
 | FlowerCloud | BGP/IEPL | ¥39/月 | ✅ | ✅ | `Trojan` `稳定` | ⭐⭐⭐⭐⭐ | [立即购买](https://s.y8o.de/flowercloud) |
 | Bitz Net | IEPL专线 | 免费 | ✅ | ✅ | `试用` `IEPL` | ⭐⭐⭐⭐⭐ | [立即购买](https://s.y8o.de/Bitz) |
 | MESL | Premium IEPL | ¥50/月 | ✅ | ✅ | `低调` `顶级` | ⭐⭐⭐⭐⭐ | [立即购买](https://s.y8o.de/mesl) |
-| ImmTelecom | IEPL/IPLC | ¥50/月 | ✅ | ✅ | `电信` `高端` | ⭐⭐⭐⭐⭐ | [立即购买](https://immtele.com/) |
+| ImmTelecom | IEPL/IPLC | ¥50/月 | ✅ | ✅ | `电信` `高端` | ⭐⭐⭐⭐⭐ | [立即购买](https://s.y8o.de/immtele) |
 | AmyTelecom | IEPL | ¥273/年 | ✅ | ✅ | `佩奇系` `流媒体` | ⭐⭐⭐⭐⭐ | [立即购买](https://www.amytele.co/) |
 | Kuromis | IEPL | ¥34/月 | ✅ | ✅ | `库洛米` `高性能` | ⭐⭐⭐⭐⭐ | [立即购买](https://www.kuromis.com/) |
 | YToo | 多线 | ¥98/年 | ✅ | ✅ | `年付` `多地区` | ⭐⭐⭐⭐⭐ | [立即购买](https://s.y8o.de/ytoo) |

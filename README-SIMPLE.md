@@ -101,7 +101,7 @@
 使用机场需要配合专业的客户端软件。
 
 * **Windows**: [v2rayN](https://github.com/2dust/v2rayN/releases) / [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev)
-* **macOS**: [ClashX Pro](https://github.com/yichengchen/clashX/releases) / [Surge](https://nssurge.com/)
+* **macOS**: [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev) / [Surge](https://nssurge.com/)
 * **Android**: [v2rayNG](https://github.com/2dust/v2rayNG/releases) / [Clash Meta](https://github.com/MetaCubeX/ClashMetaForAndroid)
 * **iOS**: Shadowrocket (小火箭) / Quantumult X (需美区 Apple ID)
 

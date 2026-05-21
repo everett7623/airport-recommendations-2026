@@ -74,7 +74,7 @@
 | **[TAG](https://s.y8o.de/tag)** | IEPL专线 | ¥109/月 | 节点覆盖全球最广（200+地区），冷门地区IP首选 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/tag) |
 | **[FlowerCloud](https://s.y8o.de/flowercloud)** | BGP/IEPL | ¥39/月 | 花云，Trojan协议，线路质量极其稳定，老牌口碑好 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/flowercloud) |
 | **[MESL](https://s.y8o.de/mesl)** | Premium IEPL | ¥50/月 | 极度低调的顶级机场，不超售，带宽充裕 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/mesl) |
-| **[ImmTelecom](https://immtele.com/)** | IEPL/IPLC | ¥50/月 | 电信专属高端线路，对标库洛米，极致稳定 | ⭐⭐⭐⭐⭐ | [官网](https://immtele.com/) |
+| **[ImmTelecom](https://immtele.com/)** | IEPL/IPLC | ¥50/月 | 电信专属高端线路，对标库洛米，极致稳定 | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/immtele) |
 | **[AmyTelecom](https://www.amytele.co/)** | IEPL专线 | ¥273/年 | 佩奇分站，俗称"按摩院"，流媒体解锁能力强 | ⭐⭐⭐⭐⭐ | [官网](https://www.amytele.co/) |
 | **[Kuromis](https://www.kuromis.com/)** | IEPL专线 | ¥34/月 | 库洛米，高端专线中的"贵族"，带宽顶级 | ⭐⭐⭐⭐⭐ | [官网](https://www.kuromis.com/) |
 | **[WgetCloud](https://s.y8o.de/wgetcloud)** | 华为云BGP | ¥79/月 | 机场界的"爱马仕"，华为云入口，多链路自动切换，极致SLA | ⭐⭐⭐⭐⭐ | [官网](https://s.y8o.de/wgetcloud) |

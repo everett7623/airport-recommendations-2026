@@ -121,7 +121,7 @@
 **A:** 
 - 新手先试用：网际快车、Bitz Net
 - 预算有限：SKYLUMO（¥3-10/月）
-- 日常使用：Fastlink、光速云、极连云（¥15-30/月）
+- 日常使用：Fastlink、光速云、全球云（¥15-30/月）
 - 游戏/低延迟：TAG、Flowercloud
 - 商务办公：WgetCloud、Nexitally（¥69+/月）
 - 轻度使用：Gatern、魔戒（按量付费）

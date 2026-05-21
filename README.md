@@ -353,7 +353,7 @@
 
 ### 4. ImmTelecom 📶 🆕
 
-**🔗 官网：** [https://immtele.com/](https://immtele.com/)
+**🔗 官网：** [https://s.y8o.de/immtele](https://s.y8o.de/immtele)
 
 | 项目 | 说明 |
 |-----|------|

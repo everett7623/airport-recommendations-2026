@@ -256,22 +256,7 @@
 
 ---
 
-### 8. 飞猫云 🐱
-
-**🔗 官网：** [https://s.y8o.de/flyingcat](https://s.y8o.de/flyingcat)
-
-| 项目 | 说明 |
-|-----|------|
-| **线路类型** | IEPL/IPLC专线 |
-| **价格** | ¥15.00/月起 |
-| **核心特色** | 主打游戏加速与4K流媒体，延迟极低 |
-| **推荐指数** | ⭐⭐⭐⭐⭐ |
-
-**核心标签：** `高端专线` `游戏加速` `极速稳定`
-
----
-
-### 9. 69云
+### 8. 69云
 
 **🔗 官网：** [https://s.y8o.de/69yun](https://s.y8o.de/69yun)
 
@@ -286,7 +271,7 @@
 
 ---
 
-### 10. SsrDog 🎬
+### 9. SsrDog 🎬
 
 **🔗 官网：** [https://s.y8o.de/ssrdog](https://s.y8o.de/ssrdog)
 
@@ -301,7 +286,7 @@
 
 ---
 
-### 11. Bywave
+### 10. Bywave
 
 **🔗 官网：** [https://s.y8o.de/ByWave](https://s.y8o.de/ByWave)
 

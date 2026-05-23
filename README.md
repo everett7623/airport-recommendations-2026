@@ -132,7 +132,7 @@
 
 **价格适中，性能稳定，适合大多数用户的日常使用**
 
-### 1. Fastlink 🚀【强烈推荐】
+### 1. Fastlink 🚀【可能维护中】
 
 **🔗 官网：** [https://s.y8o.de/fastlink](https://s.y8o.de/fastlink)
 
@@ -202,7 +202,7 @@
 
 ---
 
-### 5. TNTCloud 💥
+### 5. TNTCloud 💥【可能维护中】
 
 **🔗 官网：** [https://s.y8o.de/tnt](https://s.y8o.de/tnt)
 

@@ -22,7 +22,7 @@
 
 ## 📢 最新活动与公告
 
-* ### 2026-05-21 更新
+* ### 2026-05-23 更新
 - ✅ **调整：** 下架Runway，调整顺序
 
 * 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)** (实时更新，内容更全)
@@ -35,7 +35,7 @@
 
 | 机场 | 线路 | 价格 | 特色 | 指数 | 直达 |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| **[FastLink](https://s.y8o.de/fastlink)** | BGP/IPLC | ¥20/月 | 老牌大厂，Anycast技术，节点覆盖全球，稳定性极高 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/fastlink) |
+| **[FastLink【可能维护中】](https://s.y8o.de/fastlink)** | BGP/IPLC | ¥20/月 | 老牌大厂，Anycast技术，节点覆盖全球，稳定性极高 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/fastlink) |
 | **[光速云](https://s.y8o.de/lightspeed)** | 隧道/IPLC | ¥17/月 | 60+独立IP，晚高峰不限速，性价比之王 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightspeed) |
 | **[光年梯](https://s.y8o.de/lightyearti)** | IEPL专线 | ¥18/月 | SS专线稳定，**7折优惠码: GNT70** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightyearti) |
 | **[极连云](https://s.y8o.de/jly)** | IPLC/IEPL | ¥15.5/月 | 三网优化，年付仅¥96，**8折: JLY888** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/jly) |
@@ -48,7 +48,7 @@
 
 | 机场 | 线路 | 价格 | 特色 | 指数 | 直达 |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| **[FastLink](https://s.y8o.de/fastlink)** | BGP/IPLC | ¥20/月 | 老牌大厂，Anycast技术，节点覆盖全球，稳定性极高 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/fastlink) |
+| **[FastLink【可能维护中】](https://s.y8o.de/fastlink)** | BGP/IPLC | ¥20/月 | 老牌大厂，Anycast技术，节点覆盖全球，稳定性极高 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/fastlink) |
 | **[光速云](https://s.y8o.de/lightspeed)** | 隧道/IPLC | ¥17/月 | **隧道中转+IPLC**，60+独立IP，原生解锁流媒体，晚高峰冗余充足 | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightspeed) |
 | **[光年梯](https://s.y8o.de/lightyearti)** | IEPL专线 | ¥18/月 | **新加坡团队**，SS协议专线，全节点1倍率，**7折优惠码: GNT70** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/lightyearti) |
 | **[TNTCloud](https://s.y8o.de/tnt)** | IPLC专线 | ¥8/月(年) | **海外团队**，特色**限量包**年付仅98元，适合流量需求不大的高质量用户，**85折: TNT85** | ⭐⭐⭐⭐ | [官网](https://s.y8o.de/tnt) |

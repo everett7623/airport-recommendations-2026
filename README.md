@@ -32,8 +32,9 @@
 
 ## 📢 最新活动与公告
 
-### 2026-05-25 更新
+### 2026-06-03 更新
 - ✅ **调整：** TNT疑似跑路，下架
+- ✅ **更新：** 调整细节
 
 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）
 
@@ -166,7 +167,7 @@
 
 ---
 
-### 3. 光年梯 🌟 【新人7折】
+### 3. 光年梯 🌟 
 
 **🔗 官网：** [https://s.y8o.de/lightyearti](https://s.y8o.de/lightyearti)
 

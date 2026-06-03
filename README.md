@@ -132,7 +132,7 @@
 
 **价格适中，性能稳定，适合大多数用户的日常使用**
 
-### 1. Fastlink 🚀【可能维护中】
+### 1. Fastlink 🚀
 
 **🔗 官网：** [https://s.y8o.de/fastlink](https://s.y8o.de/fastlink)
 
@@ -480,7 +480,7 @@
 |---------|---------|---------|-------|---------|------|-------|------|
 | 网际快车 | 中转专线 | 免费试用/¥6.8起 | ✅ | ✅ | `试用` `家宽节点` | ⭐⭐⭐⭐⭐ | [立即购买](https://s.y8o.de/wjkc) |
 | SKYLUMO | 公网中转 | ¥3.99/月 | ✅ | ✅ | `低价` `试用` | ⭐⭐⭐ | [立即购买](https://s.y8o.de/skylumo) |
-| Fastlink【可能维护中】 | BGP/IPLC | ¥20/月 | ✅ | ✅ | `老牌` `稳定` | ⭐⭐⭐⭐ | [立即购买](https://s.y8o.de/fastlink) |
+| Fastlink | BGP/IPLC | ¥20/月 | ✅ | ✅ | `老牌` `稳定` | ⭐⭐⭐⭐ | [立即购买](https://s.y8o.de/fastlink) |
 | 光速云 | 隧道/IPLC | ¥17/月 | ✅ | ✅ | `高性价比` `IPLC` `流媒体` | ⭐⭐⭐⭐ | [立即购买](https://s.y8o.de/lightspeed) |
 | 光年梯 | IEPL专线 | ¥18/月 | ✅ | ✅ | `SS专线` `7折优惠` | ⭐⭐⭐⭐ | [立即购买](https://s.y8o.de/lightyearti) |
 | 全球云 | IPLC/IEPL | ¥20/月(年付¥99) | ✅ | ✅ | `流媒体` `三网优化` | ⭐⭐⭐⭐ | [立即购买](https://s.y8o.de/globalyun) |

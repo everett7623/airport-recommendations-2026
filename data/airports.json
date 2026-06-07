@@ -1,6 +1,7 @@
-// 名称: Airport-recommendations (v1.1 - 新增寰宇云)
+// 名称: Airport-recommendations (v1.1 - 新增寰宇云、喵喵VPN)
 // ─────────────────────────────────────────────────────────────────────────────
 // [新增]: 性价比均衡机场新增 "寰宇云" 机场，突出直连+IPLC专线混合架构与高性价比。
+// [新增]: 免费试用专区第二位新增 "喵喵VPN" 机场，突出 Hysteria2 协议与 72 小时免费试用。
 // ─────────────────────────────────────────────────────────────────────────────
 // 路径: data/airports.json
 // 更新时间: 2026-06-07
@@ -29,6 +30,17 @@
           "features": ["流量不过期", "不限设备数", "家宽节点", "稳定不断流"],
           "tags": ["白嫖", "试用", "高速体验"],
           "isNew": true
+        },
+        {
+          "name": "喵喵VPN",
+          "url": "https://s.y8o.de/vpnmiao",
+          "coupon": "优惠券: VPSknow",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f59e0b'/%3e%3ctext x='50' y='65' font-size='40' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e喵%3c/text%3e%3c/svg%3e",
+          "description": "喵喵VPN, 全线深度调优 Hysteria2 协议，解锁极致观影体验。高速直连，晚高峰依然丝滑。注册即可享受美国节点 72 小时免费试用！另有私有 EMBY 影音库福利。",
+          "features": ["Hysteria2协议", "72小时免费试用", "私人EMBY影音库", "美国节点0.1x费率"],
+          "lineType": "优质直连",
+          "pricing": "免费试用，¥8/月起",
+          "tags": ["4K秒开", "极致稳定", "特惠低倍"]
         },
         {
           "name": "Bitz Net",

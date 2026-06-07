@@ -1,7 +1,8 @@
-// 名称: Airport-recommendations (v1.1 - 新增寰宇云、喵喵VPN)
+// 名称: Airport-recommendations (v1.3 - 全量数据库同步与失联清理)
 // ─────────────────────────────────────────────────────────────────────────────
-// [新增]: 性价比均衡机场新增 "寰宇云" 机场，突出直连+IPLC专线混合架构与高性价比。
-// [新增]: 免费试用专区第二位新增 "喵喵VPN" 机场，突出 Hysteria2 协议与 72 小时免费试用。
+// [同步]: 深度整合最新的全量机场数据，清洗并彻底移除了已确认失联/跑路的机场（如 TNTCloud）。
+// [新增]: 试用专区新增 Runway；经济型新增山水云、速界、瞬云、秒秒云；性价比新增 Sogo云、二猫云、一翻云、快狸、U1S1、宇宙云。
+// [调整]: 独立分出 no_aff (无AFF/低AFF备选) 专区，并新增极具性价比的新华云机场。
 // ─────────────────────────────────────────────────────────────────────────────
 // 路径: data/airports.json
 // 更新时间: 2026-06-07
@@ -10,10 +11,10 @@
 {
   "version": "2026-06-07",
   "tags_vocabulary": {
-    "line_type": ["IPLC专线", "IEPL专线", "BGP专线", "隧道中转", "公网中转", "原生IP", "华为云BGP", "多线国际"],
+    "line_type": ["IPLC专线", "IEPL专线", "BGP专线", "隧道中转", "公网中转", "原生IP", "华为云BGP", "多线国际", "优质直连", "ANYCAST专线"],
     "scenario": ["流媒体", "ChatGPT", "游戏加速", "办公稳定", "出海加速", "家庭共享"],
-    "billing": ["月付", "年付", "按量", "不限时流量"],
-    "feature": ["试用", "低价", "不限设备", "三网优化", "老牌", "新人优惠", "不限速"]
+    "billing": ["月付", "年付", "按量", "不限时流量", "季付起"],
+    "feature": ["试用", "低价", "不限设备", "三网优化", "老牌", "新人优惠", "不限速", "专属客户端", "EMBY生态"]
   },
   "categories": {
     "free_trial": {
@@ -24,10 +25,12 @@
         {
           "name": "网际快车",
           "url": "https://s.y8o.de/wjkc",
-          "lineType": "中转专线",
-          "pricing": "免费试用, ¥6.8起",
-          "description": "网际快车，可直接体验快车专用VPN或三方通用订阅，有家宽节点、原生节点，50+国家，AI和流媒体全解锁。试用券: vpsknow（1天/5GB）",
+          "coupon": "试用券: vpsknow（1天/5GB）",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eK%3c/text%3e%3c/svg%3e",
+          "description": "网际快车，可直接体验快车专用VPN或三方通用订阅，有家宽节点、原生节点，30+节点，AI和流媒体全解锁。 试用券: vpsknow（1天/5GB）",
           "features": ["流量不过期", "不限设备数", "家宽节点", "稳定不断流"],
+          "lineType": "中转专线",
+          "pricing": "免费试用，¥6.8/月起",
           "tags": ["白嫖", "试用", "高速体验"],
           "isNew": true
         },
@@ -45,10 +48,23 @@
         {
           "name": "Bitz Net",
           "url": "https://s.y8o.de/Bitz",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eB%3c/text%3e%3c/svg%3e",
+          "description": "Bitz，可直接体验其 IEPL 专线节点表现，适合先验证延迟与稳定性。 提供注册试用流量（1天/5GB）",
+          "features": ["注册即用", "试用1天5GB", "IEPL专线", "适合先测再买"],
           "lineType": "IEPL专线",
           "pricing": "免费试用",
-          "description": "Bitz，可直接体验其 IEPL 专线节点表现，适合先验证延迟与稳定性。提供注册试用流量（1天/5GB）",
-          "features": ["注册即用", "试用1天5GB", "IEPL专线", "适合先测再买"],
+          "tags": ["白嫖", "试用", "高速体验"]
+        },
+        {
+          "name": "Runway",
+          "url": "https://s.y8o.de/runway",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eR%3c/text%3e%3c/svg%3e",
+          "description": "Runway，可直接体验其BGP专线节点表现，适合先验证延迟与稳定性。 提供注册试用流量（1天/6GB）",
+          "features": ["注册即用", "试用1天6GB", "BGP专线", "适合先测再买"],
+          "lineType": "BGP专线",
+          "pricing": "免费试用，¥9.9/月起",
           "tags": ["白嫖", "试用", "高速体验"]
         }
       ]
@@ -61,28 +77,78 @@
         {
           "name": "SKYLUMO",
           "url": "https://s.y8o.de/skylumo",
+          "coupon": "优惠券: lN0cKN1L",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2322c55e'/%3e%3ctext x='50' y='60' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eS%3c/text%3e%3c/svg%3e",
+          "description": "SKYLUMO，主打低价入门月付方案，覆盖多个常用地区，适合预算有限用户作为日常基础使用。经典老套餐限时半价，附赠 Google AI Pro 年费（限量300份），使用优惠券 lN0cKN1L 即可享受折扣。",
+          "features": ["低价入门", "日常使用", "多地区节点", "月付灵活"],
           "lineType": "公网中转",
-          "pricing": "免费试用, ¥3.99/月起",
-          "description": "SKYLUMO，提供试用入口，以低门槛月付为主打，覆盖多个常用地区，适合预算有限用户作为入门日用方案。",
-          "features": ["提供试用入口", "日用入门", "多地区节点", "低价月付"],
-          "tags": ["试用", "新手测试", "入门"]
-        },  
+          "pricing": "¥3.99/月起",
+          "tags": ["入门", "低价", "基础使用"]
+        },
+        {
+          "name": "山水云",
+          "url": "https://s.y8o.de/shanshuiyun",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2310b981'/%3e%3ctext x='50' y='60' font-size='32' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e山水%3c/text%3e%3c/svg%3e",
+          "description": "山水云，提供丰富的中转与直连节点，协议支持 VLESS+AnyTLS。套餐配置极为灵活，不仅有 ¥14.99/月的常规套餐，还提供极具性价比的 ¥88/年 轻量套餐（64GB/月）以及不限时一次性流量包。全线路完美解锁 Netflix、ChatGPT、TikTok，涵盖全球众多冷门国家节点。",
+          "features": ["中转+直连节点", "年付低至¥88", "流媒体/AI全解锁", "支持不限时套餐"],
+          "lineType": "隧道中转",
+          "pricing": "¥14.99/月起（年付¥88起）",
+          "tags": ["高性价比", "流媒体", "不限时可选"]
+        },
+        {
+          "name": "速界",
+          "url": "https://s.y8o.de/speedworld",
+          "coupon": "优惠码: sujie888",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%233b82f6'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e速%3c/text%3e%3c/svg%3e",
+          "description": "速界，IEPL机场，2026年新锐。采用端到端独享 IEPL 国际专线链路，从根本上杜绝拥塞与 QoS 干扰，晚高峰 4K/8K 稳定秒开，年付体验包叠加 8 折优惠后极具性价比。",
+          "features": ["IEPL专线", "高性价比", "全节点 TLS 加密", "无日志隐私保护"],
+          "lineType": "IEPL专线",
+          "pricing": "¥72/年起（用码）",
+          "tags": ["专线直达", "新锐", "高性价比"]
+        },
+        {
+          "name": "瞬云",
+          "url": "https://s.y8o.de/sy",
+          "coupon": "优惠码: 20OFF（8折）",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230284c7'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e瞬%3c/text%3e%3c/svg%3e",
+          "description": "瞬云，采用直连加专线架构与 ANYCAST 网络，三网入口优化，晚高峰表现良好，稳定解锁流媒体与AI服务。新人使用优惠码 20OFF 享8折，入门套餐低至16元/月，另有99元/年限量小包可选。",
+          "features": ["ANYCAST专线", "原生IP全解锁", "多设备共享", "7×24真人客服"],
+          "lineType": "ANYCAST专线",
+          "pricing": "¥16/月起（用码）",
+          "tags": ["原生节点", "流媒体解锁", "高性价比"]
+        },
         {
           "name": "唯兔云",
           "url": "https://s.y8o.de/wty",
-          "lineType": "IPLC专线",
-          "pricing": "¥79.9/年起（¥14.90/月起）",
-          "description": "唯兔云，主打高性价比IPLC专线的，SS协议，不限设备数且无倍率，完美解锁 Netflix、ChatGPT、TikTok 等流媒体及 AI 服务。拥有专业客服团队保障。年付 79.9 元（约 ¥6.6/月），另有不限时套餐可选。新人优惠码：rabbit。",
+          "coupon": "优惠码: rabbit",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f97316'/%3e%3cpath d='M35 30 Q 30 15 20 20 Q 25 35 35 35 Z M65 30 Q 70 15 80 20 Q 75 35 65 35 Z M50 45 C 30 45 30 80 50 80 C 70 80 70 45 50 45 Z M45 55 A 2 2 0 1 0 45 59 A 2 2 0 1 0 45 55 Z M55 55 A 2 2 0 1 0 55 59 A 2 2 0 1 0 55 55 Z' fill='white' stroke='white' stroke-width='2'/%3e%3c/svg%3e",
+          "description": "唯兔云，主打高性价比 IPLC 专线。采用新 SS 协议，不限设备数且无倍率，稳定解锁流媒体与AI服务。年付 79.9 元（约 ¥6.6/月），另有不限时套餐可选。",
           "features": ["IPLC专线", "不限设备数", "流媒体/TikTok解锁", "年付¥79.9起"],
-          "tags": ["高性价比", "流媒体", "不限时套餐可选"]
-        },     
+          "lineType": "IPLC专线",
+          "pricing": "¥6.6/月起（年付）",
+          "tags": ["高性价比", "流媒体", "不限时可选"]
+        },
+        {
+          "name": "秒秒云",
+          "url": "https://s.y8o.de/miaomiaoyun",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2306b6d4'/%3e%3ctext x='50' y='65' font-size='42' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e秒%3c/text%3e%3c/svg%3e",
+          "description": "秒秒云，一家宝藏高性价比机场，全线采用海外中转高速节点，搭配 anytls 新型协议以保障极高的连接稳定性。经实测晚高峰也能轻松拉满速度。套餐选择极其丰富，提供低至 ¥79/年的轻量套餐以及不限时一次性流量包，全节点完美解锁 Netflix、ChatGPT 等全球流媒体与 AI 工具。",
+          "features": ["海外中转节点", "anytls新协议防封", "年付低至¥79起", "支持不限时套餐"],
+          "lineType": "隧道中转",
+          "pricing": "¥14/月起（年付¥79起）",
+          "tags": ["高性价比", "anytls", "不限时可选"]
+        },
         {
           "name": "Mitce",
           "url": "https://s.y8o.de/mitce",
-          "lineType": "公网中转",
-          "pricing": "$0.6/月起",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eM%3c/text%3e%3c/svg%3e",
           "description": "提供多国家线路与多客户端支持，包含住宅 IP 等类型节点，适合追求极低价格的用户。",
           "features": ["多国家线路", "多客户端支持", "住宅IP节点", "低价入门"],
+          "lineType": "公网中转",
+          "pricing": "$0.6/月起",
           "tags": ["超低价", "多地区", "入门"]
         }
       ]
@@ -107,93 +173,171 @@
         {
           "name": "Fastlink",
           "url": "https://s.y8o.de/fastlink",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2310b981'/%3e%3cpath d='M30 50 L70 50 M50 30 L70 50 L50 70' fill='none' stroke='white' stroke-width='10' stroke-linejoin='round' stroke-linecap='round'/%3e%3c/svg%3e",
+          "description": "运营多年的老牌机场，采用 BGP、IPLC 混合架构，节点覆盖广、稳定性高，适合作为主力机场，年付默认8折。",
+          "features": ["混合线路架构", "老牌稳定运营", "节点覆盖广", "流媒体支持"],
           "lineType": "BGP/IPLC专线",
           "pricing": "¥20/月起",
-          "description": "运营多年的老牌机场，采用 BGP、IPLC 混合架构，节点覆盖广、稳定性高，适合作为主力机场。",
-          "features": ["混合线路架构", "老牌稳定运营", "节点覆盖广", "流媒体支持"],
-          "tags": ["性价比", "老牌", "主力推荐"]
-        },
-        {
-          "name": "全球云",
-          "url": "https://s.y8o.de/globalyun",
-          "lineType": "IPLC/IEPL专线",
-          "pricing": "¥20/月起(年付¥99起)",
-          "description": "专注出海专线加速与流媒体解锁。采用企业级 IPLC/IEPL 专线，结合智能负载均衡与三网入口优化，2Gbps+ 带宽接入，晚高峰稳定。原生节点完美解锁 Netflix、Disney+、TikTok 及 ChatGPT。专属优惠码: vpsknow（年付8折）",
-          "features": ["IPLC/IEPL专线", "原生节点流媒体全解锁", "晚高峰高冗余不卡顿", "轻量版年付99元起"],
-          "tags": ["流媒体", "专线", "高性价比"],
-          "isNew": true
+          "tags": ["性价比", "老牌", "主力推荐"],
+          "isEditorPick": false,
+          "isUnderMaintenance": true
         },
         {
           "name": "光速云",
           "url": "https://s.y8o.de/lightspeed",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%233b82f6'/%3e%3cpath d='M65 25 C 30 25, 30 50, 60 55 C 85 60, 85 85, 35 85' fill='none' stroke='white' stroke-width='10' stroke-linecap='round'/%3e%3c/svg%3e",
+          "description": "光速云, 主打极高性价比的隧道中转与 IPLC 专线机场。拥有 60+ 独立 IP 节点，带宽冗余充足。原生 IP 稳定解锁 Netflix、TikTok 等流媒体，是晚高峰稳定观影的优质选择。",
+          "features": ["IPLC专线", "原生IP流媒体", "晚高峰不限速", "月付¥17起"],
           "lineType": "IPLC专线",
           "pricing": "¥17/月起",
-          "description": "主打极高性价比的隧道中转与 IPLC 专线机场。拥有 60+ 独立 IP 节点，带宽冗余充足。原生 IP 稳定解锁 Netflix、TikTok 等流媒体，是晚高峰稳定观影的优质选择。",
-          "features": ["IPLC专线", "原生IP流媒体", "晚高峰不限速", "月付¥17起"],
           "tags": ["高性价比", "流媒体", "大流量"]
         },
         {
-          "name": "光年梯",
-          "url": "https://s.y8o.de/lightyearti",
+          "name": "Sogo云",
+          "url": "https://s.y8o.de/sogoyun",
+          "coupon": "SOGO28",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2314b8a6'/%3e%3ctext x='50' y='65' font-size='42' font-weight='900' text-anchor='middle' fill='white' font-family='Arial Black, Arial, sans-serif' letter-spacing='-1'>SG</text>%3c/svg%3e",
+          "description": "Sogo云，稳定高效省心。采用 VLESS 协议与企业级 IEPL 专线，三网优化智能负载。晚高峰不限速，4K 视频秒开。全线路完美解锁 Netflix、Disney+ 等流媒体及 ChatGPT、TikTok，支持多端全兼容。",
+          "features": ["VLESS+IEPL专线", "晚高峰4K秒开", "全线流媒体解锁", "支持企业级定制"],
           "lineType": "IEPL专线",
-          "pricing": "¥18/月起",
-          "description": "新加坡团队运营的 IEPL SS 专线机场。全节点 1 倍率，晚高峰不限速，稳定解锁 ChatGPT 及流媒体。新用户 7 折优惠码：GNT70 (有效期至2026年)，折后性价比极高。",
-          "features": ["IEPL专线", "全节点1倍率", "7折优惠中", "不限时套餐"],
-          "tags": ["SS协议", "稳定", "新加坡背景"]
-        },
-        {
-          "name": "TNTCloud",
-          "url": "https://s.y8o.de/tnt",
-          "lineType": "IPLC专线",
-          "pricing": "¥8/月起(年付)",
-          "description": "海外团队运营的 IPLC 内网专线机场，全节点原生 IP，稳定解锁 TikTok 及 AI 工具。特色限量包年付仅需¥98（约¥8/月），适合追求专线品质但流量需求不大的用户。新人85折优惠码：TNT85。",
-          "features": ["IPLC专线", "原生IP", "低价限量包", "海外团队"],
-          "tags": ["限量包", "原生IP", "高品质"]
-        },
-        {
-          "name": "极连云",
-          "url": "https://s.y8o.de/jly",
-          "lineType": "IPLC/IEPL专线",
-          "pricing": "¥15.5/月起",
-          "description": "专注出海加速的 IPLC/IEPL 专线机场，三网入口优化保障稳定性。拥有 60+ 独立 IP 节点，全线原生 IP 完美解锁 ChatGPT、Netflix 等流媒体。年付轻量版仅需 96 元，性价比极高。8折优惠码：JLY888。",
-          "features": ["IPLC/IEPL专线", "原生IP全解锁", "三网优化", "年付¥96起"],
-          "tags": ["专线", "流媒体", "高性价比"]
+          "pricing": "¥15.9/月起",
+          "tags": ["专线稳定", "流媒体解锁", "全平台支持"]
         },
         {
           "name": "星岛梦",
           "url": "https://s.y8o.de/stardream",
-          "lineType": "IEPL专线",
-          "pricing": "¥16/月起",
-          "description": "高品质 IEPL 专线机场，Trojan 协议稳定抗封锁。全节点不限速、无倍率、不限设备数，完美解锁 Netflix/Disney+/ChatGPT/TikTok。月付仅需 ¥16，更提供 1TB 永久不限时流量包（¥680），是长期备用与主力使用的双重优选。优惠码：XDM888 (8折)。",
+          "coupon": "优惠码: XDM888（8折）",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3cpath d='M50 20 L60 40 L85 45 L65 60 L70 85 L50 75 L30 85 L35 60 L15 45 L40 40 Z' fill='white' stroke='white' stroke-width='2' stroke-linejoin='round'/%3e%3c/svg%3e",
+          "description": "星岛梦，高品质IEPL专线机场。全节点不限速、无倍率、不限设备数，稳定解锁流媒体与AI服务。月付仅需 ¥16，更提供 1TB 永久不限时流量包（¥680），是长期备用与主力使用的双重优选。",
           "features": ["IEPL专线", "永久不限时包", "不限设备数", "无倍率"],
+          "lineType": "IEPL专线",
+          "pricing": "¥12.8/月起",
           "tags": ["不限时", "不限设备", "流媒体"]
+        },
+        {
+          "name": "全球云",
+          "url": "https://s.y8o.de/globalyun",
+          "coupon": "优惠码: vpsknow（年付8折）",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230ea5e9'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e云%3c/text%3e%3c/svg%3e",
+          "description": "全球云，采用企业级 IPLC/IEPL 专线，结合智能负载均衡与三网入口优化，2Gbps+ 带宽接入，晚高峰稳定。原生节点完美解锁 Netflix、Disney+、TikTok 及 ChatGPT。",
+          "features": ["IPLC/IEPL专线", "原生节点流媒体全解锁", "晚高峰高冗余不卡顿", "轻量版年付99元起"],
+          "lineType": "IPLC/IEPL专线",
+          "pricing": "¥20/月起（年付¥99起）",
+          "tags": ["流媒体", "专线", "高性价比"]
+        },
+        {
+          "name": "二猫云",
+          "url": "https://s.y8o.de/2maoyun",
+          "coupon": "优惠码: ermao888（8折）",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23d946ef'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e猫%3c/text%3e%3c/svg%3e",
+          "description": "二猫云，新晋高品质机场，全线采用 IEPL/IPLC 专线，晚高峰稳定不卡。稳定解锁流媒体与AI服务，不限速、不限制设备数量，提供全平台自研专属客户端。",
+          "features": ["IEPL/IPLC专线", "自研专属客户端", "不限设备数", "抗封锁容灾"],
+          "lineType": "IEPL/IPLC专线",
+          "pricing": "¥89/年起",
+          "tags": ["专属客户端", "不限设备", "新晋推荐"]
+        },
+        {
+          "name": "一翻云",
+          "url": "https://s.y8o.de/1flyun",
+          "coupon": "优惠码: 1FLYYUN（8折）",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f97316'/%3e%3cpath d='M30 70 L50 25 L70 70' fill='none' stroke='white' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M22 70 L78 70' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
+          "description": "一翻云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点 x1 倍率，晚高峰不限速。流媒体稳定解锁，年付版 ¥100/年，性价比突出。",
+          "features": ["VLESS+IEPL专线", "60+节点x1倍率", "晚高峰不限速", "年付¥100/年起"],
+          "lineType": "IEPL专线",
+          "pricing": "¥25/月起（年付¥100/年）",
+          "tags": ["新晋推荐", "流媒体解锁", "专线稳定"]
+        },
+        {
+          "name": "快狸",
+          "url": "https://s.y8o.de/kuaili",
+          "coupon": "优惠码: vpsknow（8折）",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e狸%3c/text%3e%3c/svg%3e",
+          "description": "快狸，提供 VLESS 协议与企业级 IEPL 专线接入，三网优化智能分流。全线路解锁 Netflix、Disney+ 等流媒体及 ChatGPT、TikTok 全球环境。为保障长期防封与稳定，目前暂时仅支持使用其自研客户端一键连接。",
+          "features": ["IEPL专线接入", "仅支持自研客户端", "全线流媒体/AI解锁", "晚高峰4K流畅"],
+          "lineType": "IEPL专线",
+          "pricing": "¥96/年起（折后）",
+          "tags": ["自研客户端", "IEPL专线", "流媒体解锁"]
+        },
+        {
+          "name": "U1S1",
+          "url": "https://s.y8o.de/u1s1",
+          "coupon": "优惠码: U1S1（85折）",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3ctext x='50' y='65' font-size='42' font-weight='900' text-anchor='middle' fill='white' font-family='Arial Black, Arial, sans-serif' letter-spacing='-1'>U1S1</text>%3c/svg%3e",
+          "description": "U1S1机场，完美解锁 TikTok、ChatGPT，以及 Netflix、Disney+、HBO 等全球主流流媒体平台。承诺晚高峰绝不降速，不限制IP地址与连接设备的数量，58 个节点畅连全球。新人特惠85折：U1S1",
+          "features": ["不限设备与IP", "千兆极速带宽", "晚高峰不降速", "流媒体/AI全解锁"],
+          "lineType": "中转专线",
+          "pricing": "¥18.8/月起",
+          "tags": ["不限设备", "千兆带宽", "流媒体全解锁"]
+        },
+        {
+          "name": "光年梯",
+          "url": "https://s.y8o.de/lightyearti",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3cpath d='M50 15 L55 40 L80 40 L60 55 L70 80 L50 65 L30 80 L40 55 L20 40 L45 40 Z' fill='white' stroke='white' stroke-width='2' stroke-linejoin='round'/%3e%3c/svg%3e",
+          "description": "光年梯, 新加坡团队运营的 IEPL SS 专线机场。全节点 1 倍率，晚高峰不限速，稳定解锁 ChatGPT 及流媒体。",
+          "features": ["IEPL专线", "全节点1倍率", "7折优惠中", "不限时套餐"],
+          "lineType": "IEPL专线",
+          "pricing": "¥18/月起",
+          "tags": ["SS协议", "稳定", "新加坡背景"]
+        },
+        {
+          "name": "极连云",
+          "url": "https://s.y8o.de/jly",
+          "coupon": "优惠码: JLY888（8折）",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230891b2'/%3e%3cpath d='M40 25 L65 25 L65 45 L85 45 L50 80 L50 55 L30 55 Z' fill='none' stroke='white' stroke-width='5' stroke-linejoin='round' stroke-linecap='round'/%3e%3c/svg%3e",
+          "description": "极连云, 专注出海加速的 IPLC/IEPL 专线机场，三网入口优化保障稳定性。拥有 60+ 独立 IP 节点，全线原生 IP 完美解锁 ChatGPT、Netflix 等流媒体。年付轻量版仅需 96 元，性价比极高。",
+          "features": ["IPLC/IEPL专线", "原生IP全解锁", "三网优化", "年付¥96起"],
+          "lineType": "IPLC/IEPL专线",
+          "pricing": "¥14.4/月起",
+          "tags": ["专线", "流媒体", "高性价比"]
+        },
+        {
+          "name": "宇宙云",
+          "url": "https://s.y8o.de/yuzhoucloud",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3ccircle cx='50' cy='50' r='22' fill='none' stroke='white' stroke-width='5'/%3e%3ccircle cx='50' cy='50' r='8' fill='white'/%3e%3cellipse cx='50' cy='50' rx='38' ry='16' fill='none' stroke='white' stroke-width='3' transform='rotate(-30 50 50)'/%3e%3c/svg%3e",
+          "description": "宇宙云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点专线接入，晚高峰不限速4K秒开。流媒体稳定解锁，提供超值年付小包 ¥120/年，自研客户端一键连接。",
+          "features": ["VLESS+IEPL专线", "60+节点x1倍率", "晚高峰不限速", "年付小包¥120/年"],
+          "lineType": "IEPL专线",
+          "pricing": "¥12.5/月起（年付¥96/年）",
+          "tags": ["新晋推荐", "流媒体解锁", "专线稳定"]
         },
         {
           "name": "69云",
           "url": "https://s.y8o.de/69yun",
-          "lineType": "IPLC专线",
-          "pricing": "¥9.6/月起",
-          "description": "以 IPLC 专线为核心，节点数量多，提供多档流量分级套餐，深度整合 Emby 影音服务。",
-          "features": ["IPLC专线", "节点覆盖广", "分级流量套餐", "Emby生态"],
-          "tags": ["性价比", "IPLC", "Emby"]
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f59e0b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e69%3c/text%3e%3c/svg%3e",
+          "description": "69云，成立于2022年，以节点覆盖广著称，拥有150+全球节点，涵盖尼日利亚、冰岛等大量冷门地区。公网中转/中继线路为主，价格亲民，深度整合 Emby 影音服务，签到可领流量。适合有冷门地区需求或 Emby 爱好者，晚高峰稳定性不及专线。",
+          "features": ["150+全球节点", "冷门地区覆盖广", "分级流量套餐", "Emby生态+签到送流量"],
+          "lineType": "公网中转/中继",
+          "pricing": "¥13.36/月起",
+          "tags": ["性价比", "冷门节点", "Emby"]
         },
         {
           "name": "SsrDog",
           "url": "https://s.y8o.de/ssrdog",
-          "lineType": "原生IP专线",
-          "pricing": "¥25/月起",
-          "description": "主打原生 IP 专线节点，流媒体解锁稳定，适合 Netflix、Disney+ 观影用户。",
-          "features": ["流媒体解锁", "原生IP节点", "按量/订阅可选", "节点稳定"],
-          "tags": ["流媒体", "原生IP", "按量"]
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f97316'/%3e%3cpath d='M40 35 L60 35 L60 45 L50 45 L50 65 M55 65 L65 65 M55 55 L65 55' fill='none' stroke='white' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e",
+          "description": "SsrDog，IEPL/IPLC 内网专线机场，港台节点延迟极低（25–50ms），流媒体解锁稳定。⚠️ 注意：2026年4月已取消月付，最低季付起步；协议已从 SS 升级至 AnyTLS，第三方客户端需确认兼容性。2026年3月曾有失联预警，后恢复正常，建议先季付观察。",
+          "features": ["IPLC/IEPL专线", "港台低延迟25–50ms", "AnyTLS新协议", "最低季付起步"],
+          "lineType": "IPLC/IEPL专线",
+          "pricing": "¥45/月 季付起",
+          "tags": ["流媒体", "原生IP", "注意季付起"],
+          "isUnderMaintenance": true
         },
         {
           "name": "Bywave",
           "url": "https://s.y8o.de/ByWave",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3cpath d='M25 50 Q35 30, 45 50 T65 50 T85 50' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
+          "description": "Bywave，万兆金融级 IEPL 专线，按流量与速度阶梯定价，创立于2020年。⚠️ 注意：专线节点为2倍率（中继节点0.7倍率），购买前需确认套餐实际可用流量；2026年1月曾出现长达两周的断线且无法联系客服，口碑争议较大。极不推荐直接年付，务必先月付充分测试。",
+          "features": ["IEPL专线", "分级套餐", "流媒体解锁", "⚠️ 专线2倍率请注意"],
           "lineType": "IEPL专线",
           "pricing": "¥30/月起",
-          "description": "基于万兆金融级 IEPL 专线，按流量与速度阶梯定价，稳定解锁主流流媒体。",
-          "features": ["IEPL专线", "分级套餐", "流媒体解锁", "万兆带宽"],
-          "tags": ["高端", "EMBY", "进阶"]
+          "tags": ["争议预警", "EMBY", "进阶"],
+          "isUnderMaintenance": true
         }
       ]
     },
@@ -205,87 +349,69 @@
         {
           "name": "Nexitally",
           "url": "https://s.y8o.de/naiixi",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23fbcfe8'/%3e%3cpath d='M20 60 Q 35 40, 50 60 T 80 60' fill='none' stroke='white' stroke-width='10' stroke-linecap='round'/%3e%3c/svg%3e",
+          "description": "Nexitally（奶昔），2017 年成立的老牌佩奇机场，自研面板，唯云专线，适合对稳定性和流媒体解锁有持续需求的用户。",
+          "features": ["老牌大厂", "自研面板", "唯云专线", "流媒体解锁"],
           "lineType": "高端专线",
           "pricing": "¥117/月起",
-          "description": "2017 年成立的老牌佩奇机场，自研面板，唯云专线，适合对稳定性和流媒体解锁有持续需求的用户。",
-          "features": ["老牌大厂", "自研面板", "唯云专线", "流媒体解锁"],
           "tags": ["佩奇", "稳定", "流媒体"]
         },
         {
           "name": "TAG",
           "url": "https://s.y8o.de/tag",
-          "lineType": "IEPL专线",
-          "pricing": "¥109/月起",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%232563eb'/%3e%3cpath d='M30 70 L50 30 L70 70 Z' fill='none' stroke='white' stroke-width='10' stroke-linejoin='round' stroke-linecap='round'/%3e%3c/svg%3e",
           "description": "以节点覆盖广著称，延迟低丢包少，拥有大量冷门地区节点，适合有全球业务需求的用户。",
           "features": ["IEPL专线", "低延迟", "低丢包率", "全球节点覆盖"],
+          "lineType": "IEPL专线",
+          "pricing": "¥109/月起",
           "tags": ["低延迟", "全球节点", "高端"]
         },
         {
           "name": "MESL",
           "url": "https://s.y8o.de/mesl",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23000000'/%3e%3ctext x='50' y='62' font-size='24' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3EMESL%3C/text%3e%3c/svg%3e",
+          "description": "MESL，极其低调的顶级机场，不依赖TG宣传。拥有极高的带宽接入能力，主要服务于对线路质量有苛刻要求的专业用户。",
+          "features": ["极度低调", "海量带宽", "不超售", "专业首选"],
           "lineType": "IEPL专线",
           "pricing": "¥50/月起",
-          "description": "极其低调的顶级机场，不依赖TG宣传。拥有极高的带宽接入能力，主要服务于对线路质量有苛刻要求的专业用户。",
-          "features": ["极度低调", "海量带宽", "不超售", "专业首选"],
           "tags": ["低调", "顶级线路", "不宣传"],
           "isNew": true
         },
         {
           "name": "ImmTelecom",
           "url": "https://s.y8o.de/immtele",
-          "lineType": "IEPL/IPLC专线",
-          "pricing": "¥50/月起",
-          "description": "电信专属高端线路，定位与库洛米一致。主打极致稳定与低延迟，适合对网络质量有极高要求的用户。",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3ccircle cx='50' cy='50' r='45' fill='%23000000'/%3e%3cpath d='M30 50 L45 65 L75 35' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
+          "description": "ImmTelecom，高端线路，主打极致稳定与低延迟，适合对网络质量有极高要求的用户，入门套餐¥72.45/月，500G流量。",
           "features": ["电信专线", "超低延迟", "高端定位", "极致稳定"],
-          "tags": ["一线大厂", "电信优化", "高端"],
-          "isNew": true
-        },
-        {
-          "name": "WgetCloud",
-          "url": "https://s.y8o.de/wgetcloud",
-          "lineType": "BGP专线",
-          "pricing": "¥79/月起",
-          "description": "基于华为云 BGP 入口的专线网络，主打极致稳定性。多节点自动切换，适合对 SLA 有高要求的用户。",
-          "features": ["华为云入口", "多节点自动切换", "稳定性优先", "企业级SLA"],
-          "tags": ["稳定", "企业级", "不差钱"]
-        },
-        {
-          "name": "AmyTelecom",
-          "url": "https://www.amytele.co/",
-          "lineType": "IEPL专线",
-          "pricing": "¥273/年起",
-          "description": "著名的\"佩奇\"分站，俗称\"按摩院\"。拥有极佳的流媒体解锁能力和稳定的专线传输，业界口碑老牌劲旅。",
-          "features": ["佩奇分站", "流媒体解锁强", "稳定性高", "老牌机场"],
-          "tags": ["佩奇系", "流媒体解锁", "稳定"],
-          "isNew": true
-        },
-        {
-          "name": "Kuromis",
-          "url": "https://www.kuromis.com/",
-          "lineType": "IEPL专线",
-          "pricing": "¥34/月起",
-          "description": "库洛米，高端专线中的\"贵族\"。虽然价格不菲，但提供顶级的带宽冗余和速率体验，适合预算充足追求极致的用户。",
-          "features": ["顶级带宽", "奢华体验", "即使高峰也稳", "全专线"],
-          "tags": ["贵族机场", "IEPL专线", "高峰期稳定"],
-          "isNew": true
-        },
-        {
-          "name": "FlowerCloud",
-          "url": "https://s.y8o.de/flowercloud",
-          "lineType": "BGP/IEPL专线",
-          "pricing": "¥39/月起",
-          "description": "花云，采用 Trojan 协议，线路质量极其稳定，适合对协议安全性和连接稳定性要求高的用户。",
-          "features": ["Trojan协议", "多地区节点", "稳定线路", "流媒体解锁"],
-          "tags": ["老牌", "Trojan", "口碑好"]
+          "lineType": "IEPL/IPLC专线",
+          "pricing": "¥72.45/月起",
+          "tags": ["一线大厂", "电信优化", "高端"]
         },
         {
           "name": "YToo",
           "url": "https://s.y8o.de/ytoo",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%234f46e5'/%3e%3cpath d='M30 65 L50 35 L70 65 M50 35 V 75' fill='none' stroke='white' stroke-width='10' stroke-linejoin='round' stroke-linecap='round'/%3e%3c/svg%3e",
+          "description": "YToo，覆盖大量非主流地区，采用多线国际传输架构。年付轻量套餐也能使用完整全球节点池。",
+          "features": ["全球多地节点", "轻量年付可选", "团队套餐", "主流客户端"],
           "lineType": "多线国际加速",
           "pricing": "¥98/年起",
-          "description": "覆盖大量非主流地区，采用多线国际传输架构。年付轻量套餐也能使用完整全球节点池。",
-          "features": ["全球多地节点", "轻量年付可选", "团队套餐", "主流客户端"],
           "tags": ["全球覆盖", "备用方案", "团队"]
+        },
+        {
+          "name": "FlowerCloud",
+          "url": "https://s.y8o.de/flowercloud",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2310b981'/%3e%3cpath d='M50 30 Q65 10, 80 30 T 90 60 Q80 80, 50 80 Q20 80, 10 60 Q10 30, 50 30' fill='none' stroke='white' stroke-width='6'/%3e%3c/svg%3e",
+          "description": "FlowerCloud（花云），老牌机场，线路质量极其稳定，适合对协议安全性和连接稳定性要求高的用户。",
+          "features": ["Trojan协议", "多地区节点", "稳定线路", "流媒体解锁"],
+          "lineType": "BGP/IEPL专线",
+          "pricing": "¥39/月起",
+          "tags": ["老牌", "Trojan", "口碑好"]
         }
       ]
     },
@@ -297,31 +423,79 @@
         {
           "name": "Gatern",
           "url": "https://s.y8o.de/Gatern",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23ec4899'/%3e%3cpath d='M35 50 L65 50 M50 35 L65 50 L50 65 M30 35 L30 65' fill='none' stroke='white' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e",
+          "description": "Gatern，提供按量与周期套餐并存的灵活方案，不限时流量包适合作为高质量备用。",
+          "features": ["按量/周期可选", "不限时流量包", "流媒体解锁", "多设备支持"],
           "lineType": "混合线路",
           "pricing": "按量付费",
-          "description": "提供按量与周期套餐并存的灵活方案，不限时流量包适合作为高质量备用。",
-          "features": ["按量/周期可选", "不限时流量包", "流媒体解锁", "多设备支持"],
           "tags": ["备份首选", "灵活", "按量"]
         },
         {
           "name": "SKYLUMO",
           "url": "https://s.y8o.de/skylumo",
-          "lineType": "高速专线",
-          "pricing": "¥9.90起",
-          "description": "提供流量永不过期的一次性流量包方案，覆盖全球 80+ 地区，适合备用或轻度使用。",
+          "coupon": "优惠券: lN0cKN1L",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230ea5e9'/%3e%3cpath d='M50 20 L20 55 L45 55 L40 85 L70 45 L50 45 L55 20 Z' fill='white' stroke='white' stroke-width='4' stroke-linejoin='round'/%3e%3c/svg%3e",
+          "description": "SKYLUMO，提供流量永不过期的一次性流量包方案，覆盖全球 80+ 地区，适合备用或轻度使用。经典老套餐限时半价，附赠 Google AI Pro 年费（限量300份），使用优惠券 lN0cKN1L 即可享受折扣。",
           "features": ["流量永不过期", "80+地区接入", "大流量包", "高带宽"],
+          "lineType": "公网中转",
+          "pricing": "¥9.90起",
           "tags": ["备用", "不限时", "大流量"]
         },
         {
           "name": "魔戒",
           "url": "https://s.y8o.de/mojie",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23ca8a04'/%3e%3ccircle cx='50' cy='50' r='30' stroke='white' stroke-width='10' fill='none'/%3e%3ccircle cx='50' cy='50' r='15' stroke='white' stroke-width='5' fill='none'/%3e%3c/svg%3e",
+          "description": "魔戒，老牌按流量计费机场，纯按流量计费模式，流量长期有效，节点稳定，老用户的长期备用首选。",
+          "features": ["纯按量计费", "流量长期有效", "节点稳定", "规则清晰"],
           "lineType": "公网中转",
           "pricing": "按GB计费",
-          "description": "纯按流量计费模式，流量长期有效，节点稳定，老用户的长期备用首选。",
-          "features": ["纯按量计费", "流量长期有效", "节点稳定", "规则清晰"],
           "tags": ["老牌", "按量", "长期备用"]
         }
       ]
     }
-  }
+  },
+  "no_aff": [
+    {
+      "name": "AmyTelecom",
+      "url": "https://s.y8o.de/amytele",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3ccircle cx='50' cy='50' r='45' fill='%23fce7f3'/%3e%3cpath d='M35 45 Q50 60 65 45 M35 45 Q50 30 65 45' fill='none' stroke='%23ec4899' stroke-width='4'/%3e%3c/svg%3e",
+      "description": "著名的\"佩奇\"分站，俗称\"按摩院\"。拥有极佳的流媒体解锁能力和稳定的专线传输，业界口碑老牌劲旅。",
+      "lineType": "IEPL专线",
+      "pricing": "¥273/年起",
+      "tags": ["佩奇系", "流媒体解锁", "稳定"]
+    },
+    {
+      "name": "Kuromis",
+      "url": "https://s.y8o.de/kuromis",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3ccircle cx='50' cy='50' r='45' fill='%23581c87'/%3e%3cpath d='M30 40 L40 60 L60 60 L70 40' fill='none' stroke='white' stroke-width='5'/%3e%3c/svg%3e",
+      "description": "库洛米，高端专线中的\"贵族\"。虽然价格不菲，但提供顶级的带宽冗余和速率体验，适合预算充足追求极致的用户。",
+      "lineType": "IEPL专线",
+      "pricing": "¥34/月起",
+      "tags": ["贵族机场", "IEPL专线", "高峰期稳定"]
+    },
+    {
+      "name": "WgetCloud",
+      "url": "https://s.y8o.de/wgetcloud",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2306b6d4'/%3e%3cpath d='M30 40 Q50 25, 70 40 M30 60 Q50 45, 70 60' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
+      "description": "WgetCloud，基于华为云 BGP 入口的专线网络，主打极致稳定性。多节点自动切换，适合对 SLA 有高要求的用户。",
+      "features": ["华为云入口", "多节点自动切换", "稳定性优先", "企业级SLA"],
+      "lineType": "BGP专线",
+      "pricing": "¥79/月起",
+      "tags": ["稳定", "企业级", "不差钱"]
+    },
+    {
+      "name": "新华云",
+      "url": "https://s.y8o.de/newhua99",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23e11d48'/%3e%3cpath d='M30 65 A15 15 0 0 1 42 45 A22 22 0 0 1 80 55 A15 15 0 0 1 75 80 L35 80 A15 15 0 0 1 30 65' fill='white'/%3e%3c/svg%3e",
+      "description": "新华云，主打极致性价比的隧道中转机场。不限制设备数量。支持 Netflix、ChatGPT、Disney+ 等流媒体解锁，节点覆盖港日新美及土耳其等冷门区。",
+      "features": ["不限设备数", "月付¥3.99起", "隧道加密", "流媒体解锁"],
+      "lineType": "隧道中转",
+      "pricing": "¥3.99/月起",
+      "tags": ["高性价比", "不限设备", "学生党推荐"]
+    }
+  ]
 }

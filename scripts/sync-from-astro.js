@@ -97,10 +97,15 @@ function extractJSObject(source, constName) {
  * - Handles TypeScript type annotations like `as any[]`
  */
 function jsToJSON(jsStr) {
+  // NOTE: These regexes operate on raw text without string-content awareness.
+  // If an airport description/name contains patterns like ", word:", " as ",
+  // or "as any[]" as literal text (not JS syntax), they could be mis-processed.
+  // For the current VPSKnow data this is safe — airport names/descriptions
+  // are Chinese text and don't contain these patterns.
   let s = jsStr;
 
   // Remove TypeScript type assertions like `as any[]` or `as string[]`
-  s = s.replace(/\bas\s+[\w[\]]+\b/g, '');
+  s = s.replace(/\bas\s+[\w[\]]+(\s*\[\])?/g, '');
 
   // Remove spread operators (unlikely but safe)
   s = s.replace(/\.\.\.\w+/g, '');
@@ -139,17 +144,18 @@ function safeEval(jsObjectStr) {
 /**
  * Maps an airport object from Astro format to our JSON schema.
  */
-function mapAirport(astroAirport, categoryKey) {
+function mapAirport(astroAirport) {
   return {
-    name: astroAirport.name || '',
-    url: astroAirport.url || '',
-    coupon: astroAirport.coupon || '',
-    logoSvg: astroAirport.logoSvg || '',
+    name: astroAirport.name ?? '',
+    url: astroAirport.url ?? '',
+    coupon: astroAirport.coupon ?? '',
+    logoSvg: astroAirport.logoSvg ?? '',
     description: (astroAirport.description || '').replace(/\s+/g, ' ').trim(),
     features: astroAirport.features || [],
-    lineType: astroAirport.lineType || '',
-    pricing: astroAirport.pricing || '',
+    lineType: astroAirport.lineType ?? '',
+    pricing: astroAirport.pricing ?? '',
     tags: astroAirport.tags || [],
+    ...(astroAirport.isNew !== undefined && { isNew: astroAirport.isNew }),
     ...(astroAirport.isEditorPick !== undefined && { isEditorPick: astroAirport.isEditorPick }),
     ...(astroAirport.isUnderMaintenance !== undefined && { isUnderMaintenance: astroAirport.isUnderMaintenance }),
   };
@@ -226,7 +232,7 @@ async function main() {
       log(`Category '${key}' not found in source, skipping`, 'warn');
       continue;
     }
-    const airports = (astroCat.airports || []).map(a => mapAirport(a, key));
+    const airports = (astroCat.airports || []).map(a => mapAirport(a));
     categories[key] = {
       title: meta.title,
       icon: meta.icon,
@@ -239,14 +245,14 @@ async function main() {
 
   // Map no_aff
   const noAffAirports = (astroNoAff || []).map(a => ({
-    name: a.name || '',
-    url: a.url || '',
-    coupon: a.coupon || '',
-    logoSvg: a.logoSvg || '',
+    name: a.name ?? '',
+    url: a.url ?? '',
+    coupon: a.coupon ?? '',
+    logoSvg: a.logoSvg ?? '',
     description: (a.description || '').replace(/\s+/g, ' ').trim(),
     features: a.features || [],
-    lineType: a.lineType || '',
-    pricing: a.pricing || '',
+    lineType: a.lineType ?? '',
+    pricing: a.pricing ?? '',
     tags: a.tags || [],
   }));
 
@@ -256,19 +262,16 @@ async function main() {
   // 6. Build tags vocabulary from data
   const allLineTypes = new Set();
   const allTags = new Set();
-  const allFeatures = new Set();
 
   for (const cat of Object.values(categories)) {
     for (const a of cat.airports) {
       if (a.lineType) allLineTypes.add(a.lineType);
       (a.tags || []).forEach(t => allTags.add(t));
-      (a.features || []).forEach(f => allFeatures.add(f));
     }
   }
   for (const a of noAffAirports) {
     if (a.lineType) allLineTypes.add(a.lineType);
     (a.tags || []).forEach(t => allTags.add(t));
-    (a.features || []).forEach(f => allFeatures.add(f));
   }
 
   // Known standard tags
@@ -276,7 +279,7 @@ async function main() {
     '白嫖', '高性价比', '原生节点', '新晋推荐', '超高带宽', '无日志', '流媒体', 'ChatGPT', '游戏加速',
     '办公稳定', '出海加速', '家庭共享', '4K观影', '日常使用'];
 
-  // 7. Read existing JSON to preserve manual metadata
+  // 7. Read existing JSON for diff comparison only (output is built fresh from source)
   let existing = null;
   if (existsSync(JSON_PATH)) {
     try {

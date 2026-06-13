@@ -5,14 +5,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "sync": "node scripts/sync.js",
+    "sync": "node scripts/sync-from-astro.js",
     "generate": "node scripts/generate-readme.js",
-    "sync:full": "node scripts/sync.js && node scripts/generate-readme.js",
+    "sync:full": "node scripts/sync-from-astro.js && node scripts/generate-readme.js",
     "validate": "node scripts/validate-json.js"
   },
-  "dependencies": {
-    "cheerio": "^1.2.0"
-  },
+  "dependencies": {},
   "engines": {
     "node": ">=18"
   }

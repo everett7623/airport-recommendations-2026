@@ -29,9 +29,15 @@ function starRating(n) {
 // ─── Data Loading ────────────────────────────────────────────────────────────
 
 function loadData() {
-  const raw = readFileSync(JSON_PATH, 'utf-8');
-  const stripped = raw.replace(/^\s*\/\/.*$/gm, '').replace(/\/\*[\s\S]*?\*\//g, '');
-  return JSON.parse(stripped);
+  try {
+    const raw = readFileSync(JSON_PATH, 'utf-8');
+    const stripped = raw.replace(/^\s*\/\/.*$/gm, '').replace(/\/\*[\s\S]*?\*\//g, '');
+    return JSON.parse(stripped);
+  } catch (e) {
+    log(`Failed to parse ${JSON_PATH}: ${e.message}`, 'err');
+    log('Run scripts/sync-from-astro.js first, or check for JSON syntax errors.', 'info');
+    process.exit(1);
+  }
 }
 
 // ─── README.md Generator ─────────────────────────────────────────────────────
@@ -42,13 +48,6 @@ function generateFullReadme(data) {
     ...Object.values(cats).flatMap(c => c.airports),
     ...(data.no_aff || []),
   ];
-
-  // Get top picks per category
-  const topPicks = [];
-  for (const [key, cat] of Object.entries(cats)) {
-    const top2 = cat.airports.slice(0, 2);
-    topPicks.push(...top2);
-  }
 
   const lines = [];
 
@@ -120,24 +119,25 @@ function generateFullReadme(data) {
   lines.push('| 使用场景 | 推荐类型 | 价格区间 | 代表机场 | 直达链接 |');
   lines.push('|---------|---------|---------|---------|---------|');
   if (cats.free_trial) {
-    const names = cats.free_trial.airports.slice(0, 2).map(a => a.name).join('、');
+    const names = (cats.free_trial.airports || []).slice(0, 2).map(a => a.name).join('、');
     lines.push(`| 🆓 先测试后购买 | 免费试用 | 免费 | ${names} | [查看详情](#-免费试用专区) |`);
   }
   if (cats.budget) {
-    const names = cats.budget.airports.slice(0, 3).map(a => a.name).join('、');
+    const names = (cats.budget.airports || []).slice(0, 3).map(a => a.name).join('、');
     lines.push(`| 💰 预算有限（学生党） | 入门经济 | ¥3.99/月起 | ${names} | [查看详情](#-入门经济型) |`);
   }
   if (cats.balanced) {
-    const names3 = cats.balanced.airports.slice(0, 3).map(a => a.name).join('、');
+    const names3 = (cats.balanced.airports || []).slice(0, 3).map(a => a.name).join('、');
     lines.push(`| ⚡ 日常使用（看剧、办公） | 性价比均衡 | ¥12.5/月起 | ${names3} | [查看详情](#️-性价比均衡) |`);
   }
   if (cats.premium) {
-    const names = cats.premium.airports.slice(0, 2).map(a => a.name).join('、');
+    const names = (cats.premium.airports || []).slice(0, 2).map(a => a.name).join('、');
+    const extra = (cats.premium.airports || [])[2];
     lines.push(`| 👔 商务办公（高稳定） | 高端专线 | ¥50+/月 | ${names} | [查看详情](#-高端专线) |`);
-    lines.push(`| 🎮 游戏加速（低延迟） | 高端专线 | ¥109+/月 | TAG | [查看详情](#-高端专线) |`);
+    lines.push(`| 🎮 游戏加速（低延迟） | 高端专线 | ¥109+/月 | ${extra?.name || 'TAG'} | [查看详情](#-高端专线) |`);
   }
   if (cats.payAsYouGo) {
-    const names = cats.payAsYouGo.airports.slice(0, 2).map(a => a.name).join('、');
+    const names = (cats.payAsYouGo.airports || []).slice(0, 2).map(a => a.name).join('、');
     lines.push(`| 📦 轻度使用（备用） | 按量计费 | 按需 | ${names} | [查看详情](#-按量计费) |`);
   }
   if (data.no_aff?.length) {
@@ -374,23 +374,30 @@ function generateSimpleReadme(data) {
   lines.push('| 使用场景 | 推荐类型 | 价格区间 | 首选推荐 | 备用推荐 |');
   lines.push('|---------|---------|---------|---------|---------|');
   if (cats.free_trial) {
-    const [a, b] = [cats.free_trial.airports[0], cats.free_trial.airports[1]];
+    const arr = cats.free_trial.airports || [];
+    const [a, b] = [arr[0], arr[1]];
     lines.push(`| 🆓 先测试后购买 | 免费试用 | 免费 | ${a?.name || '-'} | ${b?.name || '-'} |`);
   }
   if (cats.budget) {
-    const [a, b] = [cats.budget.airports[0], cats.budget.airports[1]];
+    const arr = cats.budget.airports || [];
+    const [a, b] = [arr[0], arr[1]];
     lines.push(`| 💰 预算有限（学生党） | 入门经济 | ¥3.99/月起 | ${a?.name || '-'} | ${b?.name || '-'} |`);
   }
   if (cats.balanced) {
-    const [a, b] = [cats.balanced.airports[0], cats.balanced.airports[1]];
-    lines.push(`| ⚡ 日常主力（看剧办公） | 性价比均衡 | ¥12.5/月起 | ${a?.name || '-'} / ${b?.name || '-'} | ${cats.balanced.airports[2]?.name || '-'} |`);
+    const arr = cats.balanced.airports || [];
+    const [a, b, c] = [arr[0], arr[1], arr[2]];
+    lines.push(`| ⚡ 日常主力（看剧办公） | 性价比均衡 | ¥12.5/月起 | ${a?.name || '-'} / ${b?.name || '-'} | ${c?.name || '-'} |`);
   }
   if (cats.premium) {
-    lines.push(`| 👔 商务办公（高稳定） | 高端专线 | ¥50+/月 | Nexitally / MESL | TAG |`);
-    lines.push(`| 🎮 游戏加速（低延迟） | 高端专线 | ¥109+/月 | TAG | ImmTelecom |`);
+    const arr = cats.premium.airports || [];
+    const [a, b, c] = [arr[0], arr[1], arr[2]];
+    lines.push(`| 👔 商务办公（高稳定） | 高端专线 | ¥50+/月 | ${a?.name || '-'} / ${b?.name || '-'} | ${c?.name || '-'} |`);
+    lines.push(`| 🎮 游戏加速（低延迟） | 高端专线 | ¥109+/月 | ${c?.name || 'TAG'} | ${a?.name || '-'} |`);
   }
   if (cats.payAsYouGo) {
-    lines.push(`| 📦 轻度使用（备用） | 按量计费 | 按需 | Gatern | 魔戒 |`);
+    const arr = cats.payAsYouGo.airports || [];
+    const [a, b] = [arr[0], arr[1]];
+    lines.push(`| 📦 轻度使用（备用） | 按量计费 | 按需 | ${a?.name || '-'} | ${b?.name || '-'} |`);
   }
   lines.push('');
   lines.push('---');
@@ -422,8 +429,8 @@ function generateSimpleReadme(data) {
   lines.push('|---------|---------|---------|-------|---------|-------|------|');
   for (const a of allAirports) {
     const name = a.isUnderMaintenance ? `${a.name} ⚠️` : a.name;
-    const streamOk = '✅';
-    const chatOk = '✅';
+    const streamOk = a.tags?.some(t => /流媒体|解锁|原生|Netflix/i.test(t)) || a.features?.some(f => /流媒体|解锁|原生|Netflix/i.test(f)) ? '✅' : '❓';
+    const chatOk = a.tags?.some(t => /AI|ChatGPT|GPT/i.test(t)) || a.features?.some(f => /AI|ChatGPT|GPT/i.test(f)) || a.description?.includes('ChatGPT') ? '✅' : '❓';
     const stars = starRating(a.isUnderMaintenance ? 3 : (data.no_aff?.find(na => na.name === a.name) ? 5 : 4));
     const link = a.url ? `[进入](${a.url})` : '-';
     lines.push(`| **${name}** | ${a.lineType || '-'} | ${a.pricing || '-'} | ${streamOk} | ${chatOk} | ${stars} | ${link} |`);

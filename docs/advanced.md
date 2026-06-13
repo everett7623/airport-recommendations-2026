@@ -289,13 +289,14 @@ http://localhost:25500/sub?target=clash&url=你的订阅链接
 
 ---
 
-## 📚 下一步（仓库后续扩展）
+## 📚 延伸阅读
 
-建议补充：
+更多文档请查看：
 
-* docs/methodology.md（评分标准）
-* docs/changelog.md（更新记录）
-* docs/ruleset.md（规则集分享）
+* [docs/methodology.md](methodology.md) — 机场评分标准与筛选方法论
+* [docs/changelog.md](changelog.md) — 项目更新日志
+* [docs/faq.md](faq.md) — 新手常见问题解答
+* [docs/blacklist.md](blacklist.md) — 已下架服务商记录
 
 ---
 

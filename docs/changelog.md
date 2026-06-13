@@ -5,6 +5,82 @@
 
 ---
 
+## [2026-06-14] - 同步管线 + 数据更新
+
+### 新增
+- ✅ 新增机场：**EdgeNova**（IEPL 专线，年付 ¥86 起，优惠码 XK808）
+- ✅ 新增 `scripts/sync-from-astro.js`：从 VPSKnow Astro 源码自动同步机场数据
+- ✅ 新增 `scripts/generate-readme.js`：从 airports.json 自动生成 README.md + README-SIMPLE.md
+- ✅ 新增 `scripts/validate-json.js`：校验 JSON 数据结构完整性
+- ✅ 新增 `.github/workflows/sync.yml`：每周一自动同步 VPSKnow 数据
+- ✅ 新增 `defunct` 失联机场记录：飞猫云、OneStep、TNTCloud
+
+### 更新
+- 🔄 README.md / README-SIMPLE.md 改为自动生成（从 airports.json）
+- 🔄 更新 `airports.json` version 至 2026-06-14
+
+### 移除
+- ❌ 移除 **Mitce**（已从 VPSKnow 下架）
+
+---
+
+## [2026-06-13] - 仓库全面优化
+
+### 新增
+- ✅ 新增 `LICENSE`（MIT）
+- ✅ 新增 `CONTRIBUTING.md`（贡献规范与 PR 流程）
+- ✅ 新增 `.github/ISSUE_TEMPLATE/`（机场推荐 / 价格更新 / 下架报告 3 个模板）
+- ✅ 新增 `.github/PULL_REQUEST_TEMPLATE.md`
+- ✅ 新增 `CLAUDE.md`（项目指引）
+- ✅ 新增 `public/og-image.svg`（社交预览图）
+- ✅ README 新增「🔗 无AFF / 纯净推荐」独立专区
+
+### 优化
+- 📈 `docs/methodology.md` 重写为完整评分方法论（5 维度、测试方法、收录/下架标准）
+- 📈 `data/airports.json` tags_vocabulary 与实际标签同步扩展
+- 📈 AmyTelecom、Kuromis 补全缺失的 coupon/features 字段
+- 📈 README.md 风险提示前移、SKYLUMO 交叉引用、各分类底部增加 VPSKnow CTA
+- 📈 README-SIMPLE.md 精简至 8KB 快速索引格式
+
+### 修复
+- 🐛 修复 `docs/methodology.md` 内容错误（原为 changelog 副本）
+
+---
+
+## [2026-06-07] - 数据同步与大版本更新
+
+### 新增
+- ✅ 新增机场：**Runway**（试用区）、**山水云、速界、瞬云、秒秒云**（经济型）
+- ✅ 新增机场：**寰宇云、Sogo云、二猫云、一翻云、快狸、U1S1、宇宙云**（性价比区）
+- ✅ 独立分出 `no_aff`（无AFF/低AFF备选）专区：新华云、AmyTelecom 等
+
+### 调整
+- 🔄 全面同步最新优惠券代码与线路架构
+- 🔄 清理已确认失联服务商
+
+---
+
+## [2026-06-01] - 免费试用区 + 按量计费区扩充
+
+### 新增
+- ✅ 新增机场：**喵喵VPN**（Hysteria2 协议，72h 免费试用，私有 Emby）
+- ✅ 扩充满意度评价与适用场景说明
+
+---
+
+## [2026-02-02] - 高端专线扩容与分类优化
+
+### 新增
+- ✅ 新增高端专线机场：Dler Cloud、MESL、ImmTelecom、AmyTelecom、Kuromis
+- ✅ 新增游戏/低延迟机场：飞猫云 (FlyingCat)
+
+### 变更
+- 🔄 分类调整：新华云归类至「入门经济型」
+- 🔄 README 与 JSON 列表顺序对齐 VPSKnow 官网榜单
+- 🔄 airports.json 数据结构优化
+
+---
+
 ## [2026-01-29] - 重大更新
 
 ### 新增

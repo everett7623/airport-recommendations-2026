@@ -11,10 +11,10 @@
 {
   "version": "2026-06-07",
   "tags_vocabulary": {
-    "line_type": ["IPLC专线", "IEPL专线", "BGP专线", "隧道中转", "公网中转", "原生IP", "华为云BGP", "多线国际", "优质直连", "ANYCAST专线"],
-    "scenario": ["流媒体", "ChatGPT", "游戏加速", "办公稳定", "出海加速", "家庭共享"],
+    "line_type": ["IPLC专线", "IEPL专线", "BGP专线", "隧道中转", "公网中转", "原生IP", "华为云BGP", "多线国际", "优质直连", "ANYCAST专线", "中转专线", "高端专线", "混合线路", "IPLC/直连专线", "IPLC/IEPL专线", "BGP/IPLC专线", "公网中转/中继", "多线国际加速"],
+    "scenario": ["流媒体", "ChatGPT", "游戏加速", "办公稳定", "出海加速", "家庭共享", "4K观影", "日常使用"],
     "billing": ["月付", "年付", "按量", "不限时流量", "季付起"],
-    "feature": ["试用", "低价", "不限设备", "三网优化", "老牌", "新人优惠", "不限速", "专属客户端", "EMBY生态"]
+    "feature": ["试用", "低价", "不限设备", "三网优化", "老牌", "新人优惠", "不限速", "专属客户端", "EMBY生态", "白嫖", "高性价比", "原生节点", "新晋推荐", "超高带宽", "无日志"]
   },
   "categories": {
     "free_trial": {
@@ -462,6 +462,8 @@
       "url": "https://s.y8o.de/amytele",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3ccircle cx='50' cy='50' r='45' fill='%23fce7f3'/%3e%3cpath d='M35 45 Q50 60 65 45 M35 45 Q50 30 65 45' fill='none' stroke='%23ec4899' stroke-width='4'/%3e%3c/svg%3e",
       "description": "著名的\"佩奇\"分站，俗称\"按摩院\"。拥有极佳的流媒体解锁能力和稳定的专线传输，业界口碑老牌劲旅。",
+      "features": ["佩奇系分站", "流媒体全解锁", "IEPL专线稳定", "老牌口碑"],
+      "coupon": "",
       "lineType": "IEPL专线",
       "pricing": "¥273/年起",
       "tags": ["佩奇系", "流媒体解锁", "稳定"]
@@ -471,6 +473,8 @@
       "url": "https://s.y8o.de/kuromis",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3ccircle cx='50' cy='50' r='45' fill='%23581c87'/%3e%3cpath d='M30 40 L40 60 L60 60 L70 40' fill='none' stroke='white' stroke-width='5'/%3e%3c/svg%3e",
       "description": "库洛米，高端专线中的\"贵族\"。虽然价格不菲，但提供顶级的带宽冗余和速率体验，适合预算充足追求极致的用户。",
+      "features": ["超高带宽冗余", "IEPL专线", "晚高峰不降速", "极致速率体验"],
+      "coupon": "",
       "lineType": "IEPL专线",
       "pricing": "¥34/月起",
       "tags": ["贵族机场", "IEPL专线", "高峰期稳定"]

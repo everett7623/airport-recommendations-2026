@@ -1,0 +1,69 @@
+name: Sync from VPSKnow
+
+on:
+  schedule:
+    # Every Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (no changes committed)'
+        type: boolean
+        default: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch VPSKnow Astro source
+        run: |
+          curl -sL --max-time 30 \
+            "https://raw.githubusercontent.com/everett7623/VPS-Knowledge/main/src/pages/airport-recommendations.astro" \
+            -o /tmp/astro-source.astro
+          echo "Fetched $(wc -c < /tmp/astro-source.astro) bytes"
+
+      - name: Run sync
+        id: sync
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            node scripts/sync-from-astro.js --local /tmp/astro-source.astro --dry-run
+          else
+            node scripts/sync-from-astro.js --local /tmp/astro-source.astro
+          fi
+
+      - name: Validate JSON
+        run: node scripts/validate-json.js
+
+      - name: Generate READMEs
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: node scripts/generate-readme.js
+
+      - name: Check for changes
+        id: git_diff
+        run: |
+          git diff --quiet || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.git_diff.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/airports.json README.md README-SIMPLE.md
+          git commit -m "sync: auto-update from VPSKnow Astro source [skip ci]"
+          git push

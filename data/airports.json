@@ -1,15 +1,13 @@
-// 名称: Airport-recommendations (v1.3 - 全量数据库同步与失联清理)
+// 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
+// 来源: VPS-Knowledge/src/pages/airport-recommendations.astro
+// 更新时间: 2026-06-14
+// 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
-// [同步]: 深度整合最新的全量机场数据，清洗并彻底移除了已确认失联/跑路的机场（如 TNTCloud）。
-// [新增]: 试用专区新增 Runway；经济型新增山水云、速界、瞬云、秒秒云；性价比新增 Sogo云、二猫云、一翻云、快狸、U1S1、宇宙云。
-// [调整]: 独立分出 no_aff (无AFF/低AFF备选) 专区，并新增极具性价比的新华云机场。
-// ─────────────────────────────────────────────────────────────────────────────
-// 路径: data/airports.json
-// 更新时间: 2026-06-07
+// [变更] 同步自 VPSKnow v6.1: 新增 EdgeNova，移除 Mitce，新增 defunct 失联记录
 // ─────────────────────────────────────────────────────────────────────────────
 
 {
-  "version": "2026-06-07",
+  "version": "2026-06-14",
   "tags_vocabulary": {
     "line_type": ["IPLC专线", "IEPL专线", "BGP专线", "隧道中转", "公网中转", "原生IP", "华为云BGP", "多线国际", "优质直连", "ANYCAST专线", "中转专线", "高端专线", "混合线路", "IPLC/直连专线", "IPLC/IEPL专线", "BGP/IPLC专线", "公网中转/中继", "多线国际加速"],
     "scenario": ["流媒体", "ChatGPT", "游戏加速", "办公稳定", "出海加速", "家庭共享", "4K观影", "日常使用"],
@@ -97,6 +95,17 @@
           "tags": ["高性价比", "流媒体", "不限时可选"]
         },
         {
+          "name": "EdgeNova",
+          "url": "https://s.y8o.de/edgenova",
+          "coupon": "优惠码: XK808",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23ef4444'/%3e%3ctext x='50' y='65' font-size='40' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eE%3c/text%3e%3c/svg%3e",
+          "description": "EdgeNova，2026年新晋高性能机场。全节点采用 IEPL 专线直连，绕过公网拥堵，确保在高峰时段依然拥有极低的延迟与超高的稳定性。完美流媒体与 AI 工具解锁，全套餐不限速、不限设备数、无流量倍率。",
+          "features": ["IEPL专线低延迟", "60+全球优质节点", "AI工具全兼容", "不限设备/不限速"],
+          "lineType": "IEPL专线",
+          "pricing": "年付¥86起（用码）",
+          "tags": ["专线", "新锐", "全兼容"]
+        },
+        {
           "name": "速界",
           "url": "https://s.y8o.de/speedworld",
           "coupon": "优惠码: sujie888",
@@ -139,17 +148,6 @@
           "lineType": "隧道中转",
           "pricing": "¥14/月起（年付¥79起）",
           "tags": ["高性价比", "anytls", "不限时可选"]
-        },
-        {
-          "name": "Mitce",
-          "url": "https://s.y8o.de/mitce",
-          "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eM%3c/text%3e%3c/svg%3e",
-          "description": "提供多国家线路与多客户端支持，包含住宅 IP 等类型节点，适合追求极低价格的用户。",
-          "features": ["多国家线路", "多客户端支持", "住宅IP节点", "低价入门"],
-          "lineType": "公网中转",
-          "pricing": "$0.6/月起",
-          "tags": ["超低价", "多地区", "入门"]
         }
       ]
     },
@@ -500,6 +498,29 @@
       "lineType": "隧道中转",
       "pricing": "¥3.99/月起",
       "tags": ["高性价比", "不限设备", "学生党推荐"]
+    }
+  ],
+  "defunct": [
+    {
+      "name": "飞猫云 (FlyingCat)",
+      "defunctDate": "2026-04-17",
+      "lineType": "IEPL/IPLC专线",
+      "note": "官网及客户端均已无法访问，疑似跑路。",
+      "pricingWas": "¥15/月起"
+    },
+    {
+      "name": "OneStep",
+      "defunctDate": "2026-05-06",
+      "lineType": "公网中转",
+      "note": "官网提示服务器到期，疑似跑路。",
+      "pricingWas": "¥5/月起"
+    },
+    {
+      "name": "TNTCloud",
+      "defunctDate": "2026-06-14",
+      "lineType": "公网中转",
+      "note": "线路超时，工单无人回应，已从推荐列表移除。",
+      "pricingWas": "¥8/月起"
     }
   ]
 }

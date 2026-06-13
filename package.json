@@ -1,0 +1,19 @@
+{
+  "name": "airport-recommendations-sync",
+  "version": "1.0.0",
+  "description": "Sync tool: scrape VPSKnow → airports.json → generate READMEs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync.js",
+    "generate": "node scripts/generate-readme.js",
+    "sync:full": "node scripts/sync.js && node scripts/generate-readme.js",
+    "validate": "node scripts/validate-json.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

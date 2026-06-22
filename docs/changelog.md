@@ -5,6 +5,20 @@
 
 ---
 
+## [2026-06-20] - 同步管线容错优化
+
+### 修复
+- 🐛 修复 GitHub Actions 可能把 raw 404/错误页当作 Astro 源码解析，导致同步时报 `Could not find airportCategories` 的问题。
+- 🐛 修复 README 自动生成器中的旧机场硬编码文案，避免已下架机场继续出现在 FAQ。
+
+### 优化
+- 📈 同步脚本新增 Astro 源码完整性校验，并在 raw 下载失败时自动回退到上游 Git 仓库浅克隆读取。
+- 📈 工作流改为 checkout `everett7623/VPS-Knowledge` 后读取 `src/pages/airport-recommendations.astro`，减少 raw.githubusercontent.com 网络波动影响。
+- 📈 JSON 校验器允许同一服务商因不同套餐跨分类出现，仅检查同一分类内重复名称。
+- 🔄 同步 VPSKnow `2026-06-20` 数据，README.md / README-SIMPLE.md 已重新生成。
+
+---
+
 ## [2026-06-14] - 同步管线 + 数据更新
 
 ### 新增

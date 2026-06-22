@@ -26,6 +26,15 @@ function starRating(n) {
   return '⭐'.repeat(Math.min(n, 5));
 }
 
+function listNames(airports = [], count = 2, fallback = '-') {
+  const names = airports.slice(0, count).map(a => a?.name).filter(Boolean);
+  return names.length ? names.join('、') : fallback;
+}
+
+function stripAirportSuffix(title) {
+  return title.replace(/机场$/, '');
+}
+
 // ─── Data Loading ────────────────────────────────────────────────────────────
 
 function loadData() {
@@ -189,7 +198,7 @@ function generateFullReadme(data) {
     });
 
     // VPSKnow CTA after each category
-    const vpsCta = `> 🔗 **更多${cat.title}机场评测 →** [VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)`;
+    const vpsCta = `> 🔗 **更多${stripAirportSuffix(cat.title)}机场评测 →** [VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)`;
     lines.push(vpsCta);
     lines.push('');
     lines.push('---');
@@ -278,8 +287,13 @@ function generateFullReadme(data) {
   // FAQ section
   lines.push('## ❓ 常见问题');
   lines.push('');
+  const freeTrialNames = listNames(cats.free_trial?.airports, 2, '免费试用区机场');
+  const budgetNames = listNames(cats.budget?.airports, 2, '入门经济型机场');
+  const balancedNames = listNames(cats.balanced?.airports, 2, '性价比均衡机场');
+  const premiumNames = listNames(cats.premium?.airports, 3, '高端专线机场');
+  const paygNames = listNames(cats.payAsYouGo?.airports, 2, '按量计费机场');
   const faqs = [
-    ['Q1: 如何选择适合自己的机场？', '根据使用场景选择：新手先试用网际快车/Bitz Net；预算有限选SKYLUMO/唯兔云；日常主力选光速云/极连云；商务办公选WgetCloud/Nexitally/TAG；轻度使用选Gatern/魔戒。'],
+    ['Q1: 如何选择适合自己的机场？', `根据使用场景选择：新手先试用${freeTrialNames}；预算有限选${budgetNames}；日常主力选${balancedNames}；商务办公选${premiumNames}；轻度使用或备用选${paygNames}。`],
     ['Q2: IPLC/IEPL 专线是什么？', 'IPLC（国际专线）和IEPL（以太网专线）是物理专线，不过墙，稳定性最高。BGP是多线路智能切换。公网中转是普通线路，价格便宜。'],
     ['Q3: 机场会不会跑路？', '优先选择运营时间长的老牌机场，购买月付套餐避免大额年付，同时备用2-3个机场互为容灾。'],
     ['Q4: 协议怎么选？', 'Hysteria2（UDP抗封锁，晚高峰抢带宽），VLESS（新一代主流，配合AnyTLS延长节点寿命），Trojan（伪装HTTPS流量，安全性高）。'],
@@ -363,7 +377,7 @@ function generateSimpleReadme(data) {
   lines.push('');
   lines.push('> **⚠️ 前言：** 本项目为科研、外贸、开发人员提供网络加速服务推荐。请遵守当地法律法规。**机场有跑路风险，建议优先月付。**');
   lines.push('>');
-  lines.push('> 📖 **完整版（40+机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)');
+  lines.push(`> 📖 **完整版（${allAirports.length} 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)`);
   lines.push('');
   lines.push('---');
   lines.push('');

@@ -54,7 +54,7 @@ if (categoryKeys.length === 0) {
 }
 
 let totalAirports = 0;
-const allNames = new Set();
+const categoryNames = new Set();
 
 for (const [key, cat] of Object.entries(data.categories || {})) {
   if (!cat.title) err(`Category '${key}' missing title`);
@@ -71,11 +71,13 @@ for (const [key, cat] of Object.entries(data.categories || {})) {
         err(`${key}/${a.name || 'UNNAMED'}: missing required field '${field}'`);
       }
     }
-    // Name uniqueness
-    if (allNames.has(a.name)) {
-      warn(`Duplicate airport name: '${a.name}'`);
+    // Name uniqueness inside one category. The same provider may appear in
+    // multiple categories when it offers different package types.
+    const scopedName = `${key}/${a.name}`;
+    if (categoryNames.has(scopedName)) {
+      warn(`Duplicate airport name in ${key}: '${a.name}'`);
     }
-    allNames.add(a.name);
+    categoryNames.add(scopedName);
     // URL check
     if (a.url && !a.url.startsWith('http')) {
       warn(`${a.name}: URL doesn't start with http: ${a.url}`);
@@ -86,9 +88,10 @@ for (const [key, cat] of Object.entries(data.categories || {})) {
 // No-AFF
 if (data.no_aff) {
   ok(`${data.no_aff.length} no-AFF airports`);
+  const noAffNames = new Set();
   for (const a of data.no_aff) {
-    if (allNames.has(a.name)) warn(`no_aff '${a.name}' duplicates a category entry`);
-    allNames.add(a.name);
+    if (noAffNames.has(a.name)) warn(`Duplicate no_aff airport name: '${a.name}'`);
+    noAffNames.add(a.name);
     totalAirports++;
     for (const field of REQUIRED_FIELDS) {
       if (!a[field] && a[field] !== '') {

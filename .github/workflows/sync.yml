@@ -21,25 +21,34 @@ jobs:
       - name: Checkout this repo
         uses: actions/checkout@v4
 
+      - name: Checkout VPSKnow source
+        uses: actions/checkout@v4
+        with:
+          repository: everett7623/VPS-Knowledge
+          ref: main
+          path: _vpsknow
+          fetch-depth: 1
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Fetch VPSKnow Astro source
+      - name: Validate VPSKnow Astro source
         run: |
-          curl -sL --max-time 30 \
-            "https://raw.githubusercontent.com/everett7623/VPS-Knowledge/main/src/pages/airport-recommendations.astro" \
-            -o /tmp/astro-source.astro
-          echo "Fetched $(wc -c < /tmp/astro-source.astro) bytes"
+          source_file="_vpsknow/src/pages/airport-recommendations.astro"
+          test -s "$source_file"
+          grep -q "airportCategories" "$source_file"
+          grep -q "airports:" "$source_file"
+          echo "Using $source_file ($(wc -c < "$source_file") bytes)"
 
       - name: Run sync
         id: sync
         run: |
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            node scripts/sync-from-astro.js --local /tmp/astro-source.astro --dry-run
+            node scripts/sync-from-astro.js --local _vpsknow/src/pages/airport-recommendations.astro --dry-run
           else
-            node scripts/sync-from-astro.js --local /tmp/astro-source.astro
+            node scripts/sync-from-astro.js --local _vpsknow/src/pages/airport-recommendations.astro
           fi
 
       - name: Validate JSON
@@ -59,6 +68,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/airports.json README.md README-SIMPLE.md
+          git add data/airports.json README.md README-SIMPLE.md docs/changelog.md
           git commit -m "sync: auto-update from VPSKnow Astro source [skip ci]"
           git push

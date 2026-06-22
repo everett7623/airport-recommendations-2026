@@ -7,9 +7,11 @@
  * Usage: node scripts/sync-from-astro.js [--dry-run] [--local <path>]
  */
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, mkdtempSync, rmSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { execFileSync } from 'child_process';
+import { tmpdir } from 'os';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -17,6 +19,8 @@ const JSON_PATH = join(ROOT, 'data', 'airports.json');
 const BACKUP_DIR = join(ROOT, 'data', 'backups');
 
 const ASTRO_URL = 'https://raw.githubusercontent.com/everett7623/VPS-Knowledge/main/src/pages/airport-recommendations.astro';
+const UPSTREAM_REPO = 'https://github.com/everett7623/VPS-Knowledge.git';
+const UPSTREAM_ASTRO_PATH = 'src/pages/airport-recommendations.astro';
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -34,6 +38,77 @@ function backup(filePath) {
   log(`Backed up to backups/${name}`);
 }
 
+function validateSource(source, sourceLabel) {
+  const looksLikeAstro = source.trimStart().startsWith('---') || source.includes('import BaseLayout');
+  const hasAirportData = /\bairportCategories\b/.test(source) && /\bairports\s*:/.test(source);
+  const looksLikeErrorPage = /^(404:\s*Not Found|Not Found)$/i.test(source.trim()) || /<html[\s>]/i.test(source);
+
+  if (looksLikeErrorPage) {
+    throw new Error(`${sourceLabel} returned an error page instead of Astro source`);
+  }
+  if (!looksLikeAstro || !hasAirportData) {
+    throw new Error(`${sourceLabel} is not a valid airport-recommendations.astro source`);
+  }
+}
+
+async function fetchFromRawUrl() {
+  log(`Fetching: ${ASTRO_URL}`);
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 30000);
+
+  try {
+    const res = await fetch(ASTRO_URL, {
+      headers: { 'User-Agent': 'airport-sync-bot/1.0' },
+      signal: controller.signal,
+    });
+    const source = await res.text();
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${source.slice(0, 120).trim()}`);
+    validateSource(source, ASTRO_URL);
+    log(`Fetched ${source.length} bytes`, 'ok');
+    return source;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function fetchFromGitClone() {
+  const tmp = mkdtempSync(join(tmpdir(), 'vpsknow-airport-sync-'));
+  try {
+    log(`Raw fetch unavailable; cloning upstream repo: ${UPSTREAM_REPO}`, 'warn');
+    execFileSync('git', ['clone', '--depth', '1', UPSTREAM_REPO, tmp], { stdio: 'pipe' });
+    const sourcePath = join(tmp, UPSTREAM_ASTRO_PATH);
+    const source = readFileSync(sourcePath, 'utf-8');
+    validateSource(source, `${UPSTREAM_REPO}/${UPSTREAM_ASTRO_PATH}`);
+    log(`Loaded ${source.length} bytes from upstream git clone`, 'ok');
+    return source;
+  } finally {
+    rmSync(tmp, { recursive: true, force: true });
+  }
+}
+
+async function loadSource(localPath) {
+  if (localPath) {
+    log(`Reading local file: ${localPath}`);
+    const source = readFileSync(localPath, 'utf-8');
+    validateSource(source, localPath);
+    log(`Loaded ${source.length} bytes`, 'ok');
+    return source;
+  }
+
+  try {
+    return await fetchFromRawUrl();
+  } catch (e) {
+    log(`Raw fetch failed: ${e.message}`, 'warn');
+    try {
+      return fetchFromGitClone();
+    } catch (cloneError) {
+      log(`Git fallback failed: ${cloneError.message}`, 'err');
+      log('Try running with --local <path> to use a checked-out Astro source file', 'info');
+      process.exit(1);
+    }
+  }
+}
+
 // ─── Astro Source Parser ─────────────────────────────────────────────────────
 
 /**
@@ -41,11 +116,12 @@ function backup(filePath) {
  * Handles: unquoted keys, single/double quotes, trailing commas, comments.
  */
 function extractJSObject(source, constName) {
-  // Find the const declaration
-  const pattern = new RegExp(`const\\s+${constName}\\s*=\\s*`, 'm');
+  // Find the declaration. Upstream has used plain const declarations so far,
+  // but this also tolerates export/let/var and TypeScript annotations.
+  const pattern = new RegExp(`(?:export\\s+)?(?:const|let|var)\\s+${constName}\\s*(?::\\s*[^=]+)?=\\s*`, 'm');
   const match = source.match(pattern);
   if (!match) {
-    log(`Could not find 'const ${constName}' in source`, 'warn');
+    log(`Could not find '${constName}' declaration in source`, 'warn');
     return null;
   }
 
@@ -171,25 +247,7 @@ async function main() {
   log('VPSKnow Astro → airports.json Sync', 'header');
 
   // 1. Fetch source
-  let source;
-  if (localPath) {
-    log(`Reading local file: ${localPath}`);
-    source = readFileSync(localPath, 'utf-8');
-  } else {
-    log(`Fetching: ${ASTRO_URL}`);
-    try {
-      const res = await fetch(ASTRO_URL, {
-        headers: { 'User-Agent': 'airport-sync-bot/1.0' }
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      source = await res.text();
-      log(`Fetched ${source.length} bytes`, 'ok');
-    } catch (e) {
-      log(`Fetch failed: ${e.message}`, 'err');
-      log('Try running with --local <path> to use a local file', 'info');
-      process.exit(1);
-    }
-  }
+  const source = await loadSource(localPath);
 
   // 2. Extract data blocks
   const airportCategoriesRaw = extractJSObject(source, 'airportCategories');

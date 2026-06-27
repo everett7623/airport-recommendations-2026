@@ -17,6 +17,9 @@ const JSON_PATH = join(ROOT, 'data', 'airports.json');
 
 const REQUIRED_FIELDS = ['name', 'url', 'lineType', 'pricing', 'tags'];
 const OPTIONAL_FIELDS = ['coupon', 'logoSvg', 'description', 'features', 'isNew', 'isEditorPick', 'isUnderMaintenance'];
+const EXPECTED_CATEGORY_KEYS = ['free_trial', 'budget', 'balanced', 'premium', 'payAsYouGo'];
+const FORBIDDEN_CATEGORY_KEYS = ['payg', 'no_aff'];
+const DEFUNCT_FIELDS = ['name', 'defunctDate', 'lineType', 'note', 'pricingWas'];
 
 let errors = 0;
 let warnings = 0;
@@ -24,6 +27,21 @@ let warnings = 0;
 function err(msg) { console.error(`  ❌ ${msg}`); errors++; }
 function warn(msg) { console.warn(`  ⚠️  ${msg}`); warnings++; }
 function ok(msg) { console.log(`  ✅ ${msg}`); }
+
+function isNonEmptyString(value) {
+  return typeof value === 'string' && value.trim().length > 0;
+}
+
+function validateAirportFields(a, scope) {
+  for (const field of ['name', 'url', 'lineType', 'pricing']) {
+    if (!isNonEmptyString(a[field])) {
+      err(`${scope}/${a.name || 'UNNAMED'}: missing or empty required field '${field}'`);
+    }
+  }
+  if (!Array.isArray(a.tags)) {
+    err(`${scope}/${a.name || 'UNNAMED'}: required field 'tags' must be an array`);
+  }
+}
 
 // Load
 let raw, data;
@@ -53,8 +71,23 @@ if (categoryKeys.length === 0) {
   ok(`${categoryKeys.length} categories: ${categoryKeys.join(', ')}`);
 }
 
+for (const key of EXPECTED_CATEGORY_KEYS) {
+  if (!data.categories?.[key]) err(`Missing expected category '${key}'`);
+}
+for (const key of FORBIDDEN_CATEGORY_KEYS) {
+  if (data.categories?.[key]) err(`Forbidden category '${key}' found; use ${key === 'payg' ? 'payAsYouGo' : 'top-level no_aff'} instead`);
+}
+
+if (!Array.isArray(data.no_aff)) {
+  err('Missing or invalid top-level no_aff array');
+}
+if (data.defunct && !Array.isArray(data.defunct)) {
+  err('Top-level defunct must be an array when present');
+}
+
 let totalAirports = 0;
 const categoryNames = new Set();
+const activeNames = new Set();
 
 for (const [key, cat] of Object.entries(data.categories || {})) {
   if (!cat.title) err(`Category '${key}' missing title`);
@@ -65,12 +98,7 @@ for (const [key, cat] of Object.entries(data.categories || {})) {
 
   for (const a of cat.airports) {
     totalAirports++;
-    // Required fields
-    for (const field of REQUIRED_FIELDS) {
-      if (!a[field] && a[field] !== '') {
-        err(`${key}/${a.name || 'UNNAMED'}: missing required field '${field}'`);
-      }
-    }
+    validateAirportFields(a, key);
     // Name uniqueness inside one category. The same provider may appear in
     // multiple categories when it offers different package types.
     const scopedName = `${key}/${a.name}`;
@@ -78,6 +106,7 @@ for (const [key, cat] of Object.entries(data.categories || {})) {
       warn(`Duplicate airport name in ${key}: '${a.name}'`);
     }
     categoryNames.add(scopedName);
+    if (a.name) activeNames.add(a.name);
     // URL check
     if (a.url && !a.url.startsWith('http')) {
       warn(`${a.name}: URL doesn't start with http: ${a.url}`);
@@ -92,21 +121,26 @@ if (data.no_aff) {
   for (const a of data.no_aff) {
     if (noAffNames.has(a.name)) warn(`Duplicate no_aff airport name: '${a.name}'`);
     noAffNames.add(a.name);
+    if (a.name) activeNames.add(a.name);
     totalAirports++;
-    for (const field of REQUIRED_FIELDS) {
-      if (!a[field] && a[field] !== '') {
-        err(`no_aff/${a.name || 'UNNAMED'}: missing required field '${field}'`);
-      }
-    }
+    validateAirportFields(a, 'no_aff');
   }
 }
 
 // Defunct
 if (data.defunct) {
   ok(`${data.defunct.length} defunct airports`);
+  const defunctNames = new Set();
   for (const d of data.defunct) {
-    if (!d.name) err('Defunct entry missing name');
-    if (!d.defunctDate) warn(`Defunct '${d.name}' missing defunctDate`);
+    for (const field of DEFUNCT_FIELDS) {
+      if (!d[field]) err(`defunct/${d.name || 'UNNAMED'}: missing required field '${field}'`);
+    }
+    if (defunctNames.has(d.name)) warn(`Duplicate defunct airport name: '${d.name}'`);
+    if (d.name) defunctNames.add(d.name);
+    if (d.name && activeNames.has(d.name)) err(`Defunct '${d.name}' is still present in active airport lists`);
+    if (d.defunctDate && !/^\d{4}-\d{2}(-\d{2})?$/.test(d.defunctDate)) {
+      warn(`Defunct '${d.name}' has non-standard defunctDate '${d.defunctDate}'`);
+    }
   }
 }
 

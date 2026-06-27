@@ -21,13 +21,28 @@ jobs:
       - name: Checkout this repo
         uses: actions/checkout@v4
 
+      - name: Check VPSKnow sync secrets
+        id: sync_secrets
+        env:
+          VPSKNOW_SOURCE_REPO: ${{ secrets.VPSKNOW_SOURCE_REPO }}
+          VPSKNOW_SYNC_TOKEN: ${{ secrets.VPSKNOW_SYNC_TOKEN }}
+        run: |
+          if [ -n "$VPSKNOW_SOURCE_REPO" ] && [ -n "$VPSKNOW_SYNC_TOKEN" ]; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "VPSKnow sync secrets are not configured; skipping private upstream sync."
+          fi
+
       - name: Checkout VPSKnow source
+        if: steps.sync_secrets.outputs.available == 'true'
         uses: actions/checkout@v4
         with:
-          repository: everett7623/VPS-Knowledge
-          ref: main
+          repository: ${{ secrets.VPSKNOW_SOURCE_REPO }}
+          ref: ${{ secrets.VPSKNOW_SOURCE_REF || 'main' }}
           path: _vpsknow
           fetch-depth: 1
+          token: ${{ secrets.VPSKNOW_SYNC_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -35,39 +50,46 @@ jobs:
           node-version: '20'
 
       - name: Validate VPSKnow Astro source
+        if: steps.sync_secrets.outputs.available == 'true'
+        env:
+          VPSKNOW_ASTRO_PATH: ${{ secrets.VPSKNOW_ASTRO_PATH || 'src/pages/airport-recommendations.astro' }}
         run: |
-          source_file="_vpsknow/src/pages/airport-recommendations.astro"
+          source_file="_vpsknow/$VPSKNOW_ASTRO_PATH"
           test -s "$source_file"
           grep -q "airportCategories" "$source_file"
           grep -q "airports:" "$source_file"
           echo "Using $source_file ($(wc -c < "$source_file") bytes)"
 
       - name: Run sync
+        if: steps.sync_secrets.outputs.available == 'true'
         id: sync
-        run: |
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            node scripts/sync-from-astro.js --local _vpsknow/src/pages/airport-recommendations.astro --dry-run
-          else
-            node scripts/sync-from-astro.js --local _vpsknow/src/pages/airport-recommendations.astro
-          fi
+        env:
+          VPSKNOW_ASTRO_PATH: ${{ secrets.VPSKNOW_ASTRO_PATH || 'src/pages/airport-recommendations.astro' }}
+        run: node scripts/sync-from-astro.js --local "_vpsknow/$VPSKNOW_ASTRO_PATH"
 
       - name: Validate JSON
+        if: steps.sync_secrets.outputs.available == 'true'
         run: node scripts/validate-json.js
 
-      - name: Generate READMEs
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+      - name: Generate derived docs
+        if: steps.sync_secrets.outputs.available == 'true'
         run: node scripts/generate-readme.js
 
+      - name: Preview dry-run diff
+        if: steps.sync_secrets.outputs.available == 'true' && github.event.inputs.dry_run == 'true'
+        run: git diff -- data/airports.json README.md README-SIMPLE.md docs/blacklist.md
+
       - name: Check for changes
+        if: steps.sync_secrets.outputs.available == 'true'
         id: git_diff
         run: |
           git diff --quiet || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push
-        if: steps.git_diff.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        if: steps.sync_secrets.outputs.available == 'true' && steps.git_diff.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/airports.json README.md README-SIMPLE.md docs/changelog.md
+          git add data/airports.json README.md README-SIMPLE.md docs/blacklist.md
           git commit -m "sync: auto-update from VPSKnow Astro source [skip ci]"
           git push

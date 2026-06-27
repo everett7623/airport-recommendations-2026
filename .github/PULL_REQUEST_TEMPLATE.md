@@ -10,10 +10,11 @@
 
 ## ✅ 检查清单
 
-- [ ] `data/airports.json` 已更新且 JSON 格式合法
-- [ ] `version` 字段已更新为最新日期
-- [ ] `README.md` 已同步
-- [ ] `README-SIMPLE.md` 已同步（如涉及核心推荐变更）
+- [ ] 机场数据来自 VPSKnow 同步源，或已说明本地修正原因
+- [ ] 已运行 `npm run validate`
+- [ ] 已运行 `npm run generate`
+- [ ] `README.md`、`README-SIMPLE.md`、`docs/blacklist.md` 已由脚本同步生成
+- [ ] 未手写维护机场数量、当前推荐名单、分类表格或当前下架名单
 - [ ] 标签使用了 `tags_vocabulary` 中的词汇（或已同步更新 vocabulary）
 
 ## 🔗 相关 Issue

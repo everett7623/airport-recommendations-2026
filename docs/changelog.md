@@ -13,7 +13,7 @@
 
 ### 优化
 - 📈 同步脚本新增 Astro 源码完整性校验，并在 raw 下载失败时自动回退到上游 Git 仓库浅克隆读取。
-- 📈 工作流改为 checkout `everett7623/VPS-Knowledge` 后读取 `src/pages/airport-recommendations.astro`，减少 raw.githubusercontent.com 网络波动影响。
+- 📈 工作流改为 checkout 配置的 VPSKnow 源后读取 Astro 数据文件，减少 raw.githubusercontent.com 网络波动影响。
 - 📈 JSON 校验器允许同一服务商因不同套餐跨分类出现，仅检查同一分类内重复名称。
 - 🔄 同步 VPSKnow `2026-06-20` 数据，README.md / README-SIMPLE.md 已重新生成。
 
@@ -27,7 +27,7 @@
 - ✅ 新增 `scripts/generate-readme.js`：从 airports.json 自动生成 README.md + README-SIMPLE.md
 - ✅ 新增 `scripts/validate-json.js`：校验 JSON 数据结构完整性
 - ✅ 新增 `.github/workflows/sync.yml`：每周一自动同步 VPSKnow 数据
-- ✅ 新增 `defunct` 失联机场记录：飞猫云、OneStep、TNTCloud
+- ✅ 新增 `defunct` 失联机场记录：飞猫云、OneStep；TNTCloud 为当期风险排查记录，当前下架名单以 `data.defunct` 与 `docs/blacklist.md` 为准
 
 ### 更新
 - 🔄 README.md / README-SIMPLE.md 改为自动生成（从 airports.json）
@@ -215,12 +215,10 @@
 
 如有任何建议或发现错误，欢迎通过以下方式反馈：
 
-- **GitHub Issues：** [提交Issue](https://github.com/YOUR_USERNAME/airport-recommendations-2026/issues)
+- **GitHub Issues：** [提交Issue](https://github.com/everett7623/airport-recommendations-2026/issues)
 - **Email：** feedback@vpsknow.com
 - **网站：** [VPSKnow官网](https://www.vpsknow.com)
 
 ---
 
-**更新频率：** 每月至少更新1次，重大变动随时更新
-
-**最后更新：** 2026-01-29
+**更新频率：** 机场数据每周自动同步 VPSKnow；重大变动随时更新，人工评测内容按需维护。

@@ -18,9 +18,10 @@ const ROOT = join(__dirname, '..');
 const JSON_PATH = join(ROOT, 'data', 'airports.json');
 const BACKUP_DIR = join(ROOT, 'data', 'backups');
 
-const ASTRO_URL = 'https://raw.githubusercontent.com/everett7623/VPS-Knowledge/main/src/pages/airport-recommendations.astro';
-const UPSTREAM_REPO = 'https://github.com/everett7623/VPS-Knowledge.git';
-const UPSTREAM_ASTRO_PATH = 'src/pages/airport-recommendations.astro';
+const ASTRO_URL = process.env.VPSKNOW_ASTRO_URL || '';
+const UPSTREAM_REPO = process.env.VPSKNOW_SOURCE_REPO || '';
+const UPSTREAM_REF = process.env.VPSKNOW_SOURCE_REF || 'main';
+const UPSTREAM_ASTRO_PATH = process.env.VPSKNOW_ASTRO_PATH || 'src/pages/airport-recommendations.astro';
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -52,7 +53,8 @@ function validateSource(source, sourceLabel) {
 }
 
 async function fetchFromRawUrl() {
-  log(`Fetching: ${ASTRO_URL}`);
+  if (!ASTRO_URL) throw new Error('VPSKNOW_ASTRO_URL is not configured');
+  log(`Fetching configured VPSKnow Astro URL`);
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 30000);
 
@@ -63,7 +65,7 @@ async function fetchFromRawUrl() {
     });
     const source = await res.text();
     if (!res.ok) throw new Error(`HTTP ${res.status}: ${source.slice(0, 120).trim()}`);
-    validateSource(source, ASTRO_URL);
+    validateSource(source, 'configured VPSKnow Astro URL');
     log(`Fetched ${source.length} bytes`, 'ok');
     return source;
   } finally {
@@ -72,13 +74,14 @@ async function fetchFromRawUrl() {
 }
 
 function fetchFromGitClone() {
+  if (!UPSTREAM_REPO) throw new Error('VPSKNOW_SOURCE_REPO is not configured');
   const tmp = mkdtempSync(join(tmpdir(), 'vpsknow-airport-sync-'));
   try {
-    log(`Raw fetch unavailable; cloning upstream repo: ${UPSTREAM_REPO}`, 'warn');
-    execFileSync('git', ['clone', '--depth', '1', UPSTREAM_REPO, tmp], { stdio: 'pipe' });
+    log(`Raw fetch unavailable; cloning configured VPSKnow source repo`, 'warn');
+    execFileSync('git', ['clone', '--depth', '1', '--branch', UPSTREAM_REF, UPSTREAM_REPO, tmp], { stdio: 'pipe' });
     const sourcePath = join(tmp, UPSTREAM_ASTRO_PATH);
     const source = readFileSync(sourcePath, 'utf-8');
-    validateSource(source, `${UPSTREAM_REPO}/${UPSTREAM_ASTRO_PATH}`);
+    validateSource(source, 'configured VPSKnow source repo');
     log(`Loaded ${source.length} bytes from upstream git clone`, 'ok');
     return source;
   } finally {
@@ -301,18 +304,8 @@ async function main() {
     log(`  ${meta.icon} ${meta.title}: ${airports.length} airports`);
   }
 
-  // Map no_aff
-  const noAffAirports = (astroNoAff || []).map(a => ({
-    name: a.name ?? '',
-    url: a.url ?? '',
-    coupon: a.coupon ?? '',
-    logoSvg: a.logoSvg ?? '',
-    description: (a.description || '').replace(/\s+/g, ' ').trim(),
-    features: a.features || [],
-    lineType: a.lineType ?? '',
-    pricing: a.pricing ?? '',
-    tags: a.tags || [],
-  }));
+  // Map no_aff with the same schema as category airports so optional flags stay in sync.
+  const noAffAirports = (astroNoAff || []).map(a => mapAirport(a));
 
   log(`  🔗 无AFF/纯净推荐: ${noAffAirports.length} airports`);
   totalAirports += noAffAirports.length;
@@ -387,7 +380,7 @@ async function main() {
     // Write with header comment
     const header = [
       `// 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)`,
-      `// 来源: VPS-Knowledge/src/pages/airport-recommendations.astro`,
+      `// 来源: configured VPSKnow Astro source`,
       `// 更新时间: ${version}`,
       `// 自动同步脚本: scripts/sync-from-astro.js`,
       `// ─────────────────────────────────────────────────────────────────────────────`,

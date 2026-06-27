@@ -1,7 +1,7 @@
 {
   "name": "airport-recommendations-sync",
   "version": "1.0.0",
-  "description": "Sync tool: scrape VPSKnow → airports.json → generate READMEs",
+  "description": "Sync tool: VPSKnow Astro → airports.json → generated docs",
   "private": true,
   "type": "module",
   "scripts": {

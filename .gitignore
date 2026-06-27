@@ -1,2 +1,17 @@
 node_modules/
 data/backups/
+
+# Local/private sync artifacts
+_vpsknow/
+.claude/
+
+# Secrets and local environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*secret*
+*token*
+*credential*

@@ -7,7 +7,7 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 ![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)
 
-> **📌 本项目定位：** 机场推荐索引与筛选工具 | 覆盖免费试用、入门经济、性价比、高端专线、按量计费等全类型 | 支持关键词搜索与标签筛选 | 每月更新
+> **📌 本项目定位：** 机场推荐索引与筛选工具 | 覆盖免费试用、入门经济、性价比、高端专线、按量计费等全类型 | 支持关键词搜索与标签筛选 | 每周自动同步 VPSKnow 数据
 > 如果这个项目对你有帮助，请点个 Star ⭐ 支持一下！
 >
 > 💡 **更全的图文评测、实时测速数据与优惠活动请访问：** [VPSKnow.com/airport-recommendations](https://www.vpsknow.com/airport-recommendations)
@@ -20,20 +20,20 @@
 
 ## 📋 目录导航
 
-- [🎁 免费试用专区](#-免费试用专区)
-- [💸 入门经济型](#-入门经济型)
-- [⚖️ 性价比均衡机场](#-性价比均衡)
-- [👑 高端专线机场](#-高端专线机场)
-- [💰 按量计费机场](#-按量计费机场)
-- [🔗 无AFF / 纯净推荐](#-无aff--纯净推荐)
+- [🎁 免费试用专区](#category-free-trial)
+- [💸 入门经济型](#category-budget)
+- [⚖️ 性价比均衡机场](#category-balanced)
+- [👑 高端专线机场](#category-premium)
+- [💰 按量计费机场](#category-pay-as-you-go)
+- [🔗 无AFF / 纯净推荐](#category-no-aff)
 - [📊 完整服务商索引](#-完整服务商索引)
 - [📚 使用教程](#-使用教程)
 - [❓ 常见问题](#-常见问题)
-- [⚠️ 免责声明](#️-免责声明)
+- [⚠️ 免责声明](#disclaimer)
 
 ---
 
-> ⚠️ **风险提示：** 机场行业存在停服/跑路风险，建议**优先月付**，避免大额年付。同时备用 2–3 个机场互为容灾。详见 [免责声明](#️-免责声明) 与 [风险控制指南](docs/blacklist.md)。
+> ⚠️ **风险提示：** 机场行业存在停服/跑路风险，建议**优先月付**，避免大额年付。同时备用 2–3 个机场互为容灾。详见 [免责声明](#disclaimer) 与 [风险控制指南](docs/blacklist.md)。
 
 ---
 
@@ -51,17 +51,19 @@
 
 **根据你的需求，3秒找到最适合的机场：**
 
-| 使用场景 | 推荐类型 | 价格区间 | 代表机场 | 直达链接 |
+| 使用场景 | 推荐类型 | 参考价格 | 代表机场 | 直达链接 |
 |---------|---------|---------|---------|---------|
-| 🆓 先测试后购买 | 免费试用 | 免费 | 网际快车、喵喵VPN | [查看详情](#-免费试用专区) |
-| 💰 预算有限（学生党） | 入门经济 | ¥3.99/月起 | SKYLUMO、山水云、EdgeNova | [查看详情](#-入门经济型) |
-| ⚡ 日常使用（看剧、办公） | 性价比均衡 | ¥12.5/月起 | Fastlink、光速云、Sogo云 | [查看详情](#️-性价比均衡) |
-| 👔 商务办公（高稳定） | 高端专线 | ¥50+/月 | Nexitally、TAG | [查看详情](#-高端专线) |
-| 🎮 游戏加速（低延迟） | 高端专线 | ¥109+/月 | MESL | [查看详情](#-高端专线) |
-| 📦 轻度使用（备用） | 按量计费 | 按需 | Gatern、SKYLUMO | [查看详情](#-按量计费) |
-| 🔗 纯净推荐（无返利） | 无AFF/纯净 | ¥3.99/月起 | AmyTelecom、Kuromis | [查看详情](#-无aff--纯净推荐) |
+| 🆓 先测试后购买 | 免费试用 | 免费 | 网际快车、喵喵VPN | [查看详情](#category-free-trial) |
+| 💰 预算有限（学生党） | 入门经济 | ¥3.99/月起 | SKYLUMO、山水云、EdgeNova | [查看详情](#category-budget) |
+| ⚡ 日常使用（看剧、办公） | 性价比均衡 | ¥20/月起 | Fastlink、光速云、Sogo云 | [查看详情](#category-balanced) |
+| 👔 商务办公（高稳定） | 高端专线 | ¥117/月起 | Nexitally、TAG | [查看详情](#category-premium) |
+| 🎮 游戏加速（低延迟） | 高端专线 | ¥50/月起 | MESL | [查看详情](#category-premium) |
+| 📦 轻度使用（备用） | 按量计费 | 按量付费 | Gatern、SKYLUMO | [查看详情](#category-pay-as-you-go) |
+| 🔗 纯净推荐（无返利） | 无AFF/纯净 | ¥273/年起 | AmyTelecom、Kuromis | [查看详情](#category-no-aff) |
 
 ---
+
+<a id="category-free-trial"></a>
 
 ## 🎁 免费试用专区
 
@@ -121,6 +123,8 @@
 
 ---
 
+<a id="category-budget"></a>
+
 ## 💸 入门经济型
 
 **价格友好，适合预算有限的新手与学生党，满足日常上网等需求**
@@ -140,7 +144,7 @@
 
 **核心标签：** `入门` `低价` `基础使用`
 
-> 💡 SKYLUMO 同时提供 [按量计费不限时流量包](#-按量计费)，适合作为备用机场。
+> 💡 SKYLUMO 同时提供 [按量计费不限时流量包](#category-pay-as-you-go)，适合作为备用机场。
 
 ---
 
@@ -247,6 +251,8 @@
 > 🔗 **更多入门经济型机场评测 →** [VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)
 
 ---
+
+<a id="category-balanced"></a>
 
 ## ⚖️ 性价比均衡机场
 
@@ -473,6 +479,8 @@
 
 ---
 
+<a id="category-premium"></a>
+
 ## 👑 高端专线机场
 
 **追求极致稳定、低延迟与速度，适合商务办公、游戏加速及专业用户**
@@ -577,6 +585,8 @@
 
 ---
 
+<a id="category-pay-as-you-go"></a>
+
 ## 💰 按量计费机场
 
 **用多少付多少，无过期时间，适合作为主力备份或轻度使用**
@@ -633,6 +643,8 @@
 > 🔗 **更多按量计费机场评测 →** [VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)
 
 ---
+
+<a id="category-no-aff"></a>
 
 ## 🔗 无AFF / 纯净推荐
 
@@ -787,6 +799,8 @@
 > 🔗 **详细图文教程与客户端配置指南 →** [VPSKnow 教程中心](https://www.vpsknow.com/guides)
 
 ---
+
+<a id="disclaimer"></a>
 
 ## ⚠️ 免责声明
 

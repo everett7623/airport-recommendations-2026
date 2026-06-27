@@ -25,31 +25,30 @@
 
 ## 🔧 Pull Request 规范
 
-### 数据文件修改
-核心数据位于 `data/airports.json`，修改时请注意：
+### 机场数据修改
+机场清单、数量、分类、无 AFF 备选和下架状态以 `data/airports.json` 为准；该文件通常由 VPSKnow 上游 Astro 源同步生成。
 
-1. **JSON 格式必须合法** — 提交前用 [JSONLint](https://jsonlint.com/) 验证
-2. **字段完整性** — 每个机场必须包含以下字段：
-   ```json
-   {
-     "name": "机场名称",
-     "url": "官网链接（优先 s.y8o.de 短链）",
-     "coupon": "优惠码（无则设为空字符串 \"\"）",
-     "logoSvg": "data:image/svg+xml;... (可选）",
-     "description": "简短描述（1-2句）",
-     "features": ["特色1", "特色2"],
-     "lineType": "线路类型",
-     "pricing": "价格区间",
-     "tags": ["标签1", "标签2"]
-   }
+1. **优先同步 VPSKnow 数据源** — 从上游同步时运行：
+   ```bash
+   npm run sync:full
    ```
-3. **同时更新 version 字段** — 格式 `YYYY-MM-DD`
-4. **标签词汇** — 优先使用 `tags_vocabulary` 中已有的标签，新标签需同时更新 vocabulary
+2. **本地派生文档由脚本生成** — 不要手写 README 或 blacklist 中的机场数量、当前名单、分类表格、下架列表：
+   ```bash
+   npm run generate
+   ```
+3. **提交前必须校验**：
+   ```bash
+   npm run validate
+   ```
+4. **字段结构** — 活跃机场必须包含 `name`、`url`、`lineType`、`pricing`、`tags`，常用可选字段包括 `coupon`、`logoSvg`、`description`、`features`、`isNew`、`isEditorPick`、`isUnderMaintenance`。
+5. **分类结构** — 当前标准分类为 `free_trial`、`budget`、`balanced`、`premium`、`payAsYouGo`；`no_aff` 和 `defunct` 是顶层数组，不属于 `categories`。
+6. **标签词汇** — 优先使用 `tags_vocabulary` 中已有的标签，新标签需同时更新 vocabulary。
 
-### README 同步
-修改 `airports.json` 后，请同步更新：
-- `README.md` — 全量版本
-- `README-SIMPLE.md` — 精华版本（仅收录核心推荐）
+### 派生文档同步
+`README.md`、`README-SIMPLE.md`、`docs/blacklist.md` 均由 `data/airports.json` 生成。涉及机场清单或上下架的 PR 应确认这些文件由 `npm run generate` 刷新，而不是手动维护。
+
+### 私有上游同步安全
+公开仓库只保存同步后的结构化推荐数据，不提交 VPSKnow 私有源码、checkout 目录、token 或本地 Claude 配置。自动同步私有上游时，只能通过仓库 Secrets 配置：`VPSKNOW_SOURCE_REPO`、`VPSKNOW_SYNC_TOKEN`，可选 `VPSKNOW_SOURCE_REF`、`VPSKNOW_ASTRO_PATH`。fork 仓库默认没有这些 Secrets，workflow 会安全跳过私有上游同步。
 
 ### Commit 规范
 - 新增机场：`feat: 新增 [机场名]`

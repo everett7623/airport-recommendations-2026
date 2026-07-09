@@ -11,7 +11,7 @@
 > 如果这个项目对你有帮助，请点个 Star ⭐ 支持一下！
 >
 > 💡 **更全的图文评测、实时测速数据与优惠活动请访问：**
-> [VPSKnow.com/airport-recommendations](https://www.vpsknow.com/airport-recommendations)
+> [VPSKnow.com/airport-recommendations](https://www.vpsknow.com/airport-recommendations) 
 > TG交流群：[https://t.me/vpsknow](https://t.me/vpsknow)
 
 ![OG Preview](public/og-image.svg)

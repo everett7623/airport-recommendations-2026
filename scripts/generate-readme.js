@@ -54,6 +54,7 @@ function getAllAirports(data) {
   return [
     ...Object.values(data.categories || {}).flatMap(c => c.airports || []),
     ...(data.no_aff || []),
+    ...(data.directory_only || []),
   ];
 }
 
@@ -149,7 +150,7 @@ function generateFullReadme(data) {
   lines.push(`- ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。`);
   if (defunctAirports.length) {
     const defunctNames = defunctAirports.map(d => d.name).join('、');
-    lines.push(`- ✅ **清理：** 已确认失联机场：${defunctNames}。`);
+    lines.push(`- ✅ **清理：** 已下架服务商：${defunctNames}。`);
   }
   lines.push('');
   lines.push('👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）');
@@ -293,6 +294,7 @@ function generateFullReadme(data) {
   const indexAirports = [
     ...Object.values(cats).flatMap(c => c.airports),
     ...(data.no_aff || []),
+    ...(data.directory_only || []),
   ];
 
   for (const a of indexAirports) {
@@ -652,6 +654,12 @@ function generateBlacklist(data) {
 function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
+  const check = args.includes('--check');
+
+  if (dryRun && check) {
+    log('Use either --dry-run or --check, not both.', 'err');
+    process.exit(1);
+  }
 
   log('Derived Docs Generator', 'header');
 
@@ -667,6 +675,27 @@ function main() {
   const fullReadme = generateFullReadme(data);
   const simpleReadme = generateSimpleReadme(data);
   const blacklist = generateBlacklist(data);
+
+  const outputs = [
+    [join(ROOT, 'README.md'), fullReadme],
+    [join(ROOT, 'README-SIMPLE.md'), simpleReadme],
+    [join(ROOT, 'docs', 'blacklist.md'), blacklist],
+  ];
+
+  if (check) {
+    const stale = outputs
+      .filter(([path, content]) => !existsSync(path) || readFileSync(path, 'utf-8') !== content)
+      .map(([path]) => path.slice(ROOT.length + 1));
+
+    if (stale.length) {
+      for (const path of stale) log(`${path} is out of date`, 'err');
+      log('Run npm run generate and commit the regenerated files.', 'info');
+      process.exit(1);
+    }
+
+    log('Generated documentation is up to date', 'ok');
+    return;
+  }
 
   if (dryRun) {
     log('DRY RUN — would write:', 'header');

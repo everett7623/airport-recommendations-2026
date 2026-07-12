@@ -41,7 +41,7 @@
    npm run validate
    ```
 4. **字段结构** — 活跃机场必须包含 `name`、`url`、`lineType`、`pricing`、`tags`，常用可选字段包括 `coupon`、`logoSvg`、`description`、`features`、`isNew`、`isEditorPick`、`isUnderMaintenance`。
-5. **分类结构** — 当前标准分类为 `free_trial`、`budget`、`balanced`、`premium`、`payAsYouGo`；`no_aff` 和 `defunct` 是顶层数组，不属于 `categories`。
+5. **分类结构** — 当前标准分类为 `free_trial`、`budget`、`balanced`、`premium`、`payAsYouGo`；`no_aff`、`directory_only` 和 `defunct` 是顶层数组，不属于 `categories`。`directory_only` 仅用于仍保留在完整总榜、但不再作为分类重点推荐的服务商。
 6. **标签词汇** — 优先使用 `tags_vocabulary` 中已有的标签，新标签需同时更新 vocabulary。
 
 ### 派生文档同步

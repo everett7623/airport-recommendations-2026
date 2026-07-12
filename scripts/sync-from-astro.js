@@ -343,6 +343,14 @@ async function main() {
     }
   }
 
+  // The current Astro category source does not expose providers that only
+  // remain in the complete directory. Preserve this reviewed local state.
+  const directoryOnly = Array.isArray(existing?.directory_only) ? existing.directory_only : [];
+  for (const a of directoryOnly) {
+    if (a.lineType) allLineTypes.add(a.lineType);
+    (a.tags || []).forEach(t => allTags.add(t));
+  }
+
   // 8. Build output
   const output = {
     version,
@@ -354,6 +362,7 @@ async function main() {
     },
     categories,
     no_aff: noAffAirports,
+    ...(directoryOnly.length > 0 && { directory_only: directoryOnly }),
     ...(astroDefunct.length > 0 && {
       defunct: astroDefunct.map(d => ({
         name: d.name || '',

@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-06-20
+// 更新时间: 2026-07-12
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-06-20",
+  "version": "2026-07-12",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -149,7 +149,7 @@
         {
           "name": "喵喵VPN",
           "url": "https://s.y8o.de/vpnmiao",
-          "coupon": "优惠券: VPSknow",
+          "coupon": "优惠券: vpsknow",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f59e0b'/%3e%3ctext x='50' y='65' font-size='40' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e喵%3c/text%3e%3c/svg%3e",
           "description": "喵喵VPN, 全线深度调优 Hysteria2 协议，解锁极致观影体验。高速直连，晚高峰依然丝滑。注册即可享受美国节点 72 小时免费试用！另有私有 EMBY 影音库福利。",
           "features": [
@@ -167,19 +167,19 @@
           ]
         },
         {
-          "name": "Runway",
+          "name": "拼好连",
           "url": "https://s.y8o.de/runway",
           "coupon": "",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eR%3c/text%3e%3c/svg%3e",
-          "description": "Runway，可直接体验其BGP专线节点表现，适合先验证延迟与稳定性。 提供注册试用流量（1天/6GB）",
+          "description": "拼好连已完成首轮测评，套餐从 ¥9.90/月起，提供多地区 VLESS、UDP 与 XUDP 节点；部分节点仍需复查，建议先用试用或月付验证。",
           "features": [
-            "注册即用",
+            "首轮测评已补",
             "试用1天6GB",
-            "BGP专线",
-            "适合先测再买"
+            "AI/流媒体首轮可用",
+            "部分节点需复查"
           ],
-          "lineType": "BGP专线",
-          "pricing": "免费试用，¥9.9/月起",
+          "lineType": "BGP/IEPL专线",
+          "pricing": "免费试用，¥9.90/月起",
           "tags": [
             "白嫖",
             "试用",
@@ -216,7 +216,7 @@
         {
           "name": "山水云",
           "url": "https://s.y8o.de/shanshuiyun",
-          "coupon": "",
+          "coupon": "优惠券: 2026888（8折）",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2310b981'/%3e%3ctext x='50' y='60' font-size='32' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e山水%3c/text%3e%3c/svg%3e",
           "description": "山水云，提供丰富的中转与直连节点，协议支持 VLESS+AnyTLS。套餐配置极为灵活，不仅有 ¥14.99/月的常规套餐，还提供极具性价比的 ¥88/年 轻量套餐（64GB/月）以及不限时一次性流量包。全线路完美解锁 Netflix、ChatGPT、TikTok，涵盖全球众多冷门国家节点。",
           "features": [
@@ -316,7 +316,7 @@
         {
           "name": "秒秒云",
           "url": "https://s.y8o.de/miaomiaoyun",
-          "coupon": "",
+          "coupon": "优惠券: j4u5eVFw（8折）",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2306b6d4'/%3e%3ctext x='50' y='65' font-size='42' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e秒%3c/text%3e%3c/svg%3e",
           "description": "秒秒云，一家宝藏高性价比机场，全线采用海外中转高速节点，搭配 anytls 新型协议以保障极高的连接稳定性。经实测晚高峰也能轻松拉满速度。套餐选择极其丰富，提供低至 ¥79/年的轻量套餐以及不限时一次性流量包，全节点完美解锁 Netflix、ChatGPT 等全球流媒体与 AI 工具。",
           "features": [
@@ -380,26 +380,6 @@
             "高性价比",
             "流媒体",
             "大流量"
-          ]
-        },
-        {
-          "name": "Sogo云",
-          "url": "https://s.y8o.de/sogoyun",
-          "coupon": "SOGO28",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2314b8a6'/%3e%3ctext x='50' y='65' font-size='42' font-weight='900' text-anchor='middle' fill='white' font-family='Arial Black, Arial, sans-serif' letter-spacing='-1'>SG</text>%3c/svg%3e",
-          "description": "Sogo云，稳定高效省心。采用 VLESS 协议与企业级 IEPL 专线，三网优化智能负载。晚高峰不限速，4K 视频秒开。全线路完美解锁 Netflix、Disney+ 等流媒体及 ChatGPT、TikTok，支持多端全兼容。",
-          "features": [
-            "VLESS+IEPL专线",
-            "晚高峰4K秒开",
-            "全线流媒体解锁",
-            "支持企业级定制"
-          ],
-          "lineType": "IEPL专线",
-          "pricing": "¥15.9/月起",
-          "tags": [
-            "专线稳定",
-            "流媒体解锁",
-            "全平台支持"
           ]
         },
         {
@@ -485,7 +465,7 @@
         {
           "name": "一翻云",
           "url": "https://s.y8o.de/1flyun",
-          "coupon": "优惠码: 1FLYYUN（8折）",
+          "coupon": "优惠码: 1FLYYUN（9折）",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f97316'/%3e%3cpath d='M30 70 L50 25 L70 70' fill='none' stroke='white' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M22 70 L78 70' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
           "description": "一翻云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点 x1 倍率，晚高峰不限速。流媒体稳定解锁，年付版 ¥100/年，性价比突出。",
           "features": [
@@ -708,26 +688,6 @@
             "备用方案",
             "团队"
           ]
-        },
-        {
-          "name": "FlowerCloud",
-          "url": "https://s.y8o.de/flowercloud",
-          "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2310b981'/%3e%3cpath d='M50 30 Q65 10, 80 30 T 90 60 Q80 80, 50 80 Q20 80, 10 60 Q10 30, 50 30' fill='none' stroke='white' stroke-width='6'/%3e%3c/svg%3e",
-          "description": "FlowerCloud（花云），老牌机场，线路质量极其稳定，适合对协议安全性和连接稳定性要求高的用户。",
-          "features": [
-            "Trojan协议",
-            "多地区节点",
-            "稳定线路",
-            "流媒体解锁"
-          ],
-          "lineType": "BGP/IEPL专线",
-          "pricing": "¥39/月起",
-          "tags": [
-            "老牌",
-            "Trojan",
-            "口碑好"
-          ]
         }
       ]
     },
@@ -871,7 +831,36 @@
       ]
     }
   ],
+  "directory_only": [
+    {
+      "name": "FlowerCloud",
+      "url": "https://s.y8o.de/flowercloud",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2310b981'/%3e%3cpath d='M50 30 Q65 10, 80 30 T 90 60 Q80 80, 50 80 Q20 80, 10 60 Q10 30, 50 30' fill='none' stroke='white' stroke-width='6'/%3e%3c/svg%3e",
+      "description": "FlowerCloud（花云）已从高端专线重点分类移出，仍保留在完整总榜供用户自行比较。",
+      "features": [
+        "Trojan协议",
+        "多地区节点",
+        "稳定线路",
+        "流媒体解锁"
+      ],
+      "lineType": "BGP/IEPL专线",
+      "pricing": "¥39/月起",
+      "tags": [
+        "老牌",
+        "Trojan",
+        "口碑好"
+      ]
+    }
+  ],
   "defunct": [
+    {
+      "name": "Sogo云",
+      "defunctDate": "2026-07-12",
+      "lineType": "IEPL专线",
+      "note": "运营方已表示不再继续运营，后续服务与维护缺乏保障，现从推荐清单及购买入口中全面移除。",
+      "pricingWas": "¥15.9/月起"
+    },
     {
       "name": "飞猫云 (FlyingCat)",
       "defunctDate": "2026-04-17",

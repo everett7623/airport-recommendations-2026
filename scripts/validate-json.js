@@ -81,6 +81,9 @@ for (const key of FORBIDDEN_CATEGORY_KEYS) {
 if (!Array.isArray(data.no_aff)) {
   err('Missing or invalid top-level no_aff array');
 }
+if (data.directory_only && !Array.isArray(data.directory_only)) {
+  err('Top-level directory_only must be an array when present');
+}
 if (data.defunct && !Array.isArray(data.defunct)) {
   err('Top-level defunct must be an array when present');
 }
@@ -124,6 +127,17 @@ if (data.no_aff) {
     if (a.name) activeNames.add(a.name);
     totalAirports++;
     validateAirportFields(a, 'no_aff');
+  }
+}
+
+// Providers retained in the complete index but not promoted in a category.
+if (data.directory_only) {
+  ok(`${data.directory_only.length} directory-only airports`);
+  for (const a of data.directory_only) {
+    totalAirports++;
+    validateAirportFields(a, 'directory_only');
+    if (a.name && activeNames.has(a.name)) err(`directory_only/${a.name}: also present in a promoted category or no_aff`);
+    if (a.name) activeNames.add(a.name);
   }
 }
 

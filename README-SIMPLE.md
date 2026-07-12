@@ -2,15 +2,15 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-36%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-35%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 
 > **⚠️ 前言：** 本项目为科研、外贸、开发人员提供网络加速服务推荐。请遵守当地法律法规。**机场有跑路风险，建议优先月付。**
 >
-> 📖 **完整版（36 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
+> 📖 **完整版（35 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-06-20 已同步 VPSKnow，当前收录 36 个推荐条目。
-> ⛔ **下架记录：** 飞猫云 (FlyingCat)、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
+> 🔄 **数据同步：** 2026-07-12 已同步 VPSKnow，当前收录 35 个推荐条目。
+> ⛔ **下架记录：** Sogo云、飞猫云 (FlyingCat)、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
 
@@ -20,7 +20,7 @@
 |---------|---------|---------|---------|---------|
 | 🆓 先测试后购买 | 免费试用 | 免费 | 网际快车 | 喵喵VPN |
 | 💰 预算有限（学生党） | 入门经济 | ¥3.99/月起 | SKYLUMO | 山水云 |
-| ⚡ 日常主力（看剧办公） | 性价比均衡 | ¥20/月起 | Fastlink / 光速云 | Sogo云 |
+| ⚡ 日常主力（看剧办公） | 性价比均衡 | ¥20/月起 | Fastlink / 光速云 | 星岛梦 |
 | 👔 商务办公（高稳定） | 高端专线 | ¥117/月起 | Nexitally / TAG | MESL |
 | 🎮 游戏加速（低延迟） | 高端专线 | ¥50/月起 | MESL | Nexitally |
 | 📦 轻度使用（备用） | 按量计费 | 按量付费 | Gatern | SKYLUMO |
@@ -33,8 +33,8 @@
 | --- | --- | --- | --- | --- |
 | **Fastlink** | BGP/IPLC专线 | ¥20/月起 | 运营多年的老牌机场，采用 BGP、IPLC 混合架构，节点覆盖广、稳定性高，适合... | [官网](https://s.y8o.de/fastlink) |
 | **光速云** | IPLC专线 | ¥17/月起 | 光速云, 主打极高性价比的隧道中转与 IPLC 专线机场。拥有 60+ 独立 I... | [官网](https://s.y8o.de/lightspeed) |
-| **Sogo云** | IEPL专线 | ¥15.9/月起 | Sogo云，稳定高效省心。采用 VLESS 协议与企业级 IEPL 专线，三网优... | [官网](https://s.y8o.de/sogoyun) |
 | **星岛梦** | IEPL专线 | ¥12.8/月起 | 星岛梦，高品质IEPL专线机场。全节点不限速、无倍率、不限设备数，稳定解锁流媒体... | [官网](https://s.y8o.de/stardream) |
+| **全球云** | IPLC/IEPL专线 | ¥20/月起（年付¥99起） | 全球云，采用企业级 IPLC/IEPL 专线，结合智能负载均衡与三网入口优化，2... | [官网](https://s.y8o.de/globalyun) |
 | **Nexitally** | 高端专线 | ¥117/月起 | Nexitally（奶昔），2017 年成立的老牌佩奇机场，自研面板，唯云专线，... | [官网](https://s.y8o.de/naiixi) |
 | **TAG** | IEPL专线 | ¥109/月起 | 以节点覆盖广著称，延迟低丢包少，拥有大量冷门地区节点，适合有全球业务需求的用户。... | [官网](https://s.y8o.de/tag) |
 | **MESL** | IEPL专线 | ¥50/月起 | MESL，极其低调的顶级机场，不依赖TG宣传。拥有极高的带宽接入能力，主要服务于... | [官网](https://s.y8o.de/mesl) |
@@ -48,7 +48,7 @@
 |---------|---------|---------|-------|---------|-------|------|
 | **网际快车** | 中转专线 | 免费试用，¥6.8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/wjkc) |
 | **喵喵VPN** | 优质直连 | 免费试用，¥8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/vpnmiao) |
-| **Runway** | BGP专线 | 免费试用，¥9.9/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/runway) |
+| **拼好连** | BGP/IEPL专线 | 免费试用，¥9.90/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/runway) |
 | **SKYLUMO** | 公网中转 | ¥3.99/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/skylumo) |
 | **山水云** | 隧道中转 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/shanshuiyun) |
 | **EdgeNova** | IEPL专线 | 年付¥86起（用码） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/edgenova) |
@@ -58,7 +58,6 @@
 | **秒秒云** | 隧道中转 | ¥14/月起（年付¥79起） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/miaomiaoyun) |
 | **Fastlink** | BGP/IPLC专线 | ¥20/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/fastlink) |
 | **光速云** | IPLC专线 | ¥17/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/lightspeed) |
-| **Sogo云** | IEPL专线 | ¥15.9/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/sogoyun) |
 | **星岛梦** | IEPL专线 | ¥12.8/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/stardream) |
 | **全球云** | IPLC/IEPL专线 | ¥20/月起（年付¥99起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/globalyun) |
 | **二猫云** | IEPL/IPLC专线 | ¥89/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/2maoyun) |
@@ -74,7 +73,6 @@
 | **MESL** | IEPL专线 | ¥50/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/mesl) |
 | **ImmTelecom** | IEPL/IPLC专线 | ¥72.45/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/immtele) |
 | **YToo** | 多线国际加速 | ¥98/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/ytoo) |
-| **FlowerCloud** | BGP/IEPL专线 | ¥39/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/flowercloud) |
 | **Gatern** | 混合线路 | 按量付费 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/Gatern) |
 | **SKYLUMO** | 公网中转 | ¥9.90起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/skylumo) |
 | **魔戒** | 公网中转 | 按GB计费 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/mojie) |
@@ -82,6 +80,7 @@
 | **Kuromis** | IEPL专线 | ¥34/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://s.y8o.de/kuromis) |
 | **WgetCloud** | BGP专线 | ¥79/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://s.y8o.de/wgetcloud) |
 | **新华云** | 隧道中转 | ¥3.99/月起 | ✅ | ✅ | ⭐⭐⭐⭐⭐ | [进入](https://s.y8o.de/newhua99) |
+| **FlowerCloud** | BGP/IEPL专线 | ¥39/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/flowercloud) |
 
 
 ---
@@ -104,7 +103,7 @@
 
 <p align="center">
   ⭐ 如果对你有帮助，请点亮 Star！<br>
-  📖 <a href="README.md">查看完整版（36机场详细评测）</a> | 🌐 <a href="https://www.vpsknow.com/airport-recommendations">VPSKnow 实时榜单</a>
+  📖 <a href="README.md">查看完整版（35机场详细评测）</a> | 🌐 <a href="https://www.vpsknow.com/airport-recommendations">VPSKnow 实时榜单</a>
 </p>
 
 **关键词：** `机场推荐` `VPN推荐` `科学上网` `梯子` `SS机场` `V2Ray` `Trojan` `IPLC专线` `流媒体解锁` `Netflix` `ChatGPT` `2026`

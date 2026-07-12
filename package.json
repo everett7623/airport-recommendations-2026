@@ -8,7 +8,7 @@
     "sync": "node scripts/sync-from-astro.js",
     "generate": "node scripts/generate-readme.js",
     "sync:full": "node scripts/sync-from-astro.js && node scripts/generate-readme.js",
-    "validate": "node scripts/validate-json.js"
+    "validate": "node scripts/validate-json.js && node scripts/generate-readme.js --check"
   },
   "dependencies": {},
   "engines": {

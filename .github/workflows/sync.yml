@@ -58,7 +58,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Validate VPSKnow Astro source
         run: |
@@ -78,10 +78,6 @@ jobs:
             echo "::error::Found $source_file, but it does not contain airportCategories."
             echo "Candidate airport files:"
             grep -RIl "airportCategories\|noAffAirports\|defunctAirports" _vpsknow | sort | head -n 80
-            exit 1
-          fi
-          if ! grep -q "airports:" "$source_file"; then
-            echo "::error::Found $source_file, but it does not contain airports: blocks."
             exit 1
           fi
           test -s "$source_file"

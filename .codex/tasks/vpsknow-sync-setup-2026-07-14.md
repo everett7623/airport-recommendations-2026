@@ -23,3 +23,5 @@
 - 已运行 `git diff --check`，未发现空白错误。
 
 - Actions #9 已通过 workflow 源文件校验，但脚本 validateSource 仍要求旧版 Astro 页面特征；已放宽为只要求 airportCategories 数据块，避免被页面重构误拦截。
+
+- Actions #10 显示当前页面没有 airportCategories 声明，说明数据已抽到 import 模块；已新增 scripts/source-resolver.js，支持跟随相对 import 或在 checkout 中搜索真正声明 airportCategories 的模块。

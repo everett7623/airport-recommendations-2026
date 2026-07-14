@@ -12,6 +12,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { execFileSync } from 'child_process';
 import { tmpdir } from 'os';
+import { resolveDataSource } from './source-resolver.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -68,7 +69,7 @@ async function fetchFromRawUrl() {
     if (!res.ok) throw new Error(`HTTP ${res.status}: ${source.slice(0, 120).trim()}`);
     validateSource(source, 'configured VPSKnow Astro URL');
     log(`Fetched ${source.length} bytes`, 'ok');
-    return source;
+    return { source, sourcePath: null, cleanup: null };
   } finally {
     clearTimeout(timeout);
   }
@@ -84,9 +85,14 @@ function fetchFromGitClone() {
     const source = readFileSync(sourcePath, 'utf-8');
     validateSource(source, 'configured VPSKnow source repo');
     log(`Loaded ${source.length} bytes from upstream git clone`, 'ok');
-    return source;
-  } finally {
+    return {
+      source,
+      sourcePath,
+      cleanup: () => rmSync(tmp, { recursive: true, force: true }),
+    };
+  } catch (e) {
     rmSync(tmp, { recursive: true, force: true });
+    throw e;
   }
 }
 
@@ -96,7 +102,7 @@ async function loadSource(localPath) {
     const source = readFileSync(localPath, 'utf-8');
     validateSource(source, localPath);
     log(`Loaded ${source.length} bytes`, 'ok');
-    return source;
+    return { source, sourcePath: localPath, cleanup: null };
   }
 
   try {
@@ -255,7 +261,18 @@ async function main() {
   log('VPSKnow Astro → airports.json Sync', 'header');
 
   // 1. Fetch source
-  const source = await loadSource(localPath);
+  const loaded = await loadSource(localPath);
+  let source = loaded.source;
+  let sourcePath = loaded.sourcePath;
+
+  if (sourcePath) {
+    const resolved = resolveDataSource(sourcePath, source, 'airportCategories');
+    if (resolved && resolved.path !== sourcePath) {
+      log(`Resolved airport data source: ${resolved.path}`);
+      source = resolved.source;
+      sourcePath = resolved.path;
+    }
+  }
 
   // 2. Extract data blocks
   const airportCategoriesRaw = extractJSObject(source, 'airportCategories');
@@ -264,6 +281,8 @@ async function main() {
 
   if (!airportCategoriesRaw) {
     log('Failed to extract airportCategories', 'err');
+    if (sourcePath) log(`Looked in: ${sourcePath}`, 'info');
+    loaded.cleanup?.();
     process.exit(1);
   }
 
@@ -274,6 +293,7 @@ async function main() {
 
   if (!astroCategories) {
     log('Failed to parse airportCategories', 'err');
+    loaded.cleanup?.();
     process.exit(1);
   }
 
@@ -428,6 +448,7 @@ async function main() {
     if (!added.length && !removed.length) log(`\n  No airports added or removed — data updated in-place.`, 'info');
   }
 
+  loaded.cleanup?.();
   return output;
 }
 

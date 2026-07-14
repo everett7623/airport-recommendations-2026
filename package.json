@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "sync": "node scripts/sync-from-astro.js",
+    "sync:dry": "node scripts/sync-from-astro.js --dry-run",
     "generate": "node scripts/generate-readme.js",
     "sync:full": "node scripts/sync-from-astro.js && node scripts/generate-readme.js",
     "validate": "node scripts/validate-json.js && node scripts/generate-readme.js --check"

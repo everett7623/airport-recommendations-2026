@@ -48,7 +48,7 @@
 `README.md`、`README-SIMPLE.md`、`docs/blacklist.md` 均由 `data/airports.json` 生成。涉及机场清单或上下架的 PR 应确认这些文件由 `npm run generate` 刷新，而不是手动维护。
 
 ### 私有上游同步安全
-公开仓库只保存同步后的结构化推荐数据，不提交 VPSKnow 私有源码、checkout 目录、token 或本地 Claude 配置。自动同步私有上游时，只能通过仓库 Secrets 配置：`VPSKNOW_SOURCE_REPO`、`VPSKNOW_SYNC_TOKEN`，可选 `VPSKNOW_SOURCE_REF`、`VPSKNOW_ASTRO_PATH`。fork 仓库默认没有这些 Secrets，workflow 会安全跳过私有上游同步。
+公开仓库只保存同步后的结构化推荐数据，不提交 VPSKnow 私有源码、checkout 目录、token 或本地 Claude 配置。自动同步私有上游时，只能通过仓库 Secrets 配置：必填 `VPSKNOW_SOURCE_REPO`、`VPSKNOW_SYNC_TOKEN`，可选 `VPSKNOW_SOURCE_REF`、`VPSKNOW_ASTRO_PATH`。缺少必填 Secrets 时 workflow 会直接失败并提示配置项，避免静默跳过。详细设置见 [docs/sync-setup.md](docs/sync-setup.md)。
 
 ### Commit 规范
 - 新增机场：`feat: 新增 [机场名]`

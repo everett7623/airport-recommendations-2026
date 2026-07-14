@@ -10,36 +10,47 @@ on:
         description: 'Dry run (no changes committed)'
         type: boolean
         default: false
+      source_ref:
+        description: 'Optional VPSKnow branch/tag/SHA override'
+        type: string
+        required: false
+        default: ''
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      VPSKNOW_SOURCE_REPO: ${{ secrets.VPSKNOW_SOURCE_REPO }}
+      VPSKNOW_SOURCE_REF: ${{ github.event.inputs.source_ref || secrets.VPSKNOW_SOURCE_REF || 'main' }}
+      VPSKNOW_ASTRO_PATH: ${{ secrets.VPSKNOW_ASTRO_PATH || 'src/pages/airport-recommendations.astro' }}
 
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v4
 
-      - name: Check VPSKnow sync secrets
-        id: sync_secrets
+      - name: Check private VPSKnow sync config
         env:
-          VPSKNOW_SOURCE_REPO: ${{ secrets.VPSKNOW_SOURCE_REPO }}
           VPSKNOW_SYNC_TOKEN: ${{ secrets.VPSKNOW_SYNC_TOKEN }}
         run: |
-          if [ -n "$VPSKNOW_SOURCE_REPO" ] && [ -n "$VPSKNOW_SYNC_TOKEN" ]; then
-            echo "available=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "available=false" >> "$GITHUB_OUTPUT"
-            echo "VPSKnow sync secrets are not configured; skipping private upstream sync."
+          if [ -z "$VPSKNOW_SOURCE_REPO" ]; then
+            echo "::error::Missing secret VPSKNOW_SOURCE_REPO. Set it to the private source repo, for example owner/repo."
+            exit 1
           fi
+          if [ -z "$VPSKNOW_SYNC_TOKEN" ]; then
+            echo "::error::Missing secret VPSKNOW_SYNC_TOKEN. It must have read access to the private VPSKnow source repo."
+            exit 1
+          fi
+          echo "Source repo: configured via secret"
+          echo "Source ref: $VPSKNOW_SOURCE_REF"
+          echo "Astro path: $VPSKNOW_ASTRO_PATH"
 
       - name: Checkout VPSKnow source
-        if: steps.sync_secrets.outputs.available == 'true'
         uses: actions/checkout@v4
         with:
-          repository: ${{ secrets.VPSKNOW_SOURCE_REPO }}
-          ref: ${{ secrets.VPSKNOW_SOURCE_REF || 'main' }}
+          repository: ${{ env.VPSKNOW_SOURCE_REPO }}
+          ref: ${{ env.VPSKNOW_SOURCE_REF }}
           path: _vpsknow
           fetch-depth: 1
           token: ${{ secrets.VPSKNOW_SYNC_TOKEN }}
@@ -50,43 +61,54 @@ jobs:
           node-version: '20'
 
       - name: Validate VPSKnow Astro source
-        if: steps.sync_secrets.outputs.available == 'true'
-        env:
-          VPSKNOW_ASTRO_PATH: ${{ secrets.VPSKNOW_ASTRO_PATH || 'src/pages/airport-recommendations.astro' }}
         run: |
           source_file="_vpsknow/$VPSKNOW_ASTRO_PATH"
+          if [ ! -s "$source_file" ]; then
+            echo "::warning::Configured Astro path not found: $source_file"
+            echo "Searching VPSKnow checkout for airport-recommendations.astro..."
+            source_file="$(find _vpsknow -type f -name 'airport-recommendations.astro' | head -n 1)"
+          fi
+          if [ -z "$source_file" ] || [ ! -s "$source_file" ]; then
+            echo "::error::Could not find airport-recommendations.astro in the VPSKnow checkout."
+            echo "Available Astro files:"
+            find _vpsknow -type f -name '*.astro' | sort | head -n 80
+            exit 1
+          fi
+          if ! grep -q "airportCategories" "$source_file"; then
+            echo "::error::Found $source_file, but it does not contain airportCategories."
+            echo "Candidate airport files:"
+            grep -RIl "airportCategories\|noAffAirports\|defunctAirports" _vpsknow | sort | head -n 80
+            exit 1
+          fi
+          if ! grep -q "airports:" "$source_file"; then
+            echo "::error::Found $source_file, but it does not contain airports: blocks."
+            exit 1
+          fi
           test -s "$source_file"
-          grep -q "airportCategories" "$source_file"
-          grep -q "airports:" "$source_file"
           echo "Using $source_file ($(wc -c < "$source_file") bytes)"
+          echo "VPSKNOW_RESOLVED_ASTRO=$source_file" >> "$GITHUB_ENV"
 
       - name: Run sync
-        if: steps.sync_secrets.outputs.available == 'true'
         id: sync
-        env:
-          VPSKNOW_ASTRO_PATH: ${{ secrets.VPSKNOW_ASTRO_PATH || 'src/pages/airport-recommendations.astro' }}
-        run: node scripts/sync-from-astro.js --local "_vpsknow/$VPSKNOW_ASTRO_PATH"
+        run: node scripts/sync-from-astro.js --local "$VPSKNOW_RESOLVED_ASTRO"
 
       - name: Validate JSON
-        if: steps.sync_secrets.outputs.available == 'true'
         run: node scripts/validate-json.js
 
       - name: Generate derived docs
-        if: steps.sync_secrets.outputs.available == 'true'
         run: node scripts/generate-readme.js
 
       - name: Preview dry-run diff
-        if: steps.sync_secrets.outputs.available == 'true' && github.event.inputs.dry_run == 'true'
+        if: github.event.inputs.dry_run == 'true'
         run: git diff -- data/airports.json README.md README-SIMPLE.md docs/blacklist.md
 
       - name: Check for changes
-        if: steps.sync_secrets.outputs.available == 'true'
         id: git_diff
         run: |
           git diff --quiet || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push
-        if: steps.sync_secrets.outputs.available == 'true' && steps.git_diff.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        if: steps.git_diff.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

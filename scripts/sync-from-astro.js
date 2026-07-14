@@ -22,6 +22,8 @@ const ASTRO_URL = process.env.VPSKNOW_ASTRO_URL || '';
 const UPSTREAM_REPO = process.env.VPSKNOW_SOURCE_REPO || '';
 const UPSTREAM_REF = process.env.VPSKNOW_SOURCE_REF || 'main';
 const UPSTREAM_ASTRO_PATH = process.env.VPSKNOW_ASTRO_PATH || 'src/pages/airport-recommendations.astro';
+const SHORTLINK_DOMAIN = 'go.uukk.de';
+const LEGACY_SHORTLINK_DOMAIN = ['s', 'y8o', 'de'].join('.');
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -220,13 +222,17 @@ function safeEval(jsObjectStr) {
 
 // ─── Data Mapping ────────────────────────────────────────────────────────────
 
+function normalizeShortUrl(url) {
+  return (url || '').replace(LEGACY_SHORTLINK_DOMAIN, SHORTLINK_DOMAIN);
+}
+
 /**
  * Maps an airport object from Astro format to our JSON schema.
  */
 function mapAirport(astroAirport) {
   return {
     name: astroAirport.name ?? '',
-    url: astroAirport.url ?? '',
+    url: normalizeShortUrl(astroAirport.url),
     coupon: astroAirport.coupon ?? '',
     logoSvg: astroAirport.logoSvg ?? '',
     description: (astroAirport.description || '').replace(/\s+/g, ' ').trim(),

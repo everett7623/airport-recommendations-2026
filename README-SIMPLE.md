@@ -31,14 +31,14 @@
 
 | 机场 | 线路 | 价格 | 一句话总结 | 直达 |
 | --- | --- | --- | --- | --- |
-| **Fastlink** | BGP/IPLC专线 | ¥20/月起 | 运营多年的老牌机场，采用 BGP、IPLC 混合架构，节点覆盖广、稳定性高，适合... | [官网](https://s.y8o.de/fastlink) |
-| **光速云** | IPLC专线 | ¥17/月起 | 光速云, 主打极高性价比的隧道中转与 IPLC 专线机场。拥有 60+ 独立 I... | [官网](https://s.y8o.de/lightspeed) |
-| **星岛梦** | IEPL专线 | ¥12.8/月起 | 星岛梦，高品质IEPL专线机场。全节点不限速、无倍率、不限设备数，稳定解锁流媒体... | [官网](https://s.y8o.de/stardream) |
-| **全球云** | IPLC/IEPL专线 | ¥20/月起（年付¥99起） | 全球云，采用企业级 IPLC/IEPL 专线，结合智能负载均衡与三网入口优化，2... | [官网](https://s.y8o.de/globalyun) |
-| **Nexitally** | 高端专线 | ¥117/月起 | Nexitally（奶昔），2017 年成立的老牌佩奇机场，自研面板，唯云专线，... | [官网](https://s.y8o.de/naiixi) |
-| **TAG** | IEPL专线 | ¥109/月起 | 以节点覆盖广著称，延迟低丢包少，拥有大量冷门地区节点，适合有全球业务需求的用户。... | [官网](https://s.y8o.de/tag) |
-| **MESL** | IEPL专线 | ¥50/月起 | MESL，极其低调的顶级机场，不依赖TG宣传。拥有极高的带宽接入能力，主要服务于... | [官网](https://s.y8o.de/mesl) |
-| **Gatern** | 混合线路 | 按量付费 | Gatern，提供按量与周期套餐并存的灵活方案，不限时流量包适合作为高质量备用。... | [官网](https://s.y8o.de/Gatern) |
+| **Fastlink** | BGP/IPLC专线 | ¥20/月起 | 运营多年的老牌机场，采用 BGP、IPLC 混合架构，节点覆盖广、稳定性高，适合... | [官网](https://go.uukk.de/fastlink) |
+| **光速云** | IPLC专线 | ¥17/月起 | 光速云, 主打极高性价比的隧道中转与 IPLC 专线机场。拥有 60+ 独立 I... | [官网](https://go.uukk.de/lightspeed) |
+| **星岛梦** | IEPL专线 | ¥12.8/月起 | 星岛梦，高品质IEPL专线机场。全节点不限速、无倍率、不限设备数，稳定解锁流媒体... | [官网](https://go.uukk.de/stardream) |
+| **全球云** | IPLC/IEPL专线 | ¥20/月起（年付¥99起） | 全球云，采用企业级 IPLC/IEPL 专线，结合智能负载均衡与三网入口优化，2... | [官网](https://go.uukk.de/globalyun) |
+| **Nexitally** | 高端专线 | ¥117/月起 | Nexitally（奶昔），2017 年成立的老牌佩奇机场，自研面板，唯云专线，... | [官网](https://go.uukk.de/naiixi) |
+| **TAG** | IEPL专线 | ¥109/月起 | 以节点覆盖广著称，延迟低丢包少，拥有大量冷门地区节点，适合有全球业务需求的用户。... | [官网](https://go.uukk.de/tag) |
+| **MESL** | IEPL专线 | ¥50/月起 | MESL，极其低调的顶级机场，不依赖TG宣传。拥有极高的带宽接入能力，主要服务于... | [官网](https://go.uukk.de/mesl) |
+| **Gatern** | 混合线路 | 按量付费 | Gatern，提供按量与周期套餐并存的灵活方案，不限时流量包适合作为高质量备用。... | [官网](https://go.uukk.de/Gatern) |
 
 ---
 
@@ -46,41 +46,41 @@
 
 | 机场名称 | 线路类型 | 最低价格 | 流媒体 | ChatGPT | 推荐度 | 直达 |
 |---------|---------|---------|-------|---------|-------|------|
-| **网际快车** | 中转专线 | 免费试用，¥6.8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/wjkc) |
-| **喵喵VPN** | 优质直连 | 免费试用，¥8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/vpnmiao) |
-| **拼好连** | BGP/IEPL专线 | 免费试用，¥9.90/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/runway) |
-| **SKYLUMO** | 公网中转 | ¥3.99/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/skylumo) |
-| **山水云** | 隧道中转 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/shanshuiyun) |
-| **EdgeNova** | IEPL专线 | 年付¥86起（用码） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/edgenova) |
-| **速界** | IEPL专线 | ¥72/年起（用码） | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/speedworld) |
-| **瞬云** | ANYCAST专线 | ¥16/月起（用码） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/sy) |
-| **唯兔云** | IPLC专线 | ¥6.6/月起（年付） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/wty) |
-| **秒秒云** | 隧道中转 | ¥14/月起（年付¥79起） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/miaomiaoyun) |
-| **Fastlink** | BGP/IPLC专线 | ¥20/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/fastlink) |
-| **光速云** | IPLC专线 | ¥17/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/lightspeed) |
-| **星岛梦** | IEPL专线 | ¥12.8/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/stardream) |
-| **全球云** | IPLC/IEPL专线 | ¥20/月起（年付¥99起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/globalyun) |
-| **二猫云** | IEPL/IPLC专线 | ¥89/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/2maoyun) |
-| **寰宇云** | IPLC/直连专线 | ¥99/年起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/huanyuyunvip) |
-| **一翻云** | IEPL专线 | ¥25/月起（年付¥100/年） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/1flyun) |
-| **快狸** | IEPL专线 | ¥96/年起（折后） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/kuaili) |
-| **U1S1** | 中转专线 | ¥18.8/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/u1s1) |
-| **光年梯** | IEPL专线 | ¥18/月起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/lightyearti) |
-| **极连云** | IPLC/IEPL专线 | ¥14.4/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/jly) |
-| **宇宙云** | IEPL专线 | ¥12.5/月起（年付¥96/年） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/yuzhoucloud) |
-| **Nexitally** | 高端专线 | ¥117/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/naiixi) |
-| **TAG** | IEPL专线 | ¥109/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/tag) |
-| **MESL** | IEPL专线 | ¥50/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/mesl) |
-| **ImmTelecom** | IEPL/IPLC专线 | ¥72.45/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/immtele) |
-| **YToo** | 多线国际加速 | ¥98/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/ytoo) |
-| **Gatern** | 混合线路 | 按量付费 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/Gatern) |
-| **SKYLUMO** | 公网中转 | ¥9.90起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/skylumo) |
-| **魔戒** | 公网中转 | 按GB计费 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/mojie) |
-| **AmyTelecom** | IEPL专线 | ¥273/年起 | ✅ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://s.y8o.de/amytele) |
-| **Kuromis** | IEPL专线 | ¥34/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://s.y8o.de/kuromis) |
-| **WgetCloud** | BGP专线 | ¥79/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://s.y8o.de/wgetcloud) |
-| **新华云** | 隧道中转 | ¥3.99/月起 | ✅ | ✅ | ⭐⭐⭐⭐⭐ | [进入](https://s.y8o.de/newhua99) |
-| **FlowerCloud** | BGP/IEPL专线 | ¥39/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://s.y8o.de/flowercloud) |
+| **网际快车** | 中转专线 | 免费试用，¥6.8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/wjkc) |
+| **喵喵VPN** | 优质直连 | 免费试用，¥8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/vpnmiao) |
+| **拼好连** | BGP/IEPL专线 | 免费试用，¥9.90/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/runway) |
+| **SKYLUMO** | 公网中转 | ¥3.99/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/skylumo) |
+| **山水云** | 隧道中转 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/shanshuiyun) |
+| **EdgeNova** | IEPL专线 | 年付¥86起（用码） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/edgenova) |
+| **速界** | IEPL专线 | ¥72/年起（用码） | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/speedworld) |
+| **瞬云** | ANYCAST专线 | ¥16/月起（用码） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/sy) |
+| **唯兔云** | IPLC专线 | ¥6.6/月起（年付） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/wty) |
+| **秒秒云** | 隧道中转 | ¥14/月起（年付¥79起） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/miaomiaoyun) |
+| **Fastlink** | BGP/IPLC专线 | ¥20/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/fastlink) |
+| **光速云** | IPLC专线 | ¥17/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/lightspeed) |
+| **星岛梦** | IEPL专线 | ¥12.8/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/stardream) |
+| **全球云** | IPLC/IEPL专线 | ¥20/月起（年付¥99起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/globalyun) |
+| **二猫云** | IEPL/IPLC专线 | ¥89/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/2maoyun) |
+| **寰宇云** | IPLC/直连专线 | ¥99/年起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/huanyuyunvip) |
+| **一翻云** | IEPL专线 | ¥25/月起（年付¥100/年） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/1flyun) |
+| **快狸** | IEPL专线 | ¥96/年起（折后） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/kuaili) |
+| **U1S1** | 中转专线 | ¥18.8/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/u1s1) |
+| **光年梯** | IEPL专线 | ¥18/月起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/lightyearti) |
+| **极连云** | IPLC/IEPL专线 | ¥14.4/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jly) |
+| **宇宙云** | IEPL专线 | ¥12.5/月起（年付¥96/年） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/yuzhoucloud) |
+| **Nexitally** | 高端专线 | ¥117/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/naiixi) |
+| **TAG** | IEPL专线 | ¥109/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/tag) |
+| **MESL** | IEPL专线 | ¥50/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/mesl) |
+| **ImmTelecom** | IEPL/IPLC专线 | ¥72.45/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/immtele) |
+| **YToo** | 多线国际加速 | ¥98/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/ytoo) |
+| **Gatern** | 混合线路 | 按量付费 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/Gatern) |
+| **SKYLUMO** | 公网中转 | ¥9.90起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/skylumo) |
+| **魔戒** | 公网中转 | 按GB计费 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/mojie) |
+| **AmyTelecom** | IEPL专线 | ¥273/年起 | ✅ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/amytele) |
+| **Kuromis** | IEPL专线 | ¥34/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/kuromis) |
+| **WgetCloud** | BGP专线 | ¥79/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/wgetcloud) |
+| **新华云** | 隧道中转 | ¥3.99/月起 | ✅ | ✅ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/newhua99) |
+| **FlowerCloud** | BGP/IEPL专线 | ¥39/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/flowercloud) |
 
 
 ---

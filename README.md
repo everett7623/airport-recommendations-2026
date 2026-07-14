@@ -71,7 +71,7 @@
 
 ### 1. 网际快车
 
-**🔗 官网：** [https://s.y8o.de/wjkc](https://s.y8o.de/wjkc)
+**🔗 官网：** [https://go.uukk.de/wjkc](https://go.uukk.de/wjkc)
 
 | 项目 | 说明 |
 |-----|------|
@@ -88,7 +88,7 @@
 
 ### 2. 喵喵VPN
 
-**🔗 官网：** [https://s.y8o.de/vpnmiao](https://s.y8o.de/vpnmiao)
+**🔗 官网：** [https://go.uukk.de/vpnmiao](https://go.uukk.de/vpnmiao)
 
 | 项目 | 说明 |
 |-----|------|
@@ -105,7 +105,7 @@
 
 ### 3. 拼好连
 
-**🔗 官网：** [https://s.y8o.de/runway](https://s.y8o.de/runway)
+**🔗 官网：** [https://go.uukk.de/runway](https://go.uukk.de/runway)
 
 | 项目 | 说明 |
 |-----|------|
@@ -131,7 +131,7 @@
 
 ### 1. SKYLUMO
 
-**🔗 官网：** [https://s.y8o.de/skylumo](https://s.y8o.de/skylumo)
+**🔗 官网：** [https://go.uukk.de/skylumo](https://go.uukk.de/skylumo)
 
 | 项目 | 说明 |
 |-----|------|
@@ -150,7 +150,7 @@
 
 ### 2. 山水云
 
-**🔗 官网：** [https://s.y8o.de/shanshuiyun](https://s.y8o.de/shanshuiyun)
+**🔗 官网：** [https://go.uukk.de/shanshuiyun](https://go.uukk.de/shanshuiyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -167,7 +167,7 @@
 
 ### 3. EdgeNova
 
-**🔗 官网：** [https://s.y8o.de/edgenova](https://s.y8o.de/edgenova)
+**🔗 官网：** [https://go.uukk.de/edgenova](https://go.uukk.de/edgenova)
 
 | 项目 | 说明 |
 |-----|------|
@@ -184,7 +184,7 @@
 
 ### 4. 速界
 
-**🔗 官网：** [https://s.y8o.de/speedworld](https://s.y8o.de/speedworld)
+**🔗 官网：** [https://go.uukk.de/speedworld](https://go.uukk.de/speedworld)
 
 | 项目 | 说明 |
 |-----|------|
@@ -201,7 +201,7 @@
 
 ### 5. 瞬云
 
-**🔗 官网：** [https://s.y8o.de/sy](https://s.y8o.de/sy)
+**🔗 官网：** [https://go.uukk.de/sy](https://go.uukk.de/sy)
 
 | 项目 | 说明 |
 |-----|------|
@@ -218,7 +218,7 @@
 
 ### 6. 唯兔云
 
-**🔗 官网：** [https://s.y8o.de/wty](https://s.y8o.de/wty)
+**🔗 官网：** [https://go.uukk.de/wty](https://go.uukk.de/wty)
 
 | 项目 | 说明 |
 |-----|------|
@@ -235,7 +235,7 @@
 
 ### 7. 秒秒云
 
-**🔗 官网：** [https://s.y8o.de/miaomiaoyun](https://s.y8o.de/miaomiaoyun)
+**🔗 官网：** [https://go.uukk.de/miaomiaoyun](https://go.uukk.de/miaomiaoyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -262,7 +262,7 @@
 
 ### 1. Fastlink
 
-**🔗 官网：** [https://s.y8o.de/fastlink](https://s.y8o.de/fastlink)
+**🔗 官网：** [https://go.uukk.de/fastlink](https://go.uukk.de/fastlink)
 
 | 项目 | 说明 |
 |-----|------|
@@ -278,7 +278,7 @@
 
 ### 2. 光速云
 
-**🔗 官网：** [https://s.y8o.de/lightspeed](https://s.y8o.de/lightspeed)
+**🔗 官网：** [https://go.uukk.de/lightspeed](https://go.uukk.de/lightspeed)
 
 | 项目 | 说明 |
 |-----|------|
@@ -294,7 +294,7 @@
 
 ### 3. 星岛梦
 
-**🔗 官网：** [https://s.y8o.de/stardream](https://s.y8o.de/stardream)
+**🔗 官网：** [https://go.uukk.de/stardream](https://go.uukk.de/stardream)
 
 | 项目 | 说明 |
 |-----|------|
@@ -311,7 +311,7 @@
 
 ### 4. 全球云
 
-**🔗 官网：** [https://s.y8o.de/globalyun](https://s.y8o.de/globalyun)
+**🔗 官网：** [https://go.uukk.de/globalyun](https://go.uukk.de/globalyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -328,7 +328,7 @@
 
 ### 5. 二猫云
 
-**🔗 官网：** [https://s.y8o.de/2maoyun](https://s.y8o.de/2maoyun)
+**🔗 官网：** [https://go.uukk.de/2maoyun](https://go.uukk.de/2maoyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -345,7 +345,7 @@
 
 ### 6. 寰宇云
 
-**🔗 官网：** [https://s.y8o.de/huanyuyunvip](https://s.y8o.de/huanyuyunvip)
+**🔗 官网：** [https://go.uukk.de/huanyuyunvip](https://go.uukk.de/huanyuyunvip)
 
 | 项目 | 说明 |
 |-----|------|
@@ -362,7 +362,7 @@
 
 ### 7. 一翻云
 
-**🔗 官网：** [https://s.y8o.de/1flyun](https://s.y8o.de/1flyun)
+**🔗 官网：** [https://go.uukk.de/1flyun](https://go.uukk.de/1flyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -379,7 +379,7 @@
 
 ### 8. 快狸
 
-**🔗 官网：** [https://s.y8o.de/kuaili](https://s.y8o.de/kuaili)
+**🔗 官网：** [https://go.uukk.de/kuaili](https://go.uukk.de/kuaili)
 
 | 项目 | 说明 |
 |-----|------|
@@ -396,7 +396,7 @@
 
 ### 9. U1S1
 
-**🔗 官网：** [https://s.y8o.de/u1s1](https://s.y8o.de/u1s1)
+**🔗 官网：** [https://go.uukk.de/u1s1](https://go.uukk.de/u1s1)
 
 | 项目 | 说明 |
 |-----|------|
@@ -413,7 +413,7 @@
 
 ### 10. 光年梯
 
-**🔗 官网：** [https://s.y8o.de/lightyearti](https://s.y8o.de/lightyearti)
+**🔗 官网：** [https://go.uukk.de/lightyearti](https://go.uukk.de/lightyearti)
 
 | 项目 | 说明 |
 |-----|------|
@@ -429,7 +429,7 @@
 
 ### 11. 极连云
 
-**🔗 官网：** [https://s.y8o.de/jly](https://s.y8o.de/jly)
+**🔗 官网：** [https://go.uukk.de/jly](https://go.uukk.de/jly)
 
 | 项目 | 说明 |
 |-----|------|
@@ -446,7 +446,7 @@
 
 ### 12. 宇宙云
 
-**🔗 官网：** [https://s.y8o.de/yuzhoucloud](https://s.y8o.de/yuzhoucloud)
+**🔗 官网：** [https://go.uukk.de/yuzhoucloud](https://go.uukk.de/yuzhoucloud)
 
 | 项目 | 说明 |
 |-----|------|
@@ -472,7 +472,7 @@
 
 ### 1. Nexitally
 
-**🔗 官网：** [https://s.y8o.de/naiixi](https://s.y8o.de/naiixi)
+**🔗 官网：** [https://go.uukk.de/naiixi](https://go.uukk.de/naiixi)
 
 | 项目 | 说明 |
 |-----|------|
@@ -488,7 +488,7 @@
 
 ### 2. TAG
 
-**🔗 官网：** [https://s.y8o.de/tag](https://s.y8o.de/tag)
+**🔗 官网：** [https://go.uukk.de/tag](https://go.uukk.de/tag)
 
 | 项目 | 说明 |
 |-----|------|
@@ -504,7 +504,7 @@
 
 ### 3. MESL
 
-**🔗 官网：** [https://s.y8o.de/mesl](https://s.y8o.de/mesl)
+**🔗 官网：** [https://go.uukk.de/mesl](https://go.uukk.de/mesl)
 
 | 项目 | 说明 |
 |-----|------|
@@ -520,7 +520,7 @@
 
 ### 4. ImmTelecom
 
-**🔗 官网：** [https://s.y8o.de/immtele](https://s.y8o.de/immtele)
+**🔗 官网：** [https://go.uukk.de/immtele](https://go.uukk.de/immtele)
 
 | 项目 | 说明 |
 |-----|------|
@@ -536,7 +536,7 @@
 
 ### 5. YToo
 
-**🔗 官网：** [https://s.y8o.de/ytoo](https://s.y8o.de/ytoo)
+**🔗 官网：** [https://go.uukk.de/ytoo](https://go.uukk.de/ytoo)
 
 | 项目 | 说明 |
 |-----|------|
@@ -562,7 +562,7 @@
 
 ### 1. Gatern
 
-**🔗 官网：** [https://s.y8o.de/Gatern](https://s.y8o.de/Gatern)
+**🔗 官网：** [https://go.uukk.de/Gatern](https://go.uukk.de/Gatern)
 
 | 项目 | 说明 |
 |-----|------|
@@ -578,7 +578,7 @@
 
 ### 2. SKYLUMO
 
-**🔗 官网：** [https://s.y8o.de/skylumo](https://s.y8o.de/skylumo)
+**🔗 官网：** [https://go.uukk.de/skylumo](https://go.uukk.de/skylumo)
 
 | 项目 | 说明 |
 |-----|------|
@@ -595,7 +595,7 @@
 
 ### 3. 魔戒
 
-**🔗 官网：** [https://s.y8o.de/mojie](https://s.y8o.de/mojie)
+**🔗 官网：** [https://go.uukk.de/mojie](https://go.uukk.de/mojie)
 
 | 项目 | 说明 |
 |-----|------|
@@ -623,7 +623,7 @@
 
 ### AmyTelecom
 
-**🔗 官网：** [https://s.y8o.de/amytele](https://s.y8o.de/amytele)
+**🔗 官网：** [https://go.uukk.de/amytele](https://go.uukk.de/amytele)
 
 | 项目 | 说明 |
 |-----|------|
@@ -638,7 +638,7 @@
 
 ### Kuromis
 
-**🔗 官网：** [https://s.y8o.de/kuromis](https://s.y8o.de/kuromis)
+**🔗 官网：** [https://go.uukk.de/kuromis](https://go.uukk.de/kuromis)
 
 | 项目 | 说明 |
 |-----|------|
@@ -653,7 +653,7 @@
 
 ### WgetCloud
 
-**🔗 官网：** [https://s.y8o.de/wgetcloud](https://s.y8o.de/wgetcloud)
+**🔗 官网：** [https://go.uukk.de/wgetcloud](https://go.uukk.de/wgetcloud)
 
 | 项目 | 说明 |
 |-----|------|
@@ -669,7 +669,7 @@
 
 ### 新华云
 
-**🔗 官网：** [https://s.y8o.de/newhua99](https://s.y8o.de/newhua99)
+**🔗 官网：** [https://go.uukk.de/newhua99](https://go.uukk.de/newhua99)
 
 | 项目 | 说明 |
 |-----|------|
@@ -689,41 +689,41 @@
 
 | 机场名称 | 线路类型 | 最低价格 | 流媒体 | ChatGPT | 核心特色/标签 | 推荐度 | 直达购买 |
 |---------|---------|---------|-------|---------|--------------|-------|------|
-| **网际快车** | 中转专线 | 免费试用，¥6.8/月起 | ❓ | ❓ | `白嫖` `试用` `高速体验` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/wjkc) |
-| **喵喵VPN** | 优质直连 | 免费试用，¥8/月起 | ❓ | ❓ | `4K秒开` `极致稳定` `特惠低倍` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/vpnmiao) |
-| **拼好连** | BGP/IEPL专线 | 免费试用，¥9.90/月起 | ✅ | ✅ | `白嫖` `试用` `高速体验` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/runway) |
-| **SKYLUMO** | 公网中转 | ¥3.99/月起 | ❓ | ❓ | `入门` `低价` `基础使用` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/skylumo) |
-| **山水云** | 隧道中转 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | `高性价比` `流媒体` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/shanshuiyun) |
-| **EdgeNova** | IEPL专线 | 年付¥86起（用码） | ❓ | ✅ | `专线` `新锐` `全兼容` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/edgenova) |
-| **速界** | IEPL专线 | ¥72/年起（用码） | ❓ | ❓ | `专线直达` `新锐` `高性价比` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/speedworld) |
-| **瞬云** | ANYCAST专线 | ¥16/月起（用码） | ✅ | ❓ | `原生节点` `流媒体解锁` `高性价比` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/sy) |
-| **唯兔云** | IPLC专线 | ¥6.6/月起（年付） | ✅ | ❓ | `高性价比` `流媒体` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/wty) |
-| **秒秒云** | 隧道中转 | ¥14/月起（年付¥79起） | ❓ | ✅ | `高性价比` `anytls` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/miaomiaoyun) |
-| **Fastlink** | BGP/IPLC专线 | ¥20/月起 | ✅ | ❓ | `性价比` `老牌` `主力推荐` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/fastlink) |
-| **光速云** | IPLC专线 | ¥17/月起 | ✅ | ❓ | `高性价比` `流媒体` `大流量` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/lightspeed) |
-| **星岛梦** | IEPL专线 | ¥12.8/月起 | ✅ | ❓ | `不限时` `不限设备` `流媒体` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/stardream) |
-| **全球云** | IPLC/IEPL专线 | ¥20/月起（年付¥99起） | ✅ | ✅ | `流媒体` `专线` `高性价比` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/globalyun) |
-| **二猫云** | IEPL/IPLC专线 | ¥89/年起 | ❓ | ❓ | `专属客户端` `不限设备` `新晋推荐` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/2maoyun) |
-| **寰宇云** | IPLC/直连专线 | ¥99/年起 | ✅ | ❓ | `通用订阅` `原生IP` `新晋推荐` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/huanyuyunvip) |
-| **一翻云** | IEPL专线 | ¥25/月起（年付¥100/年） | ✅ | ❓ | `新晋推荐` `流媒体解锁` `专线稳定` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/1flyun) |
-| **快狸** | IEPL专线 | ¥96/年起（折后） | ✅ | ✅ | `自研客户端` `IEPL专线` `流媒体解锁` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/kuaili) |
-| **U1S1** | 中转专线 | ¥18.8/月起 | ✅ | ✅ | `不限设备` `千兆带宽` `流媒体全解锁` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/u1s1) |
-| **光年梯** | IEPL专线 | ¥18/月起 | ❓ | ✅ | `SS协议` `稳定` `新加坡背景` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/lightyearti) |
-| **极连云** | IPLC/IEPL专线 | ¥14.4/月起 | ✅ | ✅ | `专线` `流媒体` `高性价比` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/jly) |
-| **宇宙云** | IEPL专线 | ¥12.5/月起（年付¥96/年） | ✅ | ❓ | `新晋推荐` `流媒体解锁` `专线稳定` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/yuzhoucloud) |
-| **Nexitally** | 高端专线 | ¥117/月起 | ✅ | ❓ | `佩奇` `稳定` `流媒体` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/naiixi) |
-| **TAG** | IEPL专线 | ¥109/月起 | ❓ | ❓ | `低延迟` `全球节点` `高端` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/tag) |
-| **MESL** | IEPL专线 | ¥50/月起 | ❓ | ❓ | `低调` `顶级线路` `不宣传` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/mesl) |
-| **ImmTelecom** | IEPL/IPLC专线 | ¥72.45/月起 | ❓ | ❓ | `一线大厂` `电信优化` `高端` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/immtele) |
-| **YToo** | 多线国际加速 | ¥98/年起 | ❓ | ❓ | `全球覆盖` `备用方案` `团队` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/ytoo) |
-| **Gatern** | 混合线路 | 按量付费 | ✅ | ❓ | `备份首选` `灵活` `按量` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/Gatern) |
-| **SKYLUMO** | 公网中转 | ¥9.90起 | ❓ | ❓ | `备用` `不限时` `大流量` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/skylumo) |
-| **魔戒** | 公网中转 | 按GB计费 | ❓ | ❓ | `老牌` `按量` `长期备用` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/mojie) |
-| **AmyTelecom** | IEPL专线 | ¥273/年起 | ✅ | ❓ | `佩奇系` `流媒体解锁` `稳定` | ⭐⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/amytele) |
-| **Kuromis** | IEPL专线 | ¥34/月起 | ❓ | ❓ | `贵族机场` `IEPL专线` `高峰期稳定` | ⭐⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/kuromis) |
-| **WgetCloud** | BGP专线 | ¥79/月起 | ❓ | ❓ | `稳定` `企业级` `不差钱` | ⭐⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/wgetcloud) |
-| **新华云** | 隧道中转 | ¥3.99/月起 | ✅ | ✅ | `高性价比` `不限设备` `学生党推荐` | ⭐⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/newhua99) |
-| **FlowerCloud** | BGP/IEPL专线 | ¥39/月起 | ✅ | ❓ | `老牌` `Trojan` `口碑好` | ⭐⭐⭐⭐ | [立即前往](https://s.y8o.de/flowercloud) |
+| **网际快车** | 中转专线 | 免费试用，¥6.8/月起 | ❓ | ❓ | `白嫖` `试用` `高速体验` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/wjkc) |
+| **喵喵VPN** | 优质直连 | 免费试用，¥8/月起 | ❓ | ❓ | `4K秒开` `极致稳定` `特惠低倍` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/vpnmiao) |
+| **拼好连** | BGP/IEPL专线 | 免费试用，¥9.90/月起 | ✅ | ✅ | `白嫖` `试用` `高速体验` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/runway) |
+| **SKYLUMO** | 公网中转 | ¥3.99/月起 | ❓ | ❓ | `入门` `低价` `基础使用` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/skylumo) |
+| **山水云** | 隧道中转 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | `高性价比` `流媒体` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/shanshuiyun) |
+| **EdgeNova** | IEPL专线 | 年付¥86起（用码） | ❓ | ✅ | `专线` `新锐` `全兼容` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/edgenova) |
+| **速界** | IEPL专线 | ¥72/年起（用码） | ❓ | ❓ | `专线直达` `新锐` `高性价比` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/speedworld) |
+| **瞬云** | ANYCAST专线 | ¥16/月起（用码） | ✅ | ❓ | `原生节点` `流媒体解锁` `高性价比` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/sy) |
+| **唯兔云** | IPLC专线 | ¥6.6/月起（年付） | ✅ | ❓ | `高性价比` `流媒体` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/wty) |
+| **秒秒云** | 隧道中转 | ¥14/月起（年付¥79起） | ❓ | ✅ | `高性价比` `anytls` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/miaomiaoyun) |
+| **Fastlink** | BGP/IPLC专线 | ¥20/月起 | ✅ | ❓ | `性价比` `老牌` `主力推荐` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/fastlink) |
+| **光速云** | IPLC专线 | ¥17/月起 | ✅ | ❓ | `高性价比` `流媒体` `大流量` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/lightspeed) |
+| **星岛梦** | IEPL专线 | ¥12.8/月起 | ✅ | ❓ | `不限时` `不限设备` `流媒体` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/stardream) |
+| **全球云** | IPLC/IEPL专线 | ¥20/月起（年付¥99起） | ✅ | ✅ | `流媒体` `专线` `高性价比` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/globalyun) |
+| **二猫云** | IEPL/IPLC专线 | ¥89/年起 | ❓ | ❓ | `专属客户端` `不限设备` `新晋推荐` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/2maoyun) |
+| **寰宇云** | IPLC/直连专线 | ¥99/年起 | ✅ | ❓ | `通用订阅` `原生IP` `新晋推荐` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/huanyuyunvip) |
+| **一翻云** | IEPL专线 | ¥25/月起（年付¥100/年） | ✅ | ❓ | `新晋推荐` `流媒体解锁` `专线稳定` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/1flyun) |
+| **快狸** | IEPL专线 | ¥96/年起（折后） | ✅ | ✅ | `自研客户端` `IEPL专线` `流媒体解锁` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/kuaili) |
+| **U1S1** | 中转专线 | ¥18.8/月起 | ✅ | ✅ | `不限设备` `千兆带宽` `流媒体全解锁` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/u1s1) |
+| **光年梯** | IEPL专线 | ¥18/月起 | ❓ | ✅ | `SS协议` `稳定` `新加坡背景` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/lightyearti) |
+| **极连云** | IPLC/IEPL专线 | ¥14.4/月起 | ✅ | ✅ | `专线` `流媒体` `高性价比` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/jly) |
+| **宇宙云** | IEPL专线 | ¥12.5/月起（年付¥96/年） | ✅ | ❓ | `新晋推荐` `流媒体解锁` `专线稳定` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/yuzhoucloud) |
+| **Nexitally** | 高端专线 | ¥117/月起 | ✅ | ❓ | `佩奇` `稳定` `流媒体` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/naiixi) |
+| **TAG** | IEPL专线 | ¥109/月起 | ❓ | ❓ | `低延迟` `全球节点` `高端` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/tag) |
+| **MESL** | IEPL专线 | ¥50/月起 | ❓ | ❓ | `低调` `顶级线路` `不宣传` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/mesl) |
+| **ImmTelecom** | IEPL/IPLC专线 | ¥72.45/月起 | ❓ | ❓ | `一线大厂` `电信优化` `高端` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/immtele) |
+| **YToo** | 多线国际加速 | ¥98/年起 | ❓ | ❓ | `全球覆盖` `备用方案` `团队` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/ytoo) |
+| **Gatern** | 混合线路 | 按量付费 | ✅ | ❓ | `备份首选` `灵活` `按量` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/Gatern) |
+| **SKYLUMO** | 公网中转 | ¥9.90起 | ❓ | ❓ | `备用` `不限时` `大流量` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/skylumo) |
+| **魔戒** | 公网中转 | 按GB计费 | ❓ | ❓ | `老牌` `按量` `长期备用` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/mojie) |
+| **AmyTelecom** | IEPL专线 | ¥273/年起 | ✅ | ❓ | `佩奇系` `流媒体解锁` `稳定` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/amytele) |
+| **Kuromis** | IEPL专线 | ¥34/月起 | ❓ | ❓ | `贵族机场` `IEPL专线` `高峰期稳定` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/kuromis) |
+| **WgetCloud** | BGP专线 | ¥79/月起 | ❓ | ❓ | `稳定` `企业级` `不差钱` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/wgetcloud) |
+| **新华云** | 隧道中转 | ¥3.99/月起 | ✅ | ✅ | `高性价比` `不限设备` `学生党推荐` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/newhua99) |
+| **FlowerCloud** | BGP/IEPL专线 | ¥39/月起 | ✅ | ❓ | `老牌` `Trojan` `口碑好` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/flowercloud) |
 
 ---
 

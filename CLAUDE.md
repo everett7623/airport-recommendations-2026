@@ -40,7 +40,7 @@ Each category contains an `airports` array. Each airport object:
 ```json
 {
   "name": "Display name",
-  "url": "Referral/affiliate URL (usually https://s.y8o.de/...)",
+  "url": "Referral/affiliate URL (usually https://go.uukk.de/...)",
   "coupon": "Coupon code string (empty string if none)",
   "logoSvg": "data:image/svg+xml;... inline SVG logo (< 1 KB each)",
   "description": "Marketing description (1-2 sentences)",
@@ -54,7 +54,7 @@ Each category contains an `airports` array. Each airport object:
 }
 ```
 
-URL shortener `s.y8o.de` is used for all outbound links.
+URL shortener `go.uukk.de` is used for all outbound links.
 
 ## Update workflow
 
@@ -72,7 +72,7 @@ When adding, removing, or modifying airports:
 - Language: Simplified Chinese for all user-facing content
 - Dates: `YYYY-MM-DD` format (matching `version` in JSON)
 - Prices: `¥` prefix, `¥xx/月` or `¥xx/年` format
-- Affiliate links: All wrapped through `s.y8o.de` shortener
+- Affiliate links: All wrapped through `go.uukk.de` shortener
 - SVG logos: Inline `data:image/svg+xml;charset=UTF-8,...` — keep them small (< 1 KB), `viewBox="0 0 100 100"`, rounded-rect background with a single letter or simple icon
 - Coupon codes: Empty string `""` when none, otherwise descriptive like `"优惠码: HY888"` or `"试用券: vpsknow（1天/5GB）"`
 - Tags: Use only terms from `tags_vocabulary` when possible; add new terms to the vocabulary when introducing new concepts

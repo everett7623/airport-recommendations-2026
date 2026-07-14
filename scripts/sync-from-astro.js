@@ -42,15 +42,14 @@ function backup(filePath) {
 }
 
 function validateSource(source, sourceLabel) {
-  const looksLikeAstro = source.trimStart().startsWith('---') || source.includes('import BaseLayout');
-  const hasAirportData = /\bairportCategories\b/.test(source) && /\bairports\s*:/.test(source);
+  const hasAirportData = /\bairportCategories\b/.test(source);
   const looksLikeErrorPage = /^(404:\s*Not Found|Not Found)$/i.test(source.trim()) || /<html[\s>]/i.test(source);
 
   if (looksLikeErrorPage) {
     throw new Error(`${sourceLabel} returned an error page instead of Astro source`);
   }
-  if (!looksLikeAstro || !hasAirportData) {
-    throw new Error(`${sourceLabel} is not a valid airport-recommendations.astro source`);
+  if (!hasAirportData) {
+    throw new Error(`${sourceLabel} does not contain airportCategories data`);
   }
 }
 

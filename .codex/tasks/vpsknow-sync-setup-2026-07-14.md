@@ -21,3 +21,5 @@
 - workflow 已增加 fallback：默认路径不存在时自动搜索 `airport-recommendations.astro`，并将真实路径写入 `VPSKNOW_RESOLVED_ASTRO` 给同步步骤使用。
 - 已运行 `npm run validate`，结果为 0 errors / 0 warnings，生成文档为 up to date。
 - 已运行 `git diff --check`，未发现空白错误。
+
+- Actions #9 已通过 workflow 源文件校验，但脚本 validateSource 仍要求旧版 Astro 页面特征；已放宽为只要求 airportCategories 数据块，避免被页面重构误拦截。

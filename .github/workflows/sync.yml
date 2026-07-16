@@ -2,12 +2,12 @@ name: Sync from VPSKnow
 
 on:
   schedule:
-    # Every Monday at 00:00 UTC
-    - cron: '0 0 * * 1'
+    # Daily at 01:17 UTC (09:17 Asia/Shanghai); avoid the busy top of the hour.
+    - cron: '17 1 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
-        description: 'Dry run (no changes committed)'
+        description: 'Preview only (no data will be committed)'
         type: boolean
         default: false
       source_ref:

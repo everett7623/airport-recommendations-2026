@@ -6,7 +6,7 @@
 
 工作流文件：`.github/workflows/sync.yml`
 
-- 定时运行：每周一 00:00 UTC
+- 定时运行：每天 01:17 UTC（北京时间 09:17）
 - 手动运行：GitHub Actions 页面选择 **Sync from VPSKnow**
 - 支持 dry run：手动运行时打开 `dry_run`，只预览差异，不提交
 - 支持 ref 覆盖：手动运行时填写 `source_ref`，可临时同步某个分支、tag 或 SHA
@@ -49,6 +49,11 @@ npm run generate
 ## 注意事项
 
 - `data/airports.json` 是本仓库机场列表的单一数据源。
+- 同步脚本同时读取分类卡片、完整目录补充、无 AFF 与下架记录；上游旧版本没有完整目录数据块时，才保留本地已审核的 `directory_only`。
 - README 与 blacklist 是生成文件，不要手动改机场列表、链接、下架记录和数量。
 - 同步脚本会将旧短链域名自动规范化为 `go.uukk.de`。
 - 如果上游页面不再包含 `airportCategories` 或 `airports:`，工作流会在源码校验阶段失败，避免写入错误数据。
+
+## 故障案例：工作流成功但数据未更新
+
+`workflow_dispatch` 的 `dry_run=true` 会正常检出上游、生成差异并以成功状态结束，但会跳过 `Commit and push`。这种运行只用于预览，不能视为已经完成同步。需要落库时保持 `dry_run=false`；定时运行不使用 dry run。

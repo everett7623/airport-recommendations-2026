@@ -51,11 +51,11 @@ function categoryAnchor(key) {
 }
 
 function getAllAirports(data) {
-  return [
+  return [...new Map([
     ...Object.values(data.categories || {}).flatMap(c => c.airports || []),
     ...(data.no_aff || []),
     ...(data.directory_only || []),
-  ];
+  ].map(a => [a.name, a])).values()];
 }
 
 function getDefunctAirports(data) {
@@ -109,7 +109,7 @@ function generateFullReadme(data) {
   lines.push('![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)');
   lines.push('![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)');
   lines.push('');
-  lines.push('> **📌 本项目定位：** 机场推荐索引与筛选工具 | 覆盖免费试用、入门经济、性价比、高端专线、按量计费等全类型 | 支持关键词搜索与标签筛选 | 每周自动同步 VPSKnow 数据');
+  lines.push('> **📌 本项目定位：** 机场推荐索引与筛选工具 | 覆盖免费试用、入门经济、性价比、高端专线、按量计费等全类型 | 支持关键词搜索与标签筛选 | 每日自动同步 VPSKnow 数据');
   lines.push('> 如果这个项目对你有帮助，请点个 Star ⭐ 支持一下！');
   lines.push('>');
   lines.push('> 💡 **更全的图文评测、实时测速数据与优惠活动请访问：** [VPSKnow.com/airport-recommendations](https://www.vpsknow.com/airport-recommendations)');
@@ -291,11 +291,7 @@ function generateFullReadme(data) {
   lines.push('| 机场名称 | 线路类型 | 最低价格 | 流媒体 | ChatGPT | 核心特色/标签 | 推荐度 | 直达购买 |');
   lines.push('|---------|---------|---------|-------|---------|--------------|-------|------|');
 
-  const indexAirports = [
-    ...Object.values(cats).flatMap(c => c.airports),
-    ...(data.no_aff || []),
-    ...(data.directory_only || []),
-  ];
+  const indexAirports = getAllAirports(data);
 
   for (const a of indexAirports) {
     const name = a.isUnderMaintenance ? `${a.name} ⚠️` : a.name;

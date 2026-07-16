@@ -1,26 +1,36 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-07-12
+// 更新时间: 2026-07-16
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-07-12",
+  "version": "2026-07-16",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
+      "AnyTLS/IEPL",
+      "AnyTLS（线路待确认）",
       "BGP/IEPL专线",
+      "BGP/IEPL口径",
       "BGP/IPLC专线",
       "BGP专线",
+      "CN2 GIA/9929/CMIN2",
+      "CN2 GIA/AS9929/CMIN2",
       "IEPL/IPLC专线",
       "IEPL专线",
       "IPLC/IEPL专线",
       "IPLC/直连专线",
       "IPLC专线",
+      "SD-WAN",
+      "Vless/Hysteria2",
+      "专线+优化直连",
       "中转专线",
       "优质直连",
       "公网中转",
+      "公网中转/中继",
+      "南北双通道专线",
       "多线国际加速",
-      "混合线路",
+      "跨境专线",
       "隧道中转",
       "高端专线"
     ],
@@ -42,82 +52,98 @@
       "季付起"
     ],
     "feature": [
-      "4K秒开",
       "4K观影",
+      "AI友好",
+      "AI解锁",
+      "AnyTLS",
       "ChatGPT",
+      "EMBY",
       "EMBY生态",
+      "Emby",
       "IEPL专线",
+      "SD-WAN",
       "SS协议",
       "Trojan",
-      "anytls",
-      "一线大厂",
+      "一年有效期",
       "三网优化",
-      "不宣传",
+      "下单前复核",
       "不差钱",
+      "不建议长期付费",
       "不限时",
       "不限时可选",
       "不限设备",
       "不限速",
       "专属客户端",
       "专线",
+      "专线小包",
       "专线直达",
       "专线稳定",
       "主力推荐",
+      "争议预警",
       "企业级",
       "低价",
+      "低价入门",
       "低延迟",
-      "低调",
       "佩奇",
       "佩奇系",
       "入门",
       "全兼容",
-      "全平台支持",
       "全球节点",
       "全球覆盖",
+      "冷门节点",
       "出海加速",
       "办公稳定",
       "千兆带宽",
       "原生IP",
       "原生节点",
-      "口碑好",
-      "团队",
       "基础使用",
-      "备份首选",
       "备用",
       "备用方案",
+      "多协议",
+      "多地区",
+      "多地区节点",
       "大流量",
       "学生党推荐",
       "家庭共享",
+      "已测评",
       "性价比",
+      "性能复查",
+      "总榜收录",
       "按量",
+      "按量/一次性",
+      "按量备用",
       "新人优惠",
       "新加坡背景",
       "新晋推荐",
       "新锐",
       "无日志",
       "日常使用",
-      "极致稳定",
+      "注意季付起",
       "流媒体",
       "流媒体全解锁",
       "流媒体解锁",
       "游戏加速",
-      "灵活",
-      "特惠低倍",
-      "电信优化",
       "白嫖",
+      "短周期先试",
+      "短周期复查",
+      "短周期测试",
       "稳定",
+      "美国台湾家宽",
       "老牌",
       "自研客户端",
       "试用",
+      "谨慎复查",
       "贵族机场",
       "超高带宽",
+      "进阶",
       "通用订阅",
       "长期备用",
-      "顶级线路",
+      "隐私待查",
+      "首轮实测",
       "高峰期稳定",
       "高性价比",
       "高端",
-      "高速体验"
+      "高端线路"
     ]
   },
   "categories": {
@@ -130,60 +156,60 @@
           "name": "网际快车",
           "url": "https://go.uukk.de/wjkc",
           "coupon": "试用券: vpsknow（1天/5GB）",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eK%3c/text%3e%3c/svg%3e",
-          "description": "网际快车，可直接体验快车专用VPN或三方通用订阅，有家宽节点、原生节点，30+节点，AI和流媒体全解锁。 试用券: vpsknow（1天/5GB）",
+          "logoSvg": "/logo/airports/wangji-express.png",
+          "description": "网际快车已补首轮测评，可体验快车专用 VPN 或三方通用订阅，截图显示永久流量包、日享套餐、Vless / Hysteria2 节点和 SoftBank 日本家宽原生 IP。更适合先按量备用和观察家宽节点，流媒体与晚高峰仍待补测。试用券: vpsknow（1天/5GB）",
           "features": [
+            "首轮测评已补",
             "流量不过期",
-            "不限设备数",
             "家宽节点",
-            "稳定不断流"
+            "AI出口观察"
           ],
-          "lineType": "中转专线",
-          "pricing": "免费试用，¥6.8/月起",
+          "lineType": "Vless/Hysteria2",
+          "pricing": "免费试用，¥6.8/20GB起",
           "tags": [
-            "白嫖",
+            "已测评",
             "试用",
-            "高速体验"
+            "按量备用"
           ]
         },
         {
           "name": "喵喵VPN",
           "url": "https://go.uukk.de/vpnmiao",
           "coupon": "优惠券: vpsknow",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f59e0b'/%3e%3ctext x='50' y='65' font-size='40' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e喵%3c/text%3e%3c/svg%3e",
-          "description": "喵喵VPN, 全线深度调优 Hysteria2 协议，解锁极致观影体验。高速直连，晚高峰依然丝滑。注册即可享受美国节点 72 小时免费试用！另有私有 EMBY 影音库福利。",
+          "logoSvg": "/logo/airports/miaomiao-vpn.png",
+          "description": "喵喵VPN 已补首轮测评，低价入口和一次性流量包适合入门备用。Hysteria2 节点、AI/部分流媒体解锁和 YouTube 4K 首轮可用，但 HostPapa 机房 IP 风险较高，建议先短周期试用。",
           "features": [
             "Hysteria2协议",
-            "72小时免费试用",
-            "私人EMBY影音库",
-            "美国节点0.1x费率"
+            "首轮测评已补",
+            "美国节点0.1x费率",
+            "IP风险需注意"
           ],
           "lineType": "优质直连",
           "pricing": "免费试用，¥8/月起",
           "tags": [
-            "4K秒开",
-            "极致稳定",
-            "特惠低倍"
+            "已测评",
+            "低价入门",
+            "短周期先试"
           ]
         },
         {
           "name": "拼好连",
           "url": "https://go.uukk.de/runway",
           "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eR%3c/text%3e%3c/svg%3e",
-          "description": "拼好连已完成首轮测评，套餐从 ¥9.90/月起，提供多地区 VLESS、UDP 与 XUDP 节点；部分节点仍需复查，建议先用试用或月付验证。",
+          "logoSvg": "/logo/airports/pinhaolian.png",
+          "description": "拼好连已补首轮测评，套餐从 ¥9.90/月起，截图显示 49 项代理组与多地区 Vless / UDP / XUDP 节点，AI、流媒体和 YouTube 4K 首轮可用；但部分节点超时，出口多为机房 IP，建议先用试用或月付验证。",
           "features": [
             "首轮测评已补",
             "试用1天6GB",
             "AI/流媒体首轮可用",
             "部分节点需复查"
           ],
-          "lineType": "BGP/IEPL专线",
+          "lineType": "BGP/IEPL口径",
           "pricing": "免费试用，¥9.90/月起",
           "tags": [
-            "白嫖",
+            "已测评",
             "试用",
-            "高速体验"
+            "短周期先试"
           ]
         }
       ]
@@ -217,8 +243,8 @@
           "name": "山水云",
           "url": "https://go.uukk.de/shanshuiyun",
           "coupon": "优惠券: 2026888（8折）",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2310b981'/%3e%3ctext x='50' y='60' font-size='32' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e山水%3c/text%3e%3c/svg%3e",
-          "description": "山水云，提供丰富的中转与直连节点，协议支持 VLESS+AnyTLS。套餐配置极为灵活，不仅有 ¥14.99/月的常规套餐，还提供极具性价比的 ¥88/年 轻量套餐（64GB/月）以及不限时一次性流量包。全线路完美解锁 Netflix、ChatGPT、TikTok，涵盖全球众多冷门国家节点。",
+          "logoSvg": "/logo/airports/shanshuiyun.png",
+          "description": "山水云，提供丰富的中转与直连节点，协议支持 VLESS+AnyTLS。套餐配置灵活，有 ¥14.99/月常规套餐、¥88/年轻量套餐（64GB/月）和不限时流量包；优惠券 2026888 可享 8 折，使用前请在结账页确认有效性。",
           "features": [
             "中转+直连节点",
             "年付低至¥88",
@@ -231,6 +257,26 @@
             "高性价比",
             "流媒体",
             "不限时可选"
+          ]
+        },
+        {
+          "name": "锦云",
+          "url": "https://go.uukk.de/jinyun",
+          "coupon": "优惠券: 2026888（8折）",
+          "logoSvg": "/logo/airports/jinyun.png",
+          "description": "锦云已补首轮测评，提供 ¥6/月 50GB、¥9/月 100GB、¥99/年 128GB/月和不限时流量包。Clash 显示 AnyTLS 节点与故障转移，主流 AI/流媒体及 YouTube 4K 首轮可用；美国出口为机房 IP，长期晚高峰仍待复查。优惠券 2026888 可享 8 折。",
+          "features": [
+            "首轮测评已补",
+            "AnyTLS节点",
+            "¥6/月起",
+            "AI/4K首轮可用"
+          ],
+          "lineType": "AnyTLS（线路待确认）",
+          "pricing": "¥6/月 50GB起",
+          "tags": [
+            "已测评",
+            "低价入门",
+            "短周期先试"
           ]
         },
         {
@@ -251,6 +297,46 @@
             "专线",
             "新锐",
             "全兼容"
+          ]
+        },
+        {
+          "name": "轻语机场",
+          "url": "https://go.uukk.de/qingyu",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3cpath d='M26 58 C34 36 54 24 76 28 C67 47 52 61 31 66 L24 76 Z' fill='white' opacity='.96'/%3e%3ccircle cx='58' cy='43' r='5' fill='%236366f1'/%3e%3c/svg%3e",
+          "description": "轻语机场已补首轮测评，套餐从 ¥10/月起，截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。",
+          "features": [
+            "首轮测评已补",
+            "¥10/月起",
+            "4K/AI首轮可用",
+            "IP风险需复查"
+          ],
+          "lineType": "AnyTLS/IEPL",
+          "pricing": "¥10/月起",
+          "tags": [
+            "已测评",
+            "低价入门",
+            "AI解锁"
+          ]
+        },
+        {
+          "name": "秒秒云",
+          "url": "https://go.uukk.de/miaomiaoyun",
+          "coupon": "优惠券: j4u5eVFw（8折）",
+          "logoSvg": "/logo/airports/miaomiaoyun.png",
+          "description": "秒秒云采用海外中转节点和 AnyTLS 协议，提供低至 ¥79/年的轻量套餐以及不限时一次性流量包。优惠券 j4u5eVFw 可享 8 折；线路、解锁和晚高峰表现仍建议先用短周期套餐自行验证。",
+          "features": [
+            "海外中转节点",
+            "AnyTLS协议",
+            "年付低至¥79起",
+            "支持不限时套餐"
+          ],
+          "lineType": "隧道中转",
+          "pricing": "¥14/月起（年付¥79起）",
+          "tags": [
+            "高性价比",
+            "AnyTLS",
+            "不限时可选"
           ]
         },
         {
@@ -312,26 +398,6 @@
             "流媒体",
             "不限时可选"
           ]
-        },
-        {
-          "name": "秒秒云",
-          "url": "https://go.uukk.de/miaomiaoyun",
-          "coupon": "优惠券: j4u5eVFw（8折）",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2306b6d4'/%3e%3ctext x='50' y='65' font-size='42' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e秒%3c/text%3e%3c/svg%3e",
-          "description": "秒秒云，一家宝藏高性价比机场，全线采用海外中转高速节点，搭配 anytls 新型协议以保障极高的连接稳定性。经实测晚高峰也能轻松拉满速度。套餐选择极其丰富，提供低至 ¥79/年的轻量套餐以及不限时一次性流量包，全节点完美解锁 Netflix、ChatGPT 等全球流媒体与 AI 工具。",
-          "features": [
-            "海外中转节点",
-            "anytls新协议防封",
-            "年付低至¥79起",
-            "支持不限时套餐"
-          ],
-          "lineType": "隧道中转",
-          "pricing": "¥14/月起（年付¥79起）",
-          "tags": [
-            "高性价比",
-            "anytls",
-            "不限时可选"
-          ]
         }
       ]
     },
@@ -363,6 +429,66 @@
           "isUnderMaintenance": false
         },
         {
+          "name": "极速Cloud",
+          "url": "https://go.uukk.de/jscloud",
+          "coupon": "优惠码: ikds88（9折）",
+          "logoSvg": "/logo/airports/jisucloud.png",
+          "description": "极速Cloud 已补首轮测评：Clash 代理组显示 49 项 VLESS / UDP / XUDP 节点，三网高带宽批量测速多数常用地区速度较高，YouTube 4K 与常见 AI / 流媒体首轮可用；但全节点 10 倍倍率，部分节点存在 Error 或 0bps，DNS/WebRTC 也需排查，建议先月付。",
+          "features": [
+            "首轮测评已补",
+            "49项VLESS节点/功能",
+            "YouTube 4K约91.8Mbps",
+            "所有节点10×倍率"
+          ],
+          "lineType": "CN2 GIA/AS9929/CMIN2",
+          "pricing": "¥15/月起（10×倍率）",
+          "tags": [
+            "首轮实测",
+            "多地区",
+            "隐私待查"
+          ]
+        },
+        {
+          "name": "Nice加速专线机场",
+          "url": "https://go.uukk.de/nicecc",
+          "coupon": "",
+          "logoSvg": "/logo/airports/nicecc.png",
+          "description": "Nice加速专线机场主推月付套餐，当前 ¥12/月 30GB 起，并提供 100GB 至 800GB 月流量及一次性流量包。首轮实测中台湾家宽、AI 与 YouTube 4K 可用；晚高峰长期稳定性仍需继续复查。",
+          "features": [
+            "南北双通道专线",
+            "AI首轮可用",
+            "月付¥12起",
+            "建议先月付"
+          ],
+          "lineType": "南北双通道专线",
+          "pricing": "¥12/月 30GB起",
+          "tags": [
+            "AI解锁",
+            "美国台湾家宽",
+            "短周期先试"
+          ]
+        },
+        {
+          "name": "极连云",
+          "url": "https://go.uukk.de/jly",
+          "coupon": "优惠码: JLY888（8折）",
+          "logoSvg": "/logo/airports/jilianyun.jpg",
+          "description": "极连云, 专注出海加速的 IPLC/IEPL 专线机场，三网入口优化保障稳定性。拥有 60+ 独立 IP 节点，全线原生 IP 完美解锁 ChatGPT、Netflix 等流媒体。年付轻量版仅需 96 元，性价比极高。",
+          "features": [
+            "IPLC/IEPL专线",
+            "原生IP全解锁",
+            "三网优化",
+            "年付¥96起"
+          ],
+          "lineType": "IPLC/IEPL专线",
+          "pricing": "¥14.4/月起",
+          "tags": [
+            "专线",
+            "流媒体",
+            "高性价比"
+          ]
+        },
+        {
           "name": "光速云",
           "url": "https://go.uukk.de/lightspeed",
           "coupon": "",
@@ -380,26 +506,6 @@
             "高性价比",
             "流媒体",
             "大流量"
-          ]
-        },
-        {
-          "name": "星岛梦",
-          "url": "https://go.uukk.de/stardream",
-          "coupon": "优惠码: XDM888（8折）",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3cpath d='M50 20 L60 40 L85 45 L65 60 L70 85 L50 75 L30 85 L35 60 L15 45 L40 40 Z' fill='white' stroke='white' stroke-width='2' stroke-linejoin='round'/%3e%3c/svg%3e",
-          "description": "星岛梦，高品质IEPL专线机场。全节点不限速、无倍率、不限设备数，稳定解锁流媒体与AI服务。月付仅需 ¥16，更提供 1TB 永久不限时流量包（¥680），是长期备用与主力使用的双重优选。",
-          "features": [
-            "IEPL专线",
-            "永久不限时包",
-            "不限设备数",
-            "无倍率"
-          ],
-          "lineType": "IEPL专线",
-          "pricing": "¥12.8/月起",
-          "tags": [
-            "不限时",
-            "不限设备",
-            "流媒体"
           ]
         },
         {
@@ -486,7 +592,7 @@
           "name": "快狸",
           "url": "https://go.uukk.de/kuaili",
           "coupon": "优惠码: vpsknow（8折）",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e狸%3c/text%3e%3c/svg%3e",
+          "logoSvg": "/logo/airports/kuaili.png",
           "description": "快狸，提供 VLESS 协议与企业级 IEPL 专线接入，三网优化智能分流。全线路解锁 Netflix、Disney+ 等流媒体及 ChatGPT、TikTok 全球环境。为保障长期防封与稳定，目前暂时仅支持使用其自研客户端一键连接。",
           "features": [
             "IEPL专线接入",
@@ -526,7 +632,7 @@
           "name": "光年梯",
           "url": "https://go.uukk.de/lightyearti",
           "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3cpath d='M50 15 L55 40 L80 40 L60 55 L70 80 L50 65 L30 80 L40 55 L20 40 L45 40 Z' fill='white' stroke='white' stroke-width='2' stroke-linejoin='round'/%3e%3c/svg%3e",
+          "logoSvg": "/logo/airports/lightyearti.png",
           "description": "光年梯, 新加坡团队运营的 IEPL SS 专线机场。全节点 1 倍率，晚高峰不限速，稳定解锁 ChatGPT 及流媒体。",
           "features": [
             "IEPL专线",
@@ -540,26 +646,6 @@
             "SS协议",
             "稳定",
             "新加坡背景"
-          ]
-        },
-        {
-          "name": "极连云",
-          "url": "https://go.uukk.de/jly",
-          "coupon": "优惠码: JLY888（8折）",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230891b2'/%3e%3cpath d='M40 25 L65 25 L65 45 L85 45 L50 80 L50 55 L30 55 Z' fill='none' stroke='white' stroke-width='5' stroke-linejoin='round' stroke-linecap='round'/%3e%3c/svg%3e",
-          "description": "极连云, 专注出海加速的 IPLC/IEPL 专线机场，三网入口优化保障稳定性。拥有 60+ 独立 IP 节点，全线原生 IP 完美解锁 ChatGPT、Netflix 等流媒体。年付轻量版仅需 96 元，性价比极高。",
-          "features": [
-            "IPLC/IEPL专线",
-            "原生IP全解锁",
-            "三网优化",
-            "年付¥96起"
-          ],
-          "lineType": "IPLC/IEPL专线",
-          "pricing": "¥14.4/月起",
-          "tags": [
-            "专线",
-            "流媒体",
-            "高性价比"
           ]
         },
         {
@@ -593,7 +679,7 @@
           "name": "Nexitally",
           "url": "https://go.uukk.de/naiixi",
           "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23fbcfe8'/%3e%3cpath d='M20 60 Q 35 40, 50 60 T 80 60' fill='none' stroke='white' stroke-width='10' stroke-linecap='round'/%3e%3c/svg%3e",
+          "logoSvg": "/logo/airports/nexitally.png",
           "description": "Nexitally（奶昔），2017 年成立的老牌佩奇机场，自研面板，唯云专线，适合对稳定性和流媒体解锁有持续需求的用户。",
           "features": [
             "老牌大厂",
@@ -602,7 +688,7 @@
             "流媒体解锁"
           ],
           "lineType": "高端专线",
-          "pricing": "¥117/月起",
+          "pricing": "¥74.55/月起",
           "tags": [
             "佩奇",
             "稳定",
@@ -633,20 +719,20 @@
           "name": "MESL",
           "url": "https://go.uukk.de/mesl",
           "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23000000'/%3e%3ctext x='50' y='62' font-size='24' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3EMESL%3C/text%3e%3c/svg%3e",
-          "description": "MESL，极其低调的顶级机场，不依赖TG宣传。拥有极高的带宽接入能力，主要服务于对线路质量有苛刻要求的专业用户。",
+          "logoSvg": "/logo/airports/mesl.png",
+          "description": "MESL，极其低调的高端机场，已补首轮测评。节点多、家宽/商宽覆盖广，流媒体和 AI 解锁表现不错，但仍建议先短周期测试。",
           "features": [
-            "极度低调",
-            "海量带宽",
-            "不超售",
-            "专业首选"
+            "已补首轮测评",
+            "家宽/商宽节点",
+            "流媒体与AI友好",
+            "短周期先试"
           ],
           "lineType": "IEPL专线",
           "pricing": "¥50/月起",
           "tags": [
-            "低调",
-            "顶级线路",
-            "不宣传"
+            "已测评",
+            "高端线路",
+            "AI友好"
           ]
         },
         {
@@ -654,39 +740,59 @@
           "url": "https://go.uukk.de/immtele",
           "coupon": "",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3ccircle cx='50' cy='50' r='45' fill='%23000000'/%3e%3cpath d='M30 50 L45 65 L75 35' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
-          "description": "ImmTelecom，高端线路，主打极致稳定与低延迟，适合对网络质量有极高要求的用户，入门套餐¥72.45/月，500G流量。",
+          "description": "ImmTelecom 已补首轮实测：108 项多地区 AnyTLS 节点，AI、流媒体与 YouTube 4K 表现可用；但机房 IP、DNS 与少量节点超时仍需复查。",
           "features": [
-            "电信专线",
-            "超低延迟",
-            "高端定位",
-            "极致稳定"
+            "已补首轮测评",
+            "多地区AnyTLS节点",
+            "AI与流媒体可用",
+            "DNS待复查"
           ],
           "lineType": "IEPL/IPLC专线",
           "pricing": "¥72.45/月起",
           "tags": [
-            "一线大厂",
-            "电信优化",
+            "已测评",
+            "多地区节点",
             "高端"
           ]
         },
         {
-          "name": "YToo",
-          "url": "https://go.uukk.de/ytoo",
+          "name": "肯の机",
+          "url": "https://go.uukk.de/kendeji",
           "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%234f46e5'/%3e%3cpath d='M30 65 L50 35 L70 65 M50 35 V 75' fill='none' stroke='white' stroke-width='10' stroke-linejoin='round' stroke-linecap='round'/%3e%3c/svg%3e",
-          "description": "YToo，覆盖大量非主流地区，采用多线国际传输架构。年付轻量套餐也能使用完整全球节点池。",
+          "logoSvg": "/logo/airports/kendeji.png",
+          "description": "肯の机官网公开套餐为 ¥40/月 100GB 起，列出 CN2 GIA、9929、CMIN2 三网优化线路及 0.01 倍低倍率节点；面板支持 TUIC v5、AnyTLS 与 VLESS。AI/流媒体能力属于官方口径，首次购买仍建议短周期验证。",
           "features": [
-            "全球多地节点",
-            "轻量年付可选",
-            "团队套餐",
-            "主流客户端"
+            "100GB/月起",
+            "三网优化架构",
+            "TUIC/AnyTLS/VLESS",
+            "AI/流媒体官方口径"
           ],
-          "lineType": "多线国际加速",
-          "pricing": "¥98/年起",
+          "lineType": "CN2 GIA/9929/CMIN2",
+          "pricing": "¥40/月 100GB起",
           "tags": [
-            "全球覆盖",
-            "备用方案",
-            "团队"
+            "高端线路",
+            "多协议",
+            "短周期先试"
+          ]
+        },
+        {
+          "name": "ViKing Links",
+          "url": "https://go.uukk.de/vikinglinks",
+          "coupon": "优惠码: WELCOME（88折）",
+          "logoSvg": "/logo/airports/viking-links.svg",
+          "description": "ViKing Links 2025 年上线，近期公开资料显示已切换 Trojan 协议，采用多入口专线与三网优化直连组合。当前初级套餐 ¥118/季 250GB/月，中级套餐 ¥72/月 500GB；可使用优惠码 WELCOME 享 88 折，官网直连受限，购买前应再次核对套餐页与优惠范围。",
+          "features": [
+            "Trojan协议",
+            "专线+优化直连",
+            "250GB季付起",
+            "常用及冷门地区"
+          ],
+          "lineType": "专线+优化直连",
+          "pricing": "¥72/月 500GB",
+          "tags": [
+            "高端线路",
+            "Trojan",
+            "下单前复核"
           ]
         }
       ]
@@ -696,26 +802,6 @@
       "icon": "💰",
       "description": "用多少付多少，无过期时间，适合作为主力备份或轻度使用",
       "airports": [
-        {
-          "name": "Gatern",
-          "url": "https://go.uukk.de/Gatern",
-          "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23ec4899'/%3e%3cpath d='M35 50 L65 50 M50 35 L65 50 L50 65 M30 35 L30 65' fill='none' stroke='white' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e",
-          "description": "Gatern，提供按量与周期套餐并存的灵活方案，不限时流量包适合作为高质量备用。",
-          "features": [
-            "按量/周期可选",
-            "不限时流量包",
-            "流媒体解锁",
-            "多设备支持"
-          ],
-          "lineType": "混合线路",
-          "pricing": "按量付费",
-          "tags": [
-            "备份首选",
-            "灵活",
-            "按量"
-          ]
-        },
         {
           "name": "SKYLUMO",
           "url": "https://go.uukk.de/skylumo",
@@ -754,6 +840,26 @@
             "老牌",
             "按量",
             "长期备用"
+          ]
+        },
+        {
+          "name": "Gatern",
+          "url": "https://go.uukk.de/Gatern",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23ec4899'/%3e%3cpath d='M35 50 L65 50 M50 35 L65 50 L50 65 M30 35 L30 65' fill='none' stroke='white' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e",
+          "description": "Gatern 固定收录在按量计费分类末位，提供周期与一年期一次性套餐，覆盖常用和小众地区。一次性套餐有效期为一年，并非永久流量；官方标注企业级跨境专线及最多 10 台设备同时在线。",
+          "features": [
+            "一年期一次性套餐",
+            "周期套餐可选",
+            "小众地区覆盖",
+            "最多10台设备"
+          ],
+          "lineType": "跨境专线",
+          "pricing": "¥24/月起",
+          "tags": [
+            "按量/一次性",
+            "全球节点",
+            "一年有效期"
           ]
         }
       ]
@@ -833,41 +939,187 @@
   ],
   "directory_only": [
     {
+      "name": "YToo",
+      "url": "https://go.uukk.de/ytoo",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%234f46e5'/%3e%3cpath d='M30 65 L50 35 L70 65 M50 35 V 75' fill='none' stroke='white' stroke-width='10' stroke-linejoin='round' stroke-linecap='round'/%3e%3c/svg%3e",
+      "description": "YToo 保留在完整总榜供对比，覆盖大量非主流地区并采用多线国际传输架构；本轮不再占用高端机场分类卡片。购买前建议先复核当前套餐、线路和节点状态。",
+      "features": [
+        "总榜收录",
+        "全球多地节点",
+        "轻量年付可选",
+        "购买前复核"
+      ],
+      "lineType": "多线国际加速",
+      "pricing": "¥98/年起",
+      "tags": [
+        "总榜收录",
+        "全球覆盖",
+        "备用方案"
+      ]
+    },
+    {
       "name": "FlowerCloud",
       "url": "https://go.uukk.de/flowercloud",
       "coupon": "",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2310b981'/%3e%3cpath d='M50 30 Q65 10, 80 30 T 90 60 Q80 80, 50 80 Q20 80, 10 60 Q10 30, 50 30' fill='none' stroke='white' stroke-width='6'/%3e%3c/svg%3e",
-      "description": "FlowerCloud（花云）已从高端专线重点分类移出，仍保留在完整总榜供用户自行比较。",
+      "description": "FlowerCloud（花云）保留在完整总榜供对比。它是老牌 Trojan / BGP / IEPL 机场，当前不再放入高端专线分类卡片；购买前建议先短周期复查线路、解锁和晚高峰表现。",
       "features": [
+        "总榜收录",
+        "老牌机场",
         "Trojan协议",
-        "多地区节点",
-        "稳定线路",
-        "流媒体解锁"
+        "建议短周期复查"
       ],
       "lineType": "BGP/IEPL专线",
       "pricing": "¥39/月起",
       "tags": [
+        "总榜收录",
         "老牌",
-        "Trojan",
-        "口碑好"
+        "短周期复查"
+      ]
+    },
+    {
+      "name": "星岛梦",
+      "url": "https://go.uukk.de/stardream",
+      "coupon": "优惠码: nmw888（9折）",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3cpath d='M50 20 L60 40 L85 45 L65 60 L70 85 L50 75 L30 85 L35 60 L15 45 L40 40 Z' fill='white' stroke='white' stroke-width='2' stroke-linejoin='round'/%3e%3c/svg%3e",
+      "description": "星岛梦保留在完整总榜供性能复查。2026-07-15 站长在本次所测节点与网络环境下使用时，YouTube 播放卡顿，Speedtest 测速低于 10 Mbps；现已撤出性价比分类卡片，等待不同节点与时段复测。",
+      "features": [
+        "完整总榜保留",
+        "YouTube播放卡顿",
+        "测速低于10Mbps",
+        "等待多时段复测"
+      ],
+      "lineType": "IEPL专线",
+      "pricing": "¥12.8/月起",
+      "tags": [
+        "性能复查",
+        "短周期测试",
+        "不建议长期付费"
+      ]
+    },
+    {
+      "name": "可信云",
+      "url": "https://go.uukk.de/kexinyun",
+      "coupon": "优惠码: kexinyun330",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230f766e'/%3e%3cpath d='M24 56 C28 40 43 31 57 38 C66 42 73 50 76 62 C69 57 62 55 54 58 C44 63 34 61 24 56 Z' fill='white' opacity='.96'/%3e%3ccircle cx='61' cy='45' r='5' fill='%230f766e'/%3e%3c/svg%3e",
+      "description": "可信云已补首轮测评，2026 年初上线，主打 IPLC/IEPL 专线、自研客户端、不限设备和不限速。截图显示 ¥96/年 60GB/月、¥25/月 150GB 起，YouTube 4K 与常用网站延迟首轮可用；但暂不支持通用订阅，且为新站，建议先短周期验证。",
+      "features": [
+        "首轮测评已补",
+        "IPLC/IEPL专线",
+        "自研客户端",
+        "通用订阅暂不支持"
+      ],
+      "lineType": "IPLC/IEPL专线",
+      "pricing": "¥96/年 60GB/月起",
+      "tags": [
+        "已测评",
+        "总榜收录",
+        "专线小包"
+      ]
+    },
+    {
+      "name": "Bitz Net",
+      "url": "https://go.uukk.de/Bitz",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eB%3c/text%3e%3c/svg%3e",
+      "description": "Bitz Net 当前主推 SD-WAN 接入，官方页面提供注册后 24 小时、5GB 试用，适合先验证本地网络、客户端和晚高峰表现后再购买。",
+      "features": [
+        "注册即用",
+        "试用24小时5GB",
+        "SD-WAN接入",
+        "适合先测再买"
+      ],
+      "lineType": "SD-WAN",
+      "pricing": "免费试用",
+      "tags": [
+        "试用",
+        "SD-WAN",
+        "总榜收录"
+      ]
+    },
+    {
+      "name": "69云",
+      "url": "https://go.uukk.de/69yun",
+      "coupon": "",
+      "logoSvg": "/logo/airports/69yun.png",
+      "description": "69云，成立于2022年，以节点覆盖广著称，拥有150+全球节点，涵盖尼日利亚、冰岛等大量冷门地区。公网中转/中继线路为主，价格亲民，深度整合 Emby 影音服务，签到可领流量。适合有冷门地区需求或 Emby 爱好者，晚高峰稳定性不及专线。",
+      "features": [
+        "150+全球节点",
+        "冷门地区覆盖广",
+        "分级流量套餐",
+        "Emby生态+签到送流量"
+      ],
+      "lineType": "公网中转/中继",
+      "pricing": "¥13.36/月起",
+      "tags": [
+        "性价比",
+        "冷门节点",
+        "Emby"
+      ]
+    },
+    {
+      "name": "SsrDog",
+      "url": "https://go.uukk.de/ssrdog",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f97316'/%3e%3cpath d='M40 35 L60 35 L60 45 L50 45 L50 65 M55 65 L65 65 M55 55 L65 55' fill='none' stroke='white' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e",
+      "description": "SsrDog，IEPL/IPLC 内网专线机场，港台节点延迟极低（25–50ms），流媒体解锁稳定。⚠️ 注意：2026年4月已取消月付，最低季付起步；协议已从 SS 升级至 AnyTLS，第三方客户端需确认兼容性。2026年3月曾有失联预警，后恢复正常，建议先季付观察。",
+      "features": [
+        "IPLC/IEPL专线",
+        "港台低延迟25-50ms",
+        "AnyTLS新协议",
+        "最低季付起步"
+      ],
+      "lineType": "IPLC/IEPL专线",
+      "pricing": "¥45/月 季付起",
+      "tags": [
+        "流媒体",
+        "原生IP",
+        "注意季付起"
+      ]
+    },
+    {
+      "name": "Bywave",
+      "url": "https://go.uukk.de/ByWave",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3cpath d='M25 50 Q35 30, 45 50 T65 50 T85 50' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
+      "description": "Bywave，万兆金融级 IEPL 专线，按流量与速度阶梯定价，创立于2020年。⚠️ 注意：专线节点为2倍率（中继节点0.7倍率），购买前需确认套餐实际可用流量；2026年1月曾出现长达两周的断线且无法联系客服，口碑争议较大。极不推荐直接年付，务必先月付充分测试。",
+      "features": [
+        "IEPL专线",
+        "分级套餐",
+        "流媒体解锁",
+        "专线2倍率请注意"
+      ],
+      "lineType": "IEPL专线",
+      "pricing": "¥30/月起",
+      "tags": [
+        "争议预警",
+        "EMBY",
+        "进阶"
+      ]
+    },
+    {
+      "name": "TNTCloud",
+      "url": "https://go.uukk.de/tnt",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23ef4444'/%3e%3ctext x='50' y='65' font-size='40' font-weight='900' text-anchor='middle' fill='white' font-family='Arial Black,Arial,sans-serif' letter-spacing='-2'>TNT</text>%3c/svg%3e",
+      "description": "TNTCloud，曾记录过线路超时和工单响应问题，现从失联记录移回完整总榜，仅作为用户自行对比和复查参考。购买前务必先确认官网、订阅和客服状态，避免直接长期付费。",
+      "features": [
+        "总榜收录",
+        "需先复查官网",
+        "建议短周期测试",
+        "谨慎付费"
+      ],
+      "lineType": "公网中转",
+      "pricing": "¥8/月起",
+      "tags": [
+        "总榜收录",
+        "谨慎复查",
+        "短周期测试"
       ]
     }
   ],
   "defunct": [
-    {
-      "name": "Sogo云",
-      "defunctDate": "2026-07-12",
-      "lineType": "IEPL专线",
-      "note": "运营方已表示不再继续运营，后续服务与维护缺乏保障，现从推荐清单及购买入口中全面移除。",
-      "pricingWas": "¥15.9/月起"
-    },
-    {
-      "name": "飞猫云 (FlyingCat)",
-      "defunctDate": "2026-04-17",
-      "lineType": "IEPL/IPLC专线",
-      "note": "官网及客户端均已无法访问，疑似跑路。",
-      "pricingWas": "¥15/月起"
-    },
     {
       "name": "OneStep",
       "defunctDate": "2026-05-06",

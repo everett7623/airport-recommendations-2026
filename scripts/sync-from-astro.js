@@ -264,6 +264,7 @@ async function main() {
   const loaded = await loadSource(localPath);
   let source = loaded.source;
   let sourcePath = loaded.sourcePath;
+  const versionSource = source;
 
   if (sourcePath) {
     const resolved = resolveDataSource(sourcePath, source, 'airportCategories');
@@ -277,6 +278,7 @@ async function main() {
   // 2. Extract data blocks
   const airportCategoriesRaw = extractJSObject(source, 'airportCategories');
   const noAffRaw = extractJSObject(source, 'noAffAirports');
+  const directoryOnlyRaw = extractJSObject(source, 'fullListOnlyAirports');
   const defunctRaw = extractJSObject(source, 'defunctAirports');
 
   if (!airportCategoriesRaw) {
@@ -289,6 +291,7 @@ async function main() {
   // 3. Parse
   const astroCategories = safeEval(airportCategoriesRaw);
   const astroNoAff = noAffRaw ? safeEval(noAffRaw) : [];
+  const astroDirectoryOnly = directoryOnlyRaw ? safeEval(directoryOnlyRaw) : null;
   const astroDefunct = defunctRaw ? safeEval(defunctRaw) : [];
 
   if (!astroCategories) {
@@ -298,7 +301,8 @@ async function main() {
   }
 
   // 4. Extract version info
-  const versionMatch = source.match(/更新时间:\s*(\d{4}-\d{2}-\d{2})/);
+  const versionMatch = versionSource.match(/更新时间:\s*(\d{4}-\d{2}-\d{2})/)
+    || source.match(/更新时间:\s*(\d{4}-\d{2}-\d{2})/);
   const version = versionMatch ? versionMatch[1] : new Date().toISOString().slice(0, 10);
 
   // 5. Build categories in our format
@@ -368,13 +372,17 @@ async function main() {
     }
   }
 
-  // The current Astro category source does not expose providers that only
-  // remain in the complete directory. Preserve this reviewed local state.
-  const directoryOnly = Array.isArray(existing?.directory_only) ? existing.directory_only : [];
+  // Prefer the upstream complete-directory block; preserve reviewed local
+  // state only when an older source does not expose that block yet.
+  const directoryOnly = astroDirectoryOnly
+    ? astroDirectoryOnly.map(a => mapAirport(a))
+    : (Array.isArray(existing?.directory_only) ? existing.directory_only : []);
   for (const a of directoryOnly) {
     if (a.lineType) allLineTypes.add(a.lineType);
     (a.tags || []).forEach(t => allTags.add(t));
   }
+  log(`  📋 完整目录补充: ${directoryOnly.length} airports`);
+  totalAirports += directoryOnly.length;
 
   // 8. Build output
   const output = {
@@ -433,12 +441,14 @@ async function main() {
       for (const a of (cat.airports || [])) existingNames.add(a.name);
     }
     for (const a of (existing.no_aff || [])) existingNames.add(a.name);
+    for (const a of (existing.directory_only || [])) existingNames.add(a.name);
 
     const newNames = new Set();
     for (const cat of Object.values(output.categories)) {
       for (const a of cat.airports) newNames.add(a.name);
     }
     for (const a of output.no_aff) newNames.add(a.name);
+    for (const a of (output.directory_only || [])) newNames.add(a.name);
 
     const added = [...newNames].filter(n => !existingNames.has(n));
     const removed = [...existingNames].filter(n => !newNames.has(n));

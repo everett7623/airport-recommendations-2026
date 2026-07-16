@@ -11,6 +11,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { appendLicenseAndDisclosure, LICENSE_ANCHOR } from './license-disclosure.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -131,6 +132,7 @@ function generateFullReadme(data) {
   lines.push('- [📊 完整服务商索引](#-完整服务商索引)');
   lines.push('- [📚 使用教程](#-使用教程)');
   lines.push('- [❓ 常见问题](#-常见问题)');
+  lines.push(`- [📄 许可与利益披露](#${LICENSE_ANCHOR})`);
   lines.push('- [⚠️ 免责声明](#disclaimer)');
   lines.push('');
   lines.push('---');
@@ -354,6 +356,8 @@ function generateFullReadme(data) {
   lines.push('---');
   lines.push('');
 
+  appendLicenseAndDisclosure(lines, { includeAnchor: true });
+
   // Disclaimer
   lines.push(`<a id="${DISCLAIMER_ANCHOR}"></a>`);
   lines.push('');
@@ -520,6 +524,8 @@ function generateSimpleReadme(data) {
   lines.push('');
   lines.push('---');
   lines.push('');
+
+  appendLicenseAndDisclosure(lines);
 
   // Disclaimer
   lines.push('## ⚠️ 免责声明');

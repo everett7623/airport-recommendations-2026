@@ -433,15 +433,14 @@
           "url": "https://go.uukk.de/jscloud",
           "coupon": "优惠码: ikds88（9折）",
           "logoSvg": "/logo/airports/jisucloud.png",
-          "description": "极速Cloud 已补首轮测评：Clash 代理组显示 49 项 VLESS / UDP / XUDP 节点，三网高带宽批量测速多数常用地区速度较高，YouTube 4K 与常见 AI / 流媒体首轮可用；但全节点 10 倍倍率，部分节点存在 Error 或 0bps，DNS/WebRTC 也需排查，建议先月付。",
+          "description": "极速Cloud 已补首轮测评：Clash 代理组显示 49 项 VLESS / UDP / XUDP 节点，三网高带宽批量测速多数常用地区速度较高，YouTube 4K 与常见 AI / 流媒体首轮可用；部分节点存在 Error 或 0bps，DNS/WebRTC 也需排查，建议先月付。",
           "features": [
             "首轮测评已补",
             "49项VLESS节点/功能",
-            "YouTube 4K约91.8Mbps",
-            "所有节点10×倍率"
+            "YouTube 4K约91.8Mbps"
           ],
           "lineType": "CN2 GIA/AS9929/CMIN2",
-          "pricing": "¥15/月起（10×倍率）",
+          "pricing": "¥15/月起",
           "tags": [
             "首轮实测",
             "多地区",

@@ -32,7 +32,7 @@
 | 机场 | 线路 | 价格 | 一句话总结 | 直达 |
 | --- | --- | --- | --- | --- |
 | **Fastlink** | BGP/IPLC专线 | ¥20/月起 | 运营多年的老牌机场，采用 BGP、IPLC 混合架构，节点覆盖广、稳定性高，适合... | [官网](https://go.uukk.de/fastlink) |
-| **极速Cloud** | CN2 GIA/AS9929/CMIN2 | ¥15/月起（10×倍率） | 极速Cloud 已补首轮测评：Clash 代理组显示 49 项 VLESS / ... | [官网](https://go.uukk.de/jscloud) |
+| **极速Cloud** | CN2 GIA/AS9929/CMIN2 | ¥15/月起 | 极速Cloud 已补首轮测评：Clash 代理组显示 49 项 VLESS / ... | [官网](https://go.uukk.de/jscloud) |
 | **Nice加速专线机场** | 南北双通道专线 | ¥12/月 30GB起 | Nice加速专线机场主推月付套餐，当前 ¥12/月 30GB 起，并提供 100... | [官网](https://go.uukk.de/nicecc) |
 | **极连云** | IPLC/IEPL专线 | ¥14.4/月起 | 极连云, 专注出海加速的 IPLC/IEPL 专线机场，三网入口优化保障稳定性。... | [官网](https://go.uukk.de/jly) |
 | **Nexitally** | 高端专线 | ¥74.55/月起 | Nexitally（奶昔），2017 年成立的老牌佩奇机场，自研面板，唯云专线，... | [官网](https://go.uukk.de/naiixi) |
@@ -59,7 +59,7 @@
 | **瞬云** | ANYCAST专线 | ¥16/月起（用码） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/sy) |
 | **唯兔云** | IPLC专线 | ¥6.6/月起（年付） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/wty) |
 | **Fastlink** | BGP/IPLC专线 | ¥20/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/fastlink) |
-| **极速Cloud** | CN2 GIA/AS9929/CMIN2 | ¥15/月起（10×倍率） | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jscloud) |
+| **极速Cloud** | CN2 GIA/AS9929/CMIN2 | ¥15/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jscloud) |
 | **Nice加速专线机场** | 南北双通道专线 | ¥12/月 30GB起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/nicecc) |
 | **极连云** | IPLC/IEPL专线 | ¥14.4/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jly) |
 | **光速云** | IPLC专线 | ¥17/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/lightspeed) |

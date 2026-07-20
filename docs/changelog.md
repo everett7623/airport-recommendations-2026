@@ -47,7 +47,7 @@
 - ✅ 新增 `scripts/sync-from-astro.js`：从 VPSKnow Astro 源码自动同步机场数据
 - ✅ 新增 `scripts/generate-readme.js`：从 airports.json 自动生成 README.md + README-SIMPLE.md
 - ✅ 新增 `scripts/validate-json.js`：校验 JSON 数据结构完整性
-- ✅ 新增 `.github/workflows/sync.yml`：每周一自动同步 VPSKnow 数据
+- ✅ 新增 `.github/workflows/sync.yml`：最初于每周一自动同步 VPSKnow 数据（当前已调整为每日同步）
 - ✅ 新增 `defunct` 失联机场记录：飞猫云、OneStep；TNTCloud 为当期风险排查记录，当前下架名单以 `data.defunct` 与 `docs/blacklist.md` 为准
 
 ### 更新
@@ -242,4 +242,4 @@
 
 ---
 
-**更新频率：** 机场数据每周自动同步 VPSKnow；重大变动随时更新，人工评测内容按需维护。
+**更新频率：** 机场数据每日自动同步 VPSKnow；重大变动随时更新，人工评测内容按需维护。

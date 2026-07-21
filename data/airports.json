@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-07-16
+// 更新时间: 2026-07-21
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-07-16",
+  "version": "2026-07-21",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -19,7 +19,6 @@
       "IEPL/IPLC专线",
       "IEPL专线",
       "IPLC/IEPL专线",
-      "IPLC/直连专线",
       "IPLC专线",
       "SD-WAN",
       "Vless/Hysteria2",
@@ -30,6 +29,7 @@
       "公网中转/中继",
       "南北双通道专线",
       "多线国际加速",
+      "线路待重新核对",
       "跨境专线",
       "隧道中转",
       "高端专线"
@@ -135,8 +135,8 @@
       "谨慎复查",
       "贵族机场",
       "超高带宽",
+      "运营变更",
       "进阶",
-      "通用订阅",
       "长期备用",
       "隐私待查",
       "首轮实测",
@@ -548,26 +548,6 @@
           ]
         },
         {
-          "name": "寰宇云",
-          "url": "https://go.uukk.de/huanyuyunvip",
-          "coupon": "优惠码: HY888",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230f172a'/%3e%3ccircle cx='50' cy='50' r='28' fill='none' stroke='%2338bdf8' stroke-width='5'/%3e%3ccircle cx='50' cy='50' r='14' fill='none' stroke='%2338bdf8' stroke-width='3'/%3e%3cpath d='M22 50 Q50 30 78 50 Q50 70 22 50' fill='none' stroke='%2338bdf8' stroke-width='3'/%3e%3c/svg%3e",
-          "description": "寰宇云，专业海外团队运营，八年行业经验。采用直连+IPLC专线混合架构，晚高峰稳定不限速，2.5Gbps 峰值带宽保障。全部节点 x1 倍率，支持 FlClash/Clash Verge/Singbox 等通用客户端导入订阅，小白也能轻松上手。",
-          "features": [
-            "直连+IPLC专线混合",
-            "x1倍率全节点",
-            "通用订阅链接",
-            "原生IP流媒体全解锁"
-          ],
-          "lineType": "IPLC/直连专线",
-          "pricing": "¥99/年起",
-          "tags": [
-            "通用订阅",
-            "原生IP",
-            "新晋推荐"
-          ]
-        },
-        {
           "name": "一翻云",
           "url": "https://go.uukk.de/1flyun",
           "coupon": "优惠码: 1FLYYUN（9折）",
@@ -938,6 +918,26 @@
   ],
   "directory_only": [
     {
+      "name": "寰宇云",
+      "url": "https://go.uukk.de/huanyuyunvip",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230f172a'/%3e%3ccircle cx='50' cy='50' r='28' fill='none' stroke='%2338bdf8' stroke-width='5'/%3e%3ccircle cx='50' cy='50' r='14' fill='none' stroke='%2338bdf8' stroke-width='3'/%3e%3cpath d='M22 50 Q50 30 78 50 Q50 70 22 50' fill='none' stroke='%2338bdf8' stroke-width='3'/%3e%3c/svg%3e",
+      "description": "寰宇云近期已更换运营方，历史运营年限、线路、倍率、解锁和稳定性口径不再直接沿用。现仅保留在完整总榜供用户核对，建议等待新运营阶段的套餐与实测证据补齐后，再用短周期套餐自行验证。",
+      "features": [
+        "完整总榜保留",
+        "已更换运营方",
+        "历史结论不沿用",
+        "等待重新复查"
+      ],
+      "lineType": "线路待重新核对",
+      "pricing": "当前套餐待复核",
+      "tags": [
+        "运营变更",
+        "总榜收录",
+        "短周期测试"
+      ]
+    },
+    {
       "name": "YToo",
       "url": "https://go.uukk.de/ytoo",
       "coupon": "",
@@ -1119,6 +1119,13 @@
     }
   ],
   "defunct": [
+    {
+      "name": "Sogo云",
+      "defunctDate": "2026-07-12",
+      "lineType": "IEPL专线",
+      "note": "运营方表示不再继续经营；营销页仍可访问，但不代表实际服务可用，请勿充值续费。",
+      "pricingWas": "¥15.9/月起"
+    },
     {
       "name": "OneStep",
       "defunctDate": "2026-05-06",

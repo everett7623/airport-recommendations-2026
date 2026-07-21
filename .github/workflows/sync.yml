@@ -88,11 +88,11 @@ jobs:
         id: sync
         run: node scripts/sync-from-astro.js --local "$VPSKNOW_RESOLVED_ASTRO"
 
-      - name: Validate JSON
-        run: node scripts/validate-json.js
-
       - name: Generate derived docs
         run: node scripts/generate-readme.js
+
+      - name: Validate synchronized outputs
+        run: npm run validate
 
       - name: Preview dry-run diff
         if: github.event.inputs.dry_run == 'true'

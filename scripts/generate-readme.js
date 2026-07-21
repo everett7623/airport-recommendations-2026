@@ -686,7 +686,7 @@ function main() {
 
   if (check) {
     const stale = outputs
-      .filter(([path, content]) => !existsSync(path) || readFileSync(path, 'utf-8') !== content)
+      .filter(([path, content]) => !existsSync(path) || readFileSync(path, 'utf-8').replace(/\r\n/g, '\n') !== content.replace(/\r\n/g, '\n'))
       .map(([path]) => path.slice(ROOT.length + 1));
 
     if (stale.length) {

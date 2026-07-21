@@ -9,8 +9,8 @@
 >
 > 📖 **完整版（46 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-07-16 已同步 VPSKnow，当前收录 46 个推荐条目。
-> ⛔ **下架记录：** OneStep（详见 [风险控制指南](docs/blacklist.md)）。
+> 🔄 **数据同步：** 2026-07-21 已同步 VPSKnow，当前收录 46 个推荐条目。
+> ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
 
@@ -65,7 +65,6 @@
 | **光速云** | IPLC专线 | ¥17/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/lightspeed) |
 | **全球云** | IPLC/IEPL专线 | ¥20/月起（年付¥99起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/globalyun) |
 | **二猫云** | IEPL/IPLC专线 | ¥89/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/2maoyun) |
-| **寰宇云** | IPLC/直连专线 | ¥99/年起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/huanyuyunvip) |
 | **一翻云** | IEPL专线 | ¥25/月起（年付¥100/年） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/1flyun) |
 | **快狸** | IEPL专线 | ¥96/年起（折后） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/kuaili) |
 | **U1S1** | 中转专线 | ¥18.8/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/u1s1) |
@@ -83,6 +82,7 @@
 | **Kuromis** | IEPL专线 | ¥34/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/kuromis) |
 | **WgetCloud** | BGP专线 | ¥79/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/wgetcloud) |
 | **新华云** | 隧道中转 | ¥3.99/月起 | ✅ | ✅ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/newhua99) |
+| **寰宇云** | 线路待重新核对 | 当前套餐待复核 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/huanyuyunvip) |
 | **YToo** | 多线国际加速 | ¥98/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/ytoo) |
 | **FlowerCloud** | BGP/IEPL专线 | ¥39/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/flowercloud) |
 | **星岛梦** | IEPL专线 | ¥12.8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/stardream) |

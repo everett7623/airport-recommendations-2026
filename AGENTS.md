@@ -60,12 +60,14 @@ URL shortener `go.uukk.de` is used for all outbound links.
 
 When adding, removing, or modifying airports:
 
-1. **Sync from VPSKnow first** — `scripts/sync-from-astro.js` reads the configured VPSKnow Astro source and regenerates `data/airports.json`. This JSON is the local single source of truth for airport lists, counts, categories, `no_aff`, and `defunct`.
-2. **Generate derived docs** — run `scripts/generate-readme.js` (or `npm run generate`) to regenerate `README.md`, `README-SIMPLE.md`, and `docs/blacklist.md`. Do not hand-edit airport counts, current provider lists, category tables, or current defunct lists in those files.
-3. **Validate** — run `npm run validate` to catch schema drift such as legacy pay-as-you-go aliases, misplaced `no_aff`, missing categories, or defunct providers still present in active lists.
-4. **Changelog is historical** — update `docs/changelog.md` only for noteworthy project or data-history notes. Current airport state should come from `data/airports.json` and generated docs, not from hand-written changelog text.
+1. **Update the configured upstream ref first** — the VPSKnow change must be committed and pushed to the ref read by the workflow (`main` by default). Local-only or unmerged changes cannot be synchronized.
+2. **Keep the upstream version current** — `data/airports.json.version` is read from the `// 更新时间: YYYY-MM-DD` header in the upstream `airport-recommendations.astro`; it is the upstream data version, not the workflow run date.
+3. **Sync the canonical data** — `scripts/sync-from-astro.js` regenerates `data/airports.json`, the local source of truth for lists, counts, categories, `no_aff`, `directory_only`, and `defunct`.
+4. **Regenerate all derived docs** — run `npm run generate` to evaluate and regenerate `README.md`, `README-SIMPLE.md`, and `docs/blacklist.md`. Never hand-edit their current version, counts, provider lists, category tables, links, or defunct lists.
+5. **Validate the complete result** — run `npm run validate` and `git diff --check`, then verify that all four synchronized files carry the expected version and content.
+6. **Update manual docs only when applicable** — `docs/changelog.md` records noteworthy history; methodology, FAQ, setup, contribution, and agent docs change only when their own rules or guidance change. Routine or no-diff syncs do not require hand-written documentation churn.
 
-`README.md`, `README-SIMPLE.md`, and `docs/blacklist.md` should always reflect `airports.json`'s `version` field after generation.
+The canonical procedure, required-file matrix, conditional documentation rules, GitHub Actions semantics, and acceptance checklist live in `docs/sync-setup.md`.
 
 ## Writing conventions
 

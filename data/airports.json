@@ -9,7 +9,6 @@
     "line_type": [
       "ANYCAST专线",
       "AnyTLS/IEPL",
-      "AnyTLS（线路待确认）",
       "BGP/IEPL专线",
       "BGP/IEPL口径",
       "BGP/IPLC专线",
@@ -22,6 +21,7 @@
       "IPLC专线",
       "SD-WAN",
       "Vless/Hysteria2",
+      "Vless节点",
       "专线+优化直连",
       "中转专线",
       "优质直连",
@@ -264,15 +264,15 @@
           "url": "https://go.uukk.de/jinyun",
           "coupon": "优惠券: 2026888（8折）",
           "logoSvg": "/logo/airports/jinyun.png",
-          "description": "锦云已补首轮测评，提供 ¥6/月 50GB、¥9/月 100GB、¥99/年 128GB/月和不限时流量包。Clash 显示 AnyTLS 节点与故障转移，主流 AI/流媒体及 YouTube 4K 首轮可用；美国出口为机房 IP，长期晚高峰仍待复查。优惠券 2026888 可享 8 折。",
+          "description": "锦云已补首轮测评，提供 ¥4.8/月 50GB、¥7.2/月 100GB、¥99/年 128GB/月和不限时流量包。Clash 显示 AnyTLS 节点与故障转移，主流 AI/流媒体及 YouTube 4K 首轮可用；美国出口为机房 IP，长期晚高峰仍待复查。",
           "features": [
             "首轮测评已补",
-            "AnyTLS节点",
-            "¥6/月起",
+            "Vless节点",
+            "¥4.8/月起",
             "AI/4K首轮可用"
           ],
-          "lineType": "AnyTLS（线路待确认）",
-          "pricing": "¥6/月 50GB起",
+          "lineType": "Vless节点",
+          "pricing": "¥4.8/月 50GB起",
           "tags": [
             "已测评",
             "低价入门",

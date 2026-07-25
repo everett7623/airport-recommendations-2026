@@ -25,6 +25,7 @@
       "专线+优化直连",
       "中转专线",
       "优质直连",
+      "全 IEPL 专线",
       "公网中转",
       "公网中转/中继",
       "南北双通道专线",
@@ -52,6 +53,7 @@
       "季付起"
     ],
     "feature": [
+      "150GB/月",
       "4K观影",
       "AI友好",
       "AI解锁",
@@ -76,7 +78,6 @@
       "专属客户端",
       "专线",
       "专线小包",
-      "专线直达",
       "专线稳定",
       "主力推荐",
       "争议预警",
@@ -344,19 +345,19 @@
           "url": "https://go.uukk.de/speedworld",
           "coupon": "优惠码: sujie888",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%233b82f6'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e速%3c/text%3e%3c/svg%3e",
-          "description": "速界，IEPL机场，2026年新锐。采用端到端独享 IEPL 国际专线链路，从根本上杜绝拥塞与 QoS 干扰，晚高峰 4K/8K 稳定秒开，年付体验包叠加 8 折优惠后极具性价比。",
+          "description": "速界当前套餐口径为每 30 天刷新 150GB 高速流量，全节点 x1 倍率且不限设备同时在线。服务方称全线采用 IEPL 专线，智能路由自动择优，单节点峰值带宽最高 2.5Gbps，并支持 Netflix、Disney+、ChatGPT 与 TikTok；节点覆盖香港×20、台湾×5、日本×10、新加坡×10、美国×10、马来西亚×2，以及英国、法国、德国、土耳其、泰国、巴西等地区。原生 IP、解锁和晚高峰表现建议先用短周期套餐实测，客服响应也以实际工单体验为准。",
           "features": [
-            "IEPL专线",
-            "高性价比",
-            "全节点 TLS 加密",
-            "无日志隐私保护"
+            "150GB/月·每30天刷新",
+            "全节点x1·不限设备",
+            "全IEPL专线·峰值2.5Gbps",
+            "流媒体/AI/TikTok支持"
           ],
-          "lineType": "IEPL专线",
-          "pricing": "¥72/年起（用码）",
+          "lineType": "全 IEPL 专线",
+          "pricing": "150GB/月｜年付8折·2年7折·3年6折",
           "tags": [
-            "专线直达",
-            "新锐",
-            "高性价比"
+            "IEPL专线",
+            "150GB/月",
+            "不限设备"
           ]
         },
         {

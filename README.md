@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
 ![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-46%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-47%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 ![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)
 
@@ -183,7 +183,23 @@
 
 ---
 
-### 4. EdgeNova
+### 4. COCODUCK VPN
+
+**🔗 官网：** [https://go.uukk.de/cocoduck](https://go.uukk.de/cocoduck)
+
+| 项目 | 说明 |
+|-----|------|
+| **线路类型** | IEPL/BGP |
+| **核心特色** | 51项VLESS节点，4K/AI首轮可用，¥77/年40GB/月，不限设备/支持试用 |
+| **简介** | COCODUCK VPN 已完成首轮实测：套餐含 ¥17/月 100GB 至 ¥115/月 1000GB，以及 ¥77/年、每月 40GB 的迷你鸭77。截图记录 51 项 VLESS 节点、约 139.94Mbps 下载与 YouTube 4K 播放；AI 可用，但测试出口为机房 IP，DNS/WebRTC 环境仍需注意。 |
+| **起步价** | ¥17/月 100GB起 |
+| **推荐指数** | ⭐⭐⭐⭐ |
+
+**核心标签：** `已测评` `性价比` `短周期先试`
+
+---
+
+### 5. EdgeNova
 
 **🔗 官网：** [https://go.uukk.de/edgenova](https://go.uukk.de/edgenova)
 
@@ -197,22 +213,6 @@
 | **推荐指数** | ⭐⭐⭐⭐ |
 
 **核心标签：** `专线` `新锐` `全兼容`
-
----
-
-### 5. 轻语机场
-
-**🔗 官网：** [https://go.uukk.de/qingyu](https://go.uukk.de/qingyu)
-
-| 项目 | 说明 |
-|-----|------|
-| **线路类型** | AnyTLS/IEPL |
-| **核心特色** | 首轮测评已补，¥10/月起，4K/AI首轮可用，IP风险需复查 |
-| **简介** | 轻语机场已补首轮测评，套餐从 ¥10/月起，截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。 |
-| **起步价** | ¥10/月起 |
-| **推荐指数** | ⭐⭐⭐⭐ |
-
-**核心标签：** `已测评` `低价入门` `AI解锁`
 
 ---
 
@@ -233,7 +233,23 @@
 
 ---
 
-### 7. 速界
+### 7. 轻语机场
+
+**🔗 官网：** [https://go.uukk.de/qingyu](https://go.uukk.de/qingyu)
+
+| 项目 | 说明 |
+|-----|------|
+| **线路类型** | AnyTLS/IEPL |
+| **核心特色** | 首轮测评已补，¥10/月起，4K/AI首轮可用，IP风险需复查 |
+| **简介** | 轻语机场已补首轮测评，套餐从 ¥10/月起，截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。 |
+| **起步价** | ¥10/月起 |
+| **推荐指数** | ⭐⭐⭐⭐ |
+
+**核心标签：** `已测评` `低价入门` `AI解锁`
+
+---
+
+### 8. 速界
 
 **🔗 官网：** [https://go.uukk.de/speedworld](https://go.uukk.de/speedworld)
 
@@ -250,7 +266,7 @@
 
 ---
 
-### 8. 瞬云
+### 9. 瞬云
 
 **🔗 官网：** [https://go.uukk.de/sy](https://go.uukk.de/sy)
 
@@ -267,7 +283,7 @@
 
 ---
 
-### 9. 唯兔云
+### 10. 唯兔云
 
 **🔗 官网：** [https://go.uukk.de/wty](https://go.uukk.de/wty)
 
@@ -574,8 +590,8 @@
 | 项目 | 说明 |
 |-----|------|
 | **线路类型** | CN2 GIA/9929/CMIN2 |
-| **核心特色** | 100GB/月起，三网优化架构，TUIC/AnyTLS/VLESS，AI/流媒体官方口径 |
-| **简介** | 肯の机官网公开套餐为 ¥40/月 100GB 起，列出 CN2 GIA、9929、CMIN2 三网优化线路及 0.01 倍低倍率节点；面板支持 TUIC v5、AnyTLS 与 VLESS。AI/流媒体能力属于官方口径，首次购买仍建议短周期验证。 |
+| **核心特色** | 100GB/月起，三网优化架构，TUIC/AnyTLS/VLESS，AI/流媒体待验证 |
+| **简介** | 肯の机当前套餐为 ¥40/月 100GB 起，页面列出 CN2 GIA、9929、CMIN2 三网优化线路及 0.01 倍低倍率节点；面板支持 TUIC v5、AnyTLS 与 VLESS。AI/流媒体能力尚待实际验证，首次购买仍建议短周期测试。 |
 | **起步价** | ¥40/月 100GB起 |
 | **推荐指数** | ⭐⭐⭐⭐ |
 
@@ -745,9 +761,10 @@
 | **SKYLUMO** | 公网中转 | ¥9.90起 | ❓ | ❓ | `备用` `不限时` `大流量` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/skylumo) |
 | **山水云** | 隧道中转 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | `高性价比` `流媒体` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/shanshuiyun) |
 | **锦云** | Vless节点 | ¥4.8/月 50GB起 | ❓ | ✅ | `已测评` `低价入门` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/jinyun) |
+| **COCODUCK VPN** | IEPL/BGP | ¥17/月 100GB起 | ❓ | ✅ | `已测评` `性价比` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/cocoduck) |
 | **EdgeNova** | IEPL专线 | 年付¥86起（用码） | ❓ | ✅ | `专线` `新锐` `全兼容` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/edgenova) |
-| **轻语机场** | AnyTLS/IEPL | ¥10/月起 | ✅ | ✅ | `已测评` `低价入门` `AI解锁` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/qingyu) |
 | **秒秒云** | 隧道中转 | ¥14/月起（年付¥79起） | ❓ | ❓ | `高性价比` `AnyTLS` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/miaomiaoyun) |
+| **轻语机场** | AnyTLS/IEPL | ¥10/月起 | ✅ | ✅ | `已测评` `低价入门` `AI解锁` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/qingyu) |
 | **速界** | 全 IEPL 专线 | 150GB/月｜年付8折·2年7折·3年6折 | ✅ | ✅ | `IEPL专线` `150GB/月` `不限设备` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/speedworld) |
 | **瞬云** | ANYCAST专线 | ¥16/月起（用码） | ✅ | ❓ | `原生节点` `流媒体解锁` `高性价比` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/sy) |
 | **唯兔云** | IPLC专线 | ¥6.6/月起（年付） | ✅ | ❓ | `高性价比` `流媒体` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/wty) |

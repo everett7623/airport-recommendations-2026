@@ -15,6 +15,7 @@
       "BGP专线",
       "CN2 GIA/9929/CMIN2",
       "CN2 GIA/AS9929/CMIN2",
+      "IEPL/BGP",
       "IEPL/IPLC专线",
       "IEPL专线",
       "IPLC/IEPL专线",
@@ -281,6 +282,26 @@
           ]
         },
         {
+          "name": "COCODUCK VPN",
+          "url": "https://go.uukk.de/cocoduck",
+          "coupon": "",
+          "logoSvg": "/logo/airports/cocoduck.png",
+          "description": "COCODUCK VPN 已完成首轮实测：套餐含 ¥17/月 100GB 至 ¥115/月 1000GB，以及 ¥77/年、每月 40GB 的迷你鸭77。截图记录 51 项 VLESS 节点、约 139.94Mbps 下载与 YouTube 4K 播放；AI 可用，但测试出口为机房 IP，DNS/WebRTC 环境仍需注意。",
+          "features": [
+            "51项VLESS节点",
+            "4K/AI首轮可用",
+            "¥77/年40GB/月",
+            "不限设备/支持试用"
+          ],
+          "lineType": "IEPL/BGP",
+          "pricing": "¥17/月 100GB起",
+          "tags": [
+            "已测评",
+            "性价比",
+            "短周期先试"
+          ]
+        },
+        {
           "name": "EdgeNova",
           "url": "https://go.uukk.de/edgenova",
           "coupon": "优惠码: XK808",
@@ -301,26 +322,6 @@
           ]
         },
         {
-          "name": "轻语机场",
-          "url": "https://go.uukk.de/qingyu",
-          "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3cpath d='M26 58 C34 36 54 24 76 28 C67 47 52 61 31 66 L24 76 Z' fill='white' opacity='.96'/%3e%3ccircle cx='58' cy='43' r='5' fill='%236366f1'/%3e%3c/svg%3e",
-          "description": "轻语机场已补首轮测评，套餐从 ¥10/月起，截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。",
-          "features": [
-            "首轮测评已补",
-            "¥10/月起",
-            "4K/AI首轮可用",
-            "IP风险需复查"
-          ],
-          "lineType": "AnyTLS/IEPL",
-          "pricing": "¥10/月起",
-          "tags": [
-            "已测评",
-            "低价入门",
-            "AI解锁"
-          ]
-        },
-        {
           "name": "秒秒云",
           "url": "https://go.uukk.de/miaomiaoyun",
           "coupon": "优惠券: j4u5eVFw（8折）",
@@ -338,6 +339,26 @@
             "高性价比",
             "AnyTLS",
             "不限时可选"
+          ]
+        },
+        {
+          "name": "轻语机场",
+          "url": "https://go.uukk.de/qingyu",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3cpath d='M26 58 C34 36 54 24 76 28 C67 47 52 61 31 66 L24 76 Z' fill='white' opacity='.96'/%3e%3ccircle cx='58' cy='43' r='5' fill='%236366f1'/%3e%3c/svg%3e",
+          "description": "轻语机场已补首轮测评，套餐从 ¥10/月起，截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。",
+          "features": [
+            "首轮测评已补",
+            "¥10/月起",
+            "4K/AI首轮可用",
+            "IP风险需复查"
+          ],
+          "lineType": "AnyTLS/IEPL",
+          "pricing": "¥10/月起",
+          "tags": [
+            "已测评",
+            "低价入门",
+            "AI解锁"
           ]
         },
         {
@@ -740,12 +761,12 @@
           "url": "https://go.uukk.de/kendeji",
           "coupon": "",
           "logoSvg": "/logo/airports/kendeji.png",
-          "description": "肯の机官网公开套餐为 ¥40/月 100GB 起，列出 CN2 GIA、9929、CMIN2 三网优化线路及 0.01 倍低倍率节点；面板支持 TUIC v5、AnyTLS 与 VLESS。AI/流媒体能力属于官方口径，首次购买仍建议短周期验证。",
+          "description": "肯の机当前套餐为 ¥40/月 100GB 起，页面列出 CN2 GIA、9929、CMIN2 三网优化线路及 0.01 倍低倍率节点；面板支持 TUIC v5、AnyTLS 与 VLESS。AI/流媒体能力尚待实际验证，首次购买仍建议短周期测试。",
           "features": [
             "100GB/月起",
             "三网优化架构",
             "TUIC/AnyTLS/VLESS",
-            "AI/流媒体官方口径"
+            "AI/流媒体待验证"
           ],
           "lineType": "CN2 GIA/9929/CMIN2",
           "pricing": "¥40/月 100GB起",

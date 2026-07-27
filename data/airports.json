@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-07-21
+// 更新时间: 2026-07-27
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-07-21",
+  "version": "2026-07-27",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",

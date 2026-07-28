@@ -53,11 +53,11 @@
 | **山水云** | 隧道中转 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/shanshuiyun) |
 | **锦云** | Vless节点 | ¥4.8/月 50GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jinyun) |
 | **COCODUCK VPN** | IEPL/BGP | ¥17/月 100GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/cocoduck) |
-| **EdgeNova** | IEPL专线 | 年付¥86起（用码） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/edgenova) |
+| **EdgeNova** | IEPL专线 | ¥86/年起（优惠后） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/edgenova) |
 | **秒秒云** | 隧道中转 | ¥14/月起（年付¥79起） | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/miaomiaoyun) |
 | **轻语机场** | AnyTLS/IEPL | ¥10/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/qingyu) |
-| **速界** | 全 IEPL 专线 | 150GB/月｜年付8折·2年7折·3年6折 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/speedworld) |
-| **瞬云** | ANYCAST专线 | ¥16/月起（用码） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/sy) |
+| **速界** | 全 IEPL 专线 | ¥72/年起（优惠后） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/speedworld) |
+| **瞬云** | ANYCAST专线 | ¥16/月起（优惠后） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/sy) |
 | **唯兔云** | IPLC专线 | ¥6.6/月起（年付） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/wty) |
 | **Fastlink** | BGP/IPLC专线 | ¥20/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/fastlink) |
 | **极速Cloud** | CN2 GIA/AS9929/CMIN2 | ¥15/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jscloud) |

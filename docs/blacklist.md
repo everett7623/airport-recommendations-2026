@@ -59,7 +59,7 @@
 
 推荐组合示例（随 `data/airports.json` 自动更新）：
 
-- 主力：Fastlink、极速Cloud、Nexitally
+- 主力：Fastlink、极速Cloud、TAG
 - 备用：SKYLUMO、魔戒、AmyTelecom
 
 ---

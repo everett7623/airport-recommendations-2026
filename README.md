@@ -57,8 +57,8 @@
 | 🆓 先测试后购买 | 免费试用 | 免费 | 网际快车、喵喵VPN | [查看详情](#category-free-trial) |
 | 💰 预算有限（学生党） | 入门经济 | ¥3.99/月起 | SKYLUMO、山水云、锦云 | [查看详情](#category-budget) |
 | ⚡ 日常使用（看剧、办公） | 性价比均衡 | ¥20/月起 | Fastlink、极速Cloud、Nice加速专线机场 | [查看详情](#category-balanced) |
-| 👔 商务办公（高稳定） | 高端专线 | ¥74.55/月起 | Nexitally、TAG | [查看详情](#category-premium) |
-| 🎮 游戏加速（低延迟） | 高端专线 | ¥50/月起 | MESL | [查看详情](#category-premium) |
+| 👔 商务办公（高稳定） | 高端专线 | ¥109/月起 | TAG、MESL | [查看详情](#category-premium) |
+| 🎮 游戏加速（低延迟） | 高端专线 | ¥72.45/月起 | ImmTelecom | [查看详情](#category-premium) |
 | 📦 轻度使用（备用） | 按量计费 | ¥9.90起 | SKYLUMO、魔戒 | [查看详情](#category-pay-as-you-go) |
 | 🔗 纯净推荐（无返利） | 无AFF/纯净 | ¥273/年起 | AmyTelecom、Kuromis | [查看详情](#category-no-aff) |
 
@@ -255,14 +255,14 @@
 
 | 项目 | 说明 |
 |-----|------|
-| **线路类型** | 全 IEPL 专线 |
+| **线路类型** | 全 IPLC 专线 |
 | **优惠券/码** | `优惠码: sujie888` |
-| **核心特色** | 50GB/月·每30天刷新，全节点x1·不限设备，全IEPL专线·峰值2.5Gbps，流媒体/AI/TikTok支持 |
-| **简介** | 速界当前套餐口径为每 30 天刷新 150GB 高速流量，全节点 x1 倍率且不限设备同时在线。服务方称全线采用 IEPL 专线，智能路由自动择优，单节点峰值带宽最高 2.5Gbps，并支持 Netflix、Disney+、ChatGPT 与 TikTok；节点覆盖香港×20、台湾×5、日本×10、新加坡×10、美国×10、马来西亚×2，以及英国、法国、德国、土耳其、泰国、巴西等地区。原生 IP、解锁和晚高峰表现建议先用短周期套餐实测，客服响应也以实际工单体验为准。 |
-| **起步价** | ¥72/年起（优惠后） |
+| **核心特色** | ¥15/月·50GB体验包，年付流量45/50GB待复核，全IPLC专线·峰值2.5Gbps，全节点x1·不限设备 |
+| **简介** | 速界当前页面列出 ¥15/月、50GB/月的体验套餐，以及标价 ¥90/年的限时年付套餐。年付套餐的公开流量字段为 50GB/月，但套餐说明仍写 45GB/月；优惠码 sujie888 的实际折扣与结账价也需在下单时复核。服务方页面称全线采用 IPLC 专线、全节点 x1 倍率且不限设备，单节点峰值最高 2.5Gbps，并支持 Netflix、Disney+、ChatGPT 与 TikTok；原生 IP、解锁和晚高峰表现仍建议先用月付套餐实测。 |
+| **起步价** | ¥90/年（用码后复核） |
 | **推荐指数** | ⭐⭐⭐⭐ |
 
-**核心标签：** `IEPL专线` `50GB/月` `不限设备`
+**核心标签：** `IPLC专线` `下单前复核` `不限设备`
 
 ---
 
@@ -519,23 +519,7 @@
 
 **追求极致稳定、低延迟与速度，适合商务办公、游戏加速及专业用户**
 
-### 1. Nexitally
-
-**🔗 官网：** [https://go.uukk.de/naiixi](https://go.uukk.de/naiixi)
-
-| 项目 | 说明 |
-|-----|------|
-| **线路类型** | 高端专线 |
-| **核心特色** | 老牌大厂，自研面板，唯云专线，流媒体解锁 |
-| **简介** | Nexitally（奶昔），2017 年成立的老牌佩奇机场，自研面板，唯云专线，适合对稳定性和流媒体解锁有持续需求的用户。 |
-| **起步价** | ¥74.55/月起 |
-| **推荐指数** | ⭐⭐⭐⭐ |
-
-**核心标签：** `佩奇` `稳定` `流媒体`
-
----
-
-### 2. TAG
+### 1. TAG
 
 **🔗 官网：** [https://go.uukk.de/tag](https://go.uukk.de/tag)
 
@@ -551,7 +535,7 @@
 
 ---
 
-### 3. MESL
+### 2. MESL
 
 **🔗 官网：** [https://go.uukk.de/mesl](https://go.uukk.de/mesl)
 
@@ -567,7 +551,7 @@
 
 ---
 
-### 4. ImmTelecom
+### 3. ImmTelecom
 
 **🔗 官网：** [https://go.uukk.de/immtele](https://go.uukk.de/immtele)
 
@@ -583,7 +567,7 @@
 
 ---
 
-### 5. 肯の机
+### 4. 肯の机
 
 **🔗 官网：** [https://go.uukk.de/kendeji](https://go.uukk.de/kendeji)
 
@@ -599,7 +583,7 @@
 
 ---
 
-### 6. ViKing Links
+### 5. ViKing Links
 
 **🔗 官网：** [https://go.uukk.de/vikinglinks](https://go.uukk.de/vikinglinks)
 
@@ -765,7 +749,7 @@
 | **EdgeNova** | IEPL专线 | ¥86/年起（优惠后） | ❓ | ✅ | `专线` `新锐` `全兼容` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/edgenova) |
 | **秒秒云** | 隧道中转 | ¥14/月起（年付¥79起） | ❓ | ❓ | `高性价比` `AnyTLS` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/miaomiaoyun) |
 | **轻语机场** | AnyTLS/IEPL | ¥10/月起 | ✅ | ✅ | `已测评` `低价入门` `AI解锁` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/qingyu) |
-| **速界** | 全 IEPL 专线 | ¥72/年起（优惠后） | ✅ | ✅ | `IEPL专线` `50GB/月` `不限设备` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/speedworld) |
+| **速界** | 全 IPLC 专线 | ¥90/年（用码后复核） | ❓ | ✅ | `IPLC专线` `下单前复核` `不限设备` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/speedworld) |
 | **瞬云** | ANYCAST专线 | ¥16/月起（优惠后） | ✅ | ❓ | `原生节点` `流媒体解锁` `高性价比` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/sy) |
 | **唯兔云** | IPLC专线 | ¥6.6/月起（年付） | ✅ | ❓ | `高性价比` `流媒体` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/wty) |
 | **Fastlink** | BGP/IPLC专线 | ¥20/月起 | ✅ | ❓ | `性价比` `老牌` `主力推荐` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/fastlink) |
@@ -780,7 +764,6 @@
 | **U1S1** | 中转专线 | ¥18.8/月起 | ✅ | ✅ | `不限设备` `千兆带宽` `流媒体全解锁` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/u1s1) |
 | **光年梯** | IEPL专线 | ¥18/月起 | ❓ | ✅ | `SS协议` `稳定` `新加坡背景` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/lightyearti) |
 | **宇宙云** | IEPL专线 | ¥12.5/月起（年付¥96/年） | ✅ | ❓ | `新晋推荐` `流媒体解锁` `专线稳定` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/yuzhoucloud) |
-| **Nexitally** | 高端专线 | ¥74.55/月起 | ✅ | ❓ | `佩奇` `稳定` `流媒体` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/naiixi) |
 | **TAG** | IEPL专线 | ¥109/月起 | ❓ | ❓ | `低延迟` `全球节点` `高端` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/tag) |
 | **MESL** | IEPL专线 | ¥50/月起 | ✅ | ✅ | `已测评` `高端线路` `AI友好` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/mesl) |
 | **ImmTelecom** | IEPL/IPLC专线 | ¥72.45/月起 | ✅ | ✅ | `已测评` `多地区节点` `高端` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/immtele) |
@@ -792,6 +775,7 @@
 | **Kuromis** | IEPL专线 | ¥34/月起 | ❓ | ❓ | `贵族机场` `IEPL专线` `高峰期稳定` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/kuromis) |
 | **WgetCloud** | BGP专线 | ¥79/月起 | ❓ | ❓ | `稳定` `企业级` `不差钱` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/wgetcloud) |
 | **新华云** | 隧道中转 | ¥3.99/月起 | ✅ | ✅ | `高性价比` `不限设备` `学生党推荐` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/newhua99) |
+| **Nexitally** | 高端专线 | ¥74.55/月起 | ✅ | ❓ | `总榜收录` `老牌` `流媒体` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/naiixi) |
 | **寰宇云** | 线路待重新核对 | 当前套餐待复核 | ❓ | ❓ | `运营变更` `总榜收录` `短周期测试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/huanyuyunvip) |
 | **YToo** | 多线国际加速 | ¥98/年起 | ❓ | ❓ | `总榜收录` `全球覆盖` `备用方案` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/ytoo) |
 | **FlowerCloud** | BGP/IEPL专线 | ¥39/月起 | ❓ | ❓ | `总榜收录` `老牌` `短周期复查` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/flowercloud) |
@@ -826,7 +810,7 @@
 
 ### Q1: 如何选择适合自己的机场？
 
-**A:** 根据使用场景选择：新手先试用网际快车、喵喵VPN；预算有限选SKYLUMO、山水云；日常主力选Fastlink、极速Cloud；商务办公选Nexitally、TAG、MESL；轻度使用或备用选SKYLUMO、魔戒。
+**A:** 根据使用场景选择：新手先试用网际快车、喵喵VPN；预算有限选SKYLUMO、山水云；日常主力选Fastlink、极速Cloud；商务办公选TAG、MESL、ImmTelecom；轻度使用或备用选SKYLUMO、魔戒。
 
 ### Q2: IPLC/IEPL 专线是什么？
 

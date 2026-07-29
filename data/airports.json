@@ -26,7 +26,7 @@
       "专线+优化直连",
       "中转专线",
       "优质直连",
-      "全 IEPL 专线",
+      "全 IPLC 专线",
       "公网中转",
       "公网中转/中继",
       "南北双通道专线",
@@ -55,7 +55,6 @@
     ],
     "feature": [
       "4K观影",
-      "50GB/月",
       "AI友好",
       "AI解锁",
       "AnyTLS",
@@ -64,6 +63,7 @@
       "EMBY生态",
       "Emby",
       "IEPL专线",
+      "IPLC专线",
       "SD-WAN",
       "SS协议",
       "Trojan",
@@ -86,7 +86,6 @@
       "低价",
       "低价入门",
       "低延迟",
-      "佩奇",
       "佩奇系",
       "入门",
       "全兼容",
@@ -366,18 +365,18 @@
           "url": "https://go.uukk.de/speedworld",
           "coupon": "优惠码: sujie888",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%233b82f6'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e速%3c/text%3e%3c/svg%3e",
-          "description": "速界当前套餐口径为每 30 天刷新 150GB 高速流量，全节点 x1 倍率且不限设备同时在线。服务方称全线采用 IEPL 专线，智能路由自动择优，单节点峰值带宽最高 2.5Gbps，并支持 Netflix、Disney+、ChatGPT 与 TikTok；节点覆盖香港×20、台湾×5、日本×10、新加坡×10、美国×10、马来西亚×2，以及英国、法国、德国、土耳其、泰国、巴西等地区。原生 IP、解锁和晚高峰表现建议先用短周期套餐实测，客服响应也以实际工单体验为准。",
+          "description": "速界当前页面列出 ¥15/月、50GB/月的体验套餐，以及标价 ¥90/年的限时年付套餐。年付套餐的公开流量字段为 50GB/月，但套餐说明仍写 45GB/月；优惠码 sujie888 的实际折扣与结账价也需在下单时复核。服务方页面称全线采用 IPLC 专线、全节点 x1 倍率且不限设备，单节点峰值最高 2.5Gbps，并支持 Netflix、Disney+、ChatGPT 与 TikTok；原生 IP、解锁和晚高峰表现仍建议先用月付套餐实测。",
           "features": [
-            "50GB/月·每30天刷新",
-            "全节点x1·不限设备",
-            "全IEPL专线·峰值2.5Gbps",
-            "流媒体/AI/TikTok支持"
+            "¥15/月·50GB体验包",
+            "年付流量45/50GB待复核",
+            "全IPLC专线·峰值2.5Gbps",
+            "全节点x1·不限设备"
           ],
-          "lineType": "全 IEPL 专线",
-          "pricing": "¥72/年起（优惠后）",
+          "lineType": "全 IPLC 专线",
+          "pricing": "¥90/年（用码后复核）",
           "tags": [
-            "IEPL专线",
-            "50GB/月",
+            "IPLC专线",
+            "下单前复核",
             "不限设备"
           ]
         },
@@ -677,26 +676,6 @@
       "description": "追求极致稳定、低延迟与速度，适合商务办公、游戏加速及专业用户",
       "airports": [
         {
-          "name": "Nexitally",
-          "url": "https://go.uukk.de/naiixi",
-          "coupon": "",
-          "logoSvg": "/logo/airports/nexitally.png",
-          "description": "Nexitally（奶昔），2017 年成立的老牌佩奇机场，自研面板，唯云专线，适合对稳定性和流媒体解锁有持续需求的用户。",
-          "features": [
-            "老牌大厂",
-            "自研面板",
-            "唯云专线",
-            "流媒体解锁"
-          ],
-          "lineType": "高端专线",
-          "pricing": "¥74.55/月起",
-          "tags": [
-            "佩奇",
-            "稳定",
-            "流媒体"
-          ]
-        },
-        {
           "name": "TAG",
           "url": "https://go.uukk.de/tag",
           "coupon": "",
@@ -939,6 +918,26 @@
     }
   ],
   "directory_only": [
+    {
+      "name": "Nexitally",
+      "url": "https://go.uukk.de/naiixi",
+      "coupon": "",
+      "logoSvg": "/logo/airports/nexitally.png",
+      "description": "Nexitally（奶昔）保留在完整总榜供对比。它是 2017 年成立的老牌佩奇机场，采用自研面板与唯云专线；当前不再放入高端专线分类卡片，购买前建议先复核套餐、节点和晚高峰表现。",
+      "features": [
+        "总榜收录",
+        "老牌机场",
+        "自研面板",
+        "唯云专线"
+      ],
+      "lineType": "高端专线",
+      "pricing": "¥74.55/月起",
+      "tags": [
+        "总榜收录",
+        "老牌",
+        "流媒体"
+      ]
+    },
     {
       "name": "寰宇云",
       "url": "https://go.uukk.de/huanyuyunvip",

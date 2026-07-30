@@ -21,7 +21,7 @@
 | 🆓 先测试后购买 | 免费试用 | 免费 | 网际快车 | 喵喵VPN |
 | 💰 预算有限（学生党） | 入门经济 | ¥3.99/月起 | SKYLUMO | 山水云 |
 | ⚡ 日常主力（看剧办公） | 性价比均衡 | ¥20/月起 | Fastlink / 极速Cloud | Nice加速专线机场 |
-| 👔 商务办公（高稳定） | 高端专线 | ¥109/月起 | TAG / MESL | ImmTelecom |
+| 👔 商务办公（高稳定） | 高端专线 | ¥109/月起（待实测） | TAG / MESL | ImmTelecom |
 | 🎮 游戏加速（低延迟） | 高端专线 | ¥72.45/月起 | ImmTelecom | TAG |
 | 📦 轻度使用（备用） | 按量计费 | ¥9.90起 | SKYLUMO | 魔戒 |
 
@@ -35,7 +35,7 @@
 | **极速Cloud** | CN2 GIA/AS9929/CMIN2 | ¥15/月起 | 极速Cloud 已补首轮测评：Clash 代理组显示 49 项 VLESS / ... | [官网](https://go.uukk.de/jscloud) |
 | **Nice加速专线机场** | 南北双通道专线 | ¥12/月 30GB起 | Nice加速专线机场主推月付套餐，当前 ¥12/月 30GB 起，并提供 100... | [官网](https://go.uukk.de/nicecc) |
 | **极连云** | IPLC/IEPL专线 | ¥14.4/月起 | 极连云, 专注出海加速的 IPLC/IEPL 专线机场，三网入口优化保障稳定性。... | [官网](https://go.uukk.de/jly) |
-| **TAG** | IEPL专线 | ¥109/月起 | 以节点覆盖广著称，延迟低丢包少，拥有大量冷门地区节点，适合有全球业务需求的用户。... | [官网](https://go.uukk.de/tag) |
+| **TAG** | IEPL专线口径 | ¥109/月起（待实测） | TAG 以节点覆盖广著称，拥有大量冷门地区节点。当前短链可跳转，但目标页面和原 ... | [官网](https://go.uukk.de/tag) |
 | **MESL** | IEPL专线 | ¥50/月起 | MESL，极其低调的高端机场，已补首轮测评。节点多、家宽/商宽覆盖广，流媒体和 ... | [官网](https://go.uukk.de/mesl) |
 | **ImmTelecom** | IEPL/IPLC专线 | ¥72.45/月起 | ImmTelecom 已补首轮实测：108 项多地区 AnyTLS 节点，AI、... | [官网](https://go.uukk.de/immtele) |
 | **SKYLUMO** | 公网中转 | ¥9.90起 | SKYLUMO，提供流量永不过期的一次性流量包方案，覆盖全球 80+ 地区，适合... | [官网](https://go.uukk.de/skylumo) |
@@ -71,7 +71,7 @@
 | **U1S1** | 中转专线 | ¥18.8/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/u1s1) |
 | **光年梯** | IEPL专线 | ¥18/月起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/lightyearti) |
 | **宇宙云** | IEPL专线 | ¥12.5/月起（年付¥96/年） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/yuzhoucloud) |
-| **TAG** | IEPL专线 | ¥109/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/tag) |
+| **TAG** | IEPL专线口径 | ¥109/月起（待实测） | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/tag) |
 | **MESL** | IEPL专线 | ¥50/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/mesl) |
 | **ImmTelecom** | IEPL/IPLC专线 | ¥72.45/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/immtele) |
 | **肯の机** | CN2 GIA/9929/CMIN2 | ¥40/月 100GB起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/kendeji) |

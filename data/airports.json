@@ -18,6 +18,7 @@
       "IEPL/BGP",
       "IEPL/IPLC专线",
       "IEPL专线",
+      "IEPL专线口径",
       "IPLC/IEPL专线",
       "IPLC专线",
       "SD-WAN",
@@ -85,7 +86,6 @@
       "企业级",
       "低价",
       "低价入门",
-      "低延迟",
       "佩奇系",
       "入门",
       "全兼容",
@@ -107,6 +107,7 @@
       "学生党推荐",
       "家庭共享",
       "已测评",
+      "待补实测",
       "性价比",
       "性能复查",
       "总榜收录",
@@ -431,7 +432,7 @@
           "name": "Fastlink",
           "url": "https://go.uukk.de/fastlink",
           "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2310b981'/%3e%3cpath d='M30 50 L70 50 M50 30 L70 50 L50 70' fill='none' stroke='white' stroke-width='10' stroke-linejoin='round' stroke-linecap='round'/%3e%3c/svg%3e",
+          "logoSvg": "/logo/airports/fastlink.png",
           "description": "运营多年的老牌机场，采用 BGP、IPLC 混合架构，节点覆盖广、稳定性高，适合作为主力机场，年付默认8折。",
           "features": [
             "混合线路架构",
@@ -680,19 +681,19 @@
           "url": "https://go.uukk.de/tag",
           "coupon": "",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%232563eb'/%3e%3cpath d='M30 70 L50 30 L70 70 Z' fill='none' stroke='white' stroke-width='10' stroke-linejoin='round' stroke-linecap='round'/%3e%3c/svg%3e",
-          "description": "以节点覆盖广著称，延迟低丢包少，拥有大量冷门地区节点，适合有全球业务需求的用户。",
+          "description": "TAG 以节点覆盖广著称，拥有大量冷门地区节点。当前短链可跳转，但目标页面和原 AFF 受 WAF/403，站内暂为 link-only 证据；原有低延迟、低丢包等宣传项待实测复核，购买前建议先验证当前套餐、线路与节点表现。",
           "features": [
-            "IEPL专线",
-            "低延迟",
-            "低丢包率",
-            "全球节点覆盖"
+            "全球节点覆盖",
+            "短链可跳转",
+            "link-only证据",
+            "待实测复核"
           ],
-          "lineType": "IEPL专线",
-          "pricing": "¥109/月起",
+          "lineType": "IEPL专线口径",
+          "pricing": "¥109/月起（待实测）",
           "tags": [
-            "低延迟",
             "全球节点",
-            "高端"
+            "高端",
+            "待补实测"
           ]
         },
         {
@@ -982,7 +983,7 @@
       "name": "FlowerCloud",
       "url": "https://go.uukk.de/flowercloud",
       "coupon": "",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2310b981'/%3e%3cpath d='M50 30 Q65 10, 80 30 T 90 60 Q80 80, 50 80 Q20 80, 10 60 Q10 30, 50 30' fill='none' stroke='white' stroke-width='6'/%3e%3c/svg%3e",
+      "logoSvg": "/logo/airports/flowercloud.png",
       "description": "FlowerCloud（花云）保留在完整总榜供对比。它是老牌 Trojan / BGP / IEPL 机场，当前不再放入高端专线分类卡片；购买前建议先短周期复查线路、解锁和晚高峰表现。",
       "features": [
         "总榜收录",
@@ -1082,7 +1083,7 @@
       "name": "SsrDog",
       "url": "https://go.uukk.de/ssrdog",
       "coupon": "",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f97316'/%3e%3cpath d='M40 35 L60 35 L60 45 L50 45 L50 65 M55 65 L65 65 M55 55 L65 55' fill='none' stroke='white' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e",
+      "logoSvg": "/logo/airports/ssrdog.png",
       "description": "SsrDog，IEPL/IPLC 内网专线机场，港台节点延迟极低（25–50ms），流媒体解锁稳定。⚠️ 注意：2026年4月已取消月付，最低季付起步；协议已从 SS 升级至 AnyTLS，第三方客户端需确认兼容性。2026年3月曾有失联预警，后恢复正常，建议先季付观察。",
       "features": [
         "IPLC/IEPL专线",
@@ -1102,7 +1103,7 @@
       "name": "Bywave",
       "url": "https://go.uukk.de/ByWave",
       "coupon": "",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3cpath d='M25 50 Q35 30, 45 50 T65 50 T85 50' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
+      "logoSvg": "/logo/airports/bywave.png",
       "description": "Bywave，万兆金融级 IEPL 专线，按流量与速度阶梯定价，创立于2020年。⚠️ 注意：专线节点为2倍率（中继节点0.7倍率），购买前需确认套餐实际可用流量；2026年1月曾出现长达两周的断线且无法联系客服，口碑争议较大。极不推荐直接年付，务必先月付充分测试。",
       "features": [
         "IEPL专线",

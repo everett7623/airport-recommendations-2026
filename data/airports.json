@@ -385,7 +385,7 @@
           "name": "瞬云",
           "url": "https://go.uukk.de/sy",
           "coupon": "优惠码: 20OFF（8折）",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230284c7'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e瞬%3c/text%3e%3c/svg%3e",
+          "logoSvg": "/logo/airports/shunyun.png",
           "description": "瞬云，采用直连加专线架构与 ANYCAST 网络，三网入口优化，晚高峰表现良好，稳定解锁流媒体与AI服务。新人使用优惠码 20OFF 享8折，入门套餐低至16元/月，另有99元/年限量小包可选。",
           "features": [
             "ANYCAST专线",
@@ -405,7 +405,7 @@
           "name": "唯兔云",
           "url": "https://go.uukk.de/wty",
           "coupon": "优惠码: rabbit",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f97316'/%3e%3cpath d='M35 30 Q 30 15 20 20 Q 25 35 35 35 Z M65 30 Q 70 15 80 20 Q 75 35 65 35 Z M50 45 C 30 45 30 80 50 80 C 70 80 70 45 50 45 Z M45 55 A 2 2 0 1 0 45 59 A 2 2 0 1 0 45 55 Z M55 55 A 2 2 0 1 0 55 59 A 2 2 0 1 0 55 55 Z' fill='white' stroke='white' stroke-width='2'/%3e%3c/svg%3e",
+          "logoSvg": "/logo/airports/weituyun.png",
           "description": "唯兔云，主打高性价比 IPLC 专线。采用新 SS 协议，不限设备数且无倍率，稳定解锁流媒体与AI服务。年付 79.9 元（约 ¥6.6/月），另有不限时套餐可选。",
           "features": [
             "IPLC专线",

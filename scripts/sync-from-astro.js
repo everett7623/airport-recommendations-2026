@@ -25,6 +25,7 @@ const UPSTREAM_REF = process.env.VPSKNOW_SOURCE_REF || 'main';
 const UPSTREAM_ASTRO_PATH = process.env.VPSKNOW_ASTRO_PATH || 'src/pages/airport-recommendations.astro';
 const SHORTLINK_DOMAIN = 'go.uukk.de';
 const LEGACY_SHORTLINK_DOMAIN = ['s', 'y8o', 'de'].join('.');
+const ACCESS_TYPES = ['universal', 'dedicated', 'both'];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -243,6 +244,7 @@ function mapAirport(astroAirport) {
     description: (astroAirport.description || '').replace(/\s+/g, ' ').trim(),
     features: astroAirport.features || [],
     lineType: astroAirport.lineType ?? '',
+    ...(astroAirport.accessType !== undefined && { accessType: astroAirport.accessType }),
     pricing: astroAirport.pricing ?? '',
     tags: astroAirport.tags || [],
     ...(astroAirport.isNew !== undefined && { isNew: astroAirport.isNew }),
@@ -389,6 +391,7 @@ async function main() {
     version,
     tags_vocabulary: {
       line_type: [...allLineTypes].sort(),
+      access_type: ACCESS_TYPES,
       scenario: ['流媒体', 'ChatGPT', '游戏加速', '办公稳定', '出海加速', '家庭共享', '4K观影', '日常使用'],
       billing: ['月付', '年付', '按量', '不限时流量', '季付起'],
       feature: [...new Set([...knownTags, ...allTags])].sort(),

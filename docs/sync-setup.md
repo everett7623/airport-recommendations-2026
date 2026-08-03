@@ -15,7 +15,7 @@ VPSKnow 已配置的 source_ref（默认 main）
 ```
 
 - VPSKnow 上游是机场数据的编辑来源。上游变更必须先提交并推送到工作流实际读取的 `source_ref`；只存在于本地分支的修改不会被自动同步。
-- `data/airports.json` 是本仓库机场清单、分类、数量、`no_aff`、`directory_only` 和 `defunct` 的单一数据源。
+- `data/airports.json` 是本仓库机场清单、分类、数量、接入方式、`no_aff`、`directory_only` 和 `defunct` 的单一数据源。
 - `README.md`、`README-SIMPLE.md` 和 `docs/blacklist.md` 是派生文件，不得手工维护当前版本、机场数量、分类、链接或下架名单。
 - `data/airports.json.version` 来自 VPSKnow `airport-recommendations.astro` 文件头的 `// 更新时间: YYYY-MM-DD`，表示上游数据版本，不表示 GitHub Actions 实际执行时间。上游机场数据变化时必须同步更新该日期。
 - 同步脚本可以继续解析 Astro 页面导入的 `src/data/airports.ts`。页面文件和数据文件必须在同一个上游提交中保持一致。
@@ -43,9 +43,9 @@ VPSKnow 已配置的 source_ref（默认 main）
 
 | 文件 | 更新方式 | 内容 |
 | --- | --- | --- |
-| `data/airports.json` | `scripts/sync-from-astro.js` 生成 | 本仓库 canonical 数据和 `version` |
-| `README.md` | `scripts/generate-readme.js` 生成 | 完整榜单、公告日期、分类、总榜和下架摘要 |
-| `README-SIMPLE.md` | `scripts/generate-readme.js` 生成 | 精简榜单、版本、数量和下架摘要 |
+| `data/airports.json` | `scripts/sync-from-astro.js` 生成 | 本仓库 canonical 数据、`accessType` 和 `version` |
+| `README.md` | `scripts/generate-readme.js` 生成 | 完整榜单、公告日期、分类、接入方式、总榜和下架摘要 |
+| `README-SIMPLE.md` | `scripts/generate-readme.js` 生成 | 精简榜单、版本、数量、接入方式和下架摘要 |
 | `docs/blacklist.md` | `scripts/generate-readme.js` 生成 | 当前 `defunct` 名单及版本 |
 
 GitHub Actions 自动提交只包含这四个文件。不要在自动同步提交中混入其他手工文档。
@@ -71,7 +71,7 @@ GitHub Actions 自动提交只包含这四个文件。不要在自动同步提�
 2. 将变更提交并推送到配置的 `VPSKNOW_SOURCE_REF`，默认是 `main`。
 3. 对重要变更先手动运行 `dry_run=true`，核对生成差异。
 4. 手动运行 `dry_run=false`，或等待定时任务实际完成。
-5. 确认自动提交包含 `data/airports.json` 和三份派生文档，并确认页面版本、数量、分类和下架名单一致。
+5. 确认自动提交包含 `data/airports.json` 和三份派生文档，并确认页面版本、数量、分类、接入方式和下架名单一致。
 
 ### 本地同步
 
@@ -95,7 +95,7 @@ npm run validate
 
 1. 确认上游变更已经位于工作流实际读取的 ref，而不是仅在本地或其他分支。
 2. 确认 `data/airports.json.version` 与上游页面文件头日期一致。
-3. 核对新增、移除、分类迁移、`directory_only`、`no_aff` 和 `defunct` 数量。
+3. 核对新增、移除、分类迁移、`accessType`、`directory_only`、`no_aff` 和 `defunct` 数量。
 4. 确认 README 公告日期、精简版同步日期和 blacklist 数据版本一致。
 5. 运行：
 

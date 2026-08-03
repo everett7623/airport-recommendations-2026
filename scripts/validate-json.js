@@ -16,10 +16,11 @@ const ROOT = join(__dirname, '..');
 const JSON_PATH = join(ROOT, 'data', 'airports.json');
 
 const REQUIRED_FIELDS = ['name', 'url', 'lineType', 'pricing', 'tags'];
-const OPTIONAL_FIELDS = ['coupon', 'logoSvg', 'description', 'features', 'isNew', 'isEditorPick', 'isUnderMaintenance'];
+const OPTIONAL_FIELDS = ['coupon', 'logoSvg', 'description', 'features', 'accessType', 'isNew', 'isEditorPick', 'isUnderMaintenance'];
 const EXPECTED_CATEGORY_KEYS = ['free_trial', 'budget', 'balanced', 'premium', 'payAsYouGo'];
 const FORBIDDEN_CATEGORY_KEYS = ['payg', 'no_aff'];
 const DEFUNCT_FIELDS = ['name', 'defunctDate', 'lineType', 'note', 'pricingWas'];
+const ACCESS_TYPES = new Set(['universal', 'dedicated', 'both']);
 
 let errors = 0;
 let warnings = 0;
@@ -40,6 +41,9 @@ function validateAirportFields(a, scope) {
   }
   if (!Array.isArray(a.tags)) {
     err(`${scope}/${a.name || 'UNNAMED'}: required field 'tags' must be an array`);
+  }
+  if (a.accessType !== undefined && !ACCESS_TYPES.has(a.accessType)) {
+    err(`${scope}/${a.name || 'UNNAMED'}: invalid accessType '${a.accessType}'`);
   }
 }
 
@@ -161,6 +165,17 @@ if (data.defunct) {
 // Tag vocabulary
 if (data.tags_vocabulary) {
   ok('Tags vocabulary present');
+  const accessTypes = data.tags_vocabulary.access_type;
+  if (!Array.isArray(accessTypes)) {
+    err('tags_vocabulary.access_type must be an array');
+  } else {
+    for (const accessType of accessTypes) {
+      if (!ACCESS_TYPES.has(accessType)) err(`tags_vocabulary.access_type: invalid value '${accessType}'`);
+    }
+    for (const accessType of ACCESS_TYPES) {
+      if (!accessTypes.includes(accessType)) err(`tags_vocabulary.access_type: missing '${accessType}'`);
+    }
+  }
 } else {
   warn('No tags_vocabulary — consider adding one');
 }

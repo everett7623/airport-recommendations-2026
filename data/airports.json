@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-07-27
+// 更新时间: 2026-08-04
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-07-27",
+  "version": "2026-08-04",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -22,6 +22,7 @@
       "IPLC/IEPL专线",
       "IPLC专线",
       "SD-WAN",
+      "VLESS节点",
       "Vless/Hysteria2",
       "Vless节点",
       "专线+优化直连",
@@ -36,6 +37,11 @@
       "跨境专线",
       "隧道中转",
       "高端专线"
+    ],
+    "access_type": [
+      "universal",
+      "dedicated",
+      "both"
     ],
     "scenario": [
       "流媒体",
@@ -78,6 +84,7 @@
       "不限设备",
       "不限速",
       "专属客户端",
+      "专用客户端",
       "专线",
       "专线小包",
       "专线稳定",
@@ -132,7 +139,6 @@
       "稳定",
       "美国台湾家宽",
       "老牌",
-      "自研客户端",
       "试用",
       "谨慎复查",
       "贵族机场",
@@ -159,7 +165,7 @@
           "url": "https://go.uukk.de/wjkc",
           "coupon": "试用券: vpsknow（1天/5GB）",
           "logoSvg": "/logo/airports/wangji-express.png",
-          "description": "网际快车已补首轮测评，可体验快车专用 VPN 或三方通用订阅，截图显示永久流量包、日享套餐、Vless / Hysteria2 节点和 SoftBank 日本家宽原生 IP。更适合先按量备用和观察家宽节点，流媒体与晚高峰仍待补测。试用券: vpsknow（1天/5GB）",
+          "description": "网际快车已补首轮测评，可选择快车专用客户端或第三方通用订阅 URL，截图显示永久流量包、日享套餐、Vless / Hysteria2 节点和 SoftBank 日本家宽原生 IP。更适合先按量备用和观察家宽节点，流媒体与晚高峰仍待补测。试用券: vpsknow（1天/5GB）",
           "features": [
             "首轮测评已补",
             "流量不过期",
@@ -167,6 +173,7 @@
             "AI出口观察"
           ],
           "lineType": "Vless/Hysteria2",
+          "accessType": "both",
           "pricing": "免费试用，¥6.8/20GB起",
           "tags": [
             "已测评",
@@ -282,11 +289,32 @@
           ]
         },
         {
+          "name": "财路云",
+          "url": "https://go.uukk.de/cly",
+          "coupon": "",
+          "logoSvg": "/logo/airports/cailuyun.png",
+          "description": "财路云已补首轮测评并确认支持通用订阅 URL：套餐页列出单次购买的 ¥15/20GB 试用包、¥25/月 100GB、¥50/月 200GB、¥60/季 64GB/月及 ¥300/100GB 不限时包。美国节点单次 Ookla 下载 112.25Mbps，Cloudflare 下载 105.64Mbps，YouTube 4K 连接约 111.9Mbps；AI 与主流流媒体多数可用，但出口为机房 IP，DNS/WebRTC 和较高延迟需留意。",
+          "features": [
+            "首轮实测已补",
+            "支持通用订阅URL",
+            "¥15试用/¥25月付",
+            "12个VLESS节点"
+          ],
+          "lineType": "VLESS节点",
+          "accessType": "universal",
+          "pricing": "¥15试用；¥25/月100GB",
+          "tags": [
+            "已测评",
+            "低价入门",
+            "短周期先试"
+          ]
+        },
+        {
           "name": "COCODUCK VPN",
           "url": "https://go.uukk.de/cocoduck",
           "coupon": "",
           "logoSvg": "/logo/airports/cocoduck.png",
-          "description": "COCODUCK VPN 已完成首轮实测：套餐含 ¥17/月 100GB 至 ¥115/月 1000GB，以及 ¥77/年、每月 40GB 的迷你鸭77。截图记录 51 项 VLESS 节点、约 139.94Mbps 下载与 YouTube 4K 播放；AI 可用，但测试出口为机房 IP，DNS/WebRTC 环境仍需注意。",
+          "description": "COCODUCK VPN 已完成首轮实测并确认同时支持通用订阅 URL 与专用客户端：套餐含 ¥17/月 100GB 至 ¥115/月 1000GB，以及 ¥77/年、每月 40GB 的迷你鸭77。截图记录 51 项 VLESS 节点、约 139.94Mbps 下载与 YouTube 4K 播放；AI 可用，但测试出口为机房 IP，DNS/WebRTC 环境仍需注意。",
           "features": [
             "51项VLESS节点",
             "4K/AI首轮可用",
@@ -294,6 +322,7 @@
             "不限设备/支持试用"
           ],
           "lineType": "IEPL/BGP",
+          "accessType": "both",
           "pricing": "¥17/月 100GB起",
           "tags": [
             "已测评",
@@ -554,17 +583,17 @@
           "url": "https://go.uukk.de/2maoyun",
           "coupon": "优惠码: ermao888（8折）",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23d946ef'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e猫%3c/text%3e%3c/svg%3e",
-          "description": "二猫云，新晋高品质机场，全线采用 IEPL/IPLC 专线，晚高峰稳定不卡。稳定解锁流媒体与AI服务，不限速、不限制设备数量，提供全平台自研专属客户端。",
+          "description": "二猫云，新晋高品质机场，全线采用 IEPL/IPLC 专线，晚高峰稳定不卡。稳定解锁流媒体与AI服务，不限速、不限制设备数量，并提供全平台专用客户端；是否提供通用订阅 URL 仍待核对。",
           "features": [
             "IEPL/IPLC专线",
-            "自研专属客户端",
+            "提供专用客户端",
             "不限设备数",
             "抗封锁容灾"
           ],
           "lineType": "IEPL/IPLC专线",
           "pricing": "¥89/年起",
           "tags": [
-            "专属客户端",
+            "专用客户端",
             "不限设备",
             "新晋推荐"
           ]
@@ -594,17 +623,18 @@
           "url": "https://go.uukk.de/kuaili",
           "coupon": "优惠码: vpsknow（8折）",
           "logoSvg": "/logo/airports/kuaili.png",
-          "description": "快狸，提供 VLESS 协议与企业级 IEPL 专线接入，三网优化智能分流。全线路解锁 Netflix、Disney+ 等流媒体及 ChatGPT、TikTok 全球环境。为保障长期防封与稳定，目前暂时仅支持使用其自研客户端一键连接。",
+          "description": "快狸，提供 VLESS 协议与企业级 IEPL 专线接入，三网优化智能分流。全线路解锁 Netflix、Disney+ 等流媒体及 ChatGPT、TikTok 全球环境。目前页面列出仅支持专用客户端一键连接，不提供通用订阅 URL。",
           "features": [
             "IEPL专线接入",
-            "仅支持自研客户端",
+            "仅专用客户端",
             "全线流媒体/AI解锁",
             "晚高峰4K流畅"
           ],
           "lineType": "IEPL专线",
+          "accessType": "dedicated",
           "pricing": "¥96/年起（折后）",
           "tags": [
-            "自研客户端",
+            "专用客户端",
             "IEPL专线",
             "流媒体解锁"
           ]
@@ -654,7 +684,7 @@
           "url": "https://go.uukk.de/yuzhoucloud",
           "coupon": "",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3ccircle cx='50' cy='50' r='22' fill='none' stroke='white' stroke-width='5'/%3e%3ccircle cx='50' cy='50' r='8' fill='white'/%3e%3cellipse cx='50' cy='50' rx='38' ry='16' fill='none' stroke='white' stroke-width='3' transform='rotate(-30 50 50)'/%3e%3c/svg%3e",
-          "description": "宇宙云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点专线接入，晚高峰不限速4K秒开。流媒体稳定解锁，提供超值年付小包 ¥120/年，自研客户端一键连接。",
+          "description": "宇宙云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点专线接入，晚高峰不限速4K秒开。流媒体稳定解锁，提供超值年付小包 ¥120/年和专用客户端一键连接；通用订阅 URL 仍待核对。",
           "features": [
             "VLESS+IEPL专线",
             "60+节点x1倍率",
@@ -1024,14 +1054,15 @@
       "url": "https://go.uukk.de/kexinyun",
       "coupon": "优惠码: kexinyun330",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230f766e'/%3e%3cpath d='M24 56 C28 40 43 31 57 38 C66 42 73 50 76 62 C69 57 62 55 54 58 C44 63 34 61 24 56 Z' fill='white' opacity='.96'/%3e%3ccircle cx='61' cy='45' r='5' fill='%230f766e'/%3e%3c/svg%3e",
-      "description": "可信云已补首轮测评，2026 年初上线，主打 IPLC/IEPL 专线、自研客户端、不限设备和不限速。截图显示 ¥96/年 60GB/月、¥25/月 150GB 起，YouTube 4K 与常用网站延迟首轮可用；但暂不支持通用订阅，且为新站，建议先短周期验证。",
+      "description": "可信云已补首轮测评，2026 年初上线，主打 IPLC/IEPL 专线、专用客户端、不限设备和不限速。截图显示 ¥96/年 60GB/月、¥25/月 150GB 起，YouTube 4K 与常用网站延迟首轮可用；但当前不提供通用订阅 URL，且为新站，建议先短周期验证。",
       "features": [
         "首轮测评已补",
         "IPLC/IEPL专线",
-        "自研客户端",
-        "通用订阅暂不支持"
+        "仅专用客户端",
+        "不提供通用订阅URL"
       ],
       "lineType": "IPLC/IEPL专线",
+      "accessType": "dedicated",
       "pricing": "¥96/年 60GB/月起",
       "tags": [
         "已测评",

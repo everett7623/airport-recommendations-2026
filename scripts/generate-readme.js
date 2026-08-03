@@ -71,6 +71,16 @@ function airportPricing(airport, fallback = '见详情') {
   return airport?.pricing || fallback;
 }
 
+const ACCESS_TYPE_LABELS = {
+  universal: '通用订阅',
+  dedicated: '专用客户端',
+  both: '通用订阅 + 专用客户端',
+};
+
+function accessTypeLabel(accessType, fallback = '待核对') {
+  return ACCESS_TYPE_LABELS[accessType] || fallback;
+}
+
 function markdownCell(value) {
   return String(value ?? '-')
     .replace(/\r?\n/g, '<br>')
@@ -224,6 +234,7 @@ function generateFullReadme(data) {
       lines.push('| 项目 | 说明 |');
       lines.push('|-----|------|');
       lines.push(`| **线路类型** | ${a.lineType || '-'} |`);
+      if (a.accessType) lines.push(`| **接入方式** | ${accessTypeLabel(a.accessType)} |`);
       if (a.coupon) lines.push(`| **优惠券/码** | \`${a.coupon}\` |`);
       if (a.features?.length) lines.push(`| **核心特色** | ${a.features.join('，')} |`);
       if (a.description) lines.push(`| **简介** | ${a.description} |`);
@@ -270,6 +281,7 @@ function generateFullReadme(data) {
       lines.push('| 项目 | 说明 |');
       lines.push('|-----|------|');
       lines.push(`| **线路类型** | ${a.lineType || '-'} |`);
+      if (a.accessType) lines.push(`| **接入方式** | ${accessTypeLabel(a.accessType)} |`);
       if (a.coupon) lines.push(`| **优惠券/码** | \`${a.coupon}\` |`);
       if (a.features?.length) lines.push(`| **核心特色** | ${a.features.join('，')} |`);
       if (a.description) lines.push(`| **简介** | ${a.description} |`);
@@ -290,8 +302,8 @@ function generateFullReadme(data) {
   lines.push('');
   lines.push('**按表格快速筛选所有机场，支持 Ctrl+F 页面精准搜索**');
   lines.push('');
-  lines.push('| 机场名称 | 线路类型 | 最低价格 | 流媒体 | ChatGPT | 核心特色/标签 | 推荐度 | 直达购买 |');
-  lines.push('|---------|---------|---------|-------|---------|--------------|-------|------|');
+  lines.push('| 机场名称 | 线路类型 | 接入方式 | 最低价格 | 流媒体 | ChatGPT | 核心特色/标签 | 推荐度 | 直达购买 |');
+  lines.push('|---------|---------|---------|---------|-------|---------|--------------|-------|------|');
 
   const indexAirports = getAllAirports(data);
 
@@ -303,7 +315,7 @@ function generateFullReadme(data) {
     const stars = starRating(a.isUnderMaintenance ? 3 : (data.no_aff?.find(na => na.name === a.name) ? 5 : 4));
     const link = a.url ? `[立即前往](${a.url})` : '-';
 
-    lines.push(`| **${name}** | ${a.lineType || '-'} | ${a.pricing || '-'} | ${streamOk} | ${chatGptOk} | ${tags} | ${stars} | ${link} |`);
+    lines.push(`| **${name}** | ${a.lineType || '-'} | ${accessTypeLabel(a.accessType)} | ${a.pricing || '-'} | ${streamOk} | ${chatGptOk} | ${tags} | ${stars} | ${link} |`);
   }
 
   lines.push('');
@@ -472,8 +484,8 @@ function generateSimpleReadme(data) {
   // Top picks
   lines.push('## 🏆 核心推荐（闭眼入）');
   lines.push('');
-  lines.push('| 机场 | 线路 | 价格 | 一句话总结 | 直达 |');
-  lines.push('| --- | --- | --- | --- | --- |');
+  lines.push('| 机场 | 线路 | 接入方式 | 价格 | 一句话总结 | 直达 |');
+  lines.push('| --- | --- | --- | --- | --- | --- |');
   const picks = [
     ...(cats.balanced?.airports || []).slice(0, 4),
     ...(cats.premium?.airports || []).slice(0, 3),
@@ -482,7 +494,7 @@ function generateSimpleReadme(data) {
   for (const a of picks) {
     const shortDesc = (a.description || '').slice(0, 40);
     const link = a.url ? `[官网](${a.url})` : '-';
-    lines.push(`| **${a.name}** | ${a.lineType || '-'} | ${a.pricing || '-'} | ${shortDesc}... | ${link} |`);
+    lines.push(`| **${a.name}** | ${a.lineType || '-'} | ${accessTypeLabel(a.accessType)} | ${a.pricing || '-'} | ${shortDesc}... | ${link} |`);
   }
   lines.push('');
   lines.push('---');
@@ -491,15 +503,15 @@ function generateSimpleReadme(data) {
   // Full index
   lines.push('## 📊 完整索引（Ctrl+F 搜索）');
   lines.push('');
-  lines.push('| 机场名称 | 线路类型 | 最低价格 | 流媒体 | ChatGPT | 推荐度 | 直达 |');
-  lines.push('|---------|---------|---------|-------|---------|-------|------|');
+  lines.push('| 机场名称 | 线路类型 | 接入方式 | 最低价格 | 流媒体 | ChatGPT | 推荐度 | 直达 |');
+  lines.push('|---------|---------|---------|---------|-------|---------|-------|------|');
   for (const a of allAirports) {
     const name = a.isUnderMaintenance ? `${a.name} ⚠️` : a.name;
     const streamOk = a.tags?.some(t => /流媒体|解锁|原生|Netflix/i.test(t)) || a.features?.some(f => /流媒体|解锁|原生|Netflix/i.test(f)) ? '✅' : '❓';
     const chatOk = a.tags?.some(t => /AI|ChatGPT|GPT/i.test(t)) || a.features?.some(f => /AI|ChatGPT|GPT/i.test(f)) || a.description?.includes('ChatGPT') ? '✅' : '❓';
     const stars = starRating(a.isUnderMaintenance ? 3 : (data.no_aff?.find(na => na.name === a.name) ? 5 : 4));
     const link = a.url ? `[进入](${a.url})` : '-';
-    lines.push(`| **${name}** | ${a.lineType || '-'} | ${a.pricing || '-'} | ${streamOk} | ${chatOk} | ${stars} | ${link} |`);
+    lines.push(`| **${name}** | ${a.lineType || '-'} | ${accessTypeLabel(a.accessType)} | ${a.pricing || '-'} | ${streamOk} | ${chatOk} | ${stars} | ${link} |`);
   }
   lines.push('');
 

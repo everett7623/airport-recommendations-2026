@@ -50,7 +50,7 @@
 
 4. **必需文件** — 数据发生变化时必须重新计算 `data/airports.json`、`README.md`、`README-SIMPLE.md` 和 `docs/blacklist.md`。后三个文件不得手工维护当前版本、数量、名单、分类或下架记录。
 5. **条件文档** — 只有出现值得长期追踪的数据历史或流程变化时才更新 `docs/changelog.md`；方法论、FAQ、客户端教程、同步设置等文档只在对应规则或内容变化时更新。
-6. **字段结构** — 活跃机场必须包含 `name`、`url`、`lineType`、`pricing`、`tags`，常用可选字段包括 `coupon`、`logoSvg`、`description`、`features`、`isNew`、`isEditorPick`、`isUnderMaintenance`。
+6. **字段结构** — 活跃机场必须包含 `name`、`url`、`lineType`、`pricing`、`tags`，常用可选字段包括 `coupon`、`logoSvg`、`description`、`features`、`accessType`、`isNew`、`isEditorPick`、`isUnderMaintenance`；`accessType` 仅使用 `universal`、`dedicated` 或 `both`。
 7. **分类结构** — 当前标准分类为 `free_trial`、`budget`、`balanced`、`premium`、`payAsYouGo`；`no_aff`、`directory_only` 和 `defunct` 是顶层数组，不属于 `categories`。`directory_only` 仅用于仍保留在完整总榜、但不再作为分类重点推荐的服务商。
 8. **标签词汇** — 优先使用 `tags_vocabulary` 中已有的标签，新标签需同时更新 vocabulary。
 

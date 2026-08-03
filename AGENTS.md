@@ -26,7 +26,7 @@ public/link.svg      ← "官网直达" badge used in READMEs
 
 Top-level structure:
 - `version` — date string `"YYYY-MM-DD"` (update date)
-- `tags_vocabulary` — controlled vocabulary for `line_type`, `scenario`, `billing`, `feature` tags
+- `tags_vocabulary` — controlled vocabulary for `line_type`, `access_type`, `scenario`, `billing`, `feature` tags
 - `categories` — keyed object with these standard categories:
   - `free_trial` — "免费试用专区"
   - `budget` — "入门经济型"
@@ -46,6 +46,7 @@ Each category contains an `airports` array. Each airport object:
   "description": "Marketing description (1-2 sentences)",
   "features": ["feature", "list"],
   "lineType": "Line type string (from tags_vocabulary.line_type)",
+  "accessType": "universal | dedicated | both (optional; from tags_vocabulary.access_type)",
   "pricing": "Human-readable price string (¥xx/月, ¥xx/年, etc.)",
   "tags": ["tag", "list"],
   "isNew": true/false,        // optional — marks recently added

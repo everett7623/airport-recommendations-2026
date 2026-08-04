@@ -206,14 +206,15 @@
           "url": "https://go.uukk.de/runway",
           "coupon": "",
           "logoSvg": "/logo/airports/pinhaolian.png",
-          "description": "拼好连已补首轮测评，套餐从 ¥9.90/月起，截图显示 49 项代理组与多地区 Vless / UDP / XUDP 节点，AI、流媒体和 YouTube 4K 首轮可用；但部分节点超时，出口多为机房 IP，建议先用试用或月付验证。",
+          "description": "拼好连已补首轮测评，官方页面确认可从用户中心获取通用订阅链接，同时提供 Windows、macOS、Linux 和 Android 专用客户端。套餐从 ¥9.90/月起，AI、流媒体和 YouTube 4K 首轮可用；但部分节点超时，出口多为机房 IP，建议先用试用或月付验证。",
           "features": [
-            "首轮测评已补",
+            "通用订阅+专用客户端",
             "试用1天6GB",
             "AI/流媒体首轮可用",
             "部分节点需复查"
           ],
           "lineType": "BGP/IEPL口径",
+          "accessType": "both",
           "pricing": "免费试用，¥9.90/月起",
           "tags": [
             "已测评",
@@ -858,14 +859,15 @@
           "url": "https://go.uukk.de/Gatern",
           "coupon": "",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23ec4899'/%3e%3cpath d='M35 50 L65 50 M50 35 L65 50 L50 65 M30 35 L30 65' fill='none' stroke='white' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e",
-          "description": "Gatern 固定收录在按量计费分类末位，提供周期与一年期一次性套餐，覆盖常用和小众地区。一次性套餐有效期为一年，并非永久流量；官方标注企业级跨境专线及最多 10 台设备同时在线。",
+          "description": "Gatern 固定收录在按量计费分类末位，官方帮助中心确认可复制通用订阅地址导入 FlClash 等第三方客户端。它提供周期与一年期一次性套餐，覆盖常用和小众地区；一次性套餐有效期为一年，并非永久流量。",
           "features": [
+            "支持通用订阅URL",
             "一年期一次性套餐",
-            "周期套餐可选",
             "小众地区覆盖",
             "最多10台设备"
           ],
           "lineType": "跨境专线",
+          "accessType": "universal",
           "pricing": "¥24/月起",
           "tags": [
             "按量/一次性",
@@ -882,9 +884,15 @@
       "url": "https://go.uukk.de/amytele",
       "coupon": "",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3ccircle cx='50' cy='50' r='45' fill='%23fce7f3'/%3e%3cpath d='M35 45 Q50 60 65 45 M35 45 Q50 30 65 45' fill='none' stroke='%23ec4899' stroke-width='4'/%3e%3c/svg%3e",
-      "description": "著名的\"佩奇\"分站，俗称\"按摩院\"。拥有极佳的流媒体解锁能力和稳定的专线传输，业界口碑老牌劲旅。",
-      "features": [],
+      "description": "著名的\"佩奇\"分站，俗称\"按摩院\"。官方域名提供服务器订阅管理和 SSR 订阅地址接口，可使用通用订阅；当前没有确认专用客户端。",
+      "features": [
+        "支持通用订阅URL",
+        "服务器订阅管理",
+        "老牌机场",
+        "专线传输"
+      ],
       "lineType": "IEPL专线",
+      "accessType": "universal",
       "pricing": "¥273/年起",
       "tags": [
         "佩奇系",
@@ -912,14 +920,15 @@
       "url": "https://go.uukk.de/wgetcloud",
       "coupon": "",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2306b6d4'/%3e%3cpath d='M30 40 Q50 25, 70 40 M30 60 Q50 45, 70 60' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
-      "description": "WgetCloud，基于华为云 BGP 入口的专线网络，主打极致稳定性。多节点自动切换，适合对 SLA 有高要求的用户。",
+      "description": "WgetCloud 官方帮助中心确认可在订阅中心复制订阅地址，并以 URL 方式导入 Shadowrocket 等第三方客户端；当前没有确认专用客户端。其网络采用华为云 BGP 入口，适合更看重稳定性的用户。",
       "features": [
+        "支持通用订阅URL",
         "华为云入口",
         "多节点自动切换",
-        "稳定性优先",
-        "企业级SLA"
+        "稳定性优先"
       ],
       "lineType": "BGP专线",
+      "accessType": "universal",
       "pricing": "¥79/月起",
       "tags": [
         "稳定",
@@ -954,14 +963,15 @@
       "url": "https://go.uukk.de/naiixi",
       "coupon": "",
       "logoSvg": "/logo/airports/nexitally.png",
-      "description": "Nexitally（奶昔）保留在完整总榜供对比。它是 2017 年成立的老牌佩奇机场，采用自研面板与唯云专线；当前不再放入高端专线分类卡片，购买前建议先复核套餐、节点和晚高峰表现。",
+      "description": "Nexitally（奶昔）保留在完整总榜供对比。官方文档确认可复制订阅链接导入 Shadowrocket、Clash Verge 等第三方客户端，并提供 Windows、Android 和 macOS 官方客户端；购买前仍建议先复核套餐、节点和晚高峰表现。",
       "features": [
-        "总榜收录",
+        "通用订阅+专用客户端",
         "老牌机场",
         "自研面板",
         "唯云专线"
       ],
       "lineType": "高端专线",
+      "accessType": "both",
       "pricing": "¥74.55/月起",
       "tags": [
         "总榜收录",

@@ -48,7 +48,7 @@
 |---------|---------|---------|---------|-------|---------|-------|------|
 | **网际快车** | Vless/Hysteria2 | 通用订阅 + 专用客户端 | 免费试用，¥6.8/20GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/wjkc) |
 | **喵喵VPN** | 优质直连 | 待核对 | 免费试用，¥8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/vpnmiao) |
-| **拼好连** | BGP/IEPL口径 | 待核对 | 免费试用，¥9.90/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/runway) |
+| **拼好连** | BGP/IEPL口径 | 通用订阅 + 专用客户端 | 免费试用，¥9.90/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/runway) |
 | **SKYLUMO** | 公网中转 | 待核对 | ¥9.90起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/skylumo) |
 | **山水云** | 隧道中转 | 待核对 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/shanshuiyun) |
 | **锦云** | Vless节点 | 待核对 | ¥4.8/月 50GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jinyun) |
@@ -78,12 +78,12 @@
 | **肯の机** | CN2 GIA/9929/CMIN2 | 待核对 | ¥40/月 100GB起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/kendeji) |
 | **ViKing Links** | 专线+优化直连 | 待核对 | ¥72/月 500GB | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/vikinglinks) |
 | **魔戒** | 公网中转 | 待核对 | 按GB计费 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/mojie) |
-| **Gatern** | 跨境专线 | 待核对 | ¥24/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/Gatern) |
-| **AmyTelecom** | IEPL专线 | 待核对 | ¥273/年起 | ✅ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/amytele) |
+| **Gatern** | 跨境专线 | 通用订阅 | ¥24/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/Gatern) |
+| **AmyTelecom** | IEPL专线 | 通用订阅 | ¥273/年起 | ✅ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/amytele) |
 | **Kuromis** | IEPL专线 | 待核对 | ¥34/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/kuromis) |
-| **WgetCloud** | BGP专线 | 待核对 | ¥79/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/wgetcloud) |
+| **WgetCloud** | BGP专线 | 通用订阅 | ¥79/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/wgetcloud) |
 | **新华云** | 隧道中转 | 待核对 | ¥3.99/月起 | ✅ | ✅ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/newhua99) |
-| **Nexitally** | 高端专线 | 待核对 | ¥74.55/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/naiixi) |
+| **Nexitally** | 高端专线 | 通用订阅 + 专用客户端 | ¥74.55/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/naiixi) |
 | **寰宇云** | 线路待重新核对 | 待核对 | 当前套餐待复核 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/huanyuyunvip) |
 | **YToo** | 多线国际加速 | 待核对 | ¥98/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/ytoo) |
 | **FlowerCloud** | BGP/IEPL专线 | 待核对 | ¥39/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/flowercloud) |

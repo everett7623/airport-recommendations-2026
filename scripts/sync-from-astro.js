@@ -232,10 +232,21 @@ function normalizeShortUrl(url) {
   return (url || '').replace(LEGACY_SHORTLINK_DOMAIN, SHORTLINK_DOMAIN);
 }
 
+function normalizeAccessType(astroAirport) {
+  const { accessType, name = 'UNNAMED' } = astroAirport;
+  if (accessType === undefined || accessType === 'pending') return undefined;
+  if (!ACCESS_TYPES.includes(accessType)) {
+    throw new Error(`${name}: unsupported upstream accessType '${accessType}'`);
+  }
+  return accessType;
+}
+
 /**
  * Maps an airport object from Astro format to our JSON schema.
  */
 function mapAirport(astroAirport) {
+  const accessType = normalizeAccessType(astroAirport);
+
   return {
     name: astroAirport.name ?? '',
     url: normalizeShortUrl(astroAirport.url),
@@ -244,7 +255,7 @@ function mapAirport(astroAirport) {
     description: (astroAirport.description || '').replace(/\s+/g, ' ').trim(),
     features: astroAirport.features || [],
     lineType: astroAirport.lineType ?? '',
-    ...(astroAirport.accessType !== undefined && { accessType: astroAirport.accessType }),
+    ...(accessType !== undefined && { accessType }),
     pricing: astroAirport.pricing ?? '',
     tags: astroAirport.tags || [],
     ...(astroAirport.isNew !== undefined && { isNew: astroAirport.isNew }),

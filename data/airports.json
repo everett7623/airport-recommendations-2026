@@ -33,6 +33,8 @@
       "公网中转/中继",
       "南北双通道专线",
       "多线国际加速",
+      "海外公有云中转",
+      "线路待核对",
       "线路待重新核对",
       "跨境专线",
       "隧道中转",
@@ -93,11 +95,13 @@
       "企业级",
       "低价",
       "低价入门",
+      "低价备用",
       "佩奇系",
       "入门",
       "全兼容",
       "全球节点",
       "全球覆盖",
+      "公有云中转",
       "冷门节点",
       "出海加速",
       "办公稳定",
@@ -311,6 +315,26 @@
           ]
         },
         {
+          "name": "轻语机场",
+          "url": "https://go.uukk.de/qingyu",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3cpath d='M26 58 C34 36 54 24 76 28 C67 47 52 61 31 66 L24 76 Z' fill='white' opacity='.96'/%3e%3ccircle cx='58' cy='43' r='5' fill='%236366f1'/%3e%3c/svg%3e",
+          "description": "轻语机场已补首轮测评，套餐从 ¥10/月起，截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。",
+          "features": [
+            "首轮测评已补",
+            "¥10/月起",
+            "4K/AI首轮可用",
+            "IP风险需复查"
+          ],
+          "lineType": "AnyTLS/IEPL",
+          "pricing": "¥10/月起",
+          "tags": [
+            "已测评",
+            "低价入门",
+            "AI解锁"
+          ]
+        },
+        {
           "name": "COCODUCK VPN",
           "url": "https://go.uukk.de/cocoduck",
           "coupon": "",
@@ -372,23 +396,23 @@
           ]
         },
         {
-          "name": "轻语机场",
-          "url": "https://go.uukk.de/qingyu",
+          "name": "鲤云",
+          "url": "https://go.uukk.de/liyun",
           "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3cpath d='M26 58 C34 36 54 24 76 28 C67 47 52 61 31 66 L24 76 Z' fill='white' opacity='.96'/%3e%3ccircle cx='58' cy='43' r='5' fill='%236366f1'/%3e%3c/svg%3e",
-          "description": "轻语机场已补首轮测评，套餐从 ¥10/月起，截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。",
+          "logoSvg": "/logo/airports/liyun.webp",
+          "description": "鲤云已补 2026-08-04 首轮测评，套餐从 ¥7/月 50GB 起，另有 ¥90/年每月 128GB 与 ¥140/100GB 不限时流量包。Clash Verge 截图显示 24 个 VLESS / UDP / XUDP 地区节点，美国节点单次 Ookla 下载 130.72Mbps，AI、Netflix 与 YouTube 4K 首轮可用；但出口为 AS38136 机房 IP，WebRTC 与本地时区、语言环境需注意。",
           "features": [
-            "首轮测评已补",
-            "¥10/月起",
-            "4K/AI首轮可用",
-            "IP风险需复查"
+            "首轮实测已补",
+            "¥7/月50GB起",
+            "24个VLESS节点",
+            "AI/4K首轮可用"
           ],
-          "lineType": "AnyTLS/IEPL",
-          "pricing": "¥10/月起",
+          "lineType": "VLESS节点",
+          "pricing": "¥7/月 50GB起",
           "tags": [
             "已测评",
             "低价入门",
-            "AI解锁"
+            "短周期先试"
           ]
         },
         {
@@ -959,6 +983,26 @@
   ],
   "directory_only": [
     {
+      "name": "M78光之国",
+      "url": "https://go.uukk.de/m78",
+      "coupon": "",
+      "logoSvg": "/logo/airports/m78.webp",
+      "description": "M78光之国已补首轮测评，¥8/月 100GB 起并提供小额一次性流量包，七个地区共 16 个 VLESS 节点；主流 AI、流媒体、Netflix 实际播放与 YouTube 4K 60 帧首轮可用，但部分节点超时或高延迟，IP 数据库口径冲突且 WebRTC 暴露中国出口，只建议小额短周期验证。",
+      "features": [
+        "首轮实测已补",
+        "¥8/月100GB起",
+        "16个VLESS节点",
+        "环境风险需处理"
+      ],
+      "lineType": "线路待核对",
+      "pricing": "¥8/月 100GB起",
+      "tags": [
+        "已测评",
+        "总榜收录",
+        "低价备用"
+      ]
+    },
+    {
       "name": "Nexitally",
       "url": "https://go.uukk.de/naiixi",
       "coupon": "",
@@ -1057,6 +1101,26 @@
         "性能复查",
         "短周期测试",
         "不建议长期付费"
+      ]
+    },
+    {
+      "name": "影子",
+      "url": "https://go.uukk.de/yingzi",
+      "coupon": "优惠码: yzyzyz（7折，结账页复核）",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23111827'/%3e%3cpath d='M26 25 H74 V36 H56 V75 H44 V36 H26 Z' fill='%2360a5fa'/%3e%3ccircle cx='50' cy='50' r='33' fill='none' stroke='%2394a3b8' stroke-width='4' opacity='.65'/%3e%3c/svg%3e",
+      "description": "影子已补首轮测评，截图覆盖 2026-06-30 至 2026-07-09 的套餐、AnyTLS / Hysteria2 / VLESS 节点、三网单线程、线路分析和 AI / 流媒体解锁。月付 ¥18.80 / 150GB 起，也有不限时流量包；节点间速度和解锁差异明显，部分测试出现 0bps 或失败，美国出口为机房 IP，建议先月付验证。",
+      "features": [
+        "首轮测评已补",
+        "¥18.80/月150GB起",
+        "AnyTLS/Hysteria2/VLESS",
+        "AI/流媒体首轮可用"
+      ],
+      "lineType": "海外公有云中转",
+      "pricing": "¥18.80/月 150GB起",
+      "tags": [
+        "已测评",
+        "总榜收录",
+        "公有云中转"
       ]
     },
     {

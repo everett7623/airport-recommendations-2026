@@ -19,6 +19,7 @@ VPSKnow 已配置的 source_ref（默认 main）
 - `README.md`、`README-SIMPLE.md` 和 `docs/blacklist.md` 是派生文件，不得手工维护当前版本、机场数量、分类、链接或下架名单。
 - `data/airports.json.version` 来自 VPSKnow `airport-recommendations.astro` 文件头的 `// 更新时间: YYYY-MM-DD`，表示上游数据版本，不表示 GitHub Actions 实际执行时间。上游机场数据变化时必须同步更新该日期。
 - 同步脚本可以继续解析 Astro 页面导入的 `src/data/airports.ts`。页面文件和数据文件必须在同一个上游提交中保持一致。
+- VPSKnow 的 `accessType: "pending"` 表示接入方式待核对；同步到本仓库时省略可选的 `accessType` 字段，由派生文档统一显示“待核对”。其他未知枚举值必须直接失败，不能静默写入 canonical 数据。
 
 ## 运行时机
 

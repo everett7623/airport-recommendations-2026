@@ -62,7 +62,7 @@ URL shortener `go.uukk.de` is used for all outbound links.
 When adding, removing, or modifying airports:
 
 1. **Update the configured upstream ref first** — the VPSKnow change must be committed and pushed to the ref read by the workflow (`main` by default). Local-only or unmerged changes cannot be synchronized.
-2. **Keep the upstream version current** — `data/airports.json.version` is read from the `// 更新时间: YYYY-MM-DD` header in the upstream `airport-recommendations.astro`; it is the upstream data version, not the workflow run date.
+2. **Keep the upstream version current** — `data/airports.json.version` is read from the actual upstream airport data file's `// Updated: YYYY-MM-DD` header, with the Astro page's `// 更新时间: YYYY-MM-DD` retained only as a compatibility fallback. It is the upstream data version, never the workflow run date.
 3. **Sync the canonical data** — `scripts/sync-from-astro.js` regenerates `data/airports.json`, the local source of truth for lists, counts, categories, `no_aff`, `directory_only`, and `defunct`.
 4. **Regenerate all derived docs** — run `npm run generate` to evaluate and regenerate `README.md`, `README-SIMPLE.md`, and `docs/blacklist.md`. Never hand-edit their current version, counts, provider lists, category tables, links, or defunct lists.
 5. **Validate the complete result** — run `npm run validate` and `git diff --check`, then verify that all four synchronized files carry the expected version and content.

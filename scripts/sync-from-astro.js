@@ -314,9 +314,14 @@ async function main() {
   }
 
   // 4. Extract version info
-  const versionMatch = versionSource.match(/更新时间:\s*(\d{4}-\d{2}-\d{2})/)
-    || source.match(/更新时间:\s*(\d{4}-\d{2}-\d{2})/);
-  const version = versionMatch ? versionMatch[1] : new Date().toISOString().slice(0, 10);
+  const versionMatch = source.match(/(?:更新时间|Updated):\s*(\d{4}-\d{2}-\d{2})/i)
+    || versionSource.match(/(?:更新时间|Updated):\s*(\d{4}-\d{2}-\d{2})/i);
+  if (!versionMatch) {
+    log('Failed to extract an upstream data version (YYYY-MM-DD)', 'err');
+    loaded.cleanup?.();
+    process.exit(1);
+  }
+  const version = versionMatch[1];
 
   // 5. Build categories in our format
   const categories = {};

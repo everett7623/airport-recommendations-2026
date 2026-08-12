@@ -26,7 +26,7 @@
 ## 🔧 Pull Request 规范
 
 ### 机场数据修改
-机场清单、数量、分类、无 AFF 备选和下架状态以 `data/airports.json` 为准；该文件由 VPSKnow 已配置的上游 ref 同步生成。上游修改必须先提交并推送，且 `airport-recommendations.astro` 文件头日期必须反映本次数据版本。
+机场清单、数量、分类、无 AFF 备选和下架状态以 `data/airports.json` 为准；该文件由 VPSKnow 已配置的上游 ref 同步生成。上游修改必须先提交并推送，且实际机场数据文件的 `// Updated: YYYY-MM-DD` 必须反映本次数据版本；页面文件头日期仅作为旧结构兼容。
 
 1. **先预览上游差异**：
 

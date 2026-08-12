@@ -17,7 +17,7 @@ VPSKnow 已配置的 source_ref（默认 main）
 - VPSKnow 上游是机场数据的编辑来源。上游变更必须先提交并推送到工作流实际读取的 `source_ref`；只存在于本地分支的修改不会被自动同步。
 - `data/airports.json` 是本仓库机场清单、分类、数量、接入方式、`no_aff`、`directory_only` 和 `defunct` 的单一数据源。
 - `README.md`、`README-SIMPLE.md` 和 `docs/blacklist.md` 是派生文件，不得手工维护当前版本、机场数量、分类、链接或下架名单。
-- `data/airports.json.version` 来自 VPSKnow `airport-recommendations.astro` 文件头的 `// 更新时间: YYYY-MM-DD`，表示上游数据版本，不表示 GitHub Actions 实际执行时间。上游机场数据变化时必须同步更新该日期。
+- `data/airports.json.version` 优先来自 VPSKnow 实际机场数据文件的 `// Updated: YYYY-MM-DD`，兼容页面文件头的 `// 更新时间: YYYY-MM-DD`；它表示上游数据版本，不是 GitHub Actions 执行日期。无法读取上游版本时同步必须失败，不能使用运行日期伪装成功。
 - 同步脚本可以继续解析 Astro 页面导入的 `src/data/airports.ts`。页面文件和数据文件必须在同一个上游提交中保持一致。
 - VPSKnow 的 `accessType: "pending"` 表示接入方式待核对；同步到本仓库时省略可选的 `accessType` 字段，由派生文档统一显示“待核对”。其他未知枚举值必须直接失败，不能静默写入 canonical 数据。
 
@@ -68,7 +68,7 @@ GitHub Actions 自动提交只包含这四个文件。不要在自动同步提�
 
 ### GitHub Actions
 
-1. 在 VPSKnow 上游修改机场数据，同时更新 `airport-recommendations.astro` 文件头日期。
+1. 在 VPSKnow 上游修改机场数据，同时更新实际机场数据文件的 `// Updated: YYYY-MM-DD`；旧结构仍可使用 `airport-recommendations.astro` 的 `// 更新时间: YYYY-MM-DD`。
 2. 将变更提交并推送到配置的 `VPSKNOW_SOURCE_REF`，默认是 `main`。
 3. 对重要变更先手动运行 `dry_run=true`，核对生成差异。
 4. 手动运行 `dry_run=false`，或等待定时任务实际完成。
@@ -95,7 +95,7 @@ npm run validate
 ## 提交前验收
 
 1. 确认上游变更已经位于工作流实际读取的 ref，而不是仅在本地或其他分支。
-2. 确认 `data/airports.json.version` 与上游页面文件头日期一致。
+2. 确认 `data/airports.json.version` 与上游实际机场数据文件的日期一致。
 3. 核对新增、移除、分类迁移、`accessType`、`directory_only`、`no_aff` 和 `defunct` 数量。
 4. 确认 README 公告日期、精简版同步日期和 blacklist 数据版本一致。
 5. 运行：

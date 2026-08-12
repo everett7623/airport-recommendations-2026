@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-08-07
+// 更新时间: 2026-08-11
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-08-07",
+  "version": "2026-08-11",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -70,7 +70,7 @@
       "ChatGPT",
       "EMBY",
       "EMBY生态",
-      "Emby",
+      "Emby影音",
       "IEPL专线",
       "IPLC专线",
       "SD-WAN",
@@ -97,6 +97,7 @@
       "低价入门",
       "低价备用",
       "佩奇系",
+      "免费试用",
       "入门",
       "全兼容",
       "全球节点",
@@ -149,6 +150,7 @@
       "超高带宽",
       "运营变更",
       "进阶",
+      "通用订阅",
       "长期备用",
       "隐私待查",
       "首轮实测",
@@ -190,19 +192,19 @@
           "url": "https://go.uukk.de/vpnmiao",
           "coupon": "优惠券: vpsknow",
           "logoSvg": "/logo/airports/miaomiao-vpn.png",
-          "description": "喵喵VPN 已补首轮测评，低价入口和一次性流量包适合入门备用。Hysteria2 节点、AI/部分流媒体解锁和 YouTube 4K 首轮可用，但 HostPapa 机房 IP 风险较高，建议先短周期试用。",
+          "description": "喵喵VPN 已补首轮测评，免费试用和 ¥8/月起入口降低试错成本，并提供 Emby 影音权益；具体开通方式、片库和套餐范围需在下单前核对。Hysteria2 节点、美国 0.1x 节点、AI/部分流媒体解锁和 YouTube 4K 首轮可用，但 HostPapa 机房 IP 风险较高，建议先短周期试用。",
           "features": [
-            "Hysteria2协议",
-            "首轮测评已补",
-            "美国节点0.1x费率",
+            "免费试用+¥8/月起",
+            "Emby影音权益",
+            "Hysteria2/美国0.1x",
             "IP风险需注意"
           ],
           "lineType": "优质直连",
           "pricing": "免费试用，¥8/月起",
           "tags": [
             "已测评",
-            "低价入门",
-            "短周期先试"
+            "Emby影音",
+            "免费试用"
           ]
         },
         {
@@ -319,19 +321,19 @@
           "url": "https://go.uukk.de/qingyu",
           "coupon": "",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3cpath d='M26 58 C34 36 54 24 76 28 C67 47 52 61 31 66 L24 76 Z' fill='white' opacity='.96'/%3e%3ccircle cx='58' cy='43' r='5' fill='%236366f1'/%3e%3c/svg%3e",
-          "description": "轻语机场已补首轮测评，套餐从 ¥10/月起，截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。",
+          "description": "轻语机场已补首轮测评，¥10/月起，并提供 Emby 影音权益；具体开通方式、片库和套餐范围需在下单前核对。截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。",
           "features": [
-            "首轮测评已补",
+            "Emby影音权益",
             "¥10/月起",
-            "4K/AI首轮可用",
-            "IP风险需复查"
+            "AnyTLS/IEPL",
+            "4K/AI首轮可用"
           ],
           "lineType": "AnyTLS/IEPL",
           "pricing": "¥10/月起",
           "tags": [
             "已测评",
-            "低价入门",
-            "AI解锁"
+            "Emby影音",
+            "低价入门"
           ]
         },
         {
@@ -1003,6 +1005,27 @@
       ]
     },
     {
+      "name": "超级飞鱼",
+      "url": "https://go.uukk.de/spflyfish",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230284c7'/%3e%3ctext x='50' y='63' font-size='38' font-weight='900' text-anchor='middle' fill='white' font-family='Arial Black,Arial,sans-serif'%3eSF%3c/text%3e%3c/svg%3e",
+      "description": "超级飞鱼已补 2026-08-11 首轮测评，并确认当前仅提供通用订阅 URL。套餐从 ¥6/月 80GB 起，另有 ¥6/60GB 起一次性流量包；Clash Verge 显示 9 个地区共 20 个 VLESS 节点。波兰节点的 YouTube 4K 60 帧与 Claude 首轮可用，但 IP 数据库对住宅/机房属性判断冲突，WebRTC、DNS、时区和语言环境仍需处理，只建议短周期验证。",
+      "features": [
+        "仅通用订阅URL",
+        "¥6/月80GB起",
+        "20个VLESS节点",
+        "波兰节点首轮实测"
+      ],
+      "lineType": "VLESS节点",
+      "accessType": "universal",
+      "pricing": "¥6/月 80GB起",
+      "tags": [
+        "已测评",
+        "低价备用",
+        "通用订阅"
+      ]
+    },
+    {
       "name": "Nexitally",
       "url": "https://go.uukk.de/naiixi",
       "coupon": "",
@@ -1169,19 +1192,19 @@
       "url": "https://go.uukk.de/69yun",
       "coupon": "",
       "logoSvg": "/logo/airports/69yun.png",
-      "description": "69云，成立于2022年，以节点覆盖广著称，拥有150+全球节点，涵盖尼日利亚、冰岛等大量冷门地区。公网中转/中继线路为主，价格亲民，深度整合 Emby 影音服务，签到可领流量。适合有冷门地区需求或 Emby 爱好者，晚高峰稳定性不及专线。",
+      "description": "69云，成立于2022年，以节点覆盖广著称，拥有150+全球节点，涵盖尼日利亚、冰岛等大量冷门地区。公网中转/中继线路为主，价格亲民，并提供 Emby 影音权益与签到流量；具体开通方式、片库和套餐范围需在下单前核对。适合有冷门地区需求或 Emby 爱好者，晚高峰稳定性不及专线。",
       "features": [
+        "Emby影音权益",
         "150+全球节点",
         "冷门地区覆盖广",
-        "分级流量套餐",
-        "Emby生态+签到送流量"
+        "签到送流量"
       ],
       "lineType": "公网中转/中继",
       "pricing": "¥13.36/月起",
       "tags": [
-        "性价比",
+        "Emby影音",
         "冷门节点",
-        "Emby"
+        "性价比"
       ]
     },
     {

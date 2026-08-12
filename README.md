@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
 ![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-51%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-52%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 ![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)
 
@@ -40,7 +40,7 @@
 
 ## 📢 最新活动与公告
 
-### 2026-08-07 更新
+### 2026-08-11 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
 - ✅ **清理：** 已下架服务商：Sogo云、OneStep。
 
@@ -96,12 +96,12 @@
 |-----|------|
 | **线路类型** | 优质直连 |
 | **优惠券/码** | `优惠券: vpsknow` |
-| **核心特色** | Hysteria2协议，首轮测评已补，美国节点0.1x费率，IP风险需注意 |
-| **简介** | 喵喵VPN 已补首轮测评，低价入口和一次性流量包适合入门备用。Hysteria2 节点、AI/部分流媒体解锁和 YouTube 4K 首轮可用，但 HostPapa 机房 IP 风险较高，建议先短周期试用。 |
+| **核心特色** | 免费试用+¥8/月起，Emby影音权益，Hysteria2/美国0.1x，IP风险需注意 |
+| **简介** | 喵喵VPN 已补首轮测评，免费试用和 ¥8/月起入口降低试错成本，并提供 Emby 影音权益；具体开通方式、片库和套餐范围需在下单前核对。Hysteria2 节点、美国 0.1x 节点、AI/部分流媒体解锁和 YouTube 4K 首轮可用，但 HostPapa 机房 IP 风险较高，建议先短周期试用。 |
 | **起步价** | 免费试用，¥8/月起 |
 | **推荐指数** | ⭐⭐⭐⭐ |
 
-**核心标签：** `已测评` `低价入门` `短周期先试`
+**核心标签：** `已测评` `Emby影音` `免费试用`
 
 ---
 
@@ -210,12 +210,12 @@
 | 项目 | 说明 |
 |-----|------|
 | **线路类型** | AnyTLS/IEPL |
-| **核心特色** | 首轮测评已补，¥10/月起，4K/AI首轮可用，IP风险需复查 |
-| **简介** | 轻语机场已补首轮测评，套餐从 ¥10/月起，截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。 |
+| **核心特色** | Emby影音权益，¥10/月起，AnyTLS/IEPL，4K/AI首轮可用 |
+| **简介** | 轻语机场已补首轮测评，¥10/月起，并提供 Emby 影音权益；具体开通方式、片库和套餐范围需在下单前核对。截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。 |
 | **起步价** | ¥10/月起 |
 | **推荐指数** | ⭐⭐⭐⭐ |
 
-**核心标签：** `已测评` `低价入门` `AI解锁`
+**核心标签：** `已测评` `Emby影音` `低价入门`
 
 ---
 
@@ -783,13 +783,13 @@
 | 机场名称 | 线路类型 | 接入方式 | 最低价格 | 流媒体 | ChatGPT | 核心特色/标签 | 推荐度 | 直达购买 |
 |---------|---------|---------|---------|-------|---------|--------------|-------|------|
 | **网际快车** | Vless/Hysteria2 | 通用订阅 + 专用客户端 | 免费试用，¥6.8/20GB起 | ❓ | ✅ | `已测评` `试用` `按量备用` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/wjkc) |
-| **喵喵VPN** | 优质直连 | 待核对 | 免费试用，¥8/月起 | ❓ | ❓ | `已测评` `低价入门` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/vpnmiao) |
+| **喵喵VPN** | 优质直连 | 待核对 | 免费试用，¥8/月起 | ❓ | ❓ | `已测评` `Emby影音` `免费试用` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/vpnmiao) |
 | **拼好连** | BGP/IEPL口径 | 通用订阅 + 专用客户端 | 免费试用，¥9.90/月起 | ✅ | ✅ | `已测评` `试用` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/runway) |
 | **SKYLUMO** | 公网中转 | 待核对 | ¥9.90起 | ❓ | ❓ | `备用` `不限时` `大流量` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/skylumo) |
 | **山水云** | 隧道中转 | 待核对 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | `高性价比` `流媒体` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/shanshuiyun) |
 | **锦云** | Vless节点 | 待核对 | ¥4.8/月 50GB起 | ❓ | ✅ | `已测评` `低价入门` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/jinyun) |
 | **财路云** | VLESS节点 | 通用订阅 | ¥15试用；¥25/月100GB | ❓ | ❓ | `已测评` `低价入门` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/cly) |
-| **轻语机场** | AnyTLS/IEPL | 待核对 | ¥10/月起 | ✅ | ✅ | `已测评` `低价入门` `AI解锁` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/qingyu) |
+| **轻语机场** | AnyTLS/IEPL | 待核对 | ¥10/月起 | ❓ | ✅ | `已测评` `Emby影音` `低价入门` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/qingyu) |
 | **COCODUCK VPN** | IEPL/BGP | 通用订阅 + 专用客户端 | ¥17/月 100GB起 | ❓ | ✅ | `已测评` `性价比` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/cocoduck) |
 | **EdgeNova** | IEPL专线 | 待核对 | ¥86/年起（优惠后） | ❓ | ✅ | `专线` `新锐` `全兼容` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/edgenova) |
 | **秒秒云** | 隧道中转 | 待核对 | ¥14/月起（年付¥79起） | ❓ | ❓ | `高性价比` `AnyTLS` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/miaomiaoyun) |
@@ -821,6 +821,7 @@
 | **WgetCloud** | BGP专线 | 通用订阅 | ¥79/月起 | ❓ | ❓ | `稳定` `企业级` `不差钱` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/wgetcloud) |
 | **新华云** | 隧道中转 | 待核对 | ¥3.99/月起 | ✅ | ✅ | `高性价比` `不限设备` `学生党推荐` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/newhua99) |
 | **M78光之国** | 线路待核对 | 待核对 | ¥8/月 100GB起 | ❓ | ❓ | `已测评` `总榜收录` `低价备用` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/m78) |
+| **超级飞鱼** | VLESS节点 | 通用订阅 | ¥6/月 80GB起 | ❓ | ❓ | `已测评` `低价备用` `通用订阅` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/spflyfish) |
 | **Nexitally** | 高端专线 | 通用订阅 + 专用客户端 | ¥74.55/月起 | ✅ | ❓ | `总榜收录` `老牌` `流媒体` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/naiixi) |
 | **寰宇云** | 线路待重新核对 | 待核对 | 当前套餐待复核 | ❓ | ❓ | `运营变更` `总榜收录` `短周期测试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/huanyuyunvip) |
 | **YToo** | 多线国际加速 | 待核对 | ¥98/年起 | ❓ | ❓ | `总榜收录` `全球覆盖` `备用方案` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/ytoo) |
@@ -829,7 +830,7 @@
 | **影子** | 海外公有云中转 | 待核对 | ¥18.80/月 150GB起 | ✅ | ✅ | `已测评` `总榜收录` `公有云中转` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/yingzi) |
 | **可信云** | IPLC/IEPL专线 | 专用客户端 | ¥96/年 60GB/月起 | ❓ | ❓ | `已测评` `总榜收录` `专线小包` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/kexinyun) |
 | **Bitz Net** | SD-WAN | 待核对 | 免费试用 | ❓ | ❓ | `试用` `SD-WAN` `总榜收录` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/Bitz) |
-| **69云** | 公网中转/中继 | 待核对 | ¥13.36/月起 | ❓ | ❓ | `性价比` `冷门节点` `Emby` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/69yun) |
+| **69云** | 公网中转/中继 | 待核对 | ¥13.36/月起 | ❓ | ❓ | `Emby影音` `冷门节点` `性价比` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/69yun) |
 | **SsrDog** | IPLC/IEPL专线 | 待核对 | ¥45/月 季付起 | ✅ | ❓ | `流媒体` `原生IP` `注意季付起` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/ssrdog) |
 | **Bywave** | IEPL专线 | 待核对 | ¥30/月起 | ✅ | ❓ | `争议预警` `EMBY` `进阶` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/ByWave) |
 | **TNTCloud** | 公网中转 | 待核对 | ¥8/月起 | ❓ | ❓ | `总榜收录` `谨慎复查` `短周期测试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/tnt) |

@@ -2,14 +2,14 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-52%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-53%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 
 > **⚠️ 前言：** 本项目为科研、外贸、开发人员提供网络加速服务推荐。请遵守当地法律法规。**机场有跑路风险，建议优先月付。**
 >
-> 📖 **完整版（52 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
+> 📖 **完整版（53 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-08-11 已同步 VPSKnow，当前收录 52 个推荐条目。
+> 🔄 **数据同步：** 2026-08-12 已同步 VPSKnow，当前收录 53 个推荐条目。
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
@@ -52,13 +52,12 @@
 | **SKYLUMO** | 公网中转 | 待核对 | ¥9.90起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/skylumo) |
 | **山水云** | 隧道中转 | 待核对 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/shanshuiyun) |
 | **锦云** | Vless节点 | 待核对 | ¥4.8/月 50GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jinyun) |
-| **财路云** | VLESS节点 | 通用订阅 | ¥15试用；¥25/月100GB | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/cly) |
+| **鲤云** | VLESS节点 | 待核对 | ¥7/月 50GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/liyun) |
 | **轻语机场** | AnyTLS/IEPL | 待核对 | ¥10/月起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/qingyu) |
 | **COCODUCK VPN** | IEPL/BGP | 通用订阅 + 专用客户端 | ¥17/月 100GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/cocoduck) |
 | **EdgeNova** | IEPL专线 | 待核对 | ¥86/年起（优惠后） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/edgenova) |
 | **秒秒云** | 隧道中转 | 待核对 | ¥14/月起（年付¥79起） | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/miaomiaoyun) |
-| **鲤云** | VLESS节点 | 待核对 | ¥7/月 50GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/liyun) |
-| **速界** | 全 IPLC 专线 | 待核对 | ¥90/年（用码后复核） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/speedworld) |
+| **财路云** | VLESS节点 | 通用订阅 | ¥15试用；¥25/月100GB | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/cly) |
 | **瞬云** | ANYCAST专线 | 待核对 | ¥16/月起（优惠后） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/sy) |
 | **唯兔云** | IPLC专线 | 待核对 | ¥6.6/月起（年付） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/wty) |
 | **Fastlink** | BGP/IPLC专线 | 待核对 | ¥20/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/fastlink) |
@@ -84,6 +83,7 @@
 | **Kuromis** | IEPL专线 | 待核对 | ¥34/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/kuromis) |
 | **WgetCloud** | BGP专线 | 通用订阅 | ¥79/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/wgetcloud) |
 | **新华云** | 隧道中转 | 待核对 | ¥3.99/月起 | ✅ | ✅ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/newhua99) |
+| **速界** | 原 IPLC 专线 | 待核对 | 暂停购买 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/speedworld) |
 | **M78光之国** | 线路待核对 | 待核对 | ¥8/月 100GB起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/m78) |
 | **超级飞鱼** | VLESS节点 | 通用订阅 | ¥6/月 80GB起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/spflyfish) |
 | **Nexitally** | 高端专线 | 通用订阅 + 专用客户端 | ¥74.55/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/naiixi) |
@@ -97,7 +97,8 @@
 | **69云** | 公网中转/中继 | 待核对 | ¥13.36/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/69yun) |
 | **SsrDog** | IPLC/IEPL专线 | 待核对 | ¥45/月 季付起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/ssrdog) |
 | **Bywave** | IEPL专线 | 待核对 | ¥30/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/ByWave) |
-| **TNTCloud** | 公网中转 | 待核对 | ¥8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/tnt) |
+| **TNTCloud** | IPLC页面口径 | 专用客户端 | ¥20/月 110GB起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/tnt) |
+| **龙猫云** | IPLC专线 | 专用客户端 | ¥15/月 100GB起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/longmaoyun) |
 
 
 ---
@@ -134,7 +135,7 @@ Fork 或修改版本中的链接、排序和评价仅代表修改者，不代表
 
 <p align="center">
   ⭐ 如果对你有帮助，请点亮 Star！<br>
-  📖 <a href="README.md">查看完整版（52机场详细评测）</a> | 🌐 <a href="https://www.vpsknow.com/airport-recommendations">VPSKnow 实时榜单</a>
+  📖 <a href="README.md">查看完整版（53机场详细评测）</a> | 🌐 <a href="https://www.vpsknow.com/airport-recommendations">VPSKnow 实时榜单</a>
 </p>
 
 **关键词：** `机场推荐` `VPN推荐` `科学上网` `梯子` `SS机场` `V2Ray` `Trojan` `IPLC专线` `流媒体解锁` `Netflix` `ChatGPT` `2026`

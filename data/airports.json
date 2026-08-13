@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-08-11
+// 更新时间: 2026-08-12
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-08-11",
+  "version": "2026-08-12",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -21,6 +21,7 @@
       "IEPL专线口径",
       "IPLC/IEPL专线",
       "IPLC专线",
+      "IPLC页面口径",
       "SD-WAN",
       "VLESS节点",
       "Vless/Hysteria2",
@@ -28,10 +29,10 @@
       "专线+优化直连",
       "中转专线",
       "优质直连",
-      "全 IPLC 专线",
       "公网中转",
       "公网中转/中继",
       "南北双通道专线",
+      "原 IPLC 专线",
       "多线国际加速",
       "海外公有云中转",
       "线路待核对",
@@ -92,11 +93,13 @@
       "专线稳定",
       "主力推荐",
       "争议预警",
+      "仅专用客户端",
       "企业级",
       "低价",
       "低价入门",
       "低价备用",
       "佩奇系",
+      "停止充值",
       "免费试用",
       "入门",
       "全兼容",
@@ -132,6 +135,8 @@
       "新锐",
       "无日志",
       "日常使用",
+      "暂停推荐",
+      "服务异常",
       "注意季付起",
       "流媒体",
       "流媒体全解锁",
@@ -141,11 +146,11 @@
       "短周期先试",
       "短周期复查",
       "短周期测试",
+      "短周期验证",
       "稳定",
       "美国台湾家宽",
       "老牌",
       "试用",
-      "谨慎复查",
       "贵族机场",
       "超高带宽",
       "运营变更",
@@ -153,6 +158,7 @@
       "通用订阅",
       "长期备用",
       "隐私待查",
+      "风险观察",
       "首轮实测",
       "高峰期稳定",
       "高性价比",
@@ -296,20 +302,19 @@
           ]
         },
         {
-          "name": "财路云",
-          "url": "https://go.uukk.de/cly",
-          "coupon": "优惠券: 88888（8折）",
-          "logoSvg": "/logo/airports/cailuyun.png",
-          "description": "财路云已补首轮测评并确认支持通用订阅 URL：套餐页列出单次购买的 ¥15/20GB 试用包、¥25/月 100GB、¥50/月 200GB、¥60/季 64GB/月及 ¥300/100GB 不限时包。用户提供优惠券 88888，口径为 8 折，适用套餐与最终价格需在结账页复核。美国节点单次 Ookla 下载 112.25Mbps，Cloudflare 下载 105.64Mbps，YouTube 4K 连接约 111.9Mbps；AI 与主流流媒体多数可用，但出口为机房 IP，DNS/WebRTC 和较高延迟需留意。",
+          "name": "鲤云",
+          "url": "https://go.uukk.de/liyun",
+          "coupon": "优惠券: liyun888（8折）",
+          "logoSvg": "/logo/airports/liyun.webp",
+          "description": "鲤云已补 2026-08-04 首轮测评，套餐从 ¥7/月 50GB 起，另有 ¥90/年每月 128GB 与 ¥140/100GB 不限时流量包。用户提供优惠券 liyun888，口径为 8 折，适用套餐与最终价格需在结账页复核。Clash Verge 截图显示 24 个 VLESS / UDP / XUDP 地区节点，美国节点单次 Ookla 下载 130.72Mbps，AI、Netflix 与 YouTube 4K 首轮可用；但出口为 AS38136 机房 IP，WebRTC 与本地时区、语言环境需注意。",
           "features": [
             "首轮实测已补",
-            "支持通用订阅URL",
-            "¥15试用/¥25月付",
-            "12个VLESS节点"
+            "¥7/月50GB起",
+            "24个VLESS节点",
+            "AI/4K首轮可用"
           ],
           "lineType": "VLESS节点",
-          "accessType": "universal",
-          "pricing": "¥15试用；¥25/月100GB",
+          "pricing": "¥7/月 50GB起",
           "tags": [
             "已测评",
             "低价入门",
@@ -361,7 +366,7 @@
           "name": "EdgeNova",
           "url": "https://go.uukk.de/edgenova",
           "coupon": "优惠码: XK808",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23ef4444'/%3e%3ctext x='50' y='65' font-size='40' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eE%3c/text%3e%3c/svg%3e",
+          "logoSvg": "/logo/airports/edgenova.png",
           "description": "EdgeNova，2026年新晋高性能机场。全节点采用 IEPL 专线直连，绕过公网拥堵，确保在高峰时段依然拥有极低的延迟与超高的稳定性。完美流媒体与 AI 工具解锁，全套餐不限速、不限设备数、无流量倍率。",
           "features": [
             "IEPL专线低延迟",
@@ -398,19 +403,20 @@
           ]
         },
         {
-          "name": "鲤云",
-          "url": "https://go.uukk.de/liyun",
-          "coupon": "优惠券: liyun888（8折）",
-          "logoSvg": "/logo/airports/liyun.webp",
-          "description": "鲤云已补 2026-08-04 首轮测评，套餐从 ¥7/月 50GB 起，另有 ¥90/年每月 128GB 与 ¥140/100GB 不限时流量包。用户提供优惠券 liyun888，口径为 8 折，适用套餐与最终价格需在结账页复核。Clash Verge 截图显示 24 个 VLESS / UDP / XUDP 地区节点，美国节点单次 Ookla 下载 130.72Mbps，AI、Netflix 与 YouTube 4K 首轮可用；但出口为 AS38136 机房 IP，WebRTC 与本地时区、语言环境需注意。",
+          "name": "财路云",
+          "url": "https://go.uukk.de/cly",
+          "coupon": "优惠券: 88888（8折）",
+          "logoSvg": "/logo/airports/cailuyun.png",
+          "description": "财路云已补首轮测评并确认支持通用订阅 URL：套餐页列出单次购买的 ¥15/20GB 试用包、¥25/月 100GB、¥50/月 200GB、¥60/季 64GB/月及 ¥300/100GB 不限时包。用户提供优惠券 88888，口径为 8 折，适用套餐与最终价格需在结账页复核。美国节点单次 Ookla 下载 112.25Mbps，Cloudflare 下载 105.64Mbps，YouTube 4K 连接约 111.9Mbps；AI 与主流流媒体多数可用，但出口为机房 IP，DNS/WebRTC 和较高延迟需留意。",
           "features": [
             "首轮实测已补",
-            "¥7/月50GB起",
-            "24个VLESS节点",
-            "AI/4K首轮可用"
+            "支持通用订阅URL",
+            "¥15试用/¥25月付",
+            "12个VLESS节点"
           ],
           "lineType": "VLESS节点",
-          "pricing": "¥7/月 50GB起",
+          "accessType": "universal",
+          "pricing": "¥15试用；¥25/月100GB",
           "tags": [
             "已测评",
             "低价入门",
@@ -418,30 +424,10 @@
           ]
         },
         {
-          "name": "速界",
-          "url": "https://go.uukk.de/speedworld",
-          "coupon": "优惠码: sujie888",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%233b82f6'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e速%3c/text%3e%3c/svg%3e",
-          "description": "速界当前页面列出 ¥15/月、50GB/月的体验套餐，以及标价 ¥90/年的限时年付套餐。年付套餐的公开流量字段为 50GB/月，但套餐说明仍写 45GB/月；优惠码 sujie888 的实际折扣与结账价也需在下单时复核。服务方页面称全线采用 IPLC 专线、全节点 x1 倍率且不限设备，单节点峰值最高 2.5Gbps，并支持 Netflix、Disney+、ChatGPT 与 TikTok；原生 IP、解锁和晚高峰表现仍建议先用月付套餐实测。",
-          "features": [
-            "¥15/月·50GB体验包",
-            "年付流量45/50GB待复核",
-            "全IPLC专线·峰值2.5Gbps",
-            "全节点x1·不限设备"
-          ],
-          "lineType": "全 IPLC 专线",
-          "pricing": "¥90/年（用码后复核）",
-          "tags": [
-            "IPLC专线",
-            "下单前复核",
-            "不限设备"
-          ]
-        },
-        {
           "name": "瞬云",
           "url": "https://go.uukk.de/sy",
           "coupon": "优惠码: 20OFF（8折）",
-          "logoSvg": "/logo/airports/shunyun.png",
+          "logoSvg": "/logo/airports/shunyun.webp",
           "description": "瞬云，采用直连加专线架构与 ANYCAST 网络，三网入口优化，晚高峰表现良好，稳定解锁流媒体与AI服务。新人使用优惠码 20OFF 享8折，入门套餐低至16元/月，另有99元/年限量小包可选。",
           "features": [
             "ANYCAST专线",
@@ -985,6 +971,26 @@
   ],
   "directory_only": [
     {
+      "name": "速界",
+      "url": "https://go.uukk.de/speedworld",
+      "coupon": "",
+      "logoSvg": "/logo/airports/speedworld.png",
+      "description": "速界于 2026-08-12 出现官网无法访问、订阅无法更新的服务异常。本站短链仍可跳转，但目标站及公开可发现的备用入口均无法正常连接；现已暂停推荐并关闭购买入口，等待运营方公告、订阅恢复和代表节点复查，不应据此直接定性为跑路。",
+      "features": [
+        "官网与订阅异常",
+        "暂停推荐",
+        "购买入口已关闭",
+        "等待运营方说明"
+      ],
+      "lineType": "原 IPLC 专线",
+      "pricing": "暂停购买",
+      "tags": [
+        "暂停推荐",
+        "服务异常",
+        "停止充值"
+      ]
+    },
+    {
       "name": "M78光之国",
       "url": "https://go.uukk.de/m78",
       "coupon": "",
@@ -1252,19 +1258,42 @@
       "url": "https://go.uukk.de/tnt",
       "coupon": "",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23ef4444'/%3e%3ctext x='50' y='65' font-size='40' font-weight='900' text-anchor='middle' fill='white' font-family='Arial Black,Arial,sans-serif' letter-spacing='-2'>TNT</text>%3c/svg%3e",
-      "description": "TNTCloud，曾记录过线路超时和工单响应问题，现从失联记录移回完整总榜，仅作为用户自行对比和复查参考。购买前务必先确认官网、订阅和客服状态，避免直接长期付费。",
+      "description": "TNTCloud 已补 2026-08-13 首轮测评：当前仅提供 TNTCloud 自研客户端，未确认通用订阅入口；套餐页列出 ¥98/年 60GB/月、¥30/季 60GB/月及 ¥20/月 110GB 起，客户端可见日本、美国等多节点，美国节点单次 YouTube 4K 可播放。限制更重要：美国出口为 AS23470 ReliableSite.Net 机房 IP，YouTube 另出现登录验证，Claude 环境存在 DNS、WebRTC 和时区不一致；结合近期用户反馈的节点不稳定、客服失联与活动停更，继续保留在完整榜单风险尾部，仅建议小额短周期验证。",
       "features": [
-        "总榜收录",
-        "需先复查官网",
-        "建议短周期测试",
-        "谨慎付费"
+        "首轮测评已补",
+        "仅自研客户端",
+        "风险尾部保留",
+        "仅短周期验证"
       ],
-      "lineType": "公网中转",
-      "pricing": "¥8/月起",
+      "lineType": "IPLC页面口径",
+      "accessType": "dedicated",
+      "pricing": "¥20/月 110GB起",
+      "tags": [
+        "已测评",
+        "仅专用客户端",
+        "风险观察",
+        "不建议长期付费"
+      ]
+    },
+    {
+      "name": "龙猫云",
+      "url": "https://go.uukk.de/longmaoyun",
+      "coupon": "",
+      "logoSvg": "/logo/airports/longmaoyun.png",
+      "description": "龙猫云仅保留在完整总榜供对比。套餐页列出 ¥15/月 100GB 起至 ¥120/月 1000GB 的月付方案，页面标注 IPLC 专线、不限速和不限客户端；节点截图来自专用客户端，当前只确认本次客户端接入与美国节点的 YouTube 4K 首轮结果。美国出口在 ping0.cc、IPPure、ipinfo.cv 与 Claude 风险检测中均显示机房属性或风险，建议先月付验证。",
+      "features": [
+        "完整总榜收录",
+        "IPLC专线",
+        "专用客户端截图",
+        "IP风险较高"
+      ],
+      "lineType": "IPLC专线",
+      "accessType": "dedicated",
+      "pricing": "¥15/月 100GB起",
       "tags": [
         "总榜收录",
-        "谨慎复查",
-        "短周期测试"
+        "IPLC专线",
+        "短周期验证"
       ]
     }
   ],

@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
 ![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-52%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-53%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 ![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)
 
@@ -40,7 +40,7 @@
 
 ## 📢 最新活动与公告
 
-### 2026-08-11 更新
+### 2026-08-12 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
 - ✅ **清理：** 已下架服务商：Sogo云、OneStep。
 
@@ -185,18 +185,17 @@
 
 ---
 
-### 4. 财路云
+### 4. 鲤云
 
-**🔗 官网：** [https://go.uukk.de/cly](https://go.uukk.de/cly)
+**🔗 官网：** [https://go.uukk.de/liyun](https://go.uukk.de/liyun)
 
 | 项目 | 说明 |
 |-----|------|
 | **线路类型** | VLESS节点 |
-| **接入方式** | 通用订阅 |
-| **优惠券/码** | `优惠券: 88888（8折）` |
-| **核心特色** | 首轮实测已补，支持通用订阅URL，¥15试用/¥25月付，12个VLESS节点 |
-| **简介** | 财路云已补首轮测评并确认支持通用订阅 URL：套餐页列出单次购买的 ¥15/20GB 试用包、¥25/月 100GB、¥50/月 200GB、¥60/季 64GB/月及 ¥300/100GB 不限时包。用户提供优惠券 88888，口径为 8 折，适用套餐与最终价格需在结账页复核。美国节点单次 Ookla 下载 112.25Mbps，Cloudflare 下载 105.64Mbps，YouTube 4K 连接约 111.9Mbps；AI 与主流流媒体多数可用，但出口为机房 IP，DNS/WebRTC 和较高延迟需留意。 |
-| **起步价** | ¥15试用；¥25/月100GB |
+| **优惠券/码** | `优惠券: liyun888（8折）` |
+| **核心特色** | 首轮实测已补，¥7/月50GB起，24个VLESS节点，AI/4K首轮可用 |
+| **简介** | 鲤云已补 2026-08-04 首轮测评，套餐从 ¥7/月 50GB 起，另有 ¥90/年每月 128GB 与 ¥140/100GB 不限时流量包。用户提供优惠券 liyun888，口径为 8 折，适用套餐与最终价格需在结账页复核。Clash Verge 截图显示 24 个 VLESS / UDP / XUDP 地区节点，美国节点单次 Ookla 下载 130.72Mbps，AI、Netflix 与 YouTube 4K 首轮可用；但出口为 AS38136 机房 IP，WebRTC 与本地时区、语言环境需注意。 |
+| **起步价** | ¥7/月 50GB起 |
 | **推荐指数** | ⭐⭐⭐⭐ |
 
 **核心标签：** `已测评` `低价入门` `短周期先试`
@@ -270,41 +269,25 @@
 
 ---
 
-### 9. 鲤云
+### 9. 财路云
 
-**🔗 官网：** [https://go.uukk.de/liyun](https://go.uukk.de/liyun)
+**🔗 官网：** [https://go.uukk.de/cly](https://go.uukk.de/cly)
 
 | 项目 | 说明 |
 |-----|------|
 | **线路类型** | VLESS节点 |
-| **优惠券/码** | `优惠券: liyun888（8折）` |
-| **核心特色** | 首轮实测已补，¥7/月50GB起，24个VLESS节点，AI/4K首轮可用 |
-| **简介** | 鲤云已补 2026-08-04 首轮测评，套餐从 ¥7/月 50GB 起，另有 ¥90/年每月 128GB 与 ¥140/100GB 不限时流量包。用户提供优惠券 liyun888，口径为 8 折，适用套餐与最终价格需在结账页复核。Clash Verge 截图显示 24 个 VLESS / UDP / XUDP 地区节点，美国节点单次 Ookla 下载 130.72Mbps，AI、Netflix 与 YouTube 4K 首轮可用；但出口为 AS38136 机房 IP，WebRTC 与本地时区、语言环境需注意。 |
-| **起步价** | ¥7/月 50GB起 |
+| **接入方式** | 通用订阅 |
+| **优惠券/码** | `优惠券: 88888（8折）` |
+| **核心特色** | 首轮实测已补，支持通用订阅URL，¥15试用/¥25月付，12个VLESS节点 |
+| **简介** | 财路云已补首轮测评并确认支持通用订阅 URL：套餐页列出单次购买的 ¥15/20GB 试用包、¥25/月 100GB、¥50/月 200GB、¥60/季 64GB/月及 ¥300/100GB 不限时包。用户提供优惠券 88888，口径为 8 折，适用套餐与最终价格需在结账页复核。美国节点单次 Ookla 下载 112.25Mbps，Cloudflare 下载 105.64Mbps，YouTube 4K 连接约 111.9Mbps；AI 与主流流媒体多数可用，但出口为机房 IP，DNS/WebRTC 和较高延迟需留意。 |
+| **起步价** | ¥15试用；¥25/月100GB |
 | **推荐指数** | ⭐⭐⭐⭐ |
 
 **核心标签：** `已测评` `低价入门` `短周期先试`
 
 ---
 
-### 10. 速界
-
-**🔗 官网：** [https://go.uukk.de/speedworld](https://go.uukk.de/speedworld)
-
-| 项目 | 说明 |
-|-----|------|
-| **线路类型** | 全 IPLC 专线 |
-| **优惠券/码** | `优惠码: sujie888` |
-| **核心特色** | ¥15/月·50GB体验包，年付流量45/50GB待复核，全IPLC专线·峰值2.5Gbps，全节点x1·不限设备 |
-| **简介** | 速界当前页面列出 ¥15/月、50GB/月的体验套餐，以及标价 ¥90/年的限时年付套餐。年付套餐的公开流量字段为 50GB/月，但套餐说明仍写 45GB/月；优惠码 sujie888 的实际折扣与结账价也需在下单时复核。服务方页面称全线采用 IPLC 专线、全节点 x1 倍率且不限设备，单节点峰值最高 2.5Gbps，并支持 Netflix、Disney+、ChatGPT 与 TikTok；原生 IP、解锁和晚高峰表现仍建议先用月付套餐实测。 |
-| **起步价** | ¥90/年（用码后复核） |
-| **推荐指数** | ⭐⭐⭐⭐ |
-
-**核心标签：** `IPLC专线` `下单前复核` `不限设备`
-
----
-
-### 11. 瞬云
+### 10. 瞬云
 
 **🔗 官网：** [https://go.uukk.de/sy](https://go.uukk.de/sy)
 
@@ -321,7 +304,7 @@
 
 ---
 
-### 12. 唯兔云
+### 11. 唯兔云
 
 **🔗 官网：** [https://go.uukk.de/wty](https://go.uukk.de/wty)
 
@@ -788,13 +771,12 @@
 | **SKYLUMO** | 公网中转 | 待核对 | ¥9.90起 | ❓ | ❓ | `备用` `不限时` `大流量` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/skylumo) |
 | **山水云** | 隧道中转 | 待核对 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | `高性价比` `流媒体` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/shanshuiyun) |
 | **锦云** | Vless节点 | 待核对 | ¥4.8/月 50GB起 | ❓ | ✅ | `已测评` `低价入门` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/jinyun) |
-| **财路云** | VLESS节点 | 通用订阅 | ¥15试用；¥25/月100GB | ❓ | ❓ | `已测评` `低价入门` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/cly) |
+| **鲤云** | VLESS节点 | 待核对 | ¥7/月 50GB起 | ❓ | ✅ | `已测评` `低价入门` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/liyun) |
 | **轻语机场** | AnyTLS/IEPL | 待核对 | ¥10/月起 | ❓ | ✅ | `已测评` `Emby影音` `低价入门` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/qingyu) |
 | **COCODUCK VPN** | IEPL/BGP | 通用订阅 + 专用客户端 | ¥17/月 100GB起 | ❓ | ✅ | `已测评` `性价比` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/cocoduck) |
 | **EdgeNova** | IEPL专线 | 待核对 | ¥86/年起（优惠后） | ❓ | ✅ | `专线` `新锐` `全兼容` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/edgenova) |
 | **秒秒云** | 隧道中转 | 待核对 | ¥14/月起（年付¥79起） | ❓ | ❓ | `高性价比` `AnyTLS` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/miaomiaoyun) |
-| **鲤云** | VLESS节点 | 待核对 | ¥7/月 50GB起 | ❓ | ✅ | `已测评` `低价入门` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/liyun) |
-| **速界** | 全 IPLC 专线 | 待核对 | ¥90/年（用码后复核） | ❓ | ✅ | `IPLC专线` `下单前复核` `不限设备` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/speedworld) |
+| **财路云** | VLESS节点 | 通用订阅 | ¥15试用；¥25/月100GB | ❓ | ❓ | `已测评` `低价入门` `短周期先试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/cly) |
 | **瞬云** | ANYCAST专线 | 待核对 | ¥16/月起（优惠后） | ✅ | ❓ | `原生节点` `流媒体解锁` `高性价比` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/sy) |
 | **唯兔云** | IPLC专线 | 待核对 | ¥6.6/月起（年付） | ✅ | ❓ | `高性价比` `流媒体` `不限时可选` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/wty) |
 | **Fastlink** | BGP/IPLC专线 | 待核对 | ¥20/月起 | ✅ | ❓ | `性价比` `老牌` `主力推荐` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/fastlink) |
@@ -820,6 +802,7 @@
 | **Kuromis** | IEPL专线 | 待核对 | ¥34/月起 | ❓ | ❓ | `贵族机场` `IEPL专线` `高峰期稳定` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/kuromis) |
 | **WgetCloud** | BGP专线 | 通用订阅 | ¥79/月起 | ❓ | ❓ | `稳定` `企业级` `不差钱` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/wgetcloud) |
 | **新华云** | 隧道中转 | 待核对 | ¥3.99/月起 | ✅ | ✅ | `高性价比` `不限设备` `学生党推荐` | ⭐⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/newhua99) |
+| **速界** | 原 IPLC 专线 | 待核对 | 暂停购买 | ❓ | ❓ | `暂停推荐` `服务异常` `停止充值` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/speedworld) |
 | **M78光之国** | 线路待核对 | 待核对 | ¥8/月 100GB起 | ❓ | ❓ | `已测评` `总榜收录` `低价备用` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/m78) |
 | **超级飞鱼** | VLESS节点 | 通用订阅 | ¥6/月 80GB起 | ❓ | ❓ | `已测评` `低价备用` `通用订阅` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/spflyfish) |
 | **Nexitally** | 高端专线 | 通用订阅 + 专用客户端 | ¥74.55/月起 | ✅ | ❓ | `总榜收录` `老牌` `流媒体` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/naiixi) |
@@ -833,7 +816,8 @@
 | **69云** | 公网中转/中继 | 待核对 | ¥13.36/月起 | ❓ | ❓ | `Emby影音` `冷门节点` `性价比` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/69yun) |
 | **SsrDog** | IPLC/IEPL专线 | 待核对 | ¥45/月 季付起 | ✅ | ❓ | `流媒体` `原生IP` `注意季付起` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/ssrdog) |
 | **Bywave** | IEPL专线 | 待核对 | ¥30/月起 | ✅ | ❓ | `争议预警` `EMBY` `进阶` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/ByWave) |
-| **TNTCloud** | 公网中转 | 待核对 | ¥8/月起 | ❓ | ❓ | `总榜收录` `谨慎复查` `短周期测试` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/tnt) |
+| **TNTCloud** | IPLC页面口径 | 专用客户端 | ¥20/月 110GB起 | ❓ | ❓ | `已测评` `仅专用客户端` `风险观察` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/tnt) |
+| **龙猫云** | IPLC专线 | 专用客户端 | ¥15/月 100GB起 | ❓ | ❓ | `总榜收录` `IPLC专线` `短周期验证` | ⭐⭐⭐⭐ | [立即前往](https://go.uukk.de/longmaoyun) |
 
 ---
 

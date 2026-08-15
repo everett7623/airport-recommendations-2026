@@ -9,7 +9,7 @@
 >
 > 📖 **完整版（53 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-08-12 已同步 VPSKnow，当前收录 53 个推荐条目。
+> 🔄 **数据同步：** 2026-08-14 已同步 VPSKnow，当前收录 53 个推荐条目。
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
@@ -83,7 +83,7 @@
 | **Kuromis** | IEPL专线 | 待核对 | ¥34/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/kuromis) |
 | **WgetCloud** | BGP专线 | 通用订阅 | ¥79/月起 | ❓ | ❓ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/wgetcloud) |
 | **新华云** | 隧道中转 | 待核对 | ¥3.99/月起 | ✅ | ✅ | ⭐⭐⭐⭐⭐ | [进入](https://go.uukk.de/newhua99) |
-| **速界** | 原 IPLC 专线 | 待核对 | 暂停购买 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/speedworld) |
+| **速界** | 原 IPLC 专线 | 待核对 | 恢复后待复查 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/speedworld) |
 | **M78光之国** | 线路待核对 | 待核对 | ¥8/月 100GB起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/m78) |
 | **超级飞鱼** | VLESS节点 | 通用订阅 | ¥6/月 80GB起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/spflyfish) |
 | **Nexitally** | 高端专线 | 通用订阅 + 专用客户端 | ¥74.55/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/naiixi) |

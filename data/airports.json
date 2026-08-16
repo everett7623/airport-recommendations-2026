@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-08-14
+// 更新时间: 2026-08-16
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-08-14",
+  "version": "2026-08-16",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -407,16 +407,16 @@
           "url": "https://go.uukk.de/cly",
           "coupon": "优惠券: 88888（8折）",
           "logoSvg": "/logo/airports/cailuyun.png",
-          "description": "财路云已补首轮测评并确认支持通用订阅 URL：套餐页列出单次购买的 ¥15/20GB 试用包、¥25/月 100GB、¥50/月 200GB、¥60/季 64GB/月及 ¥300/100GB 不限时包。用户提供优惠券 88888，口径为 8 折，适用套餐与最终价格需在结账页复核。美国节点单次 Ookla 下载 112.25Mbps，Cloudflare 下载 105.64Mbps，YouTube 4K 连接约 111.9Mbps；AI 与主流流媒体多数可用，但出口为机房 IP，DNS/WebRTC 和较高延迟需留意。",
+          "description": "财路云已补首轮测评并确认支持通用订阅 URL。2026-08-16 套餐页列出 ¥8/20GB 限购试用、¥7/月 50GB、¥14/月 100GB、¥28/月 200GB、¥21/季 64GB/月、¥168/年 128GB/月及 ¥150/100GB 不限时包。用户提供优惠券 88888，口径为 8 折，适用套餐与最终价格需在结账页复核。2026-07-30 美国节点单次 Ookla 下载 112.25Mbps，Cloudflare 下载 105.64Mbps，YouTube 4K 连接约 111.9Mbps；AI 与主流流媒体多数可用，但出口为机房 IP，DNS/WebRTC 和较高延迟需留意。",
           "features": [
             "首轮实测已补",
             "支持通用订阅URL",
-            "¥15试用/¥25月付",
+            "¥8试用/¥7月付",
             "12个VLESS节点"
           ],
           "lineType": "VLESS节点",
           "accessType": "universal",
-          "pricing": "¥15试用；¥25/月100GB",
+          "pricing": "¥8试用；¥7/月50GB",
           "tags": [
             "已测评",
             "低价入门",

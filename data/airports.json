@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-08-16
+// 更新时间: 2026-08-17
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-08-16",
+  "version": "2026-08-17",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -15,6 +15,7 @@
       "BGP专线",
       "CN2 GIA/9929/CMIN2",
       "CN2 GIA/AS9929/CMIN2",
+      "Hysteria2直连",
       "IEPL/BGP",
       "IEPL/IPLC专线",
       "IEPL专线",
@@ -85,6 +86,7 @@
       "不建议长期付费",
       "不限时",
       "不限时可选",
+      "不限时流量",
       "不限设备",
       "不限速",
       "专属客户端",
@@ -102,7 +104,6 @@
       "佩奇系",
       "免费试用",
       "入口已恢复",
-      "入门",
       "全兼容",
       "全球节点",
       "全球覆盖",
@@ -113,7 +114,6 @@
       "千兆带宽",
       "原生IP",
       "原生节点",
-      "基础使用",
       "备用",
       "备用方案",
       "多协议",
@@ -206,6 +206,7 @@
             "IP风险需注意"
           ],
           "lineType": "优质直连",
+          "accessType": "both",
           "pricing": "免费试用，¥8/月起",
           "tags": [
             "已测评",
@@ -241,26 +242,6 @@
       "icon": "💸",
       "description": "价格友好，适合预算有限的新手与学生党，满足日常上网等需求",
       "airports": [
-        {
-          "name": "SKYLUMO",
-          "url": "https://go.uukk.de/skylumo",
-          "coupon": "优惠券: lN0cKN1L",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2322c55e'/%3e%3ctext x='50' y='60' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eS%3c/text%3e%3c/svg%3e",
-          "description": "SKYLUMO，主打低价入门月付方案，覆盖多个常用地区，适合预算有限用户作为日常基础使用。经典老套餐限时半价，附赠 Google AI Pro 年费（限量300份），使用优惠券 lN0cKN1L 即可享受折扣。",
-          "features": [
-            "低价入门",
-            "日常使用",
-            "多地区节点",
-            "月付灵活"
-          ],
-          "lineType": "公网中转",
-          "pricing": "¥3.99/月起",
-          "tags": [
-            "入门",
-            "低价",
-            "基础使用"
-          ]
-        },
         {
           "name": "山水云",
           "url": "https://go.uukk.de/shanshuiyun",
@@ -456,6 +437,7 @@
             "年付¥79.9起"
           ],
           "lineType": "IPLC专线",
+          "accessType": "dedicated",
           "pricing": "¥6.6/月起（年付）",
           "tags": [
             "高性价比",
@@ -564,6 +546,7 @@
             "月付¥17起"
           ],
           "lineType": "IPLC专线",
+          "accessType": "dedicated",
           "pricing": "¥17/月起",
           "tags": [
             "高性价比",
@@ -584,6 +567,7 @@
             "轻量版年付99元起"
           ],
           "lineType": "IPLC/IEPL专线",
+          "accessType": "dedicated",
           "pricing": "¥20/月起（年付¥99起）",
           "tags": [
             "流媒体",
@@ -596,14 +580,15 @@
           "url": "https://go.uukk.de/2maoyun",
           "coupon": "优惠码: ermao888（8折）",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23d946ef'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e猫%3c/text%3e%3c/svg%3e",
-          "description": "二猫云，新晋高品质机场，全线采用 IEPL/IPLC 专线，晚高峰稳定不卡。稳定解锁流媒体与AI服务，不限速、不限制设备数量，并提供全平台专用客户端；是否提供通用订阅 URL 仍待核对。",
+          "description": "二猫云，新晋高品质机场，全线采用 IEPL/IPLC 专线，晚高峰稳定不卡。稳定解锁流媒体与AI服务，不限速、不限制设备数量，仅提供全平台专用客户端，不提供通用订阅 URL。",
           "features": [
             "IEPL/IPLC专线",
-            "提供专用客户端",
+            "仅专用客户端",
             "不限设备数",
             "抗封锁容灾"
           ],
           "lineType": "IEPL/IPLC专线",
+          "accessType": "dedicated",
           "pricing": "¥89/年起",
           "tags": [
             "专用客户端",
@@ -624,6 +609,7 @@
             "年付¥100/年起"
           ],
           "lineType": "IEPL专线",
+          "accessType": "dedicated",
           "pricing": "¥25/月起（年付¥100/年）",
           "tags": [
             "新晋推荐",
@@ -665,6 +651,7 @@
             "流媒体/AI全解锁"
           ],
           "lineType": "中转专线",
+          "accessType": "dedicated",
           "pricing": "¥18.8/月起",
           "tags": [
             "不限设备",
@@ -685,6 +672,7 @@
             "不限时套餐"
           ],
           "lineType": "IEPL专线",
+          "accessType": "dedicated",
           "pricing": "¥18/月起",
           "tags": [
             "SS协议",
@@ -697,14 +685,15 @@
           "url": "https://go.uukk.de/yuzhoucloud",
           "coupon": "",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3ccircle cx='50' cy='50' r='22' fill='none' stroke='white' stroke-width='5'/%3e%3ccircle cx='50' cy='50' r='8' fill='white'/%3e%3cellipse cx='50' cy='50' rx='38' ry='16' fill='none' stroke='white' stroke-width='3' transform='rotate(-30 50 50)'/%3e%3c/svg%3e",
-          "description": "宇宙云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点专线接入，晚高峰不限速4K秒开。流媒体稳定解锁，提供超值年付小包 ¥120/年和专用客户端一键连接；通用订阅 URL 仍待核对。",
+          "description": "宇宙云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点专线接入，晚高峰不限速4K秒开。流媒体稳定解锁，提供超值年付小包 ¥120/年，仅提供专用客户端一键连接，不提供通用订阅 URL。",
           "features": [
             "VLESS+IEPL专线",
             "60+节点x1倍率",
             "晚高峰不限速",
-            "年付小包¥120/年"
+            "仅专用客户端"
           ],
           "lineType": "IEPL专线",
+          "accessType": "dedicated",
           "pricing": "¥12.5/月起（年付¥96/年）",
           "tags": [
             "新晋推荐",
@@ -827,23 +816,24 @@
       "description": "用多少付多少，无过期时间，适合作为主力备份或轻度使用",
       "airports": [
         {
-          "name": "SKYLUMO",
-          "url": "https://go.uukk.de/skylumo",
-          "coupon": "优惠券: lN0cKN1L",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230ea5e9'/%3e%3cpath d='M50 20 L20 55 L45 55 L40 85 L70 45 L50 45 L55 20 Z' fill='white' stroke='white' stroke-width='4' stroke-linejoin='round'/%3e%3c/svg%3e",
-          "description": "SKYLUMO，提供流量永不过期的一次性流量包方案，覆盖全球 80+ 地区，适合备用或轻度使用。经典老套餐限时半价，附赠 Google AI Pro 年费（限量300份），使用优惠券 lN0cKN1L 即可享受折扣。",
+          "name": "喵喵VPN",
+          "url": "https://go.uukk.de/vpnmiao",
+          "coupon": "优惠券: vpsknow",
+          "logoSvg": "/logo/airports/miaomiao-vpn.png",
+          "description": "喵喵VPN 已补首轮测评。2026-08-16 套餐页列出 ¥20/100GB、¥78/500GB 与 ¥128/1TB 一次性流量包，流量永久有效且不按月重置；基础包为全线 Hysteria2、约 20 个节点并支持最多 3 台设备，适合轻量使用或补充主力套餐。实际速度与节点范围以订阅下发和本地网络为准，既有机房 IP 风险仍需注意。",
           "features": [
-            "流量永不过期",
-            "80+地区接入",
-            "大流量包",
-            "高带宽"
+            "¥20/100GB起",
+            "流量永久有效",
+            "Hysteria2约20节点",
+            "最多3台设备"
           ],
-          "lineType": "公网中转",
-          "pricing": "¥9.90起",
+          "lineType": "Hysteria2直连",
+          "accessType": "both",
+          "pricing": "¥20/100GB起（一次性）",
           "tags": [
-            "备用",
-            "不限时",
-            "大流量"
+            "已测评",
+            "不限时流量",
+            "按量备用"
           ]
         },
         {
@@ -1090,6 +1080,26 @@
         "总榜收录",
         "全球覆盖",
         "备用方案"
+      ]
+    },
+    {
+      "name": "SKYLUMO",
+      "url": "https://go.uukk.de/skylumo",
+      "coupon": "优惠券: lN0cKN1L",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230ea5e9'/%3e%3cpath d='M50 20 L20 55 L45 55 L40 85 L70 45 L50 45 L55 20 Z' fill='white' stroke='white' stroke-width='4' stroke-linejoin='round'/%3e%3c/svg%3e",
+      "description": "SKYLUMO，提供流量永不过期的一次性流量包方案，覆盖全球多地区，适合备用或轻度使用。",
+      "features": [
+        "流量永不过期",
+        "80+地区接入",
+        "大流量包",
+        "高带宽"
+      ],
+      "lineType": "公网中转",
+      "pricing": "¥9.90起",
+      "tags": [
+        "备用",
+        "不限时",
+        "大流量"
       ]
     },
     {

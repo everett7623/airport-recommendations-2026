@@ -9,7 +9,7 @@
 >
 > 📖 **完整版（53 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-08-16 已同步 VPSKnow，当前收录 53 个推荐条目。
+> 🔄 **数据同步：** 2026-08-17 已同步 VPSKnow，当前收录 53 个推荐条目。
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
@@ -19,11 +19,11 @@
 | 使用场景 | 推荐类型 | 参考价格 | 首选推荐 | 备用推荐 |
 |---------|---------|---------|---------|---------|
 | 🆓 先测试后购买 | 免费试用 | 免费 | 网际快车 | 喵喵VPN |
-| 💰 预算有限（学生党） | 入门经济 | ¥3.99/月起 | SKYLUMO | 山水云 |
+| 💰 预算有限（学生党） | 入门经济 | ¥14.99/月起（年付¥88起） | 山水云 | 锦云 |
 | ⚡ 日常主力（看剧办公） | 性价比均衡 | ¥20/月起 | Fastlink / 极速Cloud | Nice加速专线机场 |
 | 👔 商务办公（高稳定） | 高端专线 | ¥109/月起（待实测） | TAG / MESL | ImmTelecom |
 | 🎮 游戏加速（低延迟） | 高端专线 | ¥72.45/月起 | ImmTelecom | TAG |
-| 📦 轻度使用（备用） | 按量计费 | ¥9.90起 | SKYLUMO | 魔戒 |
+| 📦 轻度使用（备用） | 按量计费 | ¥20/100GB起（一次性） | 喵喵VPN | 魔戒 |
 
 ---
 
@@ -38,7 +38,7 @@
 | **TAG** | IEPL专线口径 | 待核对 | ¥109/月起（待实测） | TAG 以节点覆盖广著称，拥有大量冷门地区节点。当前短链可跳转，但目标页面和原 ... | [官网](https://go.uukk.de/tag) |
 | **MESL** | IEPL专线 | 待核对 | ¥50/月起 | MESL，极其低调的高端机场，已补首轮测评。节点多、家宽/商宽覆盖广，流媒体和 ... | [官网](https://go.uukk.de/mesl) |
 | **ImmTelecom** | IEPL/IPLC专线 | 待核对 | ¥72.45/月起 | ImmTelecom 已补首轮实测：108 项多地区 AnyTLS 节点，AI、... | [官网](https://go.uukk.de/immtele) |
-| **SKYLUMO** | 公网中转 | 待核对 | ¥9.90起 | SKYLUMO，提供流量永不过期的一次性流量包方案，覆盖全球 80+ 地区，适合... | [官网](https://go.uukk.de/skylumo) |
+| **喵喵VPN** | Hysteria2直连 | 通用订阅 + 专用客户端 | ¥20/100GB起（一次性） | 喵喵VPN 已补首轮测评。2026-08-16 套餐页列出 ¥20/100GB、... | [官网](https://go.uukk.de/vpnmiao) |
 
 ---
 
@@ -47,9 +47,8 @@
 | 机场名称 | 线路类型 | 接入方式 | 最低价格 | 流媒体 | ChatGPT | 推荐度 | 直达 |
 |---------|---------|---------|---------|-------|---------|-------|------|
 | **网际快车** | Vless/Hysteria2 | 通用订阅 + 专用客户端 | 免费试用，¥6.8/20GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/wjkc) |
-| **喵喵VPN** | 优质直连 | 待核对 | 免费试用，¥8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/vpnmiao) |
+| **喵喵VPN** | Hysteria2直连 | 通用订阅 + 专用客户端 | ¥20/100GB起（一次性） | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/vpnmiao) |
 | **拼好连** | BGP/IEPL口径 | 通用订阅 + 专用客户端 | 免费试用，¥9.90/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/runway) |
-| **SKYLUMO** | 公网中转 | 待核对 | ¥9.90起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/skylumo) |
 | **山水云** | 隧道中转 | 待核对 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/shanshuiyun) |
 | **锦云** | Vless节点 | 待核对 | ¥4.8/月 50GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jinyun) |
 | **鲤云** | VLESS节点 | 待核对 | ¥7/月 50GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/liyun) |
@@ -59,19 +58,19 @@
 | **秒秒云** | 隧道中转 | 待核对 | ¥14/月起（年付¥79起） | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/miaomiaoyun) |
 | **财路云** | VLESS节点 | 通用订阅 | ¥8试用；¥7/月50GB | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/cly) |
 | **瞬云** | ANYCAST专线 | 待核对 | ¥16/月起（优惠后） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/sy) |
-| **唯兔云** | IPLC专线 | 待核对 | ¥6.6/月起（年付） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/wty) |
+| **唯兔云** | IPLC专线 | 专用客户端 | ¥6.6/月起（年付） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/wty) |
 | **Fastlink** | BGP/IPLC专线 | 待核对 | ¥20/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/fastlink) |
 | **极速Cloud** | CN2 GIA/AS9929/CMIN2 | 待核对 | ¥15/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jscloud) |
 | **Nice加速专线机场** | 南北双通道专线 | 待核对 | ¥12/月 30GB起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/nicecc) |
 | **极连云** | IPLC/IEPL专线 | 待核对 | ¥14.4/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jly) |
-| **光速云** | IPLC专线 | 待核对 | ¥17/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/lightspeed) |
-| **全球云** | IPLC/IEPL专线 | 待核对 | ¥20/月起（年付¥99起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/globalyun) |
-| **二猫云** | IEPL/IPLC专线 | 待核对 | ¥89/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/2maoyun) |
-| **一翻云** | IEPL专线 | 待核对 | ¥25/月起（年付¥100/年） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/1flyun) |
+| **光速云** | IPLC专线 | 专用客户端 | ¥17/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/lightspeed) |
+| **全球云** | IPLC/IEPL专线 | 专用客户端 | ¥20/月起（年付¥99起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/globalyun) |
+| **二猫云** | IEPL/IPLC专线 | 专用客户端 | ¥89/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/2maoyun) |
+| **一翻云** | IEPL专线 | 专用客户端 | ¥25/月起（年付¥100/年） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/1flyun) |
 | **快狸** | IEPL专线 | 专用客户端 | ¥96/年起（折后） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/kuaili) |
-| **U1S1** | 中转专线 | 待核对 | ¥18.8/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/u1s1) |
-| **光年梯** | IEPL专线 | 待核对 | ¥18/月起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/lightyearti) |
-| **宇宙云** | IEPL专线 | 待核对 | ¥12.5/月起（年付¥96/年） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/yuzhoucloud) |
+| **U1S1** | 中转专线 | 专用客户端 | ¥18.8/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/u1s1) |
+| **光年梯** | IEPL专线 | 专用客户端 | ¥18/月起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/lightyearti) |
+| **宇宙云** | IEPL专线 | 专用客户端 | ¥12.5/月起（年付¥96/年） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/yuzhoucloud) |
 | **TAG** | IEPL专线口径 | 待核对 | ¥109/月起（待实测） | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/tag) |
 | **MESL** | IEPL专线 | 待核对 | ¥50/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/mesl) |
 | **ImmTelecom** | IEPL/IPLC专线 | 待核对 | ¥72.45/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/immtele) |
@@ -89,6 +88,7 @@
 | **Nexitally** | 高端专线 | 通用订阅 + 专用客户端 | ¥74.55/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/naiixi) |
 | **寰宇云** | 线路待重新核对 | 待核对 | 当前套餐待复核 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/huanyuyunvip) |
 | **YToo** | 多线国际加速 | 待核对 | ¥98/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/ytoo) |
+| **SKYLUMO** | 公网中转 | 待核对 | ¥9.90起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/skylumo) |
 | **FlowerCloud** | BGP/IEPL专线 | 待核对 | ¥39/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/flowercloud) |
 | **星岛梦** | IEPL专线 | 待核对 | ¥12.8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/stardream) |
 | **影子** | 海外公有云中转 | 待核对 | ¥18.80/月 150GB起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/yingzi) |

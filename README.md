@@ -40,7 +40,7 @@
 
 ## 📢 最新活动与公告
 
-### 2026-08-17 更新
+### 2026-08-18 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
 - ✅ **清理：** 已下架服务商：Sogo云、OneStep。
 

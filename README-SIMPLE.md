@@ -9,7 +9,7 @@
 >
 > 📖 **完整版（53 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-08-17 已同步 VPSKnow，当前收录 53 个推荐条目。
+> 🔄 **数据同步：** 2026-08-18 已同步 VPSKnow，当前收录 53 个推荐条目。
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---

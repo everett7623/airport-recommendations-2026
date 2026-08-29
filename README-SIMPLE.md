@@ -9,7 +9,7 @@
 >
 > 📖 **完整版（53 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-08-26 已同步 VPSKnow，当前收录 53 个推荐条目。
+> 🔄 **数据同步：** 2026-08-28 已同步 VPSKnow，当前收录 53 个推荐条目。
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
@@ -52,7 +52,7 @@
 | **山水云** | 隧道中转 | 待核对 | ¥14.99/月起（年付¥88起） | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/shanshuiyun) |
 | **锦云** | Vless节点 | 通用订阅 | ¥4.8/月 50GB起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/jinyun) |
 | **鲤云** | VLESS节点 | 通用订阅 | ¥7/月 50GB起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/liyun) |
-| **速界** | 全 IPLC 专线 | 专用客户端 | ¥90/年（用码后复核） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/speedworld) |
+| **速界** | 全 IPLC 专线 | 专用客户端 | ¥90/年起（折前） | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/speedworld) |
 | **轻语机场** | AnyTLS/IEPL | 待核对 | ¥10/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/qingyu) |
 | **COCODUCK VPN** | IEPL/BGP | 通用订阅 + 专用客户端 | ¥17/月 100GB起 | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/cocoduck) |
 | **EdgeNova** | IEPL专线 | 待核对 | ¥86/年起（优惠后） | ❓ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/edgenova) |

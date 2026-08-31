@@ -412,7 +412,7 @@
           "url": "https://go.uukk.de/cly",
           "coupon": "优惠券: 88888（8折）",
           "logoSvg": "/logo/airports/cailuyun.png",
-          "description": "财路云已补首轮测评并确认支持通用订阅。2026-08-16 套餐页列出 ¥8/20GB 限购试用、¥7/月 50GB、¥14/月 100GB、¥28/月 200GB、¥21/季 64GB/月、¥168/年 128GB/月及 ¥150/100GB 不限时包。2026-07-30 美国节点单次 Ookla 下载 112.25Mbps，Cloudflare 下载 105.64Mbps，YouTube 4K 连接约 111.9Mbps；AI 与主流流媒体多数可用，但出口为机房 IP，DNS/WebRTC 和较高延迟需留意。",
+          "description": "财路云已补首轮测评并确认支持通用订阅。2026-08-16 套餐包含 ¥8/20GB 限购试用、¥7/月 50GB、¥14/月 100GB、¥28/月 200GB、¥21/季 64GB/月、¥168/年 128GB/月及 ¥150/100GB 不限时包。2026-07-30 美国节点单次 Ookla 下载 112.25Mbps，Cloudflare 下载 105.64Mbps，YouTube 4K 连接约 111.9Mbps；AI 与主流流媒体多数可用，但出口为机房 IP，DNS/WebRTC 和较高延迟需留意。",
           "features": [
             "首轮实测已补",
             "通用订阅",
@@ -433,7 +433,7 @@
           "url": "https://go.uukk.de/sy",
           "coupon": "优惠码: 20OFF（8折）",
           "logoSvg": "/logo/airports/shunyun.webp",
-          "description": "瞬云采用直连加专线架构与 ANYCAST 网络，页面列出三网入口优化、流媒体与 AI 服务支持；入门套餐低至 ¥16/月，另有 ¥99/年限量小包，晚高峰表现仍建议短周期实测。",
+          "description": "瞬云采用直连加专线架构与 ANYCAST 网络，主打三网入口优化、流媒体与 AI 服务支持；入门套餐低至 ¥16/月，另有 ¥99/年限量小包，晚高峰表现仍建议短周期实测。",
           "features": [
             "ANYCAST专线",
             "原生IP全解锁",
@@ -649,7 +649,7 @@
           "url": "https://go.uukk.de/kuaili",
           "coupon": "优惠码: vpsknow（8折）",
           "logoSvg": "/logo/airports/kuaili.png",
-          "description": "快狸，提供 VLESS 协议与企业级 IEPL 专线接入，三网优化智能分流。全线路解锁 Netflix、Disney+ 等流媒体及 ChatGPT、TikTok 全球环境。目前页面列出仅支持专用客户端一键连接，不提供通用订阅。",
+          "description": "快狸提供 VLESS 协议与企业级 IEPL 专线接入，支持三网优化分流、流媒体与 AI 服务。目前仅支持专用客户端，不提供通用订阅。",
           "features": [
             "IEPL专线接入",
             "专用客户端",
@@ -801,7 +801,7 @@
           "url": "https://go.uukk.de/kendeji",
           "coupon": "优惠券: RE824（95折，结账页复核）",
           "logoSvg": "/logo/airports/kendeji.png",
-          "description": "肯の机当前套餐为 ¥40/月 100GB 起，页面列出 CN2 GIA、9929、CMIN2 三网优化线路及 0.01 倍低倍率节点；面板支持 TUIC v5、AnyTLS 与 VLESS。AI/流媒体能力尚待实际验证，首次购买仍建议短周期测试。",
+          "description": "肯の机当前套餐为 ¥40/月 100GB 起，主打 CN2 GIA、9929、CMIN2 三网优化线路及 0.01 倍低倍率节点；面板支持 TUIC v5、AnyTLS 与 VLESS。AI/流媒体能力尚待实际验证，首次购买仍建议短周期测试。",
           "features": [
             "100GB/月起",
             "三网优化架构",
@@ -848,7 +848,7 @@
           "url": "https://go.uukk.de/vpnmiao",
           "coupon": "优惠券: vpsknow",
           "logoSvg": "/logo/airports/miaomiao-vpn.png",
-          "description": "喵喵VPN 已补首轮测评。2026-08-16 套餐页列出 ¥20/100GB、¥78/500GB 与 ¥128/1TB 一次性流量包，流量永久有效且不按月重置；基础包为全线 Hysteria2、约 20 个节点并支持最多 3 台设备，适合轻量使用或补充主力套餐。实际速度与节点范围以订阅下发和本地网络为准，既有机房 IP 风险仍需注意。",
+          "description": "喵喵VPN 已补首轮测评。2026-08-16 套餐包含 ¥20/100GB、¥78/500GB 与 ¥128/1TB 一次性流量包，流量永久有效且不按月重置；基础包为全线 Hysteria2、约 20 个节点并支持最多 3 台设备，适合轻量使用或补充主力套餐。实际速度与节点范围以订阅下发和本地网络为准，既有机房 IP 风险仍需注意。",
           "features": [
             "¥20/100GB起",
             "流量永久有效",
@@ -1277,7 +1277,7 @@
       "url": "https://go.uukk.de/tnt",
       "coupon": "",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23ef4444'/%3e%3ctext x='50' y='65' font-size='40' font-weight='900' text-anchor='middle' fill='white' font-family='Arial Black,Arial,sans-serif' letter-spacing='-2'>TNT</text>%3c/svg%3e",
-      "description": "TNTCloud 已补 2026-08-13 首轮测评：当前仅可使用 TNTCloud 提供的专用客户端，不提供通用订阅；套餐页列出 ¥98/年 60GB/月、¥30/季 60GB/月及 ¥20/月 110GB 起，客户端可见日本、美国等多节点，美国节点单次 YouTube 4K 可播放。限制更重要：美国出口为 AS23470 ReliableSite.Net 机房 IP，YouTube 另出现登录验证，Claude 环境存在 DNS、WebRTC 和时区不一致；结合近期用户反馈的节点不稳定、客服失联与活动停更，继续保留在完整榜单风险尾部，仅建议小额短周期验证。",
+      "description": "TNTCloud 已补 2026-08-13 首轮测评：当前仅可使用 TNTCloud 提供的专用客户端，不提供通用订阅；套餐包含 ¥98/年 60GB/月、¥30/季 60GB/月及 ¥20/月 110GB 起，客户端可见日本、美国等多节点，美国节点单次 YouTube 4K 可播放。限制更重要：美国出口为 AS23470 ReliableSite.Net 机房 IP，YouTube 另出现登录验证，Claude 环境存在 DNS、WebRTC 和时区不一致；结合近期用户反馈的节点不稳定、客服失联与活动停更，继续保留在完整榜单风险尾部，仅建议小额短周期验证。",
       "features": [
         "首轮测评已补",
         "专用客户端",
@@ -1299,7 +1299,7 @@
       "url": "https://go.uukk.de/longmaoyun",
       "coupon": "",
       "logoSvg": "/logo/airports/longmaoyun.png",
-      "description": "龙猫云仅保留在完整总榜供对比。套餐页列出 ¥15/月 100GB 起至 ¥120/月 1000GB 的月付方案，页面标注 IPLC 专线、不限速和不限客户端；节点截图来自专用客户端，当前只确认本次客户端接入与美国节点的 YouTube 4K 首轮结果。美国出口在 ping0.cc、IPPure、ipinfo.cv 与 Claude 风险检测中均显示机房属性或风险，建议先月付验证。",
+      "description": "龙猫云仅保留在完整总榜供对比。套餐为 ¥15/月 100GB 起至 ¥120/月 1000GB，商家标注 IPLC 专线、不限速和不限客户端；节点截图来自专用客户端，当前只确认本次客户端接入与美国节点的 YouTube 4K 首轮结果。美国出口在 ping0.cc、IPPure、ipinfo.cv 与 Claude 风险检测中均显示机房属性或风险，建议先月付验证。",
       "features": [
         "完整总榜收录",
         "IPLC专线",

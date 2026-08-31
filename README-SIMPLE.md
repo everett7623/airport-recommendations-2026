@@ -38,7 +38,7 @@
 | **TAG** | IEPL专线口径 | 待核对 | ¥109/月起（待实测） | TAG 以节点覆盖广著称，拥有大量冷门地区节点。当前短链可跳转，但目标页面和原 ... | [官网](https://go.uukk.de/tag) |
 | **MESL** | IEPL专线 | 通用订阅 | ¥50/月起 | MESL，极其低调的高端机场，已补首轮测评。节点多、家宽/商宽覆盖广，流媒体和 ... | [官网](https://go.uukk.de/mesl) |
 | **ImmTelecom** | IEPL/IPLC专线 | 待核对 | ¥72.45/月起 | ImmTelecom 已补首轮实测：108 项多地区 AnyTLS 节点，AI、... | [官网](https://go.uukk.de/immtele) |
-| **喵喵VPN** | Hysteria2直连 | 通用订阅 + 专用客户端 | ¥20/100GB起（一次性） | 喵喵VPN 已补首轮测评。2026-08-16 套餐页列出 ¥20/100GB、... | [官网](https://go.uukk.de/vpnmiao) |
+| **喵喵VPN** | Hysteria2直连 | 通用订阅 + 专用客户端 | ¥20/100GB起（一次性） | 喵喵VPN 已补首轮测评。2026-08-16 套餐包含 ¥20/100GB、¥... | [官网](https://go.uukk.de/vpnmiao) |
 
 ---
 

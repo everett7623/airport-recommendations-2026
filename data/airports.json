@@ -19,7 +19,6 @@
       "IEPL/BGP",
       "IEPL/IPLC专线",
       "IEPL专线",
-      "IEPL专线口径",
       "IPLC/IEPL专线",
       "IPLC专线",
       "IPLC页面口径",
@@ -38,6 +37,7 @@
       "海外公有云中转",
       "线路待核对",
       "线路待重新核对",
+      "线路架构待验证",
       "跨境专线",
       "隧道中转",
       "高端专线"
@@ -125,7 +125,6 @@
       "大流量",
       "学生党推荐",
       "家庭共享",
-      "待补实测",
       "性价比",
       "性能复查",
       "总榜收录",
@@ -139,6 +138,7 @@
       "无日志",
       "日常使用",
       "日本/美国节点",
+      "注意倍率",
       "注意季付起",
       "流媒体",
       "流媒体全解锁",
@@ -152,6 +152,7 @@
       "稳定",
       "线路差异明显",
       "美国台湾家宽",
+      "美国视频",
       "老牌",
       "试用",
       "贵族机场",
@@ -256,6 +257,7 @@
             "支持不限时套餐"
           ],
           "lineType": "隧道中转",
+          "accessType": "universal",
           "pricing": "¥14.99/月起（年付¥88起）",
           "tags": [
             "高性价比",
@@ -339,6 +341,7 @@
             "4K/AI首轮可用"
           ],
           "lineType": "AnyTLS/IEPL",
+          "accessType": "universal",
           "pricing": "¥10/月起",
           "tags": [
             "AI解锁",
@@ -380,6 +383,7 @@
             "不限设备/不限速"
           ],
           "lineType": "IEPL专线",
+          "accessType": "dedicated",
           "pricing": "¥86/年起（优惠后）",
           "tags": [
             "专线",
@@ -441,6 +445,7 @@
             "7×24真人客服"
           ],
           "lineType": "ANYCAST专线",
+          "accessType": "both",
           "pricing": "¥16/月起（优惠后）",
           "tags": [
             "原生节点",
@@ -553,6 +558,7 @@
             "年付¥96起"
           ],
           "lineType": "IPLC/IEPL专线",
+          "accessType": "dedicated",
           "pricing": "¥14.4/月起",
           "tags": [
             "专线",
@@ -740,19 +746,20 @@
           "url": "https://go.uukk.de/tag",
           "coupon": "",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%232563eb'/%3e%3cpath d='M30 70 L50 30 L70 70 Z' fill='none' stroke='white' stroke-width='10' stroke-linejoin='round' stroke-linecap='round'/%3e%3c/svg%3e",
-          "description": "TAG 以节点覆盖广著称，拥有大量冷门地区节点。当前短链可跳转，但目标页面和原 AFF 受 WAF/403，站内暂为 link-only 证据；原有低延迟、低丢包等宣传项待实测复核，购买前建议先验证当前套餐、线路与节点表现。",
+          "description": "TAG 已补首轮实测：美国两节点可见 YouTube 4K 播放，夏威夷出口多库标记住宅；节点表现有差异，家宽 5x / 星链 10x 倍率及 DNS/WebRTC 风险需注意。年付 ¥162 为全年共 200GB。",
           "features": [
-            "全球节点覆盖",
-            "短链可跳转",
-            "link-only证据",
-            "待实测复核"
+            "已补首轮测评",
+            "美国4K播放",
+            "高倍率需核算",
+            "DNS/WebRTC待查"
           ],
-          "lineType": "IEPL专线口径",
-          "pricing": "¥109/月起（待实测）",
+          "lineType": "线路架构待验证",
+          "accessType": "both",
+          "pricing": "¥114/月 500GB",
           "tags": [
             "全球节点",
-            "高端",
-            "待补实测"
+            "美国视频",
+            "注意倍率"
           ]
         },
         {
@@ -789,6 +796,7 @@
             "DNS待复查"
           ],
           "lineType": "IEPL/IPLC专线",
+          "accessType": "universal",
           "pricing": "¥72.45/月起",
           "tags": [
             "AnyTLS",
@@ -877,6 +885,7 @@
             "规则清晰"
           ],
           "lineType": "公网中转",
+          "accessType": "universal",
           "pricing": "按GB计费",
           "tags": [
             "老牌",
@@ -1176,7 +1185,7 @@
       "url": "https://go.uukk.de/kexinyun",
       "coupon": "优惠码: kexinyun330",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230f766e'/%3e%3cpath d='M24 56 C28 40 43 31 57 38 C66 42 73 50 76 62 C69 57 62 55 54 58 C44 63 34 61 24 56 Z' fill='white' opacity='.96'/%3e%3ccircle cx='61' cy='45' r='5' fill='%230f766e'/%3e%3c/svg%3e",
-      "description": "可信云已补首轮测评，2026 年初上线，主打 IPLC/IEPL 专线、专用客户端、不限设备和不限速。截图显示 ¥96/年 60GB/月、¥25/月 150GB 起，YouTube 4K 与常用网站延迟首轮可用；但当前不提供通用订阅，且为新站，建议先短周期验证。",
+      "description": "可信云 2026-06-29 首轮测评曾显示 YouTube 4K 与常用网站可用；2026-09-09 收到付费用户全节点 Timeout 反馈，专用客户端截图与反馈一致。官网仍可打开，但代理服务当前不可用，已撤出重点推荐并等待人工复核。",
       "features": [
         "首轮测评已补",
         "IPLC/IEPL专线",

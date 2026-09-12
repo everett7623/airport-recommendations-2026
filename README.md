@@ -64,13 +64,31 @@
 
 ---
 
+## 🏆 本期主推机场
+
+以下条目按当前编辑标记置于页面最前，仍建议先月付或试用：
+
+**网际快车、喵喵VPN、TAG、MESL、ImmTelecom、肯の机、ViKing Links**
+
+| 机场 | 类型 | 起步价 | 直达 |
+| --- | --- | --- | --- |
+| **网际快车** | Vless/Hysteria2 | 免费试用，¥6.8/20GB起 | [立即前往](https://go.uukk.de/wjkc) |
+| **喵喵VPN** | Hysteria2直连 | ¥20/100GB起（一次性） | [立即前往](https://go.uukk.de/vpnmiao) |
+| **TAG** | 线路架构待验证 | ¥114/月 500GB | [立即前往](https://go.uukk.de/tag) |
+| **MESL** | IEPL专线 | ¥50/月起 | [立即前往](https://go.uukk.de/mesl) |
+| **ImmTelecom** | IEPL/IPLC专线 | ¥72.45/月起 | [立即前往](https://go.uukk.de/immtele) |
+| **肯の机** | CN2 GIA/9929/CMIN2 | ¥40/月 100GB起 | [立即前往](https://go.uukk.de/kendeji) |
+| **ViKing Links** | 专线+优化直连 | ¥72/月 500GB | [立即前往](https://go.uukk.de/vikinglinks) |
+
+---
+
 <a id="category-free-trial"></a>
 
 ## 🎁 免费试用专区
 
 **拒绝盲选：提供试用套餐或者流量，先测试节点质量与兼容性，满意再订阅**
 
-### 1. 网际快车
+### 1. 网际快车 🏆
 
 **🔗 官网：** [https://go.uukk.de/wjkc](https://go.uukk.de/wjkc)
 
@@ -88,7 +106,7 @@
 
 ---
 
-### 2. 喵喵VPN
+### 2. 喵喵VPN 🏆
 
 **🔗 官网：** [https://go.uukk.de/vpnmiao](https://go.uukk.de/vpnmiao)
 
@@ -559,7 +577,7 @@
 
 **追求极致稳定、低延迟与速度，适合商务办公、游戏加速及专业用户**
 
-### 1. TAG
+### 1. TAG 🏆
 
 **🔗 官网：** [https://go.uukk.de/tag](https://go.uukk.de/tag)
 
@@ -576,7 +594,7 @@
 
 ---
 
-### 2. MESL
+### 2. MESL 🏆
 
 **🔗 官网：** [https://go.uukk.de/mesl](https://go.uukk.de/mesl)
 
@@ -593,7 +611,7 @@
 
 ---
 
-### 3. ImmTelecom
+### 3. ImmTelecom 🏆
 
 **🔗 官网：** [https://go.uukk.de/immtele](https://go.uukk.de/immtele)
 
@@ -610,7 +628,7 @@
 
 ---
 
-### 4. 肯の机
+### 4. 肯の机 🏆
 
 **🔗 官网：** [https://go.uukk.de/kendeji](https://go.uukk.de/kendeji)
 
@@ -627,7 +645,7 @@
 
 ---
 
-### 5. ViKing Links
+### 5. ViKing Links 🏆
 
 **🔗 官网：** [https://go.uukk.de/vikinglinks](https://go.uukk.de/vikinglinks)
 
@@ -654,7 +672,7 @@
 
 **用多少付多少，无过期时间，适合作为主力备份或轻度使用**
 
-### 1. 喵喵VPN
+### 1. 喵喵VPN 🏆
 
 **🔗 官网：** [https://go.uukk.de/vpnmiao](https://go.uukk.de/vpnmiao)
 

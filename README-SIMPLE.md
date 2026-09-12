@@ -31,14 +31,13 @@
 
 | 机场 | 线路 | 接入方式 | 价格 | 一句话总结 | 直达 |
 | --- | --- | --- | --- | --- | --- |
-| **Fastlink** | BGP/IPLC专线 | 专用客户端 | ¥20/月起 | 运营多年的老牌机场，采用 BGP、IPLC 混合架构，节点覆盖较广。当前按用户确... | [官网](https://go.uukk.de/fastlink) |
-| **极速Cloud** | CN2 GIA/AS9929/CMIN2 | 通用订阅 | ¥15/月起 | 极速Cloud 已补首轮测评：Clash 代理组显示 49 项 VLESS / ... | [官网](https://go.uukk.de/jscloud) |
-| **Nice加速专线机场** | 南北双通道专线 | 通用订阅 + 专用客户端 | ¥12/月 30GB起 | Nice加速专线机场主推月付套餐，当前 ¥12/月 30GB 起，并提供 100... | [官网](https://go.uukk.de/nicecc) |
-| **极连云** | IPLC/IEPL专线 | 专用客户端 | ¥14.4/月起 | 极连云, 专注出海加速的 IPLC/IEPL 专线机场，三网入口优化保障稳定性。... | [官网](https://go.uukk.de/jly) |
+| **网际快车** | Vless/Hysteria2 | 通用订阅 + 专用客户端 | 免费试用，¥6.8/20GB起 | 网际快车已补首轮测评，可选择快车专用客户端或第三方通用订阅，截图显示永久流量包、... | [官网](https://go.uukk.de/wjkc) |
+| **喵喵VPN** | Hysteria2直连 | 通用订阅 + 专用客户端 | ¥20/100GB起（一次性） | 喵喵VPN 已补首轮测评。2026-08-16 套餐包含 ¥20/100GB、¥... | [官网](https://go.uukk.de/vpnmiao) |
 | **TAG** | 线路架构待验证 | 通用订阅 + 专用客户端 | ¥114/月 500GB | TAG 已补首轮实测：美国两节点可见 YouTube 4K 播放，夏威夷出口多库... | [官网](https://go.uukk.de/tag) |
 | **MESL** | IEPL专线 | 通用订阅 | ¥50/月起 | MESL，极其低调的高端机场，已补首轮测评。节点多、家宽/商宽覆盖广，流媒体和 ... | [官网](https://go.uukk.de/mesl) |
 | **ImmTelecom** | IEPL/IPLC专线 | 通用订阅 | ¥72.45/月起 | ImmTelecom 已补首轮实测：108 项多地区 AnyTLS 节点，AI、... | [官网](https://go.uukk.de/immtele) |
-| **喵喵VPN** | Hysteria2直连 | 通用订阅 + 专用客户端 | ¥20/100GB起（一次性） | 喵喵VPN 已补首轮测评。2026-08-16 套餐包含 ¥20/100GB、¥... | [官网](https://go.uukk.de/vpnmiao) |
+| **肯の机** | CN2 GIA/9929/CMIN2 | 待核对 | ¥40/月 100GB起 | 肯の机当前套餐为 ¥40/月 100GB 起，主打 CN2 GIA、9929、C... | [官网](https://go.uukk.de/kendeji) |
+| **ViKing Links** | 专线+优化直连 | 待核对 | ¥72/月 500GB | ViKing Links 2025 年上线，近期公开资料显示已切换 Trojan... | [官网](https://go.uukk.de/vikinglinks) |
 
 ---
 

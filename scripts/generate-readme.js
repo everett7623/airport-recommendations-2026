@@ -211,6 +211,23 @@ function generateFullReadme(data) {
   lines.push('---');
   lines.push('');
 
+  // Editor picks — place the user's primary recommendations after the guide.
+  const editorPicks = getAllAirports(data).filter(a => a.isEditorPick);
+  lines.push('## 🏆 本期主推机场');
+  lines.push('');
+  lines.push('以下条目按当前编辑标记置于页面最前，仍建议先月付或试用：');
+  lines.push('');
+  lines.push(`**${editorPicks.map(a => a.name).join('、')}**`);
+  lines.push('');
+  lines.push('| 机场 | 类型 | 起步价 | 直达 |');
+  lines.push('| --- | --- | --- | --- |');
+  for (const a of editorPicks) {
+    lines.push(`| **${a.name}** | ${a.lineType || '-'} | ${a.pricing || '-'} | [立即前往](${a.url}) |`);
+  }
+  lines.push('');
+  lines.push('---');
+  lines.push('');
+
   // Per-category detailed sections
   for (const [key, cat] of Object.entries(cats)) {
     lines.push(`<a id="${categoryAnchor(key)}"></a>`);
@@ -220,7 +237,7 @@ function generateFullReadme(data) {
     lines.push(`**${cat.description}**`);
     lines.push('');
 
-    cat.airports.forEach((a, i) => {
+    [...cat.airports].sort((a, b) => Number(b.isEditorPick) - Number(a.isEditorPick)).forEach((a, i) => {
       const badges = [];
       if (a.isNew) badges.push('🆕');
       if (a.isEditorPick) badges.push('🏆');
@@ -486,11 +503,7 @@ function generateSimpleReadme(data) {
   lines.push('');
   lines.push('| 机场 | 线路 | 接入方式 | 价格 | 一句话总结 | 直达 |');
   lines.push('| --- | --- | --- | --- | --- | --- |');
-  const picks = [
-    ...(cats.balanced?.airports || []).slice(0, 4),
-    ...(cats.premium?.airports || []).slice(0, 3),
-    ...(cats.payAsYouGo?.airports || []).slice(0, 1),
-  ];
+  const picks = getAllAirports(data).filter(a => a.isEditorPick);
   for (const a of picks) {
     const shortDesc = (a.description || '').slice(0, 40);
     const link = a.url ? `[官网](${a.url})` : '-';
@@ -505,7 +518,7 @@ function generateSimpleReadme(data) {
   lines.push('');
   lines.push('| 机场名称 | 线路类型 | 接入方式 | 最低价格 | 流媒体 | ChatGPT | 推荐度 | 直达 |');
   lines.push('|---------|---------|---------|---------|-------|---------|-------|------|');
-  for (const a of allAirports) {
+  for (const a of [...allAirports].sort((a, b) => Number(b.isEditorPick) - Number(a.isEditorPick))) {
     const name = a.isUnderMaintenance ? `${a.name} ⚠️` : a.name;
     const streamOk = a.tags?.some(t => /流媒体|解锁|原生|Netflix/i.test(t)) || a.features?.some(f => /流媒体|解锁|原生|Netflix/i.test(f)) ? '✅' : '❓';
     const chatOk = a.tags?.some(t => /AI|ChatGPT|GPT/i.test(t)) || a.features?.some(f => /AI|ChatGPT|GPT/i.test(f)) || a.description?.includes('ChatGPT') ? '✅' : '❓';
@@ -564,10 +577,11 @@ function generateSimpleReadme(data) {
 function generateBlacklist(data) {
   const cats = data.categories || {};
   const defunctAirports = getDefunctAirports(data);
-  const primaryExamples = [
-    ...(cats.balanced?.airports || []).slice(0, 2),
-    ...(cats.premium?.airports || []).slice(0, 1),
+  const primaryPool = [
+    ...(cats.balanced?.airports || []),
+    ...(cats.premium?.airports || []),
   ];
+  const primaryExamples = primaryPool.filter(a => a.isEditorPick).slice(0, 3);
   const backupExamples = [
     ...(cats.payAsYouGo?.airports || []).slice(0, 2),
     ...(data.no_aff || []).slice(0, 1),

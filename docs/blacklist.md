@@ -59,7 +59,7 @@
 
 推荐组合示例（随 `data/airports.json` 自动更新）：
 
-- 主力：Fastlink、极速Cloud、TAG
+- 主力：TAG、MESL、ImmTelecom
 - 备用：喵喵VPN、魔戒、AmyTelecom
 
 ---

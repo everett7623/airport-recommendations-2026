@@ -59,7 +59,7 @@
 
 推荐组合示例（随 `data/airports.json` 自动更新）：
 
-- 主力：TAG、MESL、ImmTelecom
+- 主力：当前 README 中的性价比/高端专线推荐
 - 备用：喵喵VPN、魔戒、AmyTelecom
 
 ---

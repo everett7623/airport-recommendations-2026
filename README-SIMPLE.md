@@ -31,13 +31,6 @@
 
 | 机场 | 线路 | 接入方式 | 价格 | 一句话总结 | 直达 |
 | --- | --- | --- | --- | --- | --- |
-| **网际快车** | Vless/Hysteria2 | 通用订阅 + 专用客户端 | 免费试用，¥6.8/20GB起 | 网际快车已补首轮测评，可选择快车专用客户端或第三方通用订阅，截图显示永久流量包、... | [官网](https://go.uukk.de/wjkc) |
-| **喵喵VPN** | Hysteria2直连 | 通用订阅 + 专用客户端 | ¥20/100GB起（一次性） | 喵喵VPN 已补首轮测评。2026-08-16 套餐包含 ¥20/100GB、¥... | [官网](https://go.uukk.de/vpnmiao) |
-| **TAG** | 线路架构待验证 | 通用订阅 + 专用客户端 | ¥114/月 500GB | TAG 已补首轮实测：美国两节点可见 YouTube 4K 播放，夏威夷出口多库... | [官网](https://go.uukk.de/tag) |
-| **MESL** | IEPL专线 | 通用订阅 | ¥50/月起 | MESL，极其低调的高端机场，已补首轮测评。节点多、家宽/商宽覆盖广，流媒体和 ... | [官网](https://go.uukk.de/mesl) |
-| **ImmTelecom** | IEPL/IPLC专线 | 通用订阅 | ¥72.45/月起 | ImmTelecom 已补首轮实测：108 项多地区 AnyTLS 节点，AI、... | [官网](https://go.uukk.de/immtele) |
-| **肯の机** | CN2 GIA/9929/CMIN2 | 待核对 | ¥40/月 100GB起 | 肯の机当前套餐为 ¥40/月 100GB 起，主打 CN2 GIA、9929、C... | [官网](https://go.uukk.de/kendeji) |
-| **ViKing Links** | 专线+优化直连 | 待核对 | ¥72/月 500GB | ViKing Links 2025 年上线，近期公开资料显示已切换 Trojan... | [官网](https://go.uukk.de/vikinglinks) |
 
 ---
 

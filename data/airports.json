@@ -1,17 +1,17 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-08-28
+// 更新时间: 2026-09-13
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-08-28",
+  "version": "2026-09-13",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
       "AnyTLS/IEPL",
       "BGP/IEPL专线",
       "BGP/IEPL口径",
-      "BGP/IPLC专线",
+      "BGP/IPLC页面口径",
       "BGP专线",
       "CN2 GIA/9929/CMIN2",
       "CN2 GIA/AS9929/CMIN2",
@@ -23,6 +23,7 @@
       "IPLC专线",
       "IPLC页面口径",
       "SD-WAN",
+      "VLESS/通用订阅",
       "VLESS节点",
       "Vless/Hysteria2",
       "Vless节点",
@@ -97,7 +98,6 @@
       "专线",
       "专线小包",
       "专线稳定",
-      "主力推荐",
       "争议预警",
       "企业级",
       "低价",
@@ -150,6 +150,7 @@
       "短周期测试",
       "短周期验证",
       "稳定",
+      "约30项节点",
       "线路差异明显",
       "美国台湾家宽",
       "美国视频",
@@ -159,6 +160,7 @@
       "超高带宽",
       "运营变更",
       "进阶",
+      "通用订阅",
       "长期备用",
       "隐私待查",
       "风险观察",
@@ -249,20 +251,20 @@
           "url": "https://go.uukk.de/shanshuiyun",
           "coupon": "优惠券: 2026888（8折）",
           "logoSvg": "/logo/airports/shanshuiyun.png",
-          "description": "山水云提供中转与直连节点，协议支持 VLESS + AnyTLS。套餐覆盖 ¥14.99/月常规档、¥88/年轻量档（64GB/月）和不限时流量包，适合按预算选择短周期或低流量备用。",
+          "description": "山水云已补首轮测评：通用订阅在 Clash Verge 可见约20+节点，覆盖港澳台、日韩、新加坡、欧美及东南亚。美国样本的 YouTube 4K、Claude、Cloudflare 与 IP 检测首轮可用，但日本、香港及部分欧美节点出现 Timeout；适合先月付验证，不把单次结果当作全节点或长期稳定承诺。",
           "features": [
-            "中转+直连节点",
-            "年付低至¥88",
-            "流媒体/AI全解锁",
-            "支持不限时套餐"
+            "首轮测评已补",
+            "通用订阅约20+节点",
+            "美国节点4K/AI首轮可用",
+            "部分节点需复查"
           ],
-          "lineType": "隧道中转",
+          "lineType": "VLESS/通用订阅",
           "accessType": "universal",
-          "pricing": "¥14.99/月起（年付¥88起）",
+          "pricing": "¥12/月 100GB起（年付¥77起）",
           "tags": [
-            "高性价比",
-            "流媒体",
-            "不限时可选"
+            "低价入门",
+            "通用订阅",
+            "短周期先试"
           ]
         },
         {
@@ -486,20 +488,20 @@
           "url": "https://go.uukk.de/fastlink",
           "coupon": "",
           "logoSvg": "/logo/airports/fastlink.png",
-          "description": "运营多年的老牌机场，采用 BGP、IPLC 混合架构，节点覆盖较广。当前按用户确认仅提供服务商专用客户端，不提供通用订阅；购买前仍建议用最短周期复核本地线路和晚高峰表现，年付页面默认 8 折。",
+          "description": "Fastlink 已补首轮测评：专用客户端可见约30项节点，主要覆盖港澳台、东南亚、欧美等常用地区；YouTube 4K、Claude 与 Cloudflare 样本首轮可用，但少量节点 Timeout，节点覆盖与长期稳定性不宜夸大，建议先月付。",
           "features": [
-            "混合线路架构",
-            "老牌稳定运营",
-            "节点覆盖广",
-            "流媒体支持"
+            "首轮测评已补",
+            "约30项可见节点",
+            "专用客户端",
+            "少量节点需复查"
           ],
-          "lineType": "BGP/IPLC专线",
+          "lineType": "BGP/IPLC页面口径",
           "accessType": "dedicated",
           "pricing": "¥20/月起",
           "tags": [
-            "性价比",
-            "老牌",
-            "主力推荐"
+            "专用客户端",
+            "约30项节点",
+            "短周期先试"
           ],
           "isEditorPick": false,
           "isUnderMaintenance": false

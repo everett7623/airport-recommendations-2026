@@ -9,7 +9,7 @@
 >
 > 📖 **完整版（53 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-09-13 已同步 VPSKnow，当前收录 53 个推荐条目。
+> 🔄 **数据同步：** 2026-09-14 已同步 VPSKnow，当前收录 53 个推荐条目。
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
@@ -27,22 +27,10 @@
 
 ---
 
-## 🏆 核心推荐
+## 🏆 核心推荐（闭眼入）
 
-以下名单按固定编辑顺序展示，机场详情、价格和状态随 VPSKnow 数据同步更新。
-
-| 机场 | 类型 | 起步价 | 直达 |
-|---|---|---|---|
-| 网际快车 | Vless/Hysteria2 | 免费试用，¥6.8/20GB起 | [官网直达](https://go.uukk.de/wjkc) |
-| 喵喵VPN | Hysteria2直连 | ¥20/100GB起（一次性） | [官网直达](https://go.uukk.de/vpnmiao) |
-| COCODUCK VPN | IEPL/BGP | ¥17/月 100GB起 | [官网直达](https://go.uukk.de/cocoduck) |
-| Fastlink | BGP/IPLC页面口径 | ¥20/月起 | [官网直达](https://go.uukk.de/fastlink) |
-| TAG | 线路架构待验证 | ¥114/月 500GB | [官网直达](https://go.uukk.de/tag) |
-| MESL | IEPL专线 | ¥50/月起 | [官网直达](https://go.uukk.de/mesl) |
-| ImmTelecom | IEPL/IPLC专线 | ¥72.45/月起 | [官网直达](https://go.uukk.de/immtele) |
-| 肯の机 | CN2 GIA/9929/CMIN2 | ¥40/月 100GB起 | [官网直达](https://go.uukk.de/kendeji) |
-| ViKing Links | 专线+优化直连 | ¥72/月 500GB | [官网直达](https://go.uukk.de/vikinglinks) |
-| WgetCloud | BGP专线 | ¥79/月起 | [官网直达](https://go.uukk.de/wgetcloud) |
+| 机场 | 线路 | 接入方式 | 价格 | 一句话总结 | 直达 |
+| --- | --- | --- | --- | --- | --- |
 
 ---
 
@@ -92,9 +80,9 @@
 | **Nexitally** | 高端专线 | 通用订阅 + 专用客户端 | ¥74.55/月起 | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/naiixi) |
 | **寰宇云** | 线路待重新核对 | 待核对 | 当前套餐待复核 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/huanyuyunvip) |
 | **YToo** | 多线国际加速 | 待核对 | ¥98/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/ytoo) |
+| **星岛梦** | IEPL/IPLC+BGP页面口径 | 通用订阅 | ¥25/月 150GB起（年付¥96/60GB） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/stardream) |
 | **SKYLUMO** | 公网中转 | 待核对 | ¥9.90起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/skylumo) |
 | **FlowerCloud** | BGP/IEPL专线 | 待核对 | ¥39/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/flowercloud) |
-| **星岛梦** | IEPL专线 | 待核对 | ¥12.8/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/stardream) |
 | **影子** | 海外公有云中转 | 通用订阅 + 专用客户端 | ¥18.80/月 150GB起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/yingzi) |
 | **可信云** | IPLC/IEPL专线 | 专用客户端 | ¥96/年 60GB/月起 | ✅ | ✅ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/kexinyun) |
 | **Bitz Net** | SD-WAN | 待核对 | 免费试用 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/Bitz) |

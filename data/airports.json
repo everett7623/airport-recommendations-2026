@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-09-13
+// 更新时间: 2026-09-14
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-09-13",
+  "version": "2026-09-14",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -17,6 +17,7 @@
       "CN2 GIA/AS9929/CMIN2",
       "Hysteria2直连",
       "IEPL/BGP",
+      "IEPL/IPLC+BGP页面口径",
       "IEPL/IPLC专线",
       "IEPL专线",
       "IPLC/IEPL专线",
@@ -86,6 +87,7 @@
       "一年有效期",
       "三网优化",
       "下单前复核",
+      "不主推",
       "不差钱",
       "不建议长期付费",
       "不限时",
@@ -126,7 +128,6 @@
       "学生党推荐",
       "家庭共享",
       "性价比",
-      "性能复查",
       "总榜收录",
       "按量",
       "按量/一次性",
@@ -143,6 +144,7 @@
       "流媒体",
       "流媒体全解锁",
       "流媒体解锁",
+      "流媒体首轮可用",
       "游戏加速",
       "白嫖",
       "短周期先试",
@@ -1102,6 +1104,28 @@
       ]
     },
     {
+      "name": "星岛梦",
+      "url": "https://go.uukk.de/stardream",
+      "coupon": "优惠码: nmw888（9折）",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3cpath d='M50 20 L60 40 L85 45 L65 60 L70 85 L50 75 L30 85 L35 60 L15 45 L40 40 Z' fill='white' stroke='white' stroke-width='2'/%3e%3c/svg%3e",
+      "description": "星岛梦已补 2026-09-13 首轮复测：通用订阅可见多地区 VLESS 节点，套餐含 ¥25/月 150GB、¥50/月 300GB 与 ¥96/年 60GB；美国 Netflix 可访问、YouTube 4K 可播放，但单次 Speedtest 下载 9.57Mbps、YouTube 连接约 1.1Mbps 且有丢帧，出口为 AS401243 机房 IP，Claude 信任分 77，DNS/WebRTC 仍需注意。测速偏慢，不作为主推，仅建议先月付。",
+      "features": [
+        "首轮测评已补",
+        "通用订阅多地区节点",
+        "Netflix/YouTube首轮可用",
+        "测速偏慢需短周期验证"
+      ],
+      "lineType": "IEPL/IPLC+BGP页面口径",
+      "accessType": "universal",
+      "pricing": "¥25/月 150GB起（年付¥96/60GB）",
+      "tags": [
+        "通用订阅",
+        "流媒体首轮可用",
+        "不主推",
+        "短周期先试"
+      ]
+    },
+    {
       "name": "SKYLUMO",
       "url": "https://go.uukk.de/skylumo",
       "coupon": "优惠券: lN0cKN1L",
@@ -1139,26 +1163,6 @@
         "总榜收录",
         "老牌",
         "短周期复查"
-      ]
-    },
-    {
-      "name": "星岛梦",
-      "url": "https://go.uukk.de/stardream",
-      "coupon": "优惠码: nmw888（9折）",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3cpath d='M50 20 L60 40 L85 45 L65 60 L70 85 L50 75 L30 85 L35 60 L15 45 L40 40 Z' fill='white' stroke='white' stroke-width='2' stroke-linejoin='round'/%3e%3c/svg%3e",
-      "description": "星岛梦保留在完整总榜供性能复查。2026-07-15 站长在本次所测节点与网络环境下使用时，YouTube 播放卡顿，Speedtest 测速低于 10 Mbps；现已撤出性价比分类卡片，等待不同节点与时段复测。",
-      "features": [
-        "完整总榜保留",
-        "YouTube播放卡顿",
-        "测速低于10Mbps",
-        "等待多时段复测"
-      ],
-      "lineType": "IEPL专线",
-      "pricing": "¥12.8/月起",
-      "tags": [
-        "性能复查",
-        "短周期测试",
-        "不建议长期付费"
       ]
     },
     {

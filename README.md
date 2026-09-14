@@ -59,7 +59,7 @@
 
 ## 📢 最新活动与公告
 
-### 2026-09-13 更新
+### 2026-09-14 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
 - ✅ **清理：** 已下架服务商：Sogo云、OneStep。
 
@@ -80,6 +80,17 @@
 | 🎮 游戏加速（低延迟） | 高端专线 | ¥72.45/月起 | ImmTelecom | [查看详情](#category-premium) |
 | 📦 轻度使用（备用） | 按量计费 | ¥20/100GB起（一次性） | 喵喵VPN、魔戒 | [查看详情](#category-pay-as-you-go) |
 | 🔗 纯净推荐（无返利） | 无AFF/纯净 | ¥273/年起 | AmyTelecom、Kuromis | [查看详情](#category-no-aff) |
+
+---
+
+## 🏆 本期主推机场
+
+以下条目按当前编辑标记置于页面最前，仍建议先月付或试用：
+
+****
+
+| 机场 | 类型 | 起步价 | 直达 |
+| --- | --- | --- | --- |
 
 ---
 
@@ -850,9 +861,9 @@
 | **Nexitally** | 高端专线 | ¥74.55/月起 | 流媒体 ✅ · ChatGPT ❓ | `总榜收录` `老牌` `流媒体` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/naiixi) |
 | **寰宇云** | 线路待重新核对 | 当前套餐待复核 | 流媒体 ❓ · ChatGPT ❓ | `运营变更` `总榜收录` `短周期测试` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/huanyuyunvip) |
 | **YToo** | 多线国际加速 | ¥98/年起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `全球覆盖` `备用方案` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/ytoo) |
+| **星岛梦** | IEPL/IPLC+BGP页面口径 | ¥25/月 150GB起（年付¥96/60GB） | 流媒体 ✅ · ChatGPT ❓ | `通用订阅` `流媒体首轮可用` `不主推` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/stardream) |
 | **SKYLUMO** | 公网中转 | ¥9.90起 | 流媒体 ❓ · ChatGPT ❓ | `备用` `不限时` `大流量` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/skylumo) |
 | **FlowerCloud** | BGP/IEPL专线 | ¥39/月起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `老牌` `短周期复查` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/flowercloud) |
-| **星岛梦** | IEPL专线 | ¥12.8/月起 | 流媒体 ❓ · ChatGPT ❓ | `性能复查` `短周期测试` `不建议长期付费` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/stardream) |
 | **影子** | 海外公有云中转 | ¥18.80/月 150GB起 | 流媒体 ✅ · ChatGPT ✅ | `AnyTLS` `多地区` `公有云中转` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/yingzi) |
 | **可信云** | IPLC/IEPL专线 | ¥96/年 60GB/月起 | 流媒体 ✅ · ChatGPT ✅ | `不限设备` `AI解锁` `专线小包` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/kexinyun) |
 | **Bitz Net** | SD-WAN | 免费试用 | 流媒体 ❓ · ChatGPT ❓ | `试用` `SD-WAN` `总榜收录` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/Bitz) |

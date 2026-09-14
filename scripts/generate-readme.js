@@ -339,8 +339,8 @@ function generateFullReadme(data) {
   lines.push('');
   lines.push('**按表格快速筛选所有机场，支持 Ctrl+F 页面精准搜索**');
   lines.push('');
-  lines.push('| 机场名称 | 线路类型 | 接入方式 | 最低价格 | 流媒体 | ChatGPT | 核心特色/标签 | 推荐度 | 直达购买 |');
-  lines.push('|---------|---------|---------|---------|-------|---------|--------------|-------|------|');
+  lines.push('| 机场名称 | 线路类型 | 最低价格 | 流媒体 / ChatGPT | 核心特色 | 推荐度 | 官网 |');
+  lines.push('|---|---|---|---|---|---|---|');
 
   const indexAirports = getAllAirports(data);
 
@@ -352,7 +352,7 @@ function generateFullReadme(data) {
     const stars = starRating(a.isUnderMaintenance ? 3 : (data.no_aff?.find(na => na.name === a.name) ? 5 : 4));
     const link = a.url ? `[立即前往](${a.url})` : '-';
 
-    lines.push(`| **${name}** | ${a.lineType || '-'} | ${accessTypeLabel(a.accessType)} | ${a.pricing || '-'} | ${streamOk} | ${chatGptOk} | ${tags} | ${stars} | ${link} |`);
+    lines.push(`| **${name}** | ${a.lineType || '-'} | ${a.pricing || '-'} | 流媒体 ${streamOk} · ChatGPT ${chatGptOk} | ${tags} | ${stars} | ${link} |`);
   }
 
   lines.push('');

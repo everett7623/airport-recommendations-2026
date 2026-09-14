@@ -45,10 +45,10 @@
 | 机场 | 类型 | 起步价 | 直达 |
 |---|---|---|---|
 | 网际快车 | Vless/Hysteria2 | 免费试用，¥6.8/20GB起 | [官网直达](https://go.uukk.de/wjkc) |
-| 喵喵VPN | 优质直连 | 免费试用，¥8/月起 | [官网直达](https://go.uukk.de/vpnmiao) |
+| 喵喵VPN | Hysteria2直连 | ¥20/100GB起（一次性） | [官网直达](https://go.uukk.de/vpnmiao) |
 | COCODUCK VPN | IEPL/BGP | ¥17/月 100GB起 | [官网直达](https://go.uukk.de/cocoduck) |
-| Fastlink | BGP/IPLC专线 | ¥20/月起 | [官网直达](https://go.uukk.de/fastlink) |
-| TAG | IEPL专线口径 | ¥109/月起（待实测） | [官网直达](https://go.uukk.de/tag) |
+| Fastlink | BGP/IPLC页面口径 | ¥20/月起 | [官网直达](https://go.uukk.de/fastlink) |
+| TAG | 线路架构待验证 | ¥114/月 500GB | [官网直达](https://go.uukk.de/tag) |
 | MESL | IEPL专线 | ¥50/月起 | [官网直达](https://go.uukk.de/mesl) |
 | ImmTelecom | IEPL/IPLC专线 | ¥72.45/月起 | [官网直达](https://go.uukk.de/immtele) |
 | 肯の机 | CN2 GIA/9929/CMIN2 | ¥40/月 100GB起 | [官网直达](https://go.uukk.de/kendeji) |
@@ -102,7 +102,7 @@
 
 ### 1. 网际快车
 
-**🔗 官网：** [https://go.uukk.de/wjkc](https://go.uukk.de/wjkc)
+**🔗 官网：** [点击访问](https://go.uukk.de/wjkc)
 
 | 项目 | 说明 |
 |-----|------|
@@ -120,7 +120,7 @@
 
 ### 2. 喵喵VPN
 
-**🔗 官网：** [https://go.uukk.de/vpnmiao](https://go.uukk.de/vpnmiao)
+**🔗 官网：** [点击访问](https://go.uukk.de/vpnmiao)
 
 | 项目 | 说明 |
 |-----|------|
@@ -138,7 +138,7 @@
 
 ### 3. 拼好连
 
-**🔗 官网：** [https://go.uukk.de/runway](https://go.uukk.de/runway)
+**🔗 官网：** [点击访问](https://go.uukk.de/runway)
 
 | 项目 | 说明 |
 |-----|------|
@@ -165,7 +165,7 @@
 
 ### 1. 山水云
 
-**🔗 官网：** [https://go.uukk.de/shanshuiyun](https://go.uukk.de/shanshuiyun)
+**🔗 官网：** [点击访问](https://go.uukk.de/shanshuiyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -183,7 +183,7 @@
 
 ### 2. 锦云
 
-**🔗 官网：** [https://go.uukk.de/jinyun](https://go.uukk.de/jinyun)
+**🔗 官网：** [点击访问](https://go.uukk.de/jinyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -201,7 +201,7 @@
 
 ### 3. 鲤云
 
-**🔗 官网：** [https://go.uukk.de/liyun](https://go.uukk.de/liyun)
+**🔗 官网：** [点击访问](https://go.uukk.de/liyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -219,7 +219,7 @@
 
 ### 4. 速界
 
-**🔗 官网：** [https://go.uukk.de/speedworld](https://go.uukk.de/speedworld)
+**🔗 官网：** [点击访问](https://go.uukk.de/speedworld)
 
 | 项目 | 说明 |
 |-----|------|
@@ -237,7 +237,7 @@
 
 ### 5. 轻语机场
 
-**🔗 官网：** [https://go.uukk.de/qingyu](https://go.uukk.de/qingyu)
+**🔗 官网：** [点击访问](https://go.uukk.de/qingyu)
 
 | 项目 | 说明 |
 |-----|------|
@@ -254,7 +254,7 @@
 
 ### 6. COCODUCK VPN
 
-**🔗 官网：** [https://go.uukk.de/cocoduck](https://go.uukk.de/cocoduck)
+**🔗 官网：** [点击访问](https://go.uukk.de/cocoduck)
 
 | 项目 | 说明 |
 |-----|------|
@@ -271,7 +271,7 @@
 
 ### 7. EdgeNova
 
-**🔗 官网：** [https://go.uukk.de/edgenova](https://go.uukk.de/edgenova)
+**🔗 官网：** [点击访问](https://go.uukk.de/edgenova)
 
 | 项目 | 说明 |
 |-----|------|
@@ -289,7 +289,7 @@
 
 ### 8. 秒秒云
 
-**🔗 官网：** [https://go.uukk.de/miaomiaoyun](https://go.uukk.de/miaomiaoyun)
+**🔗 官网：** [点击访问](https://go.uukk.de/miaomiaoyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -306,7 +306,7 @@
 
 ### 9. 财路云
 
-**🔗 官网：** [https://go.uukk.de/cly](https://go.uukk.de/cly)
+**🔗 官网：** [点击访问](https://go.uukk.de/cly)
 
 | 项目 | 说明 |
 |-----|------|
@@ -324,7 +324,7 @@
 
 ### 10. 瞬云
 
-**🔗 官网：** [https://go.uukk.de/sy](https://go.uukk.de/sy)
+**🔗 官网：** [点击访问](https://go.uukk.de/sy)
 
 | 项目 | 说明 |
 |-----|------|
@@ -342,7 +342,7 @@
 
 ### 11. 唯兔云
 
-**🔗 官网：** [https://go.uukk.de/wty](https://go.uukk.de/wty)
+**🔗 官网：** [点击访问](https://go.uukk.de/wty)
 
 | 项目 | 说明 |
 |-----|------|
@@ -370,7 +370,7 @@
 
 ### 1. Fastlink
 
-**🔗 官网：** [https://go.uukk.de/fastlink](https://go.uukk.de/fastlink)
+**🔗 官网：** [点击访问](https://go.uukk.de/fastlink)
 
 | 项目 | 说明 |
 |-----|------|
@@ -387,7 +387,7 @@
 
 ### 2. 极速Cloud
 
-**🔗 官网：** [https://go.uukk.de/jscloud](https://go.uukk.de/jscloud)
+**🔗 官网：** [点击访问](https://go.uukk.de/jscloud)
 
 | 项目 | 说明 |
 |-----|------|
@@ -405,7 +405,7 @@
 
 ### 3. Nice加速专线机场
 
-**🔗 官网：** [https://go.uukk.de/nicecc](https://go.uukk.de/nicecc)
+**🔗 官网：** [点击访问](https://go.uukk.de/nicecc)
 
 | 项目 | 说明 |
 |-----|------|
@@ -422,7 +422,7 @@
 
 ### 4. 极连云
 
-**🔗 官网：** [https://go.uukk.de/jly](https://go.uukk.de/jly)
+**🔗 官网：** [点击访问](https://go.uukk.de/jly)
 
 | 项目 | 说明 |
 |-----|------|
@@ -440,7 +440,7 @@
 
 ### 5. 光速云
 
-**🔗 官网：** [https://go.uukk.de/lightspeed](https://go.uukk.de/lightspeed)
+**🔗 官网：** [点击访问](https://go.uukk.de/lightspeed)
 
 | 项目 | 说明 |
 |-----|------|
@@ -457,7 +457,7 @@
 
 ### 6. 全球云
 
-**🔗 官网：** [https://go.uukk.de/globalyun](https://go.uukk.de/globalyun)
+**🔗 官网：** [点击访问](https://go.uukk.de/globalyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -475,7 +475,7 @@
 
 ### 7. 二猫云
 
-**🔗 官网：** [https://go.uukk.de/2maoyun](https://go.uukk.de/2maoyun)
+**🔗 官网：** [点击访问](https://go.uukk.de/2maoyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -493,7 +493,7 @@
 
 ### 8. 一翻云
 
-**🔗 官网：** [https://go.uukk.de/1flyun](https://go.uukk.de/1flyun)
+**🔗 官网：** [点击访问](https://go.uukk.de/1flyun)
 
 | 项目 | 说明 |
 |-----|------|
@@ -511,7 +511,7 @@
 
 ### 9. 快狸
 
-**🔗 官网：** [https://go.uukk.de/kuaili](https://go.uukk.de/kuaili)
+**🔗 官网：** [点击访问](https://go.uukk.de/kuaili)
 
 | 项目 | 说明 |
 |-----|------|
@@ -529,7 +529,7 @@
 
 ### 10. U1S1
 
-**🔗 官网：** [https://go.uukk.de/u1s1](https://go.uukk.de/u1s1)
+**🔗 官网：** [点击访问](https://go.uukk.de/u1s1)
 
 | 项目 | 说明 |
 |-----|------|
@@ -547,7 +547,7 @@
 
 ### 11. 光年梯
 
-**🔗 官网：** [https://go.uukk.de/lightyearti](https://go.uukk.de/lightyearti)
+**🔗 官网：** [点击访问](https://go.uukk.de/lightyearti)
 
 | 项目 | 说明 |
 |-----|------|
@@ -564,7 +564,7 @@
 
 ### 12. 宇宙云
 
-**🔗 官网：** [https://go.uukk.de/yuzhoucloud](https://go.uukk.de/yuzhoucloud)
+**🔗 官网：** [点击访问](https://go.uukk.de/yuzhoucloud)
 
 | 项目 | 说明 |
 |-----|------|
@@ -591,7 +591,7 @@
 
 ### 1. TAG
 
-**🔗 官网：** [https://go.uukk.de/tag](https://go.uukk.de/tag)
+**🔗 官网：** [点击访问](https://go.uukk.de/tag)
 
 | 项目 | 说明 |
 |-----|------|
@@ -608,7 +608,7 @@
 
 ### 2. MESL
 
-**🔗 官网：** [https://go.uukk.de/mesl](https://go.uukk.de/mesl)
+**🔗 官网：** [点击访问](https://go.uukk.de/mesl)
 
 | 项目 | 说明 |
 |-----|------|
@@ -625,7 +625,7 @@
 
 ### 3. ImmTelecom
 
-**🔗 官网：** [https://go.uukk.de/immtele](https://go.uukk.de/immtele)
+**🔗 官网：** [点击访问](https://go.uukk.de/immtele)
 
 | 项目 | 说明 |
 |-----|------|
@@ -642,7 +642,7 @@
 
 ### 4. 肯の机
 
-**🔗 官网：** [https://go.uukk.de/kendeji](https://go.uukk.de/kendeji)
+**🔗 官网：** [点击访问](https://go.uukk.de/kendeji)
 
 | 项目 | 说明 |
 |-----|------|
@@ -659,7 +659,7 @@
 
 ### 5. ViKing Links
 
-**🔗 官网：** [https://go.uukk.de/vikinglinks](https://go.uukk.de/vikinglinks)
+**🔗 官网：** [点击访问](https://go.uukk.de/vikinglinks)
 
 | 项目 | 说明 |
 |-----|------|
@@ -686,7 +686,7 @@
 
 ### 1. 喵喵VPN
 
-**🔗 官网：** [https://go.uukk.de/vpnmiao](https://go.uukk.de/vpnmiao)
+**🔗 官网：** [点击访问](https://go.uukk.de/vpnmiao)
 
 | 项目 | 说明 |
 |-----|------|
@@ -704,7 +704,7 @@
 
 ### 2. 魔戒
 
-**🔗 官网：** [https://go.uukk.de/mojie](https://go.uukk.de/mojie)
+**🔗 官网：** [点击访问](https://go.uukk.de/mojie)
 
 | 项目 | 说明 |
 |-----|------|
@@ -721,7 +721,7 @@
 
 ### 3. Gatern
 
-**🔗 官网：** [https://go.uukk.de/Gatern](https://go.uukk.de/Gatern)
+**🔗 官网：** [点击访问](https://go.uukk.de/Gatern)
 
 | 项目 | 说明 |
 |-----|------|
@@ -750,7 +750,7 @@
 
 ### AmyTelecom
 
-**🔗 官网：** [https://go.uukk.de/amytele](https://go.uukk.de/amytele)
+**🔗 官网：** [点击访问](https://go.uukk.de/amytele)
 
 | 项目 | 说明 |
 |-----|------|
@@ -767,7 +767,7 @@
 
 ### Kuromis
 
-**🔗 官网：** [https://go.uukk.de/kuromis](https://go.uukk.de/kuromis)
+**🔗 官网：** [点击访问](https://go.uukk.de/kuromis)
 
 | 项目 | 说明 |
 |-----|------|
@@ -782,7 +782,7 @@
 
 ### WgetCloud
 
-**🔗 官网：** [https://go.uukk.de/wgetcloud](https://go.uukk.de/wgetcloud)
+**🔗 官网：** [点击访问](https://go.uukk.de/wgetcloud)
 
 | 项目 | 说明 |
 |-----|------|
@@ -799,7 +799,7 @@
 
 ### 新华云
 
-**🔗 官网：** [https://go.uukk.de/newhua99](https://go.uukk.de/newhua99)
+**🔗 官网：** [点击访问](https://go.uukk.de/newhua99)
 
 | 项目 | 说明 |
 |-----|------|

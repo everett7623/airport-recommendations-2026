@@ -266,7 +266,7 @@ function generateFullReadme(data) {
 
       lines.push(`### ${i + 1}. ${a.name}${badgeStr}`);
       lines.push('');
-      if (a.url) lines.push(`**🔗 官网：** [${a.url}](${a.url})`);
+      if (a.url) lines.push(`**🔗 官网：** [点击访问](${a.url})`);
       lines.push('');
       lines.push('| 项目 | 说明 |');
       lines.push('|-----|------|');
@@ -313,7 +313,7 @@ function generateFullReadme(data) {
     for (const a of data.no_aff) {
       lines.push(`### ${a.name}`);
       lines.push('');
-      if (a.url) lines.push(`**🔗 官网：** [${a.url}](${a.url})`);
+      if (a.url) lines.push(`**🔗 官网：** [点击访问](${a.url})`);
       lines.push('');
       lines.push('| 项目 | 说明 |');
       lines.push('|-----|------|');

@@ -17,6 +17,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const JSON_PATH = join(ROOT, 'data', 'airports.json');
 
+// 手动维护的固定主推名单；其余内容仍完全来自 VPSKnow 自动同步。
+const FIXED_FEATURED_AIRPORTS = ['网际快车', '喵喵VPN', 'COCODUCK VPN', 'Fastlink', 'TAG', 'MESL', 'ImmTelecom', '肯の机', 'ViKing Links', 'WgetCloud'];
+
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
 function log(msg, level = 'info') {
@@ -150,6 +153,23 @@ function generateFullReadme(data) {
 
   // Risk warning
   lines.push('> ⚠️ **风险提示：** 机场行业存在停服/跑路风险，建议**优先月付**，避免大额年付。同时备用 2–3 个机场互为容灾。详见 [免责声明](#disclaimer) 与 [风险控制指南](docs/blacklist.md)。');
+  lines.push('');
+  lines.push('---');
+  lines.push('');
+
+  // Fixed featured list (manual order)
+  lines.push('## 🏆 本期主推机场');
+  lines.push('');
+  lines.push('以下名单按固定编辑顺序展示，机场详情、价格和状态随 VPSKnow 数据同步更新。');
+  lines.push('');
+  lines.push('| 机场 | 类型 | 起步价 | 直达 |');
+  lines.push('|---|---|---|---|');
+  const airportByName = new Map(allAirports.map(a => [String(a.name || '').trim().toLowerCase(), a]));
+  for (const name of FIXED_FEATURED_AIRPORTS) {
+    const a = airportByName.get(name.trim().toLowerCase());
+    if (!a) continue;
+    lines.push(`| ${markdownCell(a.name)} | ${markdownCell(a.lineType || '-')} | ${markdownCell(a.pricing || '见详情')} | [官网直达](${a.url}) |`);
+  }
   lines.push('');
   lines.push('---');
   lines.push('');

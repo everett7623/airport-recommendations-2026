@@ -242,7 +242,7 @@ function generateFullReadme(data) {
   lines.push('| 机场 | 类型 | 起步价 | 直达 |');
   lines.push('| --- | --- | --- | --- |');
   for (const a of editorPicks) {
-    lines.push(`| **${a.name}** | ${a.lineType || '-'} | ${a.pricing || '-'} | [立即前往](${a.url}) |`);
+    lines.push(`| **${a.name}** | ${a.lineType || '-'} | ${a.pricing || '-'} | [直达](${a.url}) |`);
   }
   lines.push('');
   lines.push('---');
@@ -350,7 +350,7 @@ function generateFullReadme(data) {
     const chatGptOk = a.tags?.some(t => /AI|ChatGPT|GPT/i.test(t)) || a.features?.some(f => /AI|ChatGPT|GPT/i.test(f)) || a.description?.includes('ChatGPT') ? '✅' : '❓';
     const tags = (a.tags || []).slice(0, 3).map(t => `\`${t}\``).join(' ');
     const stars = starRating(a.isUnderMaintenance ? 3 : (data.no_aff?.find(na => na.name === a.name) ? 5 : 4));
-    const link = a.url ? `[立即前往](${a.url})` : '-';
+    const link = a.url ? `[直达](${a.url})` : '-';
 
     lines.push(`| **${name}** | ${a.lineType || '-'} | ${a.pricing || '-'} | 流媒体 ${streamOk} · ChatGPT ${chatGptOk} | ${tags} | ${stars} | ${link} |`);
   }
@@ -766,3 +766,4 @@ function main() {
 }
 
 main();
+

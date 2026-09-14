@@ -27,10 +27,22 @@
 
 ---
 
-## 🏆 核心推荐（闭眼入）
+## 🏆 核心推荐
 
-| 机场 | 线路 | 接入方式 | 价格 | 一句话总结 | 直达 |
-| --- | --- | --- | --- | --- | --- |
+以下名单按固定编辑顺序展示，机场详情、价格和状态随 VPSKnow 数据同步更新。
+
+| 机场 | 类型 | 起步价 | 直达 |
+|---|---|---|---|
+| 网际快车 | Vless/Hysteria2 | 免费试用，¥6.8/20GB起 | [官网直达](https://go.uukk.de/wjkc) |
+| 喵喵VPN | Hysteria2直连 | ¥20/100GB起（一次性） | [官网直达](https://go.uukk.de/vpnmiao) |
+| COCODUCK VPN | IEPL/BGP | ¥17/月 100GB起 | [官网直达](https://go.uukk.de/cocoduck) |
+| Fastlink | BGP/IPLC页面口径 | ¥20/月起 | [官网直达](https://go.uukk.de/fastlink) |
+| TAG | 线路架构待验证 | ¥114/月 500GB | [官网直达](https://go.uukk.de/tag) |
+| MESL | IEPL专线 | ¥50/月起 | [官网直达](https://go.uukk.de/mesl) |
+| ImmTelecom | IEPL/IPLC专线 | ¥72.45/月起 | [官网直达](https://go.uukk.de/immtele) |
+| 肯の机 | CN2 GIA/9929/CMIN2 | ¥40/月 100GB起 | [官网直达](https://go.uukk.de/kendeji) |
+| ViKing Links | 专线+优化直连 | ¥72/月 500GB | [官网直达](https://go.uukk.de/vikinglinks) |
+| WgetCloud | BGP专线 | ¥79/月起 | [官网直达](https://go.uukk.de/wgetcloud) |
 
 ---
 

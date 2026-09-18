@@ -105,6 +105,7 @@
       "低价",
       "低价入门",
       "低价备用",
+      "低价月付",
       "低调",
       "佩奇系",
       "免费试用",
@@ -218,27 +219,6 @@
             "4K秒开",
             "Emby影音",
             "免费试用"
-          ]
-        },
-        {
-          "name": "拼好连",
-          "url": "https://go.uukk.de/runway",
-          "coupon": "",
-          "logoSvg": "/logo/airports/pinhaolian.png",
-          "description": "拼好连已补首轮测评，官方页面确认可从用户中心获取通用订阅链接，同时提供 Windows、macOS、Linux 和 Android 专用客户端。套餐从 ¥9.90/月起，AI、流媒体和 YouTube 4K 首轮可用；但部分节点超时，出口多为机房 IP，建议先用试用或月付验证。",
-          "features": [
-            "通用订阅 + 专用客户端",
-            "试用1天6GB",
-            "AI/流媒体首轮可用",
-            "部分节点需复查"
-          ],
-          "lineType": "BGP/IEPL口径",
-          "accessType": "both",
-          "pricing": "免费试用，¥9.90/月起",
-          "tags": [
-            "AI解锁",
-            "试用",
-            "短周期先试"
           ]
         }
       ]
@@ -1328,6 +1308,27 @@
         "总榜收录",
         "IPLC专线",
         "短周期验证"
+      ]
+    },
+    {
+      "name": "拼好连",
+      "url": "https://go.uukk.de/runway",
+      "coupon": "",
+      "logoSvg": "/logo/airports/pinhaolian.png",
+      "description": "拼好连仅保留在完整总榜供对比。官方页面确认可从用户中心获取通用订阅链接，同时提供 Windows、macOS、Linux 和 Android 专用客户端；套餐从 ¥9.90/月起，AI、流媒体和 YouTube 4K 首轮可用，但部分节点超时，出口多为机房 IP。2026-09-17 核对官方免费试用已下线，推荐卡撤出免费试用专区，建议先用最低月付验证。",
+      "features": [
+        "完整总榜收录",
+        "通用订阅 + 专用客户端",
+        "AI/流媒体首轮可用",
+        "部分节点需复查"
+      ],
+      "lineType": "BGP/IEPL口径",
+      "accessType": "both",
+      "pricing": "¥9.90/月起",
+      "tags": [
+        "总榜收录",
+        "AI解锁",
+        "低价月付"
       ]
     }
   ],

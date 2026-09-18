@@ -136,23 +136,6 @@
 
 ---
 
-### 3. 拼好连
-
-**🔗 官网：** [点击访问](https://go.uukk.de/runway)
-
-| 项目 | 说明 |
-|-----|------|
-| **线路类型** | BGP/IEPL口径 |
-| **接入方式** | 通用订阅 + 专用客户端 |
-| **核心特色** | 通用订阅 + 专用客户端，试用1天6GB，AI/流媒体首轮可用，部分节点需复查 |
-| **简介** | 拼好连已补首轮测评，官方页面确认可从用户中心获取通用订阅链接，同时提供 Windows、macOS、Linux 和 Android 专用客户端。套餐从 ¥9.90/月起，AI、流媒体和 YouTube 4K 首轮可用；但部分节点超时，出口多为机房 IP，建议先用试用或月付验证。 |
-| **起步价** | 免费试用，¥9.90/月起 |
-| **推荐指数** | ⭐⭐⭐⭐ |
-
-**核心标签：** `AI解锁` `试用` `短周期先试`
-
----
-
 > 🔗 **更多免费试用专区机场评测 →** [VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)
 
 ---
@@ -821,7 +804,6 @@
 |---|---|---|---|---|---|---|
 | **网际快车** | Vless/Hysteria2 | 免费试用，¥6.8/20GB起 | 流媒体 ❓ · ChatGPT ✅ | `白嫖` `试用` `按量备用` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/wjkc) |
 | **喵喵VPN** | Hysteria2直连 | ¥20/100GB起（一次性） | 流媒体 ❓ · ChatGPT ❓ | `Hysteria2` `不限时流量` `按量备用` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/vpnmiao) |
-| **拼好连** | BGP/IEPL口径 | 免费试用，¥9.90/月起 | 流媒体 ✅ · ChatGPT ✅ | `AI解锁` `试用` `短周期先试` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/runway) |
 | **山水云** | VLESS/通用订阅 | ¥12/月 100GB起（年付¥77起） | 流媒体 ❓ · ChatGPT ✅ | `低价入门` `通用订阅` `短周期先试` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/shanshuiyun) |
 | **锦云** | Vless节点 | ¥4.8/月 50GB起 | 流媒体 ✅ · ChatGPT ✅ | `AI解锁` `低价入门` `短周期先试` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/jinyun) |
 | **鲤云** | VLESS节点 | ¥7/月 50GB起 | 流媒体 ✅ · ChatGPT ✅ | `AI解锁` `低价入门` `短周期先试` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/liyun) |
@@ -872,6 +854,7 @@
 | **Bywave** | IEPL专线 | ¥30/月起 | 流媒体 ✅ · ChatGPT ❓ | `争议预警` `EMBY` `进阶` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/ByWave) |
 | **TNTCloud** | IPLC页面口径 | ¥20/月 110GB起 | 流媒体 ❓ · ChatGPT ❓ | `IPLC` `日本/美国节点` `风险观察` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/tnt) |
 | **龙猫云** | IPLC专线 | ¥15/月 100GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `IPLC专线` `短周期验证` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/longmaoyun) |
+| **拼好连** | BGP/IEPL口径 | ¥9.90/月起 | 流媒体 ✅ · ChatGPT ✅ | `总榜收录` `AI解锁` `低价月付` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/runway) |
 
 ---
 

@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
 ![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-53%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-55%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 ![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)
 
@@ -59,7 +59,7 @@
 
 ## 📢 最新活动与公告
 
-### 2026-09-15 更新
+### 2026-09-20 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
 - ✅ **清理：** 已下架服务商：Sogo云、OneStep。
 
@@ -845,6 +845,8 @@
 | **YToo** | 多线国际加速 | ¥98/年起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `全球覆盖` `备用方案` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/ytoo) |
 | **星岛梦** | IEPL/IPLC+BGP页面口径 | ¥25/月 150GB起（年付¥96/60GB） | 流媒体 ✅ · ChatGPT ❓ | `通用订阅` `流媒体首轮可用` `不主推` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/stardream) |
 | **SKYLUMO** | 公网中转 | ¥9.90起 | 流媒体 ❓ · ChatGPT ❓ | `备用` `不限时` `大流量` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/skylumo) |
+| **微风网络** | IPLC页面口径 | ¥137/年 100GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `客户端接入` `短周期验证` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/wfwl) |
+| **飞猫云** | IPLC/BGP-IEPL页面口径 | ¥8/月 50GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `专用客户端` `短周期验证` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/flyingcat) |
 | **FlowerCloud** | BGP/IEPL专线 | ¥39/月起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `老牌` `短周期复查` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/flowercloud) |
 | **影子** | 海外公有云中转 | ¥18.80/月 150GB起 | 流媒体 ✅ · ChatGPT ✅ | `AnyTLS` `多地区` `公有云中转` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/yingzi) |
 | **可信云** | IPLC/IEPL专线 | ¥96/年 60GB/月起 | 流媒体 ✅ · ChatGPT ✅ | `不限设备` `AI解锁` `专线小包` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/kexinyun) |

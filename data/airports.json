@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-09-15
+// 更新时间: 2026-09-20
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-09-15",
+  "version": "2026-09-20",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -20,6 +20,7 @@
       "IEPL/IPLC+BGP页面口径",
       "IEPL/IPLC专线",
       "IEPL专线",
+      "IPLC/BGP-IEPL页面口径",
       "IPLC/IEPL专线",
       "IPLC专线",
       "IPLC页面口径",
@@ -127,6 +128,7 @@
       "多地区节点",
       "大流量",
       "学生党推荐",
+      "客户端接入",
       "家庭共享",
       "性价比",
       "总榜收录",
@@ -1123,6 +1125,48 @@
         "备用",
         "不限时",
         "大流量"
+      ]
+    },
+    {
+      "name": "微风网络",
+      "url": "https://go.uukk.de/wfwl",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%233b82f6'/%3e%3cpath d='M20 58 C35 42 47 43 60 51 C69 56 77 55 84 48 C80 69 62 78 45 70 C35 66 27 65 20 58Z' fill='white'/%3e%3c/svg%3e",
+      "description": "微风网络新增 2026-09-20 首轮测评，仅进入完整总榜供对比。套餐从清风 ¥137/年 100GB 起，页面标注全 IPLC、不限设备和不限速；客户端可见香港、新加坡、台湾、日本、美国、德国节点。美国节点 YouTube 4K 可播放、Speedtest 下载 116.26Mbps，但上传仅 1.05Mbps，出口在 IPPure 中为 AS54600 PEG TECH INC 机房 IP，Cloudflare 风险指数 53，Claude AI 出口检测失败，建议先短周期验证。",
+      "features": [
+        "完整总榜收录",
+        "全IPLC页面口径",
+        "美国节点4K可播放",
+        "机房IP需注意"
+      ],
+      "lineType": "IPLC页面口径",
+      "accessType": "dedicated",
+      "pricing": "¥137/年 100GB起",
+      "tags": [
+        "总榜收录",
+        "客户端接入",
+        "短周期验证"
+      ]
+    },
+    {
+      "name": "飞猫云",
+      "url": "https://go.uukk.de/flyingcat",
+      "coupon": "",
+      "logoSvg": "/logo/airports/feimaoyun.png",
+      "description": "飞猫云仅保留在完整总榜供对比。当前套餐从学生版 ¥8/月 50GB 起，页面标注全 IPLC、最高 2.5Gbps 与全节点 1 倍率；专用客户端截图可见新加坡 / 美国 BGP-IEPL Vless 节点，并公告暂停 Clash、小火箭等通用订阅。美国节点晚间复测 YouTube 4K 可播放、Speedtest 下载 111.92Mbps，但出口在 ping0.cc / IPPure 中为机房 IP，Cloudflare 风险指数 94，DNS 可能泄漏中国出口，建议先月付。",
+      "features": [
+        "完整总榜收录",
+        "专用客户端截图",
+        "美国节点4K可播放",
+        "IP属性有分歧"
+      ],
+      "lineType": "IPLC/BGP-IEPL页面口径",
+      "accessType": "dedicated",
+      "pricing": "¥8/月 50GB起",
+      "tags": [
+        "总榜收录",
+        "专用客户端",
+        "短周期验证"
       ]
     },
     {

@@ -2,14 +2,14 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-55%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-56%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 
 > **⚠️ 前言：** 本项目为科研、外贸、开发人员提供网络加速服务推荐。请遵守当地法律法规。**机场有跑路风险，建议优先月付。**
 >
-> 📖 **完整版（55 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
+> 📖 **完整版（56 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-09-20 已同步 VPSKnow，当前收录 55 个推荐条目。
+> 🔄 **数据同步：** 2026-09-21 已同步 VPSKnow，当前收录 56 个推荐条目。
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
@@ -81,6 +81,7 @@
 | **YToo** | 多线国际加速 | 待核对 | ¥98/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/ytoo) |
 | **星岛梦** | IEPL/IPLC+BGP页面口径 | 通用订阅 | ¥25/月 150GB起（年付¥96/60GB） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/stardream) |
 | **SKYLUMO** | 公网中转 | 待核对 | ¥9.90起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/skylumo) |
+| **灵猫网络** | IPLC页面口径 | 专用客户端 | ¥85/年 45GB起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/lmwl) |
 | **微风网络** | IPLC页面口径 | 专用客户端 | ¥137/年 100GB起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/wfwl) |
 | **飞猫云** | IPLC/BGP-IEPL页面口径 | 专用客户端 | ¥8/月 50GB起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/flyingcat) |
 | **FlowerCloud** | BGP/IEPL专线 | 待核对 | ¥39/月起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/flowercloud) |
@@ -129,7 +130,7 @@ Fork 或修改版本中的链接、排序和评价仅代表修改者，不代表
 
 <p align="center">
   ⭐ 如果对你有帮助，请点亮 Star！<br>
-  📖 <a href="README.md">查看完整版（55机场详细评测）</a> | 🌐 <a href="https://www.vpsknow.com/airport-recommendations">VPSKnow 实时榜单</a>
+  📖 <a href="README.md">查看完整版（56机场详细评测）</a> | 🌐 <a href="https://www.vpsknow.com/airport-recommendations">VPSKnow 实时榜单</a>
 </p>
 
 **关键词：** `机场推荐` `VPN推荐` `科学上网` `梯子` `SS机场` `V2Ray` `Trojan` `IPLC专线` `流媒体解锁` `Netflix` `ChatGPT` `2026`

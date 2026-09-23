@@ -37,6 +37,7 @@
       "公网中转/中继",
       "南北双通道专线",
       "多线国际加速",
+      "海外中转",
       "海外公有云中转",
       "线路待核对",
       "线路待重新核对",
@@ -72,6 +73,7 @@
       "4K观影",
       "AI友好",
       "AI解锁",
+      "AI页面可访问",
       "AnyTLS",
       "ChatGPT",
       "EMBY",
@@ -1131,7 +1133,7 @@
       "name": "灵猫网络",
       "url": "https://go.uukk.de/lmwl",
       "coupon": "",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f97316'/%3e%3cpath d='M25 65 L35 35 L50 52 L65 35 L75 65 Z' fill='white'/%3e%3ccircle cx='40' cy='58' r='4' fill='%23f97316'/%3ccircle cx='60' cy='58' r='4' fill='%23f97316'/%3c/svg%3e",
+      "logoSvg": "/logo/airports/lingmao.png",
       "description": "灵猫网络新增 2026-09-21 首轮测评，仅进入完整总榜供对比。套餐从年付小包 ¥85/年 45GB 起，页面标注全 IPLC、不限速和不限设备；客户端可见香港、新加坡、台湾、日本、美国节点。美国节点 YouTube 4K 可播放、Speedtest 下载 80.46Mbps / 上传 43.13Mbps，但出口为 AS54600 PEG TECH INC 机房 IP，IPPure 系数 28%，不同 Claude 检测入口分数存在差异，建议先短期验证。",
       "features": [
         "完整总榜收录",
@@ -1166,6 +1168,28 @@
       "tags": [
         "总榜收录",
         "客户端接入",
+        "短周期验证"
+      ]
+    },
+    {
+      "name": "九云",
+      "url": "https://go.uukk.de/jiuyun",
+      "coupon": "优惠码: 9yun（8折，结账页复核）",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2360a5fa'/%3e%3ccircle cx='50' cy='50' r='28' fill='white' opacity='.95'/%3e%3ctext x='50' y='61' font-size='34' font-weight='bold' text-anchor='middle' fill='%2360a5fa' font-family='Arial,sans-serif'%3e9%3c/text%3e%3c/svg%3e",
+      "description": "九云新增 2026-09-22 首轮实测，仅进入完整总榜供对比。当前提供 VLESS 通用订阅，套餐从 ¥6/月 150GB 起；美国节点晚间 Speedtest 下载 93.79Mbps、上传 4.12Mbps，YouTube 4K 可播放但约 9.8% 丢帧，Netflix 本轮提示代理受限。出口为 AS38136 Akari Networks 机房 IP，不同风险数据库结论存在分歧，并检测到 DNS / WebRTC 泄漏可能，建议只选最低月付作为备用。",
+      "features": [
+        "完整总榜收录",
+        "VLESS通用订阅",
+        "美国节点4K可播放",
+        "Netflix本轮失败"
+      ],
+      "lineType": "海外中转",
+      "accessType": "universal",
+      "pricing": "¥6/月 150GB起",
+      "tags": [
+        "总榜收录",
+        "低价月付",
+        "AI页面可访问",
         "短周期验证"
       ]
     },

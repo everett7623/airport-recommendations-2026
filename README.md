@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
 ![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-57%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-58%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 ![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)
 
@@ -596,9 +596,9 @@
 | 项目 | 说明 |
 |-----|------|
 | **线路类型** | IEPL专线 |
-| **接入方式** | 通用订阅 |
-| **核心特色** | 已补首轮测评，家宽/商宽节点，流媒体与AI友好，短周期先试 |
-| **简介** | MESL，极其低调的高端机场，已补首轮测评。节点多、家宽/商宽覆盖广，流媒体和 AI 解锁表现不错，但仍建议先短周期测试。 |
+| **接入方式** | 通用订阅 + 专用客户端 |
+| **核心特色** | 已补首轮测评，官方客户端或更新订阅，家宽/商宽节点，流媒体与AI友好 |
+| **简介** | MESL 已补首轮测评。2026-09-23 用户通知：9 月 24–25 日节点升级后，需使用官方客户端，或更新内置专用 DNS 的最新订阅并关闭客户端 DNS 覆写；旧订阅可能无法连接。iOS 官方客户端仍在审核。家宽/商宽、流媒体和 AI 的首轮结论不变，仍建议短周期测试。 |
 | **起步价** | ¥50/月起 |
 | **推荐指数** | ⭐⭐⭐⭐ |
 
@@ -848,6 +848,7 @@
 | **灵猫网络** | IPLC页面口径 | ¥85/年 45GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `客户端接入` `短周期验证` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/lmwl) |
 | **微风网络** | IPLC页面口径 | ¥137/年 100GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `客户端接入` `短周期验证` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/wfwl) |
 | **九云** | 海外中转 | ¥6/月 150GB起 | 流媒体 ✅ · ChatGPT ✅ | `总榜收录` `低价月付` `AI页面可访问` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/jiuyun) |
+| **ANDY CLOUD** | 海外中转 | ¥5/月 100GB起 | 流媒体 ✅ · ChatGPT ❓ | `总榜收录` `通用订阅` `低价备用` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/andycloud) |
 | **飞猫云** | IPLC/BGP-IEPL页面口径 | ¥8/月 50GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `专用客户端` `短周期验证` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/flyingcat) |
 | **FlowerCloud** | BGP/IEPL专线 | ¥39/月起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `老牌` `短周期复查` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/flowercloud) |
 | **影子** | 海外公有云中转 | ¥18.80/月 150GB起 | 流媒体 ✅ · ChatGPT ✅ | `AnyTLS` `多地区` `公有云中转` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/yingzi) |

@@ -755,15 +755,15 @@
           "url": "https://go.uukk.de/mesl",
           "coupon": "",
           "logoSvg": "/logo/airports/mesl.png",
-          "description": "MESL，极其低调的高端机场，已补首轮测评。节点多、家宽/商宽覆盖广，流媒体和 AI 解锁表现不错，但仍建议先短周期测试。",
+          "description": "MESL 已补首轮测评。2026-09-23 用户通知：9 月 24–25 日节点升级后，需使用官方客户端，或更新内置专用 DNS 的最新订阅并关闭客户端 DNS 覆写；旧订阅可能无法连接。iOS 官方客户端仍在审核。家宽/商宽、流媒体和 AI 的首轮结论不变，仍建议短周期测试。",
           "features": [
             "已补首轮测评",
+            "官方客户端或更新订阅",
             "家宽/商宽节点",
-            "流媒体与AI友好",
-            "短周期先试"
+            "流媒体与AI友好"
           ],
           "lineType": "IEPL专线",
-          "accessType": "universal",
+          "accessType": "both",
           "pricing": "¥50/月起",
           "tags": [
             "低调",
@@ -1191,6 +1191,27 @@
         "低价月付",
         "AI页面可访问",
         "短周期验证"
+      ]
+    },
+    {
+      "name": "ANDY CLOUD",
+      "url": "https://go.uukk.de/andycloud",
+      "coupon": "",
+      "logoSvg": "/logo/airports/andycloud.png",
+      "description": "ANDY CLOUD 新增 2026-09-23 首轮实测。套餐从 ¥5/月 100GB、¥30/年 50GB/月起，提供 VLESS 通用订阅；美国节点 Speedtest 下载 99.41Mbps、上传 5.91Mbps，YouTube 4K 连接约 30.8Mbps且截图时未丢帧，Netflix 实际首页可用。出口为 AS38136 Akari Networks 机房 IP，IPPure 44% 轻度风险，WebRTC UDP 可能泄漏中国出口，建议先最低月付。",
+      "features": [
+        "¥5月付100GB",
+        "VLESS通用订阅",
+        "美国节点4K实测",
+        "Netflix本轮可用"
+      ],
+      "lineType": "海外中转",
+      "accessType": "universal",
+      "pricing": "¥5/月 100GB起",
+      "tags": [
+        "总榜收录",
+        "通用订阅",
+        "低价备用"
       ]
     },
     {

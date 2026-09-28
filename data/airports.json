@@ -27,6 +27,7 @@
       "SD-WAN",
       "VLESS/通用订阅",
       "VLESS节点",
+      "VLESS订阅",
       "Vless/Hysteria2",
       "Vless节点",
       "专线+优化直连",
@@ -151,6 +152,7 @@
       "流媒体解锁",
       "流媒体首轮可用",
       "游戏加速",
+      "灵活套餐",
       "白嫖",
       "短周期先试",
       "短周期复查",
@@ -1212,6 +1214,27 @@
         "总榜收录",
         "通用订阅",
         "低价备用"
+      ]
+    },
+    {
+      "name": "环球梯",
+      "url": "https://go.uukk.de/huanqiuti",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236d28d9'/%3e%3ccircle cx='50' cy='50' r='28' fill='%2322d3ee' opacity='.9'/%3e%3ctext x='50' y='58' font-size='22' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial,sans-serif'%3eGQ%3c/text%3e%3c/svg%3e",
+      "description": "环球梯新增 2026-09-27 首轮实测，仅进入完整总榜供对比。套餐从 ¥23/月 120GB 起，提供 60–600GB 档位和一次性流量包；美国节点 Speedtest 下载 119.75Mbps、上传 3.27Mbps，YouTube 4K 截图中 2145 帧未见丢帧。出口为 AS54600 PEG TECH INC 机房 IP，商家宣称的全解锁、60+ 节点、纯专线和抗封锁能力待复测，建议先月付。",
+      "features": [
+        "完整总榜收录",
+        "¥23月付120GB",
+        "美国节点4K可播放",
+        "机房IP需注意"
+      ],
+      "lineType": "VLESS订阅",
+      "accessType": "universal",
+      "pricing": "¥23/月 120GB起",
+      "tags": [
+        "总榜收录",
+        "灵活套餐",
+        "短周期验证"
       ]
     },
     {

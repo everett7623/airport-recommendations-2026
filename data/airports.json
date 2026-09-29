@@ -27,7 +27,6 @@
       "SD-WAN",
       "VLESS/通用订阅",
       "VLESS节点",
-      "VLESS订阅",
       "Vless/Hysteria2",
       "Vless节点",
       "专线+优化直连",
@@ -152,7 +151,6 @@
       "流媒体解锁",
       "流媒体首轮可用",
       "游戏加速",
-      "灵活套餐",
       "白嫖",
       "短周期先试",
       "短周期复查",
@@ -580,7 +578,7 @@
         {
           "name": "全球云",
           "url": "https://go.uukk.de/globalyun",
-          "coupon": "优惠码: vpsknow（年付8折）",
+          "coupon": "月付及以上 8 折：gz80；年付 85 折：gz85（有效期 2026-09-24 至 2026-10-25，结账页复核）",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230ea5e9'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e云%3c/text%3e%3c/svg%3e",
           "description": "全球云，采用企业级 IPLC/IEPL 专线，结合智能负载均衡与三网入口优化，2Gbps+ 带宽接入，晚高峰稳定。原生节点完美解锁 Netflix、Disney+、TikTok 及 ChatGPT。",
           "features": [
@@ -1196,6 +1194,28 @@
       ]
     },
     {
+      "name": "闪电鼠",
+      "url": "https://go.uukk.de/shandianshu",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='22' fill='%23f59e0b'/%3e%3ctext x='50' y='63' font-size='42' font-weight='bold' text-anchor='middle' fill='white'%3e闪%3c/text%3e%3c/svg%3e",
+      "description": "闪电鼠新增 2026-09-28 首轮实测，仅进入完整总榜供对比。套餐从 ¥22/月 120GB 起，面板显示 IPLC 专线口径、香港/台湾/日本/新加坡/美国节点和不限设备；美国节点下载 81.6Mbps、上传 3.3Mbps、Ping 203.5ms，ChatGPT、Claude、YouTube 等连通性本轮可用。出口为 AS54600 PEG TECH INC 机房 IP，IPPure 风险分 49、Claude trust score 67，并出现中国 DNS / WebRTC 可能泄漏，建议先最低月付验证。",
+      "features": [
+        "完整总榜收录",
+        "IPLC页面口径",
+        "美国节点可用",
+        "机房IP需注意"
+      ],
+      "lineType": "IPLC页面口径",
+      "accessType": "dedicated",
+      "pricing": "¥22/月 120GB起",
+      "tags": [
+        "总榜收录",
+        "低价月付",
+        "专用客户端",
+        "短周期验证"
+      ]
+    },
+    {
       "name": "ANDY CLOUD",
       "url": "https://go.uukk.de/andycloud",
       "coupon": "",
@@ -1228,12 +1248,12 @@
         "美国节点4K可播放",
         "机房IP需注意"
       ],
-      "lineType": "VLESS订阅",
-      "accessType": "universal",
+      "lineType": "IPLC页面口径",
+      "accessType": "dedicated",
       "pricing": "¥23/月 120GB起",
       "tags": [
         "总榜收录",
-        "灵活套餐",
+        "专用客户端",
         "短周期验证"
       ]
     },

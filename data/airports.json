@@ -22,6 +22,7 @@
       "IEPL专线",
       "IPLC/BGP-IEPL页面口径",
       "IPLC/IEPL专线",
+      "IPLC/IEPL页面口径",
       "IPLC专线",
       "IPLC页面口径",
       "SD-WAN",
@@ -105,6 +106,7 @@
       "专线稳定",
       "争议预警",
       "企业级",
+      "优惠码",
       "低价",
       "低价入门",
       "低价备用",
@@ -1154,7 +1156,7 @@
       "name": "微风网络",
       "url": "https://go.uukk.de/wfwl",
       "coupon": "",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%233b82f6'/%3e%3cpath d='M20 58 C35 42 47 43 60 51 C69 56 77 55 84 48 C80 69 62 78 45 70 C35 66 27 65 20 58Z' fill='white'/%3e%3c/svg%3e",
+      "logoSvg": "/logo/airports/weifeng.svg",
       "description": "微风网络新增 2026-09-20 首轮测评，仅进入完整总榜供对比。套餐从清风 ¥137/年 100GB 起，页面标注全 IPLC、不限设备和不限速；客户端可见香港、新加坡、台湾、日本、美国、德国节点。美国节点 YouTube 4K 可播放、Speedtest 下载 116.26Mbps，但上传仅 1.05Mbps，出口在 IPPure 中为 AS54600 PEG TECH INC 机房 IP，Cloudflare 风险指数 53，Claude AI 出口检测失败，建议先短周期验证。",
       "features": [
         "完整总榜收录",
@@ -1175,7 +1177,7 @@
       "name": "九云",
       "url": "https://go.uukk.de/jiuyun",
       "coupon": "优惠码: 9yun（8折，结账页复核）",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%2360a5fa'/%3e%3ccircle cx='50' cy='50' r='28' fill='white' opacity='.95'/%3e%3ctext x='50' y='61' font-size='34' font-weight='bold' text-anchor='middle' fill='%2360a5fa' font-family='Arial,sans-serif'%3e9%3c/text%3e%3c/svg%3e",
+      "logoSvg": "/logo/airports/jiuyun.svg",
       "description": "九云新增 2026-09-22 首轮实测，仅进入完整总榜供对比。当前提供 VLESS 通用订阅，套餐从 ¥6/月 150GB 起；美国节点晚间 Speedtest 下载 93.79Mbps、上传 4.12Mbps，YouTube 4K 可播放但约 9.8% 丢帧，Netflix 本轮提示代理受限。出口为 AS38136 Akari Networks 机房 IP，不同风险数据库结论存在分歧，并检测到 DNS / WebRTC 泄漏可能，建议只选最低月付作为备用。",
       "features": [
         "完整总榜收录",
@@ -1216,6 +1218,28 @@
       ]
     },
     {
+      "name": "神行加速",
+      "url": "https://go.uukk.de/shenxingjiasu",
+      "coupon": "优惠码: sx0077（新用户全套餐7折，结账页复核）",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='22' fill='%237c3aed'/%3e%3cpath d='M56 12 25 57h23l-7 31 34-49H52z' fill='%2322d3ee'/%3e%3c/svg%3e",
+      "description": "神行加速新增 2026-09-29 首轮实测，仅进入完整总榜供对比。接入方式为自研专用客户端；套餐从 ¥23/月 120GB 起，产品资料标注 IPLC/IEPL、香港/台湾/日本/新加坡/美国节点和不限设备。美国节点 YouTube 4K 本轮约 5.7Mbps、1119 帧中丢 2 帧；出口为 AS54600 PEG TECH INC 机房 IP，多库风险结果存在差异，建议先月付验证。",
+      "features": [
+        "完整总榜收录",
+        "专用客户端",
+        "IPLC/IEPL线路",
+        "机房IP需注意"
+      ],
+      "lineType": "IPLC/IEPL页面口径",
+      "accessType": "dedicated",
+      "pricing": "¥23/月 120GB起",
+      "tags": [
+        "总榜收录",
+        "专用客户端",
+        "优惠码",
+        "短周期验证"
+      ]
+    },
+    {
       "name": "ANDY CLOUD",
       "url": "https://go.uukk.de/andycloud",
       "coupon": "",
@@ -1240,7 +1264,7 @@
       "name": "环球梯",
       "url": "https://go.uukk.de/huanqiuti",
       "coupon": "",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236d28d9'/%3e%3ccircle cx='50' cy='50' r='28' fill='%2322d3ee' opacity='.9'/%3e%3ctext x='50' y='58' font-size='22' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial,sans-serif'%3eGQ%3c/text%3e%3c/svg%3e",
+      "logoSvg": "/logo/airports/huanqiuti.svg",
       "description": "环球梯新增 2026-09-27 首轮实测，仅进入完整总榜供对比。套餐从 ¥23/月 120GB 起，提供 60–600GB 档位和一次性流量包；美国节点 Speedtest 下载 119.75Mbps、上传 3.27Mbps，YouTube 4K 截图中 2145 帧未见丢帧。出口为 AS54600 PEG TECH INC 机房 IP，商家宣称的全解锁、60+ 节点、纯专线和抗封锁能力待复测，建议先月付。",
       "features": [
         "完整总榜收录",

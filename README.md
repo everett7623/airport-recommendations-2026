@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
 ![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-60%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-61%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 ![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)
 
@@ -849,6 +849,7 @@
 | **微风网络** | IPLC页面口径 | ¥137/年 100GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `客户端接入` `短周期验证` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/wfwl) |
 | **九云** | 海外中转 | ¥6/月 150GB起 | 流媒体 ✅ · ChatGPT ✅ | `总榜收录` `低价月付` `AI页面可访问` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/jiuyun) |
 | **闪电鼠** | IPLC页面口径 | ¥22/月 120GB起 | 流媒体 ❓ · ChatGPT ✅ | `总榜收录` `低价月付` `专用客户端` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/shandianshu) |
+| **神行加速** | IPLC/IEPL页面口径 | ¥23/月 120GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `专用客户端` `优惠码` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/shenxingjiasu) |
 | **ANDY CLOUD** | 海外中转 | ¥5/月 100GB起 | 流媒体 ✅ · ChatGPT ❓ | `总榜收录` `通用订阅` `低价备用` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/andycloud) |
 | **环球梯** | IPLC页面口径 | ¥23/月 120GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `专用客户端` `短周期验证` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/huanqiuti) |
 | **飞猫云** | IPLC/BGP-IEPL页面口径 | ¥8/月 50GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `专用客户端` `短周期验证` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/flyingcat) |

@@ -20,6 +20,7 @@
       "IEPL/IPLC+BGP页面口径",
       "IEPL/IPLC专线",
       "IEPL专线",
+      "IEPL页面口径",
       "IPLC/BGP-IEPL页面口径",
       "IPLC/IEPL专线",
       "IPLC/IEPL页面口径",
@@ -164,6 +165,7 @@
       "美国台湾家宽",
       "美国视频",
       "老牌",
+      "自研客户端",
       "试用",
       "贵族机场",
       "超高带宽",
@@ -1170,6 +1172,28 @@
       "tags": [
         "总榜收录",
         "客户端接入",
+        "短周期验证"
+      ]
+    },
+    {
+      "name": "榴莲云",
+      "url": "https://go.uukk.de/liulianyun",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f5b642'/%3e%3ctext x='50' y='65' font-size='34' font-weight='bold' text-anchor='middle' fill='white'%3e榴%3c/text%3e%3c/svg%3e",
+      "description": "榴莲云新增 2026-10-03 首轮实测，仅进入完整总榜供对比。约 ¥5.6/月 60GB、自研客户端；美国节点 Speedtest 下载 99.64Mbps、上传 8.33Mbps、Ping 203ms，YouTube 4K 可播放但 4435 帧中丢 1324 帧。出口为 AS54600 PEG TECH INC 机房 IP，IPPure 23、AbuseIPDB 0%，Gemini 页面提示所在地区不支持，建议先最低月付验证。",
+      "features": [
+        "完整总榜收录",
+        "自研客户端",
+        "美国节点4K可播放",
+        "机房IP需注意"
+      ],
+      "lineType": "IEPL页面口径",
+      "accessType": "dedicated",
+      "pricing": "约¥5.6/月 60GB",
+      "tags": [
+        "总榜收录",
+        "低价月付",
+        "自研客户端",
         "短周期验证"
       ]
     },

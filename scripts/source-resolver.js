@@ -40,6 +40,17 @@ function importedSpecifiers(source, name) {
     const names = match[1].split(',').map(part => part.trim().split(/\s+as\s+/)[0].trim());
     if (names.includes(name)) matches.push(match[2]);
   }
+
+  // Support `import data from './airports'` followed by
+  // `const { airportCategories } = data`, and namespace imports used by
+  // newer Astro pages. The resolver will inspect the target module directly.
+  const namespacePattern = /import\s+([\w$]+)\s+from\s+['"]([^'"]+)['"]/g;
+  for (const match of source.matchAll(namespacePattern)) {
+    if (new RegExp(`\\b${match[1]}\\s*\\.${name}\\b`).test(source)
+      || new RegExp(`\\{[^}]*\\b${name}\\b[^}]*\\}\\s*=\\s*${match[1]}`).test(source)) {
+      matches.push(match[2]);
+    }
+  }
   return matches;
 }
 
@@ -84,7 +95,7 @@ export function resolveDataSource(entryPath, entrySource, name) {
     return null;
   }
 
-  const followed = follow(entryPath, entrySource, 5);
+  const followed = follow(entryPath, entrySource, 12);
   if (followed) return followed;
 
   const root = findCheckoutRoot(entryPath);

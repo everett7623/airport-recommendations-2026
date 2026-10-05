@@ -44,7 +44,10 @@ function backup(filePath) {
 }
 
 function validateSource(source, sourceLabel) {
-  const hasAirportData = /\bairportCategories\b/.test(source);
+  // The page may import the data from src/data/*.ts instead of declaring it
+  // inline.  Keep the guard strict enough to reject HTML/404 responses while
+  // allowing the resolver to follow that import afterwards.
+  const hasAirportData = /\b(?:airportCategories|noAffAirports|fullListOnlyAirports|defunctAirports)\b/.test(source);
   const looksLikeErrorPage = /^(404:\s*Not Found|Not Found)$/i.test(source.trim()) || /<html[\s>]/i.test(source);
 
   if (looksLikeErrorPage) {

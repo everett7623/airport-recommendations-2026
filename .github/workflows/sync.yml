@@ -74,10 +74,10 @@ jobs:
             find _vpsknow -type f -name '*.astro' | sort | head -n 80
             exit 1
           fi
-          if ! grep -q "airportCategories" "$source_file"; then
-            echo "::error::Found $source_file, but it does not contain airportCategories."
+          if ! grep -Eq "airportCategories|noAffAirports|fullListOnlyAirports|defunctAirports" "$source_file"; then
+            echo "::error::Found $source_file, but it does not reference the VPSKnow airport data exports."
             echo "Candidate airport files:"
-            grep -RIl "airportCategories\|noAffAirports\|defunctAirports" _vpsknow | sort | head -n 80
+            grep -RIl "airportCategories\|noAffAirports\|fullListOnlyAirports\|defunctAirports" _vpsknow | sort | head -n 80
             exit 1
           fi
           test -s "$source_file"

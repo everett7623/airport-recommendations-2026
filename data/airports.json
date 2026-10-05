@@ -95,7 +95,6 @@
       "不主推",
       "不差钱",
       "不建议长期付费",
-      "不限时",
       "不限时可选",
       "不限时流量",
       "不限设备",
@@ -126,7 +125,7 @@
       "千兆带宽",
       "原生IP",
       "原生节点",
-      "备用",
+      "售后失联",
       "备用方案",
       "多协议",
       "多地区",
@@ -1118,19 +1117,19 @@
       "url": "https://go.uukk.de/skylumo",
       "coupon": "优惠券: lN0cKN1L",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230ea5e9'/%3e%3cpath d='M50 20 L20 55 L45 55 L40 85 L70 45 L50 45 L55 20 Z' fill='white' stroke='white' stroke-width='4' stroke-linejoin='round'/%3e%3c/svg%3e",
-      "description": "SKYLUMO，提供流量永不过期的一次性流量包方案，覆盖全球多地区，适合备用或轻度使用。",
+      "description": "SKYLUMO 曾提供流量永不过期的一次性流量包；近期 TG 机器人与后台工单均无回应，且有其他 AFF 合作者反馈相同情况，现移入风险观察，暂停作为正常推荐。",
       "features": [
-        "流量永不过期",
-        "多地区接入",
-        "大流量包",
-        "高带宽"
+        "风险观察",
+        "工单无回应",
+        "TG 机器人无回应",
+        "暂停长期付费"
       ],
       "lineType": "公网中转",
-      "pricing": "¥9.90起",
+      "pricing": "¥9.90起（历史页面）",
       "tags": [
-        "备用",
-        "不限时",
-        "大流量"
+        "风险观察",
+        "售后失联",
+        "不建议长期付费"
       ]
     },
     {

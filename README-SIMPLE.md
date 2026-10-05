@@ -80,7 +80,7 @@
 | **寰宇云** | 线路待重新核对 | 待核对 | 当前套餐待复核 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/huanyuyunvip) |
 | **YToo** | 多线国际加速 | 待核对 | ¥98/年起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/ytoo) |
 | **星岛梦** | IEPL/IPLC+BGP页面口径 | 通用订阅 | ¥25/月 150GB起（年付¥96/60GB） | ✅ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/stardream) |
-| **SKYLUMO** | 公网中转 | 待核对 | ¥9.90起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/skylumo) |
+| **SKYLUMO** | 公网中转 | 待核对 | ¥9.90起（历史页面） | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/skylumo) |
 | **灵猫网络** | IPLC页面口径 | 专用客户端 | ¥85/年 45GB起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/lmwl) |
 | **微风网络** | IPLC页面口径 | 专用客户端 | ¥137/年 100GB起 | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/wfwl) |
 | **榴莲云** | IEPL页面口径 | 专用客户端 | 约¥5.6/月 60GB | ❓ | ❓ | ⭐⭐⭐⭐ | [进入](https://go.uukk.de/liulianyun) |

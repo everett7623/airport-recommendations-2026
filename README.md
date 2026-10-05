@@ -844,7 +844,7 @@
 | **寰宇云** | 线路待重新核对 | 当前套餐待复核 | 流媒体 ❓ · ChatGPT ❓ | `运营变更` `总榜收录` `短周期测试` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/huanyuyunvip) |
 | **YToo** | 多线国际加速 | ¥98/年起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `全球覆盖` `备用方案` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/ytoo) |
 | **星岛梦** | IEPL/IPLC+BGP页面口径 | ¥25/月 150GB起（年付¥96/60GB） | 流媒体 ✅ · ChatGPT ❓ | `通用订阅` `流媒体首轮可用` `不主推` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/stardream) |
-| **SKYLUMO** | 公网中转 | ¥9.90起 | 流媒体 ❓ · ChatGPT ❓ | `备用` `不限时` `大流量` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/skylumo) |
+| **SKYLUMO** | 公网中转 | ¥9.90起（历史页面） | 流媒体 ❓ · ChatGPT ❓ | `风险观察` `售后失联` `不建议长期付费` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/skylumo) |
 | **灵猫网络** | IPLC页面口径 | ¥85/年 45GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `客户端接入` `短周期验证` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/lmwl) |
 | **微风网络** | IPLC页面口径 | ¥137/年 100GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `客户端接入` `短周期验证` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/wfwl) |
 | **榴莲云** | IEPL页面口径 | 约¥5.6/月 60GB | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `低价月付` `自研客户端` | ⭐⭐⭐⭐ | [直达](https://go.uukk.de/liulianyun) |

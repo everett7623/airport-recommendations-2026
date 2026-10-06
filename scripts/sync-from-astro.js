@@ -317,14 +317,20 @@ async function main() {
   }
 
   // 4. Extract version info
-  const versionMatch = source.match(/(?:更新时间|Updated):\s*(\d{4}-\d{2}-\d{2})/i)
-    || versionSource.match(/(?:更新时间|Updated):\s*(\d{4}-\d{2}-\d{2})/i);
-  if (!versionMatch) {
+  // Upstream pages keep a changelog and may contain an old compatibility
+  // header before the current data marker. Selecting the first match caused
+  // README to stay on 2026-09-21 while the airport data kept changing. Use
+  // the newest date present in the resolved data source (and the page source
+  // as a fallback), which matches the frontend's latest update record.
+  const versionDates = [...`${source}\n${versionSource}`.matchAll(/(?:更新时间|Updated)\s*[:：]\s*(\d{4}-\d{2}-\d{2})/gi)]
+    .map(match => match[1])
+    .filter(Boolean);
+  if (versionDates.length === 0) {
     log('Failed to extract an upstream data version (YYYY-MM-DD)', 'err');
     loaded.cleanup?.();
     process.exit(1);
   }
-  const version = versionMatch[1];
+  const version = versionDates.sort().at(-1);
 
   // 5. Build categories in our format
   const categories = {};

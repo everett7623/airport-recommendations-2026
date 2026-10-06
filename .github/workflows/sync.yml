@@ -94,6 +94,13 @@ jobs:
       - name: Validate synchronized outputs
         run: npm run validate
 
+      - name: Report synchronized version
+        run: |
+          version="$(node -p "JSON.parse(require('fs').readFileSync('data/airports.json','utf8').replace(/^\\s*\\/\\/.*$/gm,'' )).version")"
+          echo "Canonical data version: $version"
+          echo "README version markers:"
+          grep -nE '### [0-9]{4}-[0-9]{2}-[0-9]{2} 更新|数据同步：' README.md README-SIMPLE.md | head -n 12
+
       - name: Preview dry-run diff
         if: github.event.inputs.dry_run == 'true'
         run: git diff -- data/airports.json README.md README-SIMPLE.md docs/blacklist.md

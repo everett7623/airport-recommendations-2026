@@ -13,6 +13,8 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { appendLicenseAndDisclosure, LICENSE_ANCHOR } from './license-disclosure.js';
 
+import { recommendationRating, ratingReviewDate } from './airport-ratings.js';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const JSON_PATH = join(ROOT, 'data', 'airports.json');
@@ -25,10 +27,6 @@ const FIXED_FEATURED_AIRPORTS = ['网际快车', '喵喵VPN', 'COCODUCK VPN', 'F
 function log(msg, level = 'info') {
   const prefix = { info: '  ℹ', ok: '  ✅', warn: '  ⚠️', err: '  ❌', header: '\n📌' }[level] || '  ·';
   console.log(`${prefix} ${msg}`);
-}
-
-function starRating(n) {
-  return '⭐'.repeat(Math.min(n, 5));
 }
 
 function listNames(airports = [], count = 2, fallback = '-') {
@@ -276,7 +274,7 @@ function generateFullReadme(data) {
       if (a.features?.length) lines.push(`| **核心特色** | ${a.features.join('，')} |`);
       if (a.description) lines.push(`| **简介** | ${a.description} |`);
       lines.push(`| **起步价** | ${a.pricing || '-'} |`);
-      lines.push(`| **推荐指数** | ${starRating(a.isUnderMaintenance ? 3 : 4)} |`);
+      lines.push(`| **推荐指数** | ${recommendationRating(a)} |`);
       lines.push('');
       if (a.tags?.length) {
         lines.push(`**核心标签：** ${a.tags.map(t => `\`${t}\``).join(' ')}`);
@@ -323,7 +321,7 @@ function generateFullReadme(data) {
       if (a.features?.length) lines.push(`| **核心特色** | ${a.features.join('，')} |`);
       if (a.description) lines.push(`| **简介** | ${a.description} |`);
       lines.push(`| **起步价** | ${a.pricing || '-'} |`);
-      lines.push(`| **推荐指数** | ${starRating(5)} |`);
+      lines.push(`| **推荐指数** | ${recommendationRating(a)} |`);
       lines.push('');
       if (a.tags?.length) {
         lines.push(`**核心标签：** ${a.tags.map(t => `\`${t}\``).join(' ')}`);
@@ -336,6 +334,7 @@ function generateFullReadme(data) {
 
   // Full index table
   lines.push('## 📊 完整服务商索引');
+  lines.push(`> 星级复核：${ratingReviewDate}；公开证据评分，非本次节点实测。无AFF不加分。逐家理由与来源见 [评分复核](docs/ratings-review.md)。`);
   lines.push('');
   lines.push('**按表格快速筛选所有机场，支持 Ctrl+F 页面精准搜索**');
   lines.push('');
@@ -349,7 +348,7 @@ function generateFullReadme(data) {
     const streamOk = a.tags?.some(t => /流媒体|解锁|原生|Netflix/i.test(t)) || a.features?.some(f => /流媒体|解锁|原生|Netflix/i.test(f)) ? '✅' : '❓';
     const chatGptOk = a.tags?.some(t => /AI|ChatGPT|GPT/i.test(t)) || a.features?.some(f => /AI|ChatGPT|GPT/i.test(f)) || a.description?.includes('ChatGPT') ? '✅' : '❓';
     const tags = (a.tags || []).slice(0, 3).map(t => `\`${t}\``).join(' ');
-    const stars = starRating(a.isUnderMaintenance ? 3 : (data.no_aff?.find(na => na.name === a.name) ? 5 : 4));
+    const stars = recommendationRating(a);
     const link = a.url ? `[直达](${a.url})` : '-';
 
     lines.push(`| **${name}** | ${a.lineType || '-'} | ${a.pricing || '-'} | 流媒体 ${streamOk} · ChatGPT ${chatGptOk} | ${tags} | ${stars} | ${link} |`);
@@ -535,6 +534,7 @@ function generateSimpleReadme(data) {
 
   // Full index
   lines.push('## 📊 完整索引（Ctrl+F 搜索）');
+  lines.push(`> 星级复核：${ratingReviewDate}；公开证据评分，非本次节点实测。逐家理由见 [评分复核](docs/ratings-review.md)。`);
   lines.push('');
   lines.push('| 机场名称 | 线路类型 | 接入方式 | 最低价格 | 流媒体 | ChatGPT | 推荐度 | 直达 |');
   lines.push('|---------|---------|---------|---------|-------|---------|-------|------|');
@@ -542,7 +542,7 @@ function generateSimpleReadme(data) {
     const name = a.isUnderMaintenance ? `${a.name} ⚠️` : a.name;
     const streamOk = a.tags?.some(t => /流媒体|解锁|原生|Netflix/i.test(t)) || a.features?.some(f => /流媒体|解锁|原生|Netflix/i.test(f)) ? '✅' : '❓';
     const chatOk = a.tags?.some(t => /AI|ChatGPT|GPT/i.test(t)) || a.features?.some(f => /AI|ChatGPT|GPT/i.test(f)) || a.description?.includes('ChatGPT') ? '✅' : '❓';
-    const stars = starRating(a.isUnderMaintenance ? 3 : (data.no_aff?.find(na => na.name === a.name) ? 5 : 4));
+    const stars = recommendationRating(a);
     const link = a.url ? `[进入](${a.url})` : '-';
     lines.push(`| **${name}** | ${a.lineType || '-'} | ${accessTypeLabel(a.accessType)} | ${a.pricing || '-'} | ${streamOk} | ${chatOk} | ${stars} | ${link} |`);
   }

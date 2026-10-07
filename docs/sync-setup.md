@@ -51,6 +51,8 @@ VPSKnow 已配置的 source_ref（默认 main）
 
 GitHub Actions 自动提交只包含这四个文件。不要在自动同步提交中混入其他手工文档。
 
+推荐星级由 `data/ratings.json` 人工复核，`scripts/airport-ratings.js` 供生成器读取；理由与来源见 `docs/ratings-review.md`。这些文件不由上游同步重写。新增机场没有评分时显示待评，不能沿用旧的默认四星或无 AFF 五星规则；评分调整需同时更新复核日期、理由、来源及复核文档，再重新生成两份 README。
+
 ### 按变更内容更新
 
 | 文件 | 何时更新 | 何时不更新 |

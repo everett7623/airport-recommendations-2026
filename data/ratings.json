@@ -1,14 +1,15 @@
 {
   "reviewedAt": "2026-10-07",
-  "method": "公开证据编辑评分；非本次节点实测。1星暂停推荐；2星资料不足或风险待核；3星短期候选；4星多来源支持；5星要求近期多日多网与售后证据，本轮无。",
+  "method": "推荐度与证据可信度分别展示；资料不足待评，不按低分处理。1星暂停推荐；2星实质限制或风险待核；3星适合特定场景或短期观察；4星有公开样本支持的较优候选；5星需近期长期多网络与售后证据。非本次节点实测。",
   "airports": {
     "69云": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "地区与套餐资料可供初筛，缺近期连续节点测试与售后证据。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "超级飞鱼": {
       "stars": 3,
@@ -16,7 +17,8 @@
       "reason": "已有节点样本；仍需长期稳定性和出口环境复查。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "二猫云": {
       "stars": 2,
@@ -25,7 +27,8 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/8"
-      ]
+      ],
+      "confidence": "低"
     },
     "飞猫云": {
       "stars": 3,
@@ -34,15 +37,17 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/18"
-      ]
+      ],
+      "confidence": "中"
     },
     "光年梯": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "线路宣传不足以证明晚高峰和售后质量。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "光速云": {
       "stars": 2,
@@ -51,7 +56,8 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/16"
-      ]
+      ],
+      "confidence": "低"
     },
     "环球梯": {
       "stars": 3,
@@ -59,7 +65,8 @@
       "reason": "首轮样本可用，长期稳定性与专线性质仍待验证。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "寰宇云": {
       "stars": 2,
@@ -68,7 +75,8 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/2"
-      ]
+      ],
+      "confidence": "中"
     },
     "极连云": {
       "stars": 2,
@@ -77,7 +85,8 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/6"
-      ]
+      ],
+      "confidence": "低"
     },
     "极速Cloud": {
       "stars": 3,
@@ -85,7 +94,8 @@
       "reason": "有节点实测，失败节点和出口环境限制仍需复查。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "锦云": {
       "stars": 2,
@@ -94,7 +104,8 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/20"
-      ]
+      ],
+      "confidence": "低"
     },
     "九云": {
       "stars": 2,
@@ -102,7 +113,8 @@
       "reason": "视频及流媒体样本存在限制，仅作为小额备用候选。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "可信云": {
       "stars": 1,
@@ -110,31 +122,35 @@
       "reason": "上游记录全节点超时，未见足以恢复推荐的复核。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "肯の机": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "协议和套餐已描述，但缺当前AI及流媒体实测。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "快狸": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "客户端与线路资料不能替代长期服务证据。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "鲤云": {
-      "stars": 3,
+      "stars": 4,
       "status": "短期候选",
       "reason": "有节点测试，仍缺多日晚高峰和售后证据。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "灵猫网络": {
       "stars": 3,
@@ -142,7 +158,8 @@
       "reason": "首轮测试提供参考，出口属性和长期稳定性待查。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "榴莲云": {
       "stars": 2,
@@ -150,7 +167,8 @@
       "reason": "最新样本暴露视频表现及地区可用性限制。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "龙猫云": {
       "stars": 2,
@@ -158,7 +176,8 @@
       "reason": "单节点视频结果不能支持全线稳定或全解锁推荐。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "喵喵VPN": {
       "stars": 3,
@@ -166,15 +185,17 @@
       "reason": "已核对一次性流量产品，节点及出口风险需持续跟踪。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "秒秒云": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "价格和协议信息可参考，缺可复核连续性能记录。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "魔戒": {
       "stars": 2,
@@ -183,7 +204,8 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://jichang.gg/rankings/all"
-      ]
+      ],
+      "confidence": "低"
     },
     "拼好连": {
       "stars": 3,
@@ -192,15 +214,17 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/9"
-      ]
+      ],
+      "confidence": "中"
     },
     "轻语机场": {
-      "stars": 3,
+      "stars": 4,
       "status": "短期候选",
       "reason": "有首轮测试和套餐资料，长期稳定性仍未建立。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "全球云": {
       "stars": 2,
@@ -209,7 +233,8 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/3"
-      ]
+      ],
+      "confidence": "低"
     },
     "山水云": {
       "stars": 3,
@@ -217,7 +242,8 @@
       "reason": "有近期样本，但部分地区节点表现不一致。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "闪电鼠": {
       "stars": 3,
@@ -225,7 +251,8 @@
       "reason": "近期测试可参考，出口环境和售后仍需跟踪。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "神行加速": {
       "stars": 2,
@@ -233,15 +260,17 @@
       "reason": "首轮视频样本带宽有限，缺长期节点和售后证据。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "瞬云": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "线路和解锁目前主要为产品说明，缺连续实测。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "速界": {
       "stars": 2,
@@ -249,15 +278,17 @@
       "reason": "不同运营商样本差异较大，不能作为通用高分推荐。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "网际快车": {
-      "stars": 3,
+      "stars": 4,
       "status": "备用候选",
       "reason": "试用与按量定位明确，但全线和长期解锁证据不充分。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "微风网络": {
       "stars": 2,
@@ -265,23 +296,26 @@
       "reason": "首轮存在上传及目标服务限制，需要更多样本。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "唯兔云": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "低价及线路资料可参考，缺近期独立服务表现证据。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "新华云": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "低价和节点宣传缺当前连续测试支持；无AFF不加分。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "星岛梦": {
       "stars": 2,
@@ -289,15 +323,17 @@
       "reason": "已有复测但性能表现偏弱，不作为主力高分推荐。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "熊猫cloud": {
-      "stars": 3,
+      "stars": 4,
       "status": "短期候选",
       "reason": "有节点测试与套餐复核，品牌变更及长期表现需跟踪。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "一翻云": {
       "stars": 2,
@@ -306,7 +342,8 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/19"
-      ]
+      ],
+      "confidence": "低"
     },
     "影子": {
       "stars": 2,
@@ -314,7 +351,8 @@
       "reason": "首轮不同节点结果差异较大，缺连续稳定性证据。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "宇宙云": {
       "stars": 1,
@@ -324,7 +362,8 @@
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/5",
         "https://github.com/everett7623/airport-recommendations-2026/issues/21"
-      ]
+      ],
+      "confidence": "中"
     },
     "AmyTelecom": {
       "stars": 2,
@@ -333,24 +372,27 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://linux.do/t/topic/2221355"
-      ]
+      ],
+      "confidence": "低"
     },
     "ANDY CLOUD": {
-      "stars": 3,
+      "stars": 4,
       "status": "短期候选",
       "reason": "有近期节点样本，低价不抵消持续稳定性证据缺口。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "Bitz Net": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "试用入口及公开探针可参考，缺独立节点性能样本。",
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://jichang.gg/rankings/all"
-      ]
+      ],
+      "confidence": "低"
     },
     "Bywave": {
       "stars": 2,
@@ -358,23 +400,26 @@
       "reason": "历史断线和售后争议未被连续恢复证据充分覆盖。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "COCODUCK VPN": {
-      "stars": 3,
+      "stars": 4,
       "status": "短期候选",
       "reason": "首轮测试提供参考，仍缺长期稳定性和售后证据。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "EdgeNova": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "新品牌的专线宣传缺可复核长期节点表现。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "Fastlink": {
       "stars": 3,
@@ -384,41 +429,46 @@
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/12",
         "https://github.com/everett7623/airport-recommendations-2026/issues/15"
-      ]
+      ],
+      "confidence": "中"
     },
     "FlowerCloud": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "历史知名度不能替代当前节点及售后证据。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "Gatern": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "订阅与一年期套餐已核对，缺独立连续性能记录。",
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://jichang.gg/rankings/all"
-      ]
+      ],
+      "confidence": "低"
     },
     "ImmTelecom": {
-      "stars": 3,
+      "stars": 4,
       "status": "短期候选",
       "reason": "有节点样本，社区历史故障与当前稳定性仍需复查。",
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://linux.do/t/topic/2221355"
-      ]
+      ],
+      "confidence": "中"
     },
     "Kuromis": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "高价及无AFF分类均不构成服务性能证据。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "M78光之国": {
       "stars": 3,
@@ -426,25 +476,28 @@
       "reason": "有初步测试，部分节点异常和出口环境限制需注意。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "MESL": {
-      "stars": 3,
+      "stars": 4,
       "status": "升级待核",
       "reason": "有样本及外部使用记录；升级兼容性与历史故障降低推荐确定性。",
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/xiaoming2028/MESL",
         "https://linux.do/t/topic/2495546"
-      ]
+      ],
+      "confidence": "中"
     },
     "Nexitally": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "官方接入资料明确，但本次缺近期可审计连续测试。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "Nice加速专线机场": {
       "stars": 2,
@@ -453,7 +506,8 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/25"
-      ]
+      ],
+      "confidence": "低"
     },
     "SKYLUMO": {
       "stars": 1,
@@ -462,7 +516,8 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/everett7623/airport-recommendations-2026/issues/7"
-      ]
+      ],
+      "confidence": "中"
     },
     "SsrDog": {
       "stars": 2,
@@ -470,7 +525,8 @@
       "reason": "起付周期与历史异常需核实，缺近期连续恢复证据。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "TAG": {
       "stars": 4,
@@ -479,7 +535,8 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/xiaoming2028/PAC"
-      ]
+      ],
+      "confidence": "中"
     },
     "TNTCloud": {
       "stars": 1,
@@ -487,15 +544,17 @@
       "reason": "上游记录节点与售后风险，单次视频可用不足以抵消。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "中"
     },
     "U1S1": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "解锁承诺与节点数量主要为宣传，缺近期独立测试。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     },
     "ViKing Links": {
       "stars": 2,
@@ -504,24 +563,27 @@
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://jichang.gg/rankings/all"
-      ]
+      ],
+      "confidence": "低"
     },
     "WgetCloud": {
-      "stars": 3,
+      "stars": 4,
       "status": "主力候选",
       "reason": "外部长期使用记录有参考价值，但缺本次同环境连续测试。",
       "sources": [
         "https://vpsknow.com/airport-recommendations",
         "https://github.com/xiaoming2028/PAC"
-      ]
+      ],
+      "confidence": "中"
     },
     "YToo": {
-      "stars": 2,
-      "status": "资料不足",
+      "stars": null,
+      "status": "待评",
       "reason": "地区覆盖和历史资料不足以支持当前高星推荐。",
       "sources": [
         "https://vpsknow.com/airport-recommendations"
-      ]
+      ],
+      "confidence": "低"
     }
   }
 }

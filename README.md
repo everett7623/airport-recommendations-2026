@@ -61,7 +61,7 @@
 
 ### 2026-10-08 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
-- ✅ **清理：** 已下架服务商：Sogo云、OneStep。
+- ✅ **清理：** 已下架服务商：Skylumo、M78光之国、超级飞鱼、Sogo云、OneStep。
 
 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）
 

@@ -58,6 +58,96 @@ function validateSource(source, sourceLabel) {
   }
 }
 
+function collectAirportSnapshot(data) {
+  const records = new Map();
+  const add = (scope, airport) => {
+    const normalizedUrl = String(airport?.url || '').trim().toLowerCase();
+    const normalizedName = String(airport?.name || '').trim().toLowerCase();
+    const key = normalizedUrl || `name:${normalizedName}`;
+    if (!key || key === 'name:') return;
+
+    if (!records.has(key)) records.set(key, { names: new Set(), variants: [] });
+    const record = records.get(key);
+    record.names.add(String(airport.name || '').trim());
+    record.variants.push({
+      scope,
+      coupon: airport.coupon || '',
+      description: airport.description || '',
+      features: [...(airport.features || [])].sort(),
+      lineType: airport.lineType || '',
+      accessType: airport.accessType || '',
+      pricing: airport.pricing || '',
+      tags: [...(airport.tags || [])].sort(),
+      isNew: Boolean(airport.isNew),
+      isEditorPick: Boolean(airport.isEditorPick),
+      isUnderMaintenance: Boolean(airport.isUnderMaintenance),
+    });
+  };
+
+  for (const [key, category] of Object.entries(data?.categories || {})) {
+    for (const airport of (category.airports || [])) add(`category:${key}`, airport);
+  }
+  for (const airport of (data?.no_aff || [])) add('no_aff', airport);
+  for (const airport of (data?.directory_only || [])) add('directory_only', airport);
+
+  return new Map([...records].map(([key, record]) => {
+    const variants = record.variants.sort((a, b) => JSON.stringify(a).localeCompare(JSON.stringify(b)));
+    return [key, {
+      name: [...record.names].sort()[0] || '',
+      signature: JSON.stringify(variants),
+    }];
+  }));
+}
+
+function computeSyncChanges(existing, output, version) {
+  if (!existing) return { summary: null, changed: false };
+
+  const before = collectAirportSnapshot(existing);
+  const after = collectAirportSnapshot(output);
+  const renamed = [];
+  const added = [];
+  const removed = [];
+  const adjusted = [];
+
+  for (const [key, current] of after) {
+    const previous = before.get(key);
+    if (!previous) {
+      added.push(current.name);
+    } else if (previous.name !== current.name) {
+      renamed.push({ from: previous.name, to: current.name });
+    } else if (previous.signature !== current.signature) {
+      adjusted.push(current.name);
+    }
+  }
+  for (const [key, previous] of before) {
+    if (!after.has(key)) removed.push(previous.name);
+  }
+
+  const previousDefunct = new Set((existing.defunct || []).map(item => item.name));
+  const currentDefunct = new Set((output.defunct || []).map(item => item.name));
+  const defunctAdded = [...currentDefunct].filter(name => !previousDefunct.has(name));
+  const defunctRemoved = [...previousDefunct].filter(name => !currentDefunct.has(name));
+  const hasChanges = [added, removed, renamed, adjusted, defunctAdded, defunctRemoved]
+    .some(items => items.length > 0);
+
+  if (!hasChanges) {
+    return { summary: existing.last_sync_changes || null, changed: false };
+  }
+  return {
+    changed: true,
+    summary: {
+      version,
+      added: added.sort(),
+      removed: removed.sort(),
+      renamed: renamed.sort((a, b) => a.from.localeCompare(b.from)),
+      adjusted: adjusted.sort(),
+      defunctAdded: defunctAdded.sort(),
+      defunctRemoved: defunctRemoved.sort(),
+      notes: [],
+    },
+  };
+}
+
 async function fetchFromRawUrl() {
   if (!ASTRO_URL) throw new Error('VPSKNOW_ASTRO_URL is not configured');
   log(`Fetching configured VPSKnow Astro URL`);
@@ -435,6 +525,9 @@ async function main() {
     }),
   };
 
+  const syncChangeResult = computeSyncChanges(existing, output, version);
+  if (syncChangeResult.summary) output.last_sync_changes = syncChangeResult.summary;
+
   // 9. Write or dry-run
   if (dryRun) {
     log('\n📋 DRY RUN — would write:', 'header');
@@ -464,26 +557,15 @@ async function main() {
 
   // 10. Diff summary
   if (existing) {
-    const existingNames = new Set();
-    for (const cat of Object.values(existing.categories || {})) {
-      for (const a of (cat.airports || [])) existingNames.add(a.name);
+    const changes = syncChangeResult.summary;
+    if (syncChangeResult.changed) {
+      if (changes.added.length) log(`\n  🆕 New: ${changes.added.join(', ')}`, 'info');
+      if (changes.removed.length) log(`  🗑️  Removed: ${changes.removed.join(', ')}`, 'warn');
+      if (changes.renamed.length) log(`  🏷️  Renamed: ${changes.renamed.map(item => `${item.from} → ${item.to}`).join(', ')}`, 'info');
+      if (changes.adjusted.length) log(`  🔄 Adjusted: ${changes.adjusted.join(', ')}`, 'info');
+    } else {
+      log(`\n  No airport content changes — preserving the latest effective change summary.`, 'info');
     }
-    for (const a of (existing.no_aff || [])) existingNames.add(a.name);
-    for (const a of (existing.directory_only || [])) existingNames.add(a.name);
-
-    const newNames = new Set();
-    for (const cat of Object.values(output.categories)) {
-      for (const a of cat.airports) newNames.add(a.name);
-    }
-    for (const a of output.no_aff) newNames.add(a.name);
-    for (const a of (output.directory_only || [])) newNames.add(a.name);
-
-    const added = [...newNames].filter(n => !existingNames.has(n));
-    const removed = [...existingNames].filter(n => !newNames.has(n));
-
-    if (added.length) log(`\n  🆕 New: ${added.join(', ')}`, 'info');
-    if (removed.length) log(`  🗑️  Removed: ${removed.join(', ')}`, 'warn');
-    if (!added.length && !removed.length) log(`\n  No airports added or removed — data updated in-place.`, 'info');
   }
 
   loaded.cleanup?.();

@@ -178,9 +178,32 @@ function generateFullReadme(data) {
   const dateStr = data.version || '2026-06';
   lines.push(`### ${dateStr} 更新`);
   lines.push(`- ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。`);
+  const changes = data.last_sync_changes;
+  const changeVersion = changes?.version && changes.version !== dateStr ? `（${changes.version}）` : '';
+  if (changes?.added?.length) {
+    lines.push(`- 🆕 **新增${changeVersion}：** ${changes.added.join('、')}。`);
+  }
+  if (changes?.renamed?.length) {
+    lines.push(`- 🏷️ **更名${changeVersion}：** ${changes.renamed.map(item => `${item.from} → ${item.to}`).join('；')}。`);
+  }
+  if (changes?.adjusted?.length) {
+    lines.push(`- 🔄 **调整${changeVersion}：** ${changes.adjusted.join('、')} 的资料、分类或运营状态已更新。`);
+  }
+  for (const note of (changes?.notes || [])) {
+    lines.push(`- ⚠️ **状态调整${changeVersion}：** ${note}。`);
+  }
+  if (changes?.removed?.length) {
+    lines.push(`- 🧹 **清理${changeVersion}：** ${changes.removed.join('、')} 已移出推荐目录。`);
+  }
+  if (changes?.defunctAdded?.length) {
+    lines.push(`- ⛔ **新增下架${changeVersion}：** ${changes.defunctAdded.join('、')}。`);
+  }
+  if (changes?.defunctRemoved?.length) {
+    lines.push(`- ♻️ **恢复收录${changeVersion}：** ${changes.defunctRemoved.join('、')} 已移出正式下架记录。`);
+  }
   if (defunctAirports.length) {
     const defunctNames = defunctAirports.map(d => d.name).join('、');
-    lines.push(`- ✅ **清理：** 已下架服务商：${defunctNames}。`);
+    lines.push(`- ⛔ **当前正式下架记录：** ${defunctNames}。`);
   }
   lines.push('');
   lines.push('👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）');
@@ -224,23 +247,6 @@ function generateFullReadme(data) {
   if (data.no_aff?.length) {
     const names = data.no_aff.slice(0, 2).map(a => a.name).join('、');
     lines.push(`| 🔗 纯净推荐（无返利） | 无AFF/纯净 | ${firstPricing(data.no_aff)} | ${names} | [查看详情](#${NO_AFF_ANCHOR}) |`);
-  }
-  lines.push('');
-  lines.push('---');
-  lines.push('');
-
-  // Editor picks — place the user's primary recommendations after the guide.
-  const editorPicks = getAllAirports(data).filter(a => a.isEditorPick);
-  lines.push('## 🏆 本期主推机场');
-  lines.push('');
-  lines.push('以下条目按当前编辑标记置于页面最前，仍建议先月付或试用：');
-  lines.push('');
-  lines.push(`**${editorPicks.map(a => a.name).join('、')}**`);
-  lines.push('');
-  lines.push('| 机场 | 类型 | 起步价 | 直达 |');
-  lines.push('| --- | --- | --- | --- |');
-  for (const a of editorPicks) {
-    lines.push(`| **${a.name}** | ${a.lineType || '-'} | ${a.pricing || '-'} | [直达](${a.url}) |`);
   }
   lines.push('');
   lines.push('---');

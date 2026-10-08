@@ -5,6 +5,26 @@
 // ─────────────────────────────────────────────────────────────────────────────
 {
   "version": "2026-10-08",
+  "last_sync_changes": {
+    "version": "2026-10-08",
+    "added": [],
+    "removed": [
+      "M78光之国",
+      "超级飞鱼"
+    ],
+    "renamed": [
+      {
+        "from": "喵喵VPN",
+        "to": "喵喵网络"
+      }
+    ],
+    "adjusted": [],
+    "defunctAdded": [],
+    "defunctRemoved": [],
+    "notes": [
+      "SKYLUMO 转入风险观察，暂停作为正常推荐"
+    ]
+  },
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",

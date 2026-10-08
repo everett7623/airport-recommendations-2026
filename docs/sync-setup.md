@@ -16,6 +16,7 @@ VPSKnow 已配置的 source_ref（默认 main）
 
 - VPSKnow 上游是机场数据的编辑来源。上游变更必须先提交并推送到工作流实际读取的 `source_ref`；只存在于本地分支的修改不会被自动同步。
 - `data/airports.json` 是本仓库机场清单、分类、数量、接入方式、`no_aff`、`directory_only` 和 `defunct` 的单一数据源。
+- `data/airports.json.last_sync_changes` 保存最近一次有效内容调整摘要（新增、移出目录、更名、资料/状态调整及下架变化）；无差异同步保留该摘要，README 据此展示具体改动，而不是只刷新日期。
 - `README.md`、`README-SIMPLE.md` 和 `docs/blacklist.md` 是派生文件，不得手工维护当前版本、机场数量、分类、链接或下架名单。
 - `data/airports.json.version` 优先来自 VPSKnow 实际机场数据文件的 `// Updated: YYYY-MM-DD`，兼容页面文件头的 `// 更新时间: YYYY-MM-DD`；它表示上游数据版本，不是 GitHub Actions 执行日期。无法读取上游版本时同步必须失败，不能使用运行日期伪装成功。
 - 同步脚本可以继续解析 Astro 页面导入的 `src/data/airports.ts`。页面文件和数据文件必须在同一个上游提交中保持一致。
@@ -99,16 +100,17 @@ npm run validate
 1. 确认上游变更已经位于工作流实际读取的 ref，而不是仅在本地或其他分支。
 2. 确认 `data/airports.json.version` 与上游实际机场数据文件的日期一致。
 3. 核对新增、移除、分类迁移、`accessType`、`directory_only`、`no_aff` 和 `defunct` 数量。
-4. 确认 README 公告日期、精简版同步日期和 blacklist 数据版本一致。
-5. 运行：
+4. 核对 `last_sync_changes` 与本次实际新增、移除、更名、调整及下架变化一致；无差异同步不得清空最近一次有效摘要。
+5. 确认 README 公告日期、精简版同步日期和 blacklist 数据版本一致。
+6. 运行：
 
    ```bash
    npm run validate
    git diff --check
    ```
 
-6. 检查最终差异只包含预期数据、派生文档，以及本次确有必要的条件文档。
-7. 不提交 `_vpsknow/`、`data/backups/`、`.env`、token、私有仓库地址或其他本地同步产物。
+7. 检查最终差异只包含预期数据、派生文档，以及本次确有必要的条件文档。
+8. 不提交 `_vpsknow/`、`data/backups/`、`.env`、token、私有仓库地址或其他本地同步产物。
 
 可用以下命令快速核对版本展示：
 

@@ -21,6 +21,7 @@ const EXPECTED_CATEGORY_KEYS = ['free_trial', 'budget', 'balanced', 'premium', '
 const FORBIDDEN_CATEGORY_KEYS = ['payg', 'no_aff'];
 const DEFUNCT_FIELDS = ['name', 'defunctDate', 'lineType', 'note', 'pricingWas'];
 const ACCESS_TYPES = new Set(['universal', 'dedicated', 'both']);
+const SYNC_CHANGE_ARRAYS = ['added', 'removed', 'renamed', 'adjusted', 'defunctAdded', 'defunctRemoved', 'notes'];
 
 let errors = 0;
 let warnings = 0;
@@ -90,6 +91,24 @@ if (data.directory_only && !Array.isArray(data.directory_only)) {
 }
 if (data.defunct && !Array.isArray(data.defunct)) {
   err('Top-level defunct must be an array when present');
+}
+if (data.last_sync_changes) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(data.last_sync_changes.version || '')) {
+    err('last_sync_changes.version must use YYYY-MM-DD');
+  }
+  for (const field of SYNC_CHANGE_ARRAYS) {
+    if (!Array.isArray(data.last_sync_changes[field])) {
+      err(`last_sync_changes.${field} must be an array`);
+    }
+  }
+  for (const item of (data.last_sync_changes.renamed || [])) {
+    if (!isNonEmptyString(item?.from) || !isNonEmptyString(item?.to)) {
+      err('last_sync_changes.renamed entries require non-empty from/to fields');
+    }
+  }
+  for (const note of (data.last_sync_changes.notes || [])) {
+    if (!isNonEmptyString(note)) err('last_sync_changes.notes entries must be non-empty strings');
+  }
 }
 
 let totalAirports = 0;

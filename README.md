@@ -61,7 +61,10 @@
 
 ### 2026-10-08 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
-- ✅ **清理：** 已下架服务商：Skylumo、M78光之国、超级飞鱼、Sogo云、OneStep。
+- 🏷️ **更名：** 喵喵VPN → 喵喵网络。
+- ⚠️ **状态调整：** SKYLUMO 转入风险观察，暂停作为正常推荐。
+- 🧹 **清理：** M78光之国、超级飞鱼 已移出推荐目录。
+- ⛔ **当前正式下架记录：** Sogo云、OneStep。
 
 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）
 
@@ -80,17 +83,6 @@
 | 🎮 游戏加速（低延迟） | 高端专线 | ¥72.45/月起 | ImmTelecom | [查看详情](#category-premium) |
 | 📦 轻度使用（备用） | 按量计费 | ¥20/100GB起（一次性） | 喵喵网络、魔戒 | [查看详情](#category-pay-as-you-go) |
 | 🔗 纯净推荐（无返利） | 无AFF/纯净 | ¥273/年起 | AmyTelecom、Kuromis | [查看详情](#category-no-aff) |
-
----
-
-## 🏆 本期主推机场
-
-以下条目按当前编辑标记置于页面最前，仍建议先月付或试用：
-
-****
-
-| 机场 | 类型 | 起步价 | 直达 |
-| --- | --- | --- | --- |
 
 ---
 

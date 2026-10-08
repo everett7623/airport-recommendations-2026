@@ -20,7 +20,7 @@ const ROOT = join(__dirname, '..');
 const JSON_PATH = join(ROOT, 'data', 'airports.json');
 
 // 手动维护的固定主推名单；其余内容仍完全来自 VPSKnow 自动同步。
-const FIXED_FEATURED_AIRPORTS = ['网际快车', '喵喵VPN', 'COCODUCK VPN', 'Fastlink', 'TAG', 'MESL', 'ImmTelecom', '肯の机', 'ViKing Links', 'WgetCloud'];
+const FIXED_FEATURED_AIRPORTS = ['网际快车', '喵喵网络', 'COCODUCK VPN', 'Fastlink', 'TAG', 'MESL', 'ImmTelecom', '肯の机', 'ViKing Links', 'WgetCloud'];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 

@@ -33,7 +33,7 @@
 | 灵猫网络 | 3/5 | 中 | 短期候选 | 首轮测试提供参考，出口属性和长期稳定性待查。 | [来源1](https://vpsknow.com/airport-recommendations) |
 | 榴莲云 | 2/5 | 中 | 体验受限 | 最新样本暴露视频表现及地区可用性限制。 | [来源1](https://vpsknow.com/airport-recommendations) |
 | 龙猫云 | 2/5 | 中 | 证据有限 | 单节点视频结果不能支持全线稳定或全解锁推荐。 | [来源1](https://vpsknow.com/airport-recommendations) |
-| 喵喵VPN | 3/5 | 中 | 备用候选 | 已核对一次性流量产品，节点及出口风险需持续跟踪。 | [来源1](https://vpsknow.com/airport-recommendations) |
+| 喵喵网络 | 3/5 | 中 | 备用候选 | 已核对一次性流量产品，节点及出口风险需持续跟踪。 | [来源1](https://vpsknow.com/airport-recommendations) |
 | 秒秒云 | 待评 | 低 | 待评 | 价格和协议信息可参考，缺可复核连续性能记录。 | [来源1](https://vpsknow.com/airport-recommendations) |
 | 魔戒 | 2/5 | 低 | 可用待核 | 按量定位适合备用，但公开状态探针异常需人工验证。 | [来源1](https://vpsknow.com/airport-recommendations)、[来源2](https://jichang.gg/rankings/all) |
 | 拼好连 | 3/5 | 中 | 短期候选 | 已有测试与接入资料，试用下线且部分节点失败。 | [来源1](https://vpsknow.com/airport-recommendations)、[来源2](https://github.com/everett7623/airport-recommendations-2026/issues/9) |

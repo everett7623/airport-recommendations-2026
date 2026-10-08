@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
 ![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-62%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-60%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 ![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)
 
@@ -45,7 +45,7 @@
 | 机场 | 类型 | 起步价 | 直达 |
 |---|---|---|---|
 | 网际快车 | Vless/Hysteria2 | 免费试用，¥6.8/20GB起 | [官网直达](https://go.uukk.de/wjkc) |
-| 喵喵VPN | Hysteria2直连 | ¥20/100GB起（一次性） | [官网直达](https://go.uukk.de/vpnmiao) |
+| 喵喵网络 | Hysteria2直连 | ¥20/100GB起（一次性） | [官网直达](https://go.uukk.de/vpnmiao) |
 | COCODUCK VPN | IEPL/BGP | ¥17/月 100GB起 | [官网直达](https://go.uukk.de/cocoduck) |
 | Fastlink | BGP/IPLC页面口径 | ¥20/月起 | [官网直达](https://go.uukk.de/fastlink) |
 | TAG | 线路架构待验证 | ¥114/月 500GB | [官网直达](https://go.uukk.de/tag) |
@@ -59,7 +59,7 @@
 
 ## 📢 最新活动与公告
 
-### 2026-10-05 更新
+### 2026-10-08 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
 - ✅ **清理：** 已下架服务商：Sogo云、OneStep。
 
@@ -73,12 +73,12 @@
 
 | 使用场景 | 推荐类型 | 参考价格 | 代表机场 | 直达链接 |
 |---------|---------|---------|---------|---------|
-| 🆓 先测试后购买 | 免费试用 | 免费 | 网际快车、喵喵VPN | [查看详情](#category-free-trial) |
+| 🆓 先测试后购买 | 免费试用 | 免费 | 网际快车、喵喵网络 | [查看详情](#category-free-trial) |
 | 💰 预算有限（学生党） | 入门经济 | ¥12/月 100GB起（年付¥77起） | 山水云、锦云、鲤云 | [查看详情](#category-budget) |
 | ⚡ 日常使用（看剧、办公） | 性价比均衡 | ¥20/月起 | Fastlink、极速Cloud、Nice加速专线机场 | [查看详情](#category-balanced) |
 | 👔 商务办公（高稳定） | 高端专线 | ¥114/月 500GB | TAG、MESL | [查看详情](#category-premium) |
 | 🎮 游戏加速（低延迟） | 高端专线 | ¥72.45/月起 | ImmTelecom | [查看详情](#category-premium) |
-| 📦 轻度使用（备用） | 按量计费 | ¥20/100GB起（一次性） | 喵喵VPN、魔戒 | [查看详情](#category-pay-as-you-go) |
+| 📦 轻度使用（备用） | 按量计费 | ¥20/100GB起（一次性） | 喵喵网络、魔戒 | [查看详情](#category-pay-as-you-go) |
 | 🔗 纯净推荐（无返利） | 无AFF/纯净 | ¥273/年起 | AmyTelecom、Kuromis | [查看详情](#category-no-aff) |
 
 ---
@@ -118,7 +118,7 @@
 
 ---
 
-### 2. 喵喵VPN
+### 2. 喵喵网络
 
 **🔗 官网：** [点击访问](https://go.uukk.de/vpnmiao)
 
@@ -128,7 +128,7 @@
 | **接入方式** | 通用订阅 + 专用客户端 |
 | **优惠券/码** | `优惠券: vpsknow` |
 | **核心特色** | 免费试用+¥8/月起，Emby影音权益，Hysteria2/美国0.1x，IP风险需注意 |
-| **简介** | 喵喵VPN 已补首轮测评，免费试用和 ¥8/月起入口降低试错成本，并提供 Emby 影音权益；具体开通方式、片库和套餐范围需在下单前核对。Hysteria2 节点、美国 0.1x 节点、AI/部分流媒体解锁和 YouTube 4K 首轮可用，但 HostPapa 机房 IP 风险较高，建议先短周期试用。 |
+| **简介** | 喵喵网络已补首轮测评，免费试用和 ¥8/月起入口降低试错成本，并提供 Emby 影音权益；具体开通方式、片库和套餐范围需在下单前核对。Hysteria2 节点、美国 0.1x 节点、AI/部分流媒体解锁和 YouTube 4K 首轮可用，但 HostPapa 机房 IP 风险较高，建议先短周期试用。 |
 | **起步价** | 免费试用，¥8/月起 |
 | **推荐指数** | ⭐⭐⭐ · 备用候选 · 证据中 |
 
@@ -667,7 +667,7 @@
 
 **用多少付多少，无过期时间，适合作为主力备份或轻度使用**
 
-### 1. 喵喵VPN
+### 1. 喵喵网络
 
 **🔗 官网：** [点击访问](https://go.uukk.de/vpnmiao)
 
@@ -677,7 +677,7 @@
 | **接入方式** | 通用订阅 + 专用客户端 |
 | **优惠券/码** | `优惠券: vpsknow` |
 | **核心特色** | ¥20/100GB起，流量永久有效，Hysteria2约20节点，最多3台设备 |
-| **简介** | 喵喵VPN 已补首轮测评。2026-08-16 套餐包含 ¥20/100GB、¥78/500GB 与 ¥128/1TB 一次性流量包，流量永久有效且不按月重置；基础包为全线 Hysteria2、约 20 个节点并支持最多 3 台设备，适合轻量使用或补充主力套餐。实际速度与节点范围以订阅下发和本地网络为准，既有机房 IP 风险仍需注意。 |
+| **简介** | 喵喵网络已补首轮测评。2026-08-16 套餐包含 ¥20/100GB、¥78/500GB 与 ¥128/1TB 一次性流量包，流量永久有效且不按月重置；基础包为全线 Hysteria2、约 20 个节点并支持最多 3 台设备，适合轻量使用或补充主力套餐。实际速度与节点范围以订阅下发和本地网络为准，既有机房 IP 风险仍需注意。 |
 | **起步价** | ¥20/100GB起（一次性） |
 | **推荐指数** | ⭐⭐⭐ · 备用候选 · 证据中 |
 
@@ -804,7 +804,7 @@
 | 机场名称 | 线路类型 | 最低价格 | 流媒体 / ChatGPT | 核心特色 | 推荐度 | 官网 |
 |---|---|---|---|---|---|---|
 | **网际快车** | Vless/Hysteria2 | 免费试用，¥6.8/20GB起 | 流媒体 ❓ · ChatGPT ✅ | `白嫖` `试用` `按量备用` | ⭐⭐⭐⭐ · 备用候选 · 证据中 | [直达](https://go.uukk.de/wjkc) |
-| **喵喵VPN** | Hysteria2直连 | ¥20/100GB起（一次性） | 流媒体 ❓ · ChatGPT ❓ | `Hysteria2` `不限时流量` `按量备用` | ⭐⭐⭐ · 备用候选 · 证据中 | [直达](https://go.uukk.de/vpnmiao) |
+| **喵喵网络** | Hysteria2直连 | ¥20/100GB起（一次性） | 流媒体 ❓ · ChatGPT ❓ | `Hysteria2` `不限时流量` `按量备用` | ⭐⭐⭐ · 备用候选 · 证据中 | [直达](https://go.uukk.de/vpnmiao) |
 | **山水云** | VLESS/通用订阅 | ¥12/月 100GB起（年付¥77起） | 流媒体 ❓ · ChatGPT ✅ | `低价入门` `通用订阅` `短周期先试` | ⭐⭐⭐ · 短期候选 · 证据中 | [直达](https://go.uukk.de/shanshuiyun) |
 | **锦云** | Vless节点 | ¥4.8/月 50GB起 | 流媒体 ✅ · ChatGPT ✅ | `AI解锁` `低价入门` `短周期先试` | ⭐⭐ · 争议待核 · 证据低 | [直达](https://go.uukk.de/jinyun) |
 | **鲤云** | VLESS节点 | ¥7/月 50GB起 | 流媒体 ✅ · ChatGPT ✅ | `AI解锁` `低价入门` `短周期先试` | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [直达](https://go.uukk.de/liyun) |
@@ -839,8 +839,6 @@
 | **Kuromis** | IEPL专线 | ¥34/月起 | 流媒体 ❓ · ChatGPT ❓ | `贵族机场` `IEPL专线` `高峰期稳定` | 待评 · 证据低 | [直达](https://go.uukk.de/kuromis) |
 | **WgetCloud** | BGP专线 | ¥79/月起 | 流媒体 ❓ · ChatGPT ❓ | `稳定` `企业级` `不差钱` | ⭐⭐⭐⭐ · 主力候选 · 证据中 | [直达](https://go.uukk.de/wgetcloud) |
 | **新华云** | 隧道中转 | ¥3.99/月起 | 流媒体 ✅ · ChatGPT ✅ | `高性价比` `不限设备` `学生党推荐` | 待评 · 证据低 | [直达](https://go.uukk.de/newhua99) |
-| **M78光之国** | 线路待核对 | ¥8/月 100GB起 | 流媒体 ✅ · ChatGPT ✅ | `VLESS` `AI解锁` `低价备用` | ⭐⭐⭐ · 备用候选 · 证据中 | [直达](https://go.uukk.de/m78) |
-| **超级飞鱼** | VLESS节点 | ¥6/月 80GB起 | 流媒体 ✅ · ChatGPT ✅ | `VLESS` `低价备用` `AI解锁` | ⭐⭐⭐ · 短期候选 · 证据中 | [直达](https://go.uukk.de/spflyfish) |
 | **Nexitally** | 高端专线 | ¥74.55/月起 | 流媒体 ✅ · ChatGPT ❓ | `总榜收录` `老牌` `流媒体` | 待评 · 证据低 | [直达](https://go.uukk.de/naiixi) |
 | **寰宇云** | 线路待重新核对 | 当前套餐待复核 | 流媒体 ❓ · ChatGPT ❓ | `运营变更` `总榜收录` `短周期测试` | ⭐⭐ · 运营待核 · 证据中 | [直达](https://go.uukk.de/huanyuyunvip) |
 | **YToo** | 多线国际加速 | ¥98/年起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `全球覆盖` `备用方案` | 待评 · 证据低 | [直达](https://go.uukk.de/ytoo) |
@@ -889,7 +887,7 @@
 
 ### Q1: 如何选择适合自己的机场？
 
-**A:** 根据使用场景选择：新手先试用网际快车、喵喵VPN；预算有限选山水云、锦云；日常主力选Fastlink、极速Cloud；商务办公选TAG、MESL、ImmTelecom；轻度使用或备用选喵喵VPN、魔戒。
+**A:** 根据使用场景选择：新手先试用网际快车、喵喵网络；预算有限选山水云、锦云；日常主力选Fastlink、极速Cloud；商务办公选TAG、MESL、ImmTelecom；轻度使用或备用选喵喵网络、魔戒。
 
 ### Q2: IPLC/IEPL 专线是什么？
 

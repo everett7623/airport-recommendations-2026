@@ -61,9 +61,7 @@
 
 ### 2026-10-08 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
-- 🏷️ **更名：** 喵喵VPN → 喵喵网络。
-- ⚠️ **状态调整：** SKYLUMO 转入风险观察，暂停作为正常推荐。
-- 🧹 **清理：** M78光之国、超级飞鱼 已移出推荐目录。
+- 🔄 **调整：** 可信云 的资料、分类或运营状态已更新。
 - ⛔ **当前正式下架记录：** Sogo云、OneStep。
 
 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）

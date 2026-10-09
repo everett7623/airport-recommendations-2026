@@ -1329,12 +1329,12 @@
       "url": "https://go.uukk.de/kexinyun",
       "coupon": "优惠码: kexinyun330",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230f766e'/%3e%3cpath d='M24 56 C28 40 43 31 57 38 C66 42 73 50 76 62 C69 57 62 55 54 58 C44 63 34 61 24 56 Z' fill='white' opacity='.96'/%3e%3ccircle cx='61' cy='45' r='5' fill='%230f766e'/%3e%3c/svg%3e",
-      "description": "可信云 2026-06-29 首轮测评曾显示 YouTube 4K 与常用网站可用；2026-09-09 收到付费用户全节点 Timeout 反馈，专用客户端截图与反馈一致。官网仍可打开，但代理服务当前不可用，已撤出重点推荐并等待人工复核。",
+      "description": "可信云 2026-10-08 第二轮美日节点恢复响应，美国节点 Speedtest 下载 116.69Mbps、上传 7.64Mbps，YouTube 4K 与 Netflix 实际播放可见，AI 页面可打开；已移出风险观察并保留 9 月故障历史。当前仍为专用客户端，IP 属性存在分歧，DNS/WebRTC 国内信号和长期稳定性待复查，建议先短期验证。",
       "features": [
-        "首轮测评已补",
-        "IPLC/IEPL专线",
+        "第二轮复测可用",
+        "4K/Netflix实播",
         "专用客户端",
-        "不提供通用订阅"
+        "先短期验证"
       ],
       "lineType": "IPLC/IEPL专线",
       "accessType": "dedicated",
@@ -1509,21 +1509,13 @@
   "last_sync_changes": {
     "version": "2026-10-08",
     "added": [],
-    "removed": [
-      "M78光之国",
-      "超级飞鱼"
+    "removed": [],
+    "renamed": [],
+    "adjusted": [
+      "可信云"
     ],
-    "renamed": [
-      {
-        "from": "喵喵VPN",
-        "to": "喵喵网络"
-      }
-    ],
-    "adjusted": [],
     "defunctAdded": [],
     "defunctRemoved": [],
-    "notes": [
-      "SKYLUMO 转入风险观察，暂停作为正常推荐"
-    ]
+    "notes": []
   }
 }

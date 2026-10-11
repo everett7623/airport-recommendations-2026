@@ -59,9 +59,9 @@
 
 ## 📢 最新活动与公告
 
-### 2026-10-08 更新
+### 2026-10-11 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
-- 🔄 **调整：** 可信云 的资料、分类或运营状态已更新。
+- 🔄 **调整（2026-10-08）：** 可信云 的资料、分类或运营状态已更新。
 - ⛔ **当前正式下架记录：** Sogo云、OneStep。
 
 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）

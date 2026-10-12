@@ -27,6 +27,7 @@
       "IPLC专线",
       "IPLC页面口径",
       "SD-WAN",
+      "VLESS + XHTTP",
       "VLESS/通用订阅",
       "VLESS节点",
       "Vless/Hysteria2",
@@ -988,6 +989,27 @@
   ],
   "directory_only": [
     {
+      "name": "Happy Vless",
+      "url": "https://go.uukk.de/happyvless",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230f766e'/%3e%3ctext x='50' y='62' font-size='24' font-weight='900' text-anchor='middle' fill='white' font-family='Arial,sans-serif'%3eHV%3c/text%3e%3c/svg%3e",
+      "description": "Happy Vless 仅保留在完整总榜供对比。当前可见 0 元 1GB 试用、¥9.9/月入门套餐，采用 VLESS + XHTTP 并覆盖多个地区；首轮 AI、YouTube 4K 与 IP 截图已补，长期稳定性仍待复查。",
+      "features": [
+        "完整总榜收录",
+        "0元1GB试用",
+        "VLESS+XHTTP",
+        "首轮证据已补"
+      ],
+      "lineType": "VLESS + XHTTP",
+      "accessType": "universal",
+      "pricing": "0元1GB试用；¥9.9/月起",
+      "tags": [
+        "总榜收录",
+        "试用",
+        "短周期先试"
+      ]
+    },
+    {
       "name": "Nexitally",
       "url": "https://go.uukk.de/naiixi",
       "coupon": "",
@@ -1507,13 +1529,13 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-10-08",
-    "added": [],
+    "version": "2026-10-11",
+    "added": [
+      "Happy Vless"
+    ],
     "removed": [],
     "renamed": [],
-    "adjusted": [
-      "可信云"
-    ],
+    "adjusted": [],
     "defunctAdded": [],
     "defunctRemoved": [],
     "notes": []

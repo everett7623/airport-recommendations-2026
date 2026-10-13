@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-10-11
+// 更新时间: 2026-10-13
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-10-11",
+  "version": "2026-10-13",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -42,6 +42,7 @@
       "多线国际加速",
       "海外中转",
       "海外公有云中转",
+      "线路待继续核对",
       "线路待重新核对",
       "线路架构待验证",
       "跨境专线",
@@ -131,7 +132,6 @@
       "多地区",
       "多地区节点",
       "大流量",
-      "学生党推荐",
       "客户端接入",
       "家庭共享",
       "性价比",
@@ -520,16 +520,16 @@
           "url": "https://go.uukk.de/nicecc",
           "coupon": "",
           "logoSvg": "/logo/airports/nicecc.png",
-          "description": "Nice加速专线机场主推月付套餐，当前 ¥12/月 30GB 起，并提供 100GB 至 800GB 月流量及一次性流量包。当前官网同时提供通用订阅快速导入与 Nice 专用客户端；首轮实测中台湾家宽、AI 与 YouTube 4K 可用，晚高峰长期稳定性仍需继续复查。",
+          "description": "Nice加速专线机场主推月付套餐，当前 ¥15/月 50GB 起，并提供 100GB 至 800GB 月流量及一次性流量包。当前官网同时提供通用订阅快速导入与 Nice 专用客户端；首轮实测中台湾家宽、AI 与 YouTube 4K 可用，晚高峰长期稳定性仍需继续复查。",
           "features": [
             "南北双通道专线",
             "AI首轮可用",
-            "月付¥12起",
+            "月付¥15起",
             "建议先月付"
           ],
           "lineType": "南北双通道专线",
           "accessType": "both",
-          "pricing": "¥12/月 30GB起",
+          "pricing": "¥15/月 50GB起",
           "tags": [
             "AI解锁",
             "美国台湾家宽",
@@ -965,34 +965,35 @@
         "企业级",
         "不差钱"
       ]
-    },
-    {
-      "name": "新华云",
-      "url": "https://go.uukk.de/newhua99",
-      "coupon": "",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23e11d48'/%3e%3cpath d='M30 65 A15 15 0 0 1 42 45 A22 22 0 0 1 80 55 A15 15 0 0 1 75 80 L35 80 A15 15 0 0 1 30 65' fill='white'/%3e%3c/svg%3e",
-      "description": "新华云，主打极致性价比的隧道中转机场。不限制设备数量。支持 Netflix、ChatGPT、Disney+ 等流媒体解锁，节点覆盖港日新美及土耳其等冷门区。",
-      "features": [
-        "不限设备数",
-        "月付¥3.99起",
-        "隧道加密",
-        "流媒体解锁"
-      ],
-      "lineType": "隧道中转",
-      "pricing": "¥3.99/月起",
-      "tags": [
-        "高性价比",
-        "不限设备",
-        "学生党推荐"
-      ]
     }
   ],
   "directory_only": [
     {
+      "name": "无忧链接",
+      "url": "https://wuyoulink.org/",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230f766e'/%3e%3ctext x='50' y='63' font-size='34' font-weight='800' text-anchor='middle' fill='white' font-family='Arial,sans-serif'%3eWY%3c/text%3e%3c/svg%3e",
+      "description": "无忧链接仅进入完整总榜供对比。当前套餐 ¥19/月 100GB 起，并提供年付与不限时流量包；使用专用客户端，首轮美国节点的 AI、YouTube 4K 与 Netflix 可用，但出口为机房 IP，DNS/UDP、晚高峰与长期稳定性仍需复查。",
+      "features": [
+        "完整总榜收录",
+        "专用客户端",
+        "AI/流媒体首轮可用",
+        "短周期先试"
+      ],
+      "lineType": "线路待继续核对",
+      "accessType": "dedicated",
+      "pricing": "¥19/月 100GB起",
+      "tags": [
+        "专用客户端",
+        "低价月付",
+        "短周期先试"
+      ]
+    },
+    {
       "name": "Happy Vless",
       "url": "https://go.uukk.de/happyvless",
       "coupon": "",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230f766e'/%3e%3ctext x='50' y='62' font-size='24' font-weight='900' text-anchor='middle' fill='white' font-family='Arial,sans-serif'%3eHV%3c/text%3e%3c/svg%3e",
+      "logoSvg": "/logo/airports/happyvless.png",
       "description": "Happy Vless 仅保留在完整总榜供对比。当前可见 0 元 1GB 试用、¥9.9/月入门套餐，采用 VLESS + XHTTP 并覆盖多个地区；首轮 AI、YouTube 4K 与 IP 截图已补，长期稳定性仍待复查。",
       "features": [
         "完整总榜收录",
@@ -1529,13 +1530,17 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-10-11",
+    "version": "2026-10-13",
     "added": [
-      "Happy Vless"
+      "无忧链接"
     ],
-    "removed": [],
+    "removed": [
+      "新华云"
+    ],
     "renamed": [],
-    "adjusted": [],
+    "adjusted": [
+      "Nice加速专线机场"
+    ],
     "defunctAdded": [],
     "defunctRemoved": [],
     "notes": []

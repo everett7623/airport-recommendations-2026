@@ -9,7 +9,7 @@
 >
 > 📖 **完整版（61 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-10-11 已同步 VPSKnow，当前收录 61 个推荐条目。
+> 🔄 **数据同步：** 2026-10-13 已同步 VPSKnow，当前收录 61 个推荐条目。
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
@@ -54,7 +54,7 @@
 | **唯兔云** | IPLC专线 | 专用客户端 | ¥6.6/月起（年付） | ✅ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/wty) |
 | **Fastlink** | BGP/IPLC页面口径 | 专用客户端 | ¥20/月起 | ❓ | ❓ | ⭐⭐⭐ · 恢复观察 · 证据中 | [进入](https://go.uukk.de/fastlink) |
 | **极速Cloud** | CN2 GIA/AS9929/CMIN2 | 通用订阅 | ¥15/月起 | ❓ | ❓ | ⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/jscloud) |
-| **Nice加速专线机场** | 南北双通道专线 | 通用订阅 + 专用客户端 | ¥12/月 30GB起 | ✅ | ✅ | ⭐⭐ · 争议待核 · 证据低 | [进入](https://go.uukk.de/nicecc) |
+| **Nice加速专线机场** | 南北双通道专线 | 通用订阅 + 专用客户端 | ¥15/月 50GB起 | ✅ | ✅ | ⭐⭐ · 争议待核 · 证据低 | [进入](https://go.uukk.de/nicecc) |
 | **极连云** | IPLC/IEPL专线 | 专用客户端 | ¥14.4/月起 | ✅ | ✅ | ⭐⭐ · 争议待核 · 证据低 | [进入](https://go.uukk.de/jly) |
 | **光速云** | IPLC专线 | 专用客户端 | ¥17/月起 | ✅ | ❓ | ⭐⭐ · 争议待核 · 证据低 | [进入](https://go.uukk.de/lightspeed) |
 | **全球云** | IPLC/IEPL专线 | 专用客户端 | ¥20/月起（年付¥99起） | ✅ | ✅ | ⭐⭐ · 争议待核 · 证据低 | [进入](https://go.uukk.de/globalyun) |
@@ -74,7 +74,7 @@
 | **AmyTelecom** | IEPL专线 | 通用订阅 | ¥273/年起 | ✅ | ❓ | ⭐⭐ · 可用待核 · 证据低 | [进入](https://go.uukk.de/amytele) |
 | **Kuromis** | IEPL专线 | 待核对 | ¥34/月起 | ❓ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/kuromis) |
 | **WgetCloud** | BGP专线 | 通用订阅 | ¥79/月起 | ❓ | ❓ | ⭐⭐⭐⭐ · 主力候选 · 证据中 | [进入](https://go.uukk.de/wgetcloud) |
-| **新华云** | 隧道中转 | 待核对 | ¥3.99/月起 | ✅ | ✅ | 待评 · 证据低 | [进入](https://go.uukk.de/newhua99) |
+| **无忧链接** | 线路待继续核对 | 专用客户端 | ¥19/月 100GB起 | ✅ | ✅ | 待评（新收录） | [进入](https://wuyoulink.org/) |
 | **Happy Vless** | VLESS + XHTTP | 通用订阅 | 0元1GB试用；¥9.9/月起 | ❓ | ❓ | 待评（新收录） | [进入](https://go.uukk.de/happyvless) |
 | **Nexitally** | 高端专线 | 通用订阅 + 专用客户端 | ¥74.55/月起 | ✅ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/naiixi) |
 | **寰宇云** | 线路待重新核对 | 待核对 | 当前套餐待复核 | ❓ | ❓ | ⭐⭐ · 运营待核 · 证据中 | [进入](https://go.uukk.de/huanyuyunvip) |

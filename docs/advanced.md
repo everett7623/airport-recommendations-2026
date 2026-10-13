@@ -1,303 +1,89 @@
-# 🚀 机场进阶使用指南 (Advanced)
+# 机场进阶使用指南
 
-> **适用人群：**  
-> ✅ 已经会导入订阅、能正常上网  
-> ✅ 想获得更稳定、更安全、更流畅的体验  
-> ✅ 想解锁 Netflix / TikTok / ChatGPT 并长期稳定使用  
->
-> 本文将介绍高级玩法：TUN 模式、分流规则、DNS 防泄露、双机场容灾等。
+> 技术资料核验：2026-10-13。本文是配置与排障指引，未进行本轮节点、泄露或性能实测。先完成 [客户端配置](client-setup.md)，再逐项修改并验证。
 
----
+## 规则、系统代理与 TUN
 
-## 📌 1. Rule 模式 vs Global 模式（核心区别）
+规则模式按配置决定直连、代理或拒绝，不能默认认为它总能准确区分国内外网站。全局模式适合短时对照排障，但也只作用于进入客户端的流量。
 
-### ✅ Rule 模式（推荐长期使用）
+系统代理供遵循系统设置的应用使用；TUN 通过虚拟网络接口与路由接收流量，适合需要接管其他应用的场景。覆盖范围受系统、权限、路由排除项、IPv6 和其他 VPN 影响，不能保证所有流量都被接管。开启后仍可按规则直连。
 
-- 国内网站直连（淘宝、B站、微信）
-- 国外网站走代理（Google、YouTube、ChatGPT）
-- 智能分流，体验最佳
+遇到局域网设备、企业 VPN 或虚拟机网络异常时，检查路由排除项与接口选择。DNS 劫持通常针对配置指定的 DNS 流量，不能默认接管应用自带的 DoH。字段及平台限制见 [mihomo TUN 文档](https://wiki.metacubex.one/config/inbound/tun/)。
 
-适合：99% 用户
+## DNS：分开检查映射、加密与出站路径
 
----
+- **Fake-IP**：以映射地址关联域名和连接，帮助分流；它不是 DNS 加密协议。
+- **DoH / DoT**：加密客户端到解析器的 DNS 查询；解析器仍能看到查询，加密也不代表查询一定经代理出站。
+- **DNS 路由**：确认应用实际使用哪个解析器、查询走直连还是代理，并检查节点域名解析所需的引导路径。
 
-### ⚠️ Global 模式（临时排查专用）
+只填 DNS 服务器 IP 不等于启用 DoH/DoT。浏览器安全 DNS、系统 DNS、客户端 DNS 与 IPv6 要一起排查。不要把一个 DNS 测试网页的结果当作所有应用都没有泄露的证明。
 
-- 所有流量都走代理
-- 国内网站会变慢甚至异常
+mihomo 的 `nameserver-policy`、`proxy-server-nameserver` 和 `respect-rules` 各有职责，后者依赖节点解析设置。优先理解现有订阅再修改，避免解析代理节点依赖尚未建立的代理连接。参数见 [DNS 配置](https://wiki.metacubex.one/config/dns/)；sing-box 用户须使用 [对应配置](https://sing-box.sagernet.org/configuration/)，不能直接复制 YAML 字段。
 
-适合：
-- 测试节点是否可用
-- 临时访问特殊服务
+## 节点选择与自动回退
 
----
+延迟、吞吐、丢包和目标服务可用性是不同指标。`url-test` 测量指定 URL 的响应延迟，不测下载带宽，也不证明流媒体或 AI 服务可用。`fallback` 按候选顺序选择健康节点，健康检查成功仍可能访问不了目标服务。
 
-## 🔥 2. ChatGPT / Netflix 专线分流策略
-
-很多机场会提供：
-
-- ChatGPT 专用节点
-- Netflix 原生 IP 节点
-
-### 推荐做法：策略组分流
-
-在 Clash 中创建：
-
-- AI 专线组
-- 流媒体专线组
-- 日常节点组
-
-示例逻辑：
-
-| 网站 | 走哪个组 |
-|------|----------|
-| chat.openai.com | AI 专线 |
-| netflix.com | 流媒体专线 |
-| Google / YouTube | 自动选择 |
-| 国内网站 | DIRECT |
-
-✅ 好处：不需要手动切换节点
-
----
-
-## 🌍 3. 节点选择技巧（延迟≠速度）
-
-### 新手误区
-
-- 看到 `20ms` 就认为最快  
-❌ 错
-
-延迟只是“响应速度”，不代表带宽。
-
-### 正确方法
-
-✅ 综合考虑：
-
-- 延迟（Latency）
-- 带宽（Speed Test）
-- 丢包率（Packet Loss）
-- 晚高峰稳定性
-
----
-
-### 推荐选节点顺序
-
-1. 专线 IPLC / IEPL
-2. 原生 IP（解锁流媒体）
-3. 冷门地区节点（更少人挤）
-
----
-
-## 🔄 4. 自动选择节点（懒人最强）
-
-Clash 策略组推荐：
-
-- `url-test`
-- `fallback`
-
-### url-test（自动测速选最快）
+下面仅是 mihomo 配置片段；须放入已有配置，替换节点名称并确认它们存在：
 
 ```yaml
-type: url-test
-url: http://www.gstatic.com/generate_204
-interval: 300
-````
-
-✅ 每 5 分钟自动测速切换最快节点
-
----
-
-### fallback（主节点挂了自动切换备用）
-
-适合“双机场容灾”。
-
----
-
-## 🛡️ 5. DNS 防泄露（非常重要）
-
-### 什么是 DNS 泄露？
-
-即使你开了代理，如果 DNS 请求走直连：
-
-* 运营商仍然知道你访问了什么网站
-
----
-
-### Clash 推荐 DNS 设置
-
-开启 Fake-IP：
-
-```yaml
-dns:
-  enable: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
+proxy-groups:
+  - name: 日常自动
+    type: url-test
+    proxies:
+      - 节点A
+      - 节点B
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 主备回退
+    type: fallback
+    proxies:
+      - 节点A
+      - 节点B
+    url: https://www.gstatic.com/generate_204
+    interval: 300
 ```
 
-✅ 大幅降低 DNS 泄露风险
+测试 URL 应在当前网络可达且返回预期结果。本片段未连接真实节点测试；见 [自动选择](https://wiki.metacubex.one/config/proxy-groups/url-test/)与 [自动回退](https://wiki.metacubex.one/config/proxy-groups/fallback/)。
 
----
+对游戏、语音和长期会话，优先验证实际 UDP 路径、抖动与断线，避免频繁切换出口。专线标签、地理距离和一次低延迟都不能替代晚高峰体验测试。
 
-### 推荐 DNS
+## 应用分流与双服务容灾
 
-* Cloudflare：1.1.1.1
-* Google：8.8.8.8
-* Quad9：9.9.9.9
+可为日常、流媒体和办公设置独立策略组，但应覆盖实际依赖的登录、API、静态资源等域名。只写一个首页域名通常不足以覆盖完整流程；用连接日志核对规则命中。
 
----
+多个订阅导入客户端不代表节点已自动合并。容灾需要把两组节点明确纳入同一策略，处理重名，并验证备用套餐有效；支持 `proxy-providers` 的配置可引用多组节点集合。不同服务商也可能共享上游线路，不能默认故障相互独立。
 
-## 🚀 6. TUN 模式（终极增强）
+## UDP、QUIC 与 IPv6 排障
 
-### 什么是 TUN？
+网页正常而语音、游戏或 Hysteria 2 节点失败时，分别检查本地网络是否允许 UDP、客户端是否接管该流量、协议与服务端是否支持转发。HTTP 代理测试成功不能证明 UDP 通路正常。Hysteria 2 使用 QUIC，限制 UDP 的网络会影响连接，详见 [协议说明](protocols.md)。
 
-TUN 模式 = 系统级接管所有流量
-包括：
+IPv6 要同时检查系统路由、客户端接管与 DNS AAAA 响应。临时关闭某项可用于定位，但不要把关闭 IPv6 作为所有用户的固定配置。每次只调整一项，保留恢复方式。
 
-* 游戏客户端
-* Telegram Desktop
-* UWP 应用
-* Steam / Battle.net
+## Git、终端和 IDE 代理验证
 
----
+系统代理不保证命令行自动使用它。下面使用本机 HTTP/mixed 端口 `7890` 举例，实际端口以客户端为准；无需永久修改全局配置。
 
-### Clash Verge 开启方法
-
-Settings → TUN Mode → Enable
-
-⚠️ 注意：
-
-* 某些杀毒软件会拦截
-* 开启后更耗电（笔记本用户）
-
----
-
-### 推荐场景
-
-✅ 游戏加速
-✅ Telegram / Discord 全局代理
-✅ 防止应用绕过代理
-
----
-
-## 🎮 7. 游戏加速最佳实践
-
-游戏最关键：
-
-* 延迟低
-* 丢包少
-* 节点稳定
-
-建议：
-
-* 优先选 IEPL/IPLC 专线
-* 避免高倍率节点（浪费流量）
-* 不要用“自动测速”，手动锁定稳定节点
-
----
-
-## 📦 8. 双机场容灾（高手必备）
-
-### 为什么要双机场？
-
-机场行业风险：
-
-* 临时维护
-* 节点被封
-* 跑路
-
-✅ 最佳组合：
-
-* 主力机场：专线（月付）
-* 备用机场：按量（永不过期）
-
----
-
-### 配置方法
-
-在 Clash 中导入两个订阅：
-
-* Provider A（主力）
-* Provider B（备用）
-
-策略组 fallback：
-
-* A 挂了自动切换到 B
-
----
-
-## 🔑 9. 订阅安全（防盗链）
-
-订阅链接 = 账号密码
-
-⚠️ 不要：
-
-* 发给朋友
-* 上传到网盘
-* 用陌生在线转换网站
-
----
-
-### 安全做法
-
-✅ 使用机场原生 Clash 订阅
-✅ 本地转换（Subconverter 自建）
-
----
-
-## 🛠️ 10. 自建订阅转换（高阶）
-
-如果你必须转换订阅：
-
-推荐自建 Subconverter：
-
-```bash
-docker run -d \
-  --name subconverter \
-  -p 25500:25500 \
-  tindy2013/subconverter
+```powershell
+# 显式使用 curl.exe，避免旧版 PowerShell 别名差异
+curl.exe --proxy http://127.0.0.1:7890 --connect-timeout 10 -I https://github.com
+# 仅对这次 HTTPS Git 操作设置代理
+git -c http.proxy=http://127.0.0.1:7890 ls-remote https://github.com/MetaCubeX/mihomo.git HEAD
 ```
 
-然后本地转换：
+SOCKS 端口可使用 curl 的 `--proxy socks5h://127.0.0.1:端口`，其中 `socks5h` 将域名解析交给代理。Git 的 `http.proxy` 不适用于 SSH remote；SSH、IDE 扩展、容器与 WSL 应各自确认设置，容器的 `127.0.0.1` 通常不是宿主机。不要以 `sslVerify=false` 或 `--insecure` 修复网络问题。
 
-```
-http://localhost:25500/sub?target=clash&url=你的订阅链接
-```
+参数来源：[curl 手册](https://curl.se/docs/manpage.html) · [Git 配置](https://git-scm.com/docs/git-config)。本轮未运行本地代理验证。
 
-✅ 不经过第三方网站，最安全
+## 订阅与本地转换安全
 
----
+订阅 URL 通常是获取节点凭据的访问令牌，需像凭据一样保护；怀疑泄露时重置并重新导入。不要提交到公开仓库、陌生在线转换网站或未经脱敏的日志。
 
-## 📊 11. 流量管理技巧（避免爆套餐）
+优先用原生兼容格式。必须转换时，选择受信任且仍维护的工具，核对输入与目标内核支持的字段；转换不能让旧内核支持新协议。自托管转换服务应限制访问、仅绑定需要的接口、固定经过核验的版本，并检查日志是否保存完整订阅。本机运行也不自动意味着工具不会联网或记录凭据。
 
-建议：
+## 升级与验证顺序
 
-* 视频选 1x 节点
-* 下载走低倍率节点
-* 不要用机场跑 PT / 大规模下载
+备份配置 → 阅读稳定版说明及 [sing-box 迁移指南](https://sing-box.sagernet.org/migration/)等对应内核文档 → 更新客户端与内核 → 检查配置解析 → 验证网页、DNS、UDP、IPv6 和主备切换。失败时保留脱敏日志并回退已知可用配置。
 
----
-
-## ✅ 12. 最佳实践总结（懒人版）
-
-新手进阶最推荐 5 条：
-
-1. 长期使用 Rule 模式
-2. 开启 Fake-IP DNS 防泄露
-3. 开启 TUN（需要全局接管时）
-4. 建立 AI 专线 + 流媒体专线策略组
-5. 主力 + 备用双机场容灾
-
----
-
-## 📚 延伸阅读
-
-更多文档请查看：
-
-* [docs/methodology.md](methodology.md) — 机场评分标准与筛选方法论
-* [docs/changelog.md](changelog.md) — 项目更新日志
-* [docs/faq.md](faq.md) — 新手常见问题解答
-* [docs/blacklist.md](blacklist.md) — 已下架服务商记录
-
----
-
-🚀 恭喜，你已经从新手进阶到“机场老司机”了！
+延伸阅读：[FAQ](faq.md) · [协议与兼容性](protocols.md) · [评分方法](methodology.md)。

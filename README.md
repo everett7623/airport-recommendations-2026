@@ -850,11 +850,12 @@
 - **Windows:** [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [V2RayN](https://github.com/2dust/v2rayN/releases)
 - **macOS:** [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases)  / [Surge](https://nssurge.com/)
 - **iOS:** Shadowrocket（小火箭）/ Quantumult X
-- **Android:** [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases) / [V2RayNG](https://github.com/2dust/v2rayNG/releases)
+- **Android:** [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) / [v2rayNG](https://github.com/2dust/v2rayNG/releases)
 
 ### 配置教程
 
 详细配置教程请查看对应开源指引或：[docs/client-setup.md](docs/client-setup.md)
+进阶排障与协议兼容性：[进阶指南](docs/advanced.md) · [协议说明](docs/protocols.md)。技术核验日期见各文档，与机场数据版本独立。
 
 > 🔗 **全平台客户端下载与保姆级配置教程 →** [VPSKnow 教程中心](https://www.vpsknow.com/guides)
 
@@ -868,7 +869,7 @@
 
 ### Q2: IPLC/IEPL 专线是什么？
 
-**A:** IPLC（国际专线）和IEPL（以太网专线）是物理专线，不过墙，稳定性最高。BGP是多线路智能切换。公网中转是普通线路，价格便宜。
+**A:** IPLC/IEPL 是线路服务术语，机场标签不能单独证明端到端专线或性能保障；BGP 是路由协议。实际稳定性和速度应在自己的网络与时间段验证，详见 FAQ。
 
 ### Q3: 机场会不会跑路？
 
@@ -876,7 +877,7 @@
 
 ### Q4: 协议怎么选？
 
-**A:** Hysteria2（UDP抗封锁，晚高峰抢带宽），VLESS（新一代主流，配合AnyTLS延长节点寿命），Trojan（伪装HTTPS流量，安全性高）。
+**A:** 先确认服务商参数、客户端内核和网络条件兼容。Hysteria 2 需要 UDP 通路；VLESS/REALITY、Trojan 与 AnyTLS 各有配置要求，不能按协议名称保证速度或抗封锁能力。参见 [协议与兼容性](docs/protocols.md)。
 
 完整FAQ请查看：[docs/faq.md](docs/faq.md)
 

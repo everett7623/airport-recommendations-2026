@@ -372,11 +372,12 @@ function generateFullReadme(data) {
   lines.push('- **Windows:** [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [V2RayN](https://github.com/2dust/v2rayN/releases)');
   lines.push('- **macOS:** [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases)  / [Surge](https://nssurge.com/)');
   lines.push('- **iOS:** Shadowrocket（小火箭）/ Quantumult X');
-  lines.push('- **Android:** [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases) / [V2RayNG](https://github.com/2dust/v2rayNG/releases)');
+  lines.push('- **Android:** [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) / [v2rayNG](https://github.com/2dust/v2rayNG/releases)');
   lines.push('');
   lines.push('### 配置教程');
   lines.push('');
   lines.push('详细配置教程请查看对应开源指引或：[docs/client-setup.md](docs/client-setup.md)');
+  lines.push('进阶排障与协议兼容性：[进阶指南](docs/advanced.md) · [协议说明](docs/protocols.md)。技术核验日期见各文档，与机场数据版本独立。');
   lines.push('');
   lines.push('> 🔗 **全平台客户端下载与保姆级配置教程 →** [VPSKnow 教程中心](https://www.vpsknow.com/guides)');
   lines.push('');
@@ -393,9 +394,9 @@ function generateFullReadme(data) {
   const payAsYouGoNames = listNames(cats.payAsYouGo?.airports, 2, '按量计费机场');
   const faqs = [
     ['Q1: 如何选择适合自己的机场？', `根据使用场景选择：新手先试用${freeTrialNames}；预算有限选${budgetNames}；日常主力选${balancedNames}；商务办公选${premiumNames}；轻度使用或备用选${payAsYouGoNames}。`],
-    ['Q2: IPLC/IEPL 专线是什么？', 'IPLC（国际专线）和IEPL（以太网专线）是物理专线，不过墙，稳定性最高。BGP是多线路智能切换。公网中转是普通线路，价格便宜。'],
+    ['Q2: IPLC/IEPL 专线是什么？', 'IPLC/IEPL 是线路服务术语，机场标签不能单独证明端到端专线或性能保障；BGP 是路由协议。实际稳定性和速度应在自己的网络与时间段验证，详见 FAQ。'],
     ['Q3: 机场会不会跑路？', '优先选择运营时间长的老牌机场，购买月付套餐避免大额年付，同时备用2-3个机场互为容灾。'],
-    ['Q4: 协议怎么选？', 'Hysteria2（UDP抗封锁，晚高峰抢带宽），VLESS（新一代主流，配合AnyTLS延长节点寿命），Trojan（伪装HTTPS流量，安全性高）。'],
+    ['Q4: 协议怎么选？', '先确认服务商参数、客户端内核和网络条件兼容。Hysteria 2 需要 UDP 通路；VLESS/REALITY、Trojan 与 AnyTLS 各有配置要求，不能按协议名称保证速度或抗封锁能力。参见 [协议与兼容性](docs/protocols.md)。'],
   ];
   for (const [q, a] of faqs) {
     lines.push(`### ${q}`);

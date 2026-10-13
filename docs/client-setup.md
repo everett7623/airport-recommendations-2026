@@ -1,148 +1,60 @@
-# 📚 机场客户端配置保姆级教程（全平台）
+# 机场客户端配置教程（全平台）
 
-> **前言：** 买机场后你需要“客户端 + 导入订阅”才能使用。  
-> 本文适用于 Clash / Shadowrocket / v2rayN 全平台。
+> 技术资料核验：2026-10-13。依据项目官方资料整理，未完成各平台安装与节点实测；菜单以安装版本为准。机场名单及套餐以 VPSKnow 同步结果为准。
 
----
+## 先确认订阅与客户端兼容
 
-## ✅ 核心步骤概览（所有平台通用）
+1. 在服务商控制台确认接入方式：通用订阅、专用客户端，还是两者均支持。仅支持专用客户端的服务不能默认导入第三方工具。
+2. 选择与客户端匹配的订阅格式。mihomo/Clash YAML、sing-box JSON 和节点分享链接不是同一种配置；支持某协议也不代表能读取所有订阅格式。
+3. 从项目官方 Releases 或应用商店下载，按系统与 CPU 架构选稳定版；安装包名称以发布页为准。
+4. 导入后选中配置，开启连接或系统代理，先验证一个节点，再调整规则与 DNS。
 
-1. 购买机场套餐
-2. 在官网复制订阅链接（Clash/V2Ray/Shadowrocket）
-3. 下载客户端
-4. 导入订阅
-5. 选择 Rule 模式
-6. 开启系统代理 → 完成
+协议与内核关系见 [协议与兼容性](protocols.md)。订阅 URL 通常含访问令牌，截图、日志和 Issue 中必须隐藏完整 URL。
 
----
+## Windows、macOS 与 Linux
 
-## 🖥️ Windows（Clash Verge 推荐）
+| 客户端 | 使用前确认 | 官方入口 |
+| --- | --- | --- |
+| Clash Verge Rev | 使用 mihomo 内核，适合兼容 YAML；确认随包内核支持订阅字段 | [项目与 Releases](https://github.com/clash-verge-rev/clash-verge-rev) |
+| v2rayN | 支持 Windows、macOS、Linux；根据节点选择内核，导入能力以当前版本为准 | [项目与 Releases](https://github.com/2dust/v2rayN) |
 
-### 1）下载安装
+### Clash Verge Rev
 
-下载地址：
-https://github.com/clash-verge-rev/clash-verge-rev/releases
+1. 在订阅/Profiles 页面添加兼容订阅 URL，下载并选中配置。
+2. 在代理页面选择规则（Rule）模式，确认策略组存在可用节点。
+3. 开启系统代理，访问目标网站；在连接或日志页面确认请求命中了预期策略。
+4. 应用不遵循系统代理时，再按需要启用 TUN 与客户端服务权限。TUN 仍执行分流规则，不等于全部连接都走代理。
+5. 更新订阅后检查当前配置是否仍选中。自定义规则优先使用客户端的覆写机制，避免订阅更新覆盖手工修改。
 
-选择：
+### v2rayN
 
-- `Clash.Verge_x64-setup.exe`
+添加订阅分组及 URL，更新订阅，选中节点并设为活动节点；按需要设置系统代理与路由。导入失败时检查分享格式、协议与所选内核，不能仅通过更改扩展名转换配置。TUN 设置参考项目当前说明。
 
----
+## Android
 
-### 2）导入订阅（最关键）
+| 客户端 | 适用配置 | 官方入口 |
+| --- | --- | --- |
+| Clash Meta for Android | 兼容 mihomo/Clash 的配置，新协议支持取决于随包内核 | [项目与 Releases](https://github.com/MetaCubeX/ClashMetaForAndroid) |
+| v2rayNG | 项目支持的节点与订阅格式，不直接套用 Clash YAML | [项目与 Releases](https://github.com/2dust/v2rayNG) |
 
-1. 打开 Clash Verge
-2. 左侧点击 **Profiles（订阅）**
-3. 粘贴订阅链接
-4. 点击 Import
-5. 必须单击配置卡片 → 高亮才生效
+导入后选中配置，启动并允许系统 VPN 授权。后台断连时检查电池优化与后台运行权限。Android 的 VPN 接口通常不能同时由多个普通 VPN 应用占用，避免同时启动多个接管网络的客户端。
 
----
+## iOS / iPadOS
 
-### 3）开启代理
+[Shadowrocket 官方 App Store 页面](https://apps.apple.com/us/app/shadowrocket/id932747118)提供应用信息；购买与下载取决于商店地区、设备及当前上架情况，不将某个地区账号作为固定前提。
 
-1. Proxies → 模式选择 Rule
-2. Settings → 打开 System Proxy
-3. 浏览器访问 Google 测试
+从服务商的一键导入入口添加订阅，或在应用的订阅添加功能中填入 URL，更新并选择节点；启动时允许 VPN 配置。确认当前应用支持该协议与分享格式，不能假定任意 Clash 配置都可完整转换。按规则配置使用，出现问题时检查实际命中的规则。
 
----
+## 验证与排障
 
-### 常见坑
+| 现象 | 优先检查 |
+| --- | --- |
+| 导入后没有节点 | 返回的是登录页、订阅过期、格式选错，或客户端不支持字段 |
+| 所有节点超时 | 套餐状态、系统时间、节点域名解析、本地网络及防火墙 |
+| 浏览器可用，终端不可用 | 终端是否使用代理；见 [进阶指南](advanced.md) |
+| TUN 后局域网或企业 VPN 异常 | 路由冲突、排除地址、DNS 与其他 VPN；先停用 TUN 恢复连接 |
+| 更新后配置报错 | 记录客户端与内核版本，检查迁移说明，恢复备份而非关闭证书验证 |
 
-- 时间必须自动同步
-- 不要同时开 VPN + Clash
-- 更新订阅最常解决问题
+升级前保存配置备份，更新后分别验证网页、DNS、需要 UDP 的应用与 IPv6 路径。分享日志前移除订阅令牌、密码和其他账户信息。
 
----
-
-## 🍎 macOS（ClashX Pro 推荐）
-
-### 导入订阅流程
-
-1. 菜单栏小猫图标
-2. Config → Remote Config → Manage
-3. Add → 粘贴订阅链接
-4. Outbound Mode → Rule
-5. 勾选 Set as System Proxy
-
-✅ 完成
-
----
-
-## 🤖 Android（Clash Meta 推荐）
-
-下载：
-https://github.com/MetaCubeX/ClashMetaForAndroid/releases
-
-### 导入订阅
-
-1. Profiles → +
-2. From URL → 粘贴订阅
-3. 保存并选中配置
-4. 返回主页 → Start
-
----
-
-### Android 常见问题
-
-- MIUI 需关闭省电限制
-- 首次启动必须允许 VPN 权限
-
----
-
-## 📱 iOS（Shadowrocket 小火箭）
-
-⚠️ 国区 App Store 无法下载，需要美区 ID。
-
-### 导入方式
-
-✅ 自动导入：
-
-1. Safari 打开机场官网
-2. 点击“一键导入 Shadowrocket”
-3. 点击打开即可
-
-✅ 手动导入：
-
-1. 复制订阅链接
-2. Shadowrocket → + → Subscribe
-3. 粘贴 URL 保存
-
----
-
-### 推荐设置
-
-- 模式选择 Config（智能分流）
-- 每周更新一次订阅
-
----
-
-## 🔄 如何更新订阅（必会）
-
-机场节点经常变动，必须更新：
-
-- Windows/Mac：Profiles → Update
-- iOS：下拉刷新或右上角刷新按钮
-- Android：配置页点击更新
-
----
-
-## ✅ 新手最佳使用模式
-
-推荐长期设置：
-
-- Rule 模式（国内直连，国外代理）
-- 自动选择节点（避免手动切换）
-- 主力 + 备用机场双保险
-
----
-
-## 🚀 下一步
-
-如果你想进阶：
-
-- TUN 模式（全局接管）
-- 分流规则（Netflix / ChatGPT 专线）
-- 自建订阅备份
-
-详见 [advanced.md](advanced.md)（后续补充）
+更多说明：[常见问题](faq.md) · [进阶指南](advanced.md) · [协议与兼容性](protocols.md)。

@@ -42,7 +42,6 @@
       "多线国际加速",
       "海外中转",
       "海外公有云中转",
-      "线路待继续核对",
       "线路待重新核对",
       "线路架构待验证",
       "跨境专线",
@@ -969,27 +968,6 @@
   ],
   "directory_only": [
     {
-      "name": "无忧链接",
-      "url": "https://wuyoulink.org/",
-      "coupon": "",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230f766e'/%3e%3ctext x='50' y='63' font-size='34' font-weight='800' text-anchor='middle' fill='white' font-family='Arial,sans-serif'%3eWY%3c/text%3e%3c/svg%3e",
-      "description": "无忧链接仅进入完整总榜供对比。当前套餐 ¥19/月 100GB 起，并提供年付与不限时流量包；使用专用客户端，首轮美国节点的 AI、YouTube 4K 与 Netflix 可用，但出口为机房 IP，DNS/UDP、晚高峰与长期稳定性仍需复查。",
-      "features": [
-        "完整总榜收录",
-        "专用客户端",
-        "AI/流媒体首轮可用",
-        "短周期先试"
-      ],
-      "lineType": "线路待继续核对",
-      "accessType": "dedicated",
-      "pricing": "¥19/月 100GB起",
-      "tags": [
-        "专用客户端",
-        "低价月付",
-        "短周期先试"
-      ]
-    },
-    {
       "name": "Happy Vless",
       "url": "https://go.uukk.de/happyvless",
       "coupon": "",
@@ -1531,16 +1509,12 @@
   ],
   "last_sync_changes": {
     "version": "2026-10-13",
-    "added": [
+    "added": [],
+    "removed": [
       "无忧链接"
     ],
-    "removed": [
-      "新华云"
-    ],
     "renamed": [],
-    "adjusted": [
-      "Nice加速专线机场"
-    ],
+    "adjusted": [],
     "defunctAdded": [],
     "defunctRemoved": [],
     "notes": []

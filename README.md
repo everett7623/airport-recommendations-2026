@@ -59,9 +59,9 @@
 
 ## 📢 最新活动与公告
 
-### 2026-10-13 更新
+### 2026-10-15 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
-- 🧹 **清理：** 无忧链接 已移出推荐目录。
+- 🧹 **清理（2026-10-13）：** 无忧链接 已移出推荐目录。
 - ⛔ **当前正式下架记录：** Sogo云、OneStep。
 
 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）

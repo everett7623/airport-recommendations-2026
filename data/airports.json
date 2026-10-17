@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-10-15
+// 更新时间: 2026-10-16
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-10-15",
+  "version": "2026-10-16",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -131,6 +131,7 @@
       "多地区",
       "多地区节点",
       "大流量",
+      "套餐涨价",
       "客户端接入",
       "家庭共享",
       "性价比",
@@ -155,6 +156,7 @@
       "白嫖",
       "短周期先试",
       "短周期复查",
+      "短周期核对",
       "短周期测试",
       "短周期验证",
       "稳定",
@@ -1474,20 +1476,20 @@
       "url": "https://go.uukk.de/runway",
       "coupon": "",
       "logoSvg": "/logo/airports/pinhaolian.png",
-      "description": "拼好连仅保留在完整总榜供对比。官方页面确认可从用户中心获取通用订阅链接，同时提供 Windows、macOS、Linux 和 Android 专用客户端；套餐从 ¥9.90/月起，AI、流媒体和 YouTube 4K 首轮可用，但部分节点超时，出口多为机房 IP。2026-09-17 核对官方免费试用已下线，推荐卡撤出免费试用专区，建议先用最低月付验证。",
+      "description": "2026-10-16 入门套餐已由 ¥9.90/月 100GB 改为 ¥19.90/月 50GB，价格优势不足；美国出口与 YouTube 4K 本次可用，但 DNS/WebRTC 有泄漏信号，真实 AI 对话与多日晚高峰待补。保留完整榜单供比较，新用户优先比较同预算替代。通用订阅 + 专用客户端。",
       "features": [
-        "完整总榜收录",
+        "套餐涨价减量",
         "通用订阅 + 专用客户端",
-        "AI/流媒体首轮可用",
-        "部分节点需复查"
+        "YouTube 4K复测",
+        "隐私待排查"
       ],
       "lineType": "BGP/IEPL口径",
       "accessType": "both",
-      "pricing": "¥9.90/月起",
+      "pricing": "¥19.90/月 50GB起",
       "tags": [
         "总榜收录",
-        "AI解锁",
-        "低价月付"
+        "套餐涨价",
+        "短周期核对"
       ]
     }
   ],
@@ -1508,13 +1510,13 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-10-13",
+    "version": "2026-10-16",
     "added": [],
-    "removed": [
-      "无忧链接"
-    ],
+    "removed": [],
     "renamed": [],
-    "adjusted": [],
+    "adjusted": [
+      "拼好连"
+    ],
     "defunctAdded": [],
     "defunctRemoved": [],
     "notes": []

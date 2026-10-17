@@ -9,7 +9,7 @@
 >
 > 📖 **完整版（60 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-10-15 已同步 VPSKnow，当前收录 60 个推荐条目。
+> 🔄 **数据同步：** 2026-10-16 已同步 VPSKnow，当前收录 60 个推荐条目。
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
@@ -98,7 +98,7 @@
 | **Bywave** | IEPL专线 | 待核对 | ¥30/月起 | ✅ | ❓ | ⭐⭐ · 风险观察 · 证据中 | [进入](https://go.uukk.de/ByWave) |
 | **TNTCloud** | IPLC页面口径 | 专用客户端 | ¥20/月 110GB起 | ❓ | ❓ | ⭐ · 暂停推荐 · 证据中 | [进入](https://go.uukk.de/tnt) |
 | **龙猫云** | IPLC专线 | 专用客户端 | ¥15/月 100GB起 | ❓ | ❓ | ⭐⭐ · 证据有限 · 证据中 | [进入](https://go.uukk.de/longmaoyun) |
-| **拼好连** | BGP/IEPL口径 | 通用订阅 + 专用客户端 | ¥9.90/月起 | ✅ | ✅ | ⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/runway) |
+| **拼好连** | BGP/IEPL口径 | 通用订阅 + 专用客户端 | ¥19.90/月 50GB起 | ❓ | ❓ | ⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/runway) |
 
 
 ---

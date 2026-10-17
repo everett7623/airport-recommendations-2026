@@ -59,9 +59,9 @@
 
 ## 📢 最新活动与公告
 
-### 2026-10-15 更新
+### 2026-10-16 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
-- 🧹 **清理（2026-10-13）：** 无忧链接 已移出推荐目录。
+- 🔄 **调整：** 拼好连 的资料、分类或运营状态已更新。
 - ⛔ **当前正式下架记录：** Sogo云、OneStep。
 
 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）
@@ -836,7 +836,7 @@
 | **Bywave** | IEPL专线 | ¥30/月起 | 流媒体 ✅ · ChatGPT ❓ | `争议预警` `EMBY` `进阶` | ⭐⭐ · 风险观察 · 证据中 | [直达](https://go.uukk.de/ByWave) |
 | **TNTCloud** | IPLC页面口径 | ¥20/月 110GB起 | 流媒体 ❓ · ChatGPT ❓ | `IPLC` `日本/美国节点` `风险观察` | ⭐ · 暂停推荐 · 证据中 | [直达](https://go.uukk.de/tnt) |
 | **龙猫云** | IPLC专线 | ¥15/月 100GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `IPLC专线` `短周期验证` | ⭐⭐ · 证据有限 · 证据中 | [直达](https://go.uukk.de/longmaoyun) |
-| **拼好连** | BGP/IEPL口径 | ¥9.90/月起 | 流媒体 ✅ · ChatGPT ✅ | `总榜收录` `AI解锁` `低价月付` | ⭐⭐⭐ · 短期候选 · 证据中 | [直达](https://go.uukk.de/runway) |
+| **拼好连** | BGP/IEPL口径 | ¥19.90/月 50GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `套餐涨价` `短周期核对` | ⭐⭐⭐ · 短期候选 · 证据中 | [直达](https://go.uukk.de/runway) |
 
 ---
 

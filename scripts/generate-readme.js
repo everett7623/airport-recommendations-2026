@@ -184,6 +184,32 @@ function generateQuickSelectionGuide(data, detailPath = '') {
   return lines;
 }
 
+// 分类详情与无 AFF 区共用参数布局，长简介放在表格外。
+function generateAirportDetails(airport) {
+  const lines = [];
+  if (airport.url) {
+    lines.push(`**🔗 官网：** [直达](${airport.url})`);
+    lines.push('');
+  }
+  lines.push('| 参数 | 说明 |');
+  lines.push('|:---|:---|');
+  lines.push(`| **价格** | ${markdownCell(airport.pricing || '待核对')} |`);
+  lines.push(`| **线路** | ${markdownCell(airport.lineType || '待核对')} |`);
+  lines.push(`| **接入** | ${accessTypeLabel(airport.accessType)} |`);
+  lines.push(`| **优惠** | ${airport.coupon ? `\`${markdownCell(airport.coupon)}\`` : '未提供'} |`);
+  lines.push(`| **特点** | ${markdownCell(airport.features?.length ? airport.features.join('，') : '未提供')} |`);
+  lines.push(`| **推荐** | ${recommendationRating(airport)} |`);
+  if (airport.description) {
+    lines.push('');
+    lines.push(`**简介：** ${airport.description}`);
+  }
+  if (airport.tags?.length) {
+    lines.push('');
+    lines.push(`**标签：** ${airport.tags.map(tag => `\`${tag}\``).join(' ')}`);
+  }
+  return lines;
+}
+
 // ─── Data Loading ────────────────────────────────────────────────────────────
 
 function loadData() {
@@ -339,21 +365,7 @@ function generateFullReadme(data) {
 
       lines.push(`### ${i + 1}. ${a.name}${badgeStr}`);
       lines.push('');
-      if (a.url) lines.push(`**🔗 官网：** [点击访问](${a.url})`);
-      lines.push('');
-      lines.push('| 项目 | 说明 |');
-      lines.push('|-----|------|');
-      lines.push(`| **线路类型** | ${a.lineType || '-'} |`);
-      if (a.accessType) lines.push(`| **接入方式** | ${accessTypeLabel(a.accessType)} |`);
-      if (a.coupon) lines.push(`| **优惠券/码** | \`${a.coupon}\` |`);
-      if (a.features?.length) lines.push(`| **核心特色** | ${a.features.join('，')} |`);
-      if (a.description) lines.push(`| **简介** | ${a.description} |`);
-      lines.push(`| **起步价** | ${a.pricing || '-'} |`);
-      lines.push(`| **推荐指数** | ${recommendationRating(a)} |`);
-      lines.push('');
-      if (a.tags?.length) {
-        lines.push(`**核心标签：** ${a.tags.map(t => `\`${t}\``).join(' ')}`);
-      }
+      lines.push(...generateAirportDetails(a));
       // SKYLUMO cross-reference
       if (a.name === 'SKYLUMO' && key === 'budget' && cats.payAsYouGo) {
         lines.push('');
@@ -386,21 +398,7 @@ function generateFullReadme(data) {
     for (const a of data.no_aff) {
       lines.push(`### ${a.name}`);
       lines.push('');
-      if (a.url) lines.push(`**🔗 官网：** [点击访问](${a.url})`);
-      lines.push('');
-      lines.push('| 项目 | 说明 |');
-      lines.push('|-----|------|');
-      lines.push(`| **线路类型** | ${a.lineType || '-'} |`);
-      if (a.accessType) lines.push(`| **接入方式** | ${accessTypeLabel(a.accessType)} |`);
-      if (a.coupon) lines.push(`| **优惠券/码** | \`${a.coupon}\` |`);
-      if (a.features?.length) lines.push(`| **核心特色** | ${a.features.join('，')} |`);
-      if (a.description) lines.push(`| **简介** | ${a.description} |`);
-      lines.push(`| **起步价** | ${a.pricing || '-'} |`);
-      lines.push(`| **推荐指数** | ${recommendationRating(a)} |`);
-      lines.push('');
-      if (a.tags?.length) {
-        lines.push(`**核心标签：** ${a.tags.map(t => `\`${t}\``).join(' ')}`);
-      }
+      lines.push(...generateAirportDetails(a));
       lines.push('');
       lines.push('---');
       lines.push('');

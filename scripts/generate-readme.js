@@ -135,14 +135,6 @@ function getDefunctAirports(data) {
   return Array.isArray(data.defunct) ? data.defunct : [];
 }
 
-function firstPricing(airports = [], fallback = '见详情') {
-  return airports.find(a => a?.pricing)?.pricing || fallback;
-}
-
-function airportPricing(airport, fallback = '见详情') {
-  return airport?.pricing || fallback;
-}
-
 const ACCESS_TYPE_LABELS = {
   universal: '通用订阅',
   dedicated: '专用客户端',
@@ -157,6 +149,39 @@ function markdownCell(value) {
   return String(value ?? '-')
     .replace(/\r?\n/g, '<br>')
     .replace(/\|/g, '\\|');
+}
+
+// 按同步源分类顺序选取代表机场，每家的价格与名称一一对应。
+function generateQuickSelectionGuide(data, detailPath = '') {
+  const cats = data.categories;
+  const groups = [
+    { scene: '🆓 先测试后购买', type: '免费试用', airports: cats.free_trial?.airports, count: 2, anchor: categoryAnchor('free_trial') },
+    { scene: '💰 预算有限（学生党）', type: '入门经济', airports: cats.budget?.airports, count: 3, anchor: categoryAnchor('budget') },
+    { scene: '⚡ 日常使用（看剧、办公）', type: '性价比均衡', airports: cats.balanced?.airports, count: 3, anchor: categoryAnchor('balanced') },
+    { scene: '👔 商务办公（专线候选）', type: '高端专线', airports: cats.premium?.airports, count: 2, anchor: categoryAnchor('premium') },
+    { scene: '📦 轻度使用（备用）', type: '按量计费', airports: cats.payAsYouGo?.airports, count: 2, anchor: categoryAnchor('payAsYouGo') },
+    { scene: '🔗 无AFF / 低AFF备选', type: '无AFF / 低AFF', airports: data.no_aff, count: 2, anchor: NO_AFF_ANCHOR },
+  ];
+  const lines = [
+    '## ⚡ 快速选择指南',
+    '',
+    '**按使用场景初筛，先核对套餐再试用：**',
+    '',
+    `> 数据版本：${markdownCell(data.version || '未知日期')}；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。`,
+    '',
+    '| 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情链接 |',
+    '|---------|---------|---------|---------|---------|',
+  ];
+  for (const group of groups) {
+    const airports = (group.airports || []).filter(a => !a.isUnderMaintenance).slice(0, group.count);
+    if (!airports.length) continue;
+    const prices = airports.map(a => `${markdownCell(a.name)}：${markdownCell(a.pricing || '见详情')}`).join('<br>');
+    const names = airports.map(a => markdownCell(a.name)).join('<br>');
+    lines.push(`| ${group.scene} | ${group.type} | ${prices} | ${names} | [查看详情](${detailPath}#${group.anchor}) |`);
+  }
+  lines.push('');
+  lines.push('> 一次性购买不等于永久有效，请核对对应套餐的有效期与流量重置规则。游戏用途需另测目标区服延迟和丢包。');
+  return lines;
 }
 
 // ─── Data Loading ────────────────────────────────────────────────────────────
@@ -288,42 +313,7 @@ function generateFullReadme(data) {
   lines.push('');
 
   // Quick selection guide
-  lines.push('## ⚡ 快速选择指南');
-  lines.push('');
-  lines.push('**根据你的需求，3秒找到最适合的机场：**');
-  lines.push('');
-  lines.push('| 使用场景 | 推荐类型 | 参考价格 | 代表机场 | 直达链接 |');
-  lines.push('|---------|---------|---------|---------|---------|');
-  if (cats.free_trial) {
-    const names = (cats.free_trial.airports || []).slice(0, 2).map(a => a.name).join('、');
-    lines.push(`| 🆓 先测试后购买 | 免费试用 | 免费 | ${names} | [查看详情](#${categoryAnchor('free_trial')}) |`);
-  }
-  if (cats.budget) {
-    const budgetAirports = cats.budget.airports || [];
-    const names = budgetAirports.slice(0, 3).map(a => a.name).join('、');
-    lines.push(`| 💰 预算有限（学生党） | 入门经济 | ${firstPricing(budgetAirports)} | ${names} | [查看详情](#${categoryAnchor('budget')}) |`);
-  }
-  if (cats.balanced) {
-    const balancedAirports = cats.balanced.airports || [];
-    const names3 = balancedAirports.slice(0, 3).map(a => a.name).join('、');
-    lines.push(`| ⚡ 日常使用（看剧、办公） | 性价比均衡 | ${firstPricing(balancedAirports)} | ${names3} | [查看详情](#${categoryAnchor('balanced')}) |`);
-  }
-  if (cats.premium) {
-    const premiumAirports = cats.premium.airports || [];
-    const names = premiumAirports.slice(0, 2).map(a => a.name).join('、');
-    const extra = premiumAirports[2];
-    lines.push(`| 👔 商务办公（高稳定） | 高端专线 | ${firstPricing(premiumAirports)} | ${names} | [查看详情](#category-premium) |`);
-    lines.push(`| 🎮 游戏加速（低延迟） | 高端专线 | ${airportPricing(extra, firstPricing(premiumAirports))} | ${extra?.name || names || '-'} | [查看详情](#category-premium) |`);
-  }
-  if (cats.payAsYouGo) {
-    const paygAirports = cats.payAsYouGo.airports || [];
-    const names = paygAirports.slice(0, 2).map(a => a.name).join('、');
-    lines.push(`| 📦 轻度使用（备用） | 按量计费 | ${firstPricing(paygAirports, '按需')} | ${names} | [查看详情](#${categoryAnchor('payAsYouGo')}) |`);
-  }
-  if (data.no_aff?.length) {
-    const names = data.no_aff.slice(0, 2).map(a => a.name).join('、');
-    lines.push(`| 🔗 纯净推荐（无返利） | 无AFF/纯净 | ${firstPricing(data.no_aff)} | ${names} | [查看详情](#${NO_AFF_ANCHOR}) |`);
-  }
+  lines.push(...generateQuickSelectionGuide(data));
   lines.push('');
   lines.push('---');
   lines.push('');
@@ -566,36 +556,7 @@ function generateSimpleReadme(data) {
   lines.push('');
 
   // Quick selection guide
-  lines.push('## ⚡ 快速选择指南');
-  lines.push('');
-  lines.push('| 使用场景 | 推荐类型 | 参考价格 | 首选推荐 | 备用推荐 |');
-  lines.push('|---------|---------|---------|---------|---------|');
-  if (cats.free_trial) {
-    const arr = cats.free_trial.airports || [];
-    const [a, b] = [arr[0], arr[1]];
-    lines.push(`| 🆓 先测试后购买 | 免费试用 | 免费 | ${a?.name || '-'} | ${b?.name || '-'} |`);
-  }
-  if (cats.budget) {
-    const arr = cats.budget.airports || [];
-    const [a, b] = [arr[0], arr[1]];
-    lines.push(`| 💰 预算有限（学生党） | 入门经济 | ${firstPricing(arr)} | ${a?.name || '-'} | ${b?.name || '-'} |`);
-  }
-  if (cats.balanced) {
-    const arr = cats.balanced.airports || [];
-    const [a, b, c] = [arr[0], arr[1], arr[2]];
-    lines.push(`| ⚡ 日常主力（看剧办公） | 性价比均衡 | ${firstPricing(arr)} | ${a?.name || '-'} / ${b?.name || '-'} | ${c?.name || '-'} |`);
-  }
-  if (cats.premium) {
-    const arr = cats.premium.airports || [];
-    const [a, b, c] = [arr[0], arr[1], arr[2]];
-    lines.push(`| 👔 商务办公（高稳定） | 高端专线 | ${firstPricing(arr)} | ${a?.name || '-'} / ${b?.name || '-'} | ${c?.name || '-'} |`);
-    lines.push(`| 🎮 游戏加速（低延迟） | 高端专线 | ${airportPricing(c, firstPricing(arr))} | ${c?.name || '-'} | ${a?.name || '-'} |`);
-  }
-  if (cats.payAsYouGo) {
-    const arr = cats.payAsYouGo.airports || [];
-    const [a, b] = [arr[0], arr[1]];
-    lines.push(`| 📦 轻度使用（备用） | 按量计费 | ${firstPricing(arr, '按需')} | ${a?.name || '-'} | ${b?.name || '-'} |`);
-  }
+  lines.push(...generateQuickSelectionGuide(data, 'README.md'));
   lines.push('');
   lines.push('---');
   lines.push('');

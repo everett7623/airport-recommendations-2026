@@ -40,20 +40,24 @@
 
 ## 🏆 本期主推机场
 
-以下名单按固定编辑顺序展示，机场详情、价格和状态随 VPSKnow 数据同步更新。
+以下按大众读者的使用场景与购买门槛排序。
 
-| 机场 | 类型 | 起步价 | 直达 |
-|---|---|---|---|
-| 网际快车 | Vless/Hysteria2 | 免费试用，¥6.8/20GB起 | [官网直达](https://go.uukk.de/wjkc) |
-| 喵喵网络 | Hysteria2直连 | ¥20/100GB起（一次性） | [官网直达](https://go.uukk.de/vpnmiao) |
-| COCODUCK VPN | IEPL/BGP | ¥17/月 100GB起 | [官网直达](https://go.uukk.de/cocoduck) |
-| Fastlink | BGP/IPLC页面口径 | ¥20/月起 | [官网直达](https://go.uukk.de/fastlink) |
-| TAG | 线路架构待验证 | ¥114/月 500GB | [官网直达](https://go.uukk.de/tag) |
-| MESL | IEPL专线 | ¥50/月起 | [官网直达](https://go.uukk.de/mesl) |
-| ImmTelecom | IEPL/IPLC专线 | ¥72.45/月起 | [官网直达](https://go.uukk.de/immtele) |
-| 肯の机 | CN2 GIA/9929/CMIN2 | ¥40/月 100GB起 | [官网直达](https://go.uukk.de/kendeji) |
-| ViKing Links | 专线+优化直连 | ¥72/月 500GB | [官网直达](https://go.uukk.de/vikinglinks) |
-| WgetCloud | BGP专线 | ¥79/月起 | [官网直达](https://go.uukk.de/wgetcloud) |
+- **日常主力高性价比**：选 **COCODUCK**（月付 17 元）或 **Fastlink**（月付 20 元）。
+- **延迟与晚高峰追求**：选 **肯の机**（三网直连天花板）或 **MESL**（纯专线）。
+- **常备防失联**：买一个 **喵喵网络**（20 元一次性不限时按量）作为主线波动时的救急备用。
+
+| 排序与定位 | 机场名称 | 类型/协议 | 起步价与规格 | 核心特点与定位描述 | 链接 |
+|---|---|---|---|---|---|
+| **No.1 性价比主力** | **COCODUCK VPN** | IEPL 专线 / BGP | **¥17/月**（100GB） | 专线月付门槛低，日常刷网页、看视频的首选中端主力。 | [官网直达](https://go.uukk.de/cocoduck) |
+| **No.2 硬核直连主力** | **肯の机** | CN2 GIA / 9929 / CMIN2（VLESS） | **¥35~40/月**（100GB） | 三网顶级优化直连，晚高峰延迟低、丢包少，适合游戏与代码玩家。 | [官网直达](https://go.uukk.de/kendeji) |
+| **No.3 亲民老牌** | **Fastlink** | BGP 入口 / IPLC | **¥20/月**（100GB） | 老牌大厂，月付门槛亲民，适合预算有限但想要稳定日常过渡的用户。 | [官网直达](https://go.uukk.de/fastlink) |
+| **No.4 最佳防失联备用** | **喵喵网络** | Hysteria2 协议直连 | **¥20 一次性**（100GB 不限时） | 新协议暴力抗封锁，流量永久不过期，强烈推荐作为防失联的第二备用。 | [官网直达](https://go.uukk.de/vpnmiao) |
+| **No.5 大流量/家庭合租** | **Viking Links** | 专线 + 优化直连 | **¥72/月**（500GB）或季付 ¥118 | 单月总价略高但给足 500GB，每 GB 均摊极便宜，适合 4K 影音与多设备。 | [官网直达](https://go.uukk.de/vikinglinks) |
+| **No.6 进阶专线** | **MESL** | IEPL 纯专线 | **¥49~50/月**（120~200GB） | 正规高规格专线，晚高峰稳定性强，适合对画质与连通率有进阶要求的用户。 | [官网直达](https://go.uukk.de/mesl) |
+| **No.7 超低门槛尝鲜** | **网际快车** | Vless / Hysteria2 | **免费试用 / ¥6.8 起**（20GB） | 门槛极低支持试用，但节点与流量规格较小，仅适合轻度网页浏览。 | [官网直达](https://go.uukk.de/wjkc) |
+| **No.8 全球全能冷门库** | **TAG** | IEPL 专线（Shadowsocks） | **¥114/月**（500GB）或季付 ¥185 | 节点覆盖 190+ 国家和地区，流媒体与特殊地区首选，但价格昂贵适合极客。 | [官网直达](https://go.uukk.de/tag) |
+| **No.9 唯云系高品质专线** | **ImmTelecom** | 唯云 IEPL/IPLC 专线 | **约 ¥70+/月**（500GB 起） | 线路品质优秀但基本以大容量起售，总支出较高，面向高端散客与小团队。 | [官网直达](https://go.uukk.de/immtele) |
+| **No.10 商务溢价机皇** | **WgetCloud** | BGP 专线（Trojan/SS） | **¥79~99/月**（基础版需长周期） | 线路稳定性顶尖，但无平价轻量包，普通个人用户自费购买意愿较低。 | [官网直达](https://go.uukk.de/wgetcloud) |
 
 ---
 

@@ -19,8 +19,79 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const JSON_PATH = join(ROOT, 'data', 'airports.json');
 
-// 手动维护的固定主推名单；其余内容仍完全来自 VPSKnow 自动同步。
-const FIXED_FEATURED_AIRPORTS = ['网际快车', '喵喵网络', 'COCODUCK VPN', 'Fastlink', 'TAG', 'MESL', 'ImmTelecom', '肯の机', 'ViKing Links', 'WgetCloud'];
+// 本期编辑推荐的排序与展示文案；直达链接从同步数据读取。
+const FIXED_FEATURED_AIRPORTS = [
+  {
+    name: 'COCODUCK VPN',
+    positioning: 'No.1 性价比主力',
+    lineType: 'IEPL 专线 / BGP',
+    pricing: '**¥17/月**（100GB）',
+    description: '专线月付门槛低，日常刷网页、看视频的首选中端主力。',
+  },
+  {
+    name: '肯の机',
+    positioning: 'No.2 硬核直连主力',
+    lineType: 'CN2 GIA / 9929 / CMIN2（VLESS）',
+    pricing: '**¥35~40/月**（100GB）',
+    description: '三网顶级优化直连，晚高峰延迟低、丢包少，适合游戏与代码玩家。',
+  },
+  {
+    name: 'Fastlink',
+    positioning: 'No.3 亲民老牌',
+    lineType: 'BGP 入口 / IPLC',
+    pricing: '**¥20/月**（100GB）',
+    description: '老牌大厂，月付门槛亲民，适合预算有限但想要稳定日常过渡的用户。',
+  },
+  {
+    name: '喵喵网络',
+    positioning: 'No.4 最佳防失联备用',
+    lineType: 'Hysteria2 协议直连',
+    pricing: '**¥20 一次性**（100GB 不限时）',
+    description: '新协议暴力抗封锁，流量永久不过期，强烈推荐作为防失联的第二备用。',
+  },
+  {
+    name: 'Viking Links',
+    positioning: 'No.5 大流量/家庭合租',
+    lineType: '专线 + 优化直连',
+    pricing: '**¥72/月**（500GB）或季付 ¥118',
+    description: '单月总价略高但给足 500GB，每 GB 均摊极便宜，适合 4K 影音与多设备。',
+  },
+  {
+    name: 'MESL',
+    positioning: 'No.6 进阶专线',
+    lineType: 'IEPL 纯专线',
+    pricing: '**¥49~50/月**（120~200GB）',
+    description: '正规高规格专线，晚高峰稳定性强，适合对画质与连通率有进阶要求的用户。',
+  },
+  {
+    name: '网际快车',
+    positioning: 'No.7 超低门槛尝鲜',
+    lineType: 'Vless / Hysteria2',
+    pricing: '**免费试用 / ¥6.8 起**（20GB）',
+    description: '门槛极低支持试用，但节点与流量规格较小，仅适合轻度网页浏览。',
+  },
+  {
+    name: 'TAG',
+    positioning: 'No.8 全球全能冷门库',
+    lineType: 'IEPL 专线（Shadowsocks）',
+    pricing: '**¥114/月**（500GB）或季付 ¥185',
+    description: '节点覆盖 190+ 国家和地区，流媒体与特殊地区首选，但价格昂贵适合极客。',
+  },
+  {
+    name: 'ImmTelecom',
+    positioning: 'No.9 唯云系高品质专线',
+    lineType: '唯云 IEPL/IPLC 专线',
+    pricing: '**约 ¥70+/月**（500GB 起）',
+    description: '线路品质优秀但基本以大容量起售，总支出较高，面向高端散客与小团队。',
+  },
+  {
+    name: 'WgetCloud',
+    positioning: 'No.10 商务溢价机皇',
+    lineType: 'BGP 专线（Trojan/SS）',
+    pricing: '**¥79~99/月**（基础版需长周期）',
+    description: '线路稳定性顶尖，但无平价轻量包，普通个人用户自费购买意愿较低。',
+  },
+];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -155,18 +226,23 @@ function generateFullReadme(data) {
   lines.push('---');
   lines.push('');
 
-  // Fixed featured list (manual order)
+  // 本期编辑推荐
   lines.push('## 🏆 本期主推机场');
   lines.push('');
-  lines.push('以下名单按固定编辑顺序展示，机场详情、价格和状态随 VPSKnow 数据同步更新。');
+  lines.push('以下按大众读者的使用场景与购买门槛排序。');
   lines.push('');
-  lines.push('| 机场 | 类型 | 起步价 | 直达 |');
-  lines.push('|---|---|---|---|');
+  lines.push('- **日常主力高性价比**：选 **COCODUCK**（月付 17 元）或 **Fastlink**（月付 20 元）。');
+  lines.push('- **延迟与晚高峰追求**：选 **肯の机**（三网直连天花板）或 **MESL**（纯专线）。');
+  lines.push('- **常备防失联**：买一个 **喵喵网络**（20 元一次性不限时按量）作为主线波动时的救急备用。');
+  lines.push('');
+  lines.push('| 排序与定位 | 机场名称 | 类型/协议 | 起步价与规格 | 核心特点与定位描述 | 链接 |');
+  lines.push('|---|---|---|---|---|---|');
   const airportByName = new Map(allAirports.map(a => [String(a.name || '').trim().toLowerCase(), a]));
-  for (const name of FIXED_FEATURED_AIRPORTS) {
-    const a = airportByName.get(name.trim().toLowerCase());
+  for (const featured of FIXED_FEATURED_AIRPORTS) {
+    const a = airportByName.get(featured.name.trim().toLowerCase());
     if (!a) continue;
-    lines.push(`| ${markdownCell(a.name)} | ${markdownCell(a.lineType || '-')} | ${markdownCell(a.pricing || '见详情')} | [官网直达](${a.url}) |`);
+    const link = a.url ? `[官网直达](${a.url})` : '-';
+    lines.push(`| **${markdownCell(featured.positioning)}** | **${markdownCell(featured.name)}** | ${markdownCell(featured.lineType)} | ${markdownCell(featured.pricing)} | ${markdownCell(featured.description)} | ${link} |`);
   }
   lines.push('');
   lines.push('---');

@@ -314,7 +314,7 @@ function generateFullReadme(data) {
   for (const featured of FIXED_FEATURED_AIRPORTS) {
     const a = airportByName.get(featured.name.trim().toLowerCase());
     if (!a) continue;
-    const link = a.url ? `[官网直达](${a.url})` : '-';
+    const link = a.url ? `[直达](${a.url})` : '-';
     lines.push(`| **${markdownCell(featured.positioning)}** | **${markdownCell(featured.name)}** | ${markdownCell(featured.lineType)} | ${markdownCell(featured.pricing)} | ${markdownCell(featured.description)} | ${link} |`);
   }
   lines.push('');

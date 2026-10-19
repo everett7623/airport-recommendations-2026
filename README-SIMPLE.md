@@ -20,14 +20,14 @@
 
 > 数据版本：2026-10-16；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
 
-| 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情链接 |
+| 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情 |
 |---------|---------|---------|---------|---------|
-| 🆓 先测试后购买 | 免费试用 | 网际快车：免费试用，¥6.8/20GB起<br>喵喵网络：免费试用，¥8/月起 | 网际快车<br>喵喵网络 | [查看详情](README.md#category-free-trial) |
-| 💰 预算有限（学生党） | 入门经济 | 山水云：¥12/月 100GB起（年付¥77起）<br>锦云：¥4.8/月 50GB起<br>鲤云：¥7/月 50GB起 | 山水云<br>锦云<br>鲤云 | [查看详情](README.md#category-budget) |
-| ⚡ 日常使用（看剧、办公） | 性价比均衡 | Fastlink：¥20/月起<br>极速Cloud：¥15/月起<br>Nice加速专线机场：¥15/月 50GB起 | Fastlink<br>极速Cloud<br>Nice加速专线机场 | [查看详情](README.md#category-balanced) |
-| 👔 商务办公（专线候选） | 高端专线 | TAG：¥114/月 500GB<br>MESL：¥50/月起 | TAG<br>MESL | [查看详情](README.md#category-premium) |
-| 📦 轻度使用（备用） | 按量计费 | 喵喵网络：¥20/100GB起（一次性）<br>魔戒：按GB计费 | 喵喵网络<br>魔戒 | [查看详情](README.md#category-pay-as-you-go) |
-| 🔗 无AFF / 低AFF备选 | 无AFF / 低AFF | AmyTelecom：¥273/年起<br>Kuromis：¥34/月起 | AmyTelecom<br>Kuromis | [查看详情](README.md#category-no-aff) |
+| 🆓 先测试后购买 | 免费试用 | 网际快车：免费试用，¥6.8/20GB起<br>喵喵网络：免费试用，¥8/月起 | 网际快车<br>喵喵网络 | [查看](README.md#category-free-trial) |
+| 💰 预算有限（学生党） | 入门经济 | 山水云：¥12/月 100GB起（年付¥77起）<br>锦云：¥4.8/月 50GB起<br>鲤云：¥7/月 50GB起 | 山水云<br>锦云<br>鲤云 | [查看](README.md#category-budget) |
+| ⚡ 日常使用（看剧、办公） | 性价比均衡 | Fastlink：¥20/月起<br>极速Cloud：¥15/月起<br>Nice加速专线机场：¥15/月 50GB起 | Fastlink<br>极速Cloud<br>Nice加速专线机场 | [查看](README.md#category-balanced) |
+| 👔 商务办公（专线候选） | 高端专线 | TAG：¥114/月 500GB<br>MESL：¥50/月起 | TAG<br>MESL | [查看](README.md#category-premium) |
+| 📦 轻度使用（备用） | 按量计费 | 喵喵网络：¥20/100GB起（一次性）<br>魔戒：按GB计费 | 喵喵网络<br>魔戒 | [查看](README.md#category-pay-as-you-go) |
+| 🔗 无AFF / 低AFF备选 | 无AFF / 低AFF | AmyTelecom：¥273/年起<br>Kuromis：¥34/月起 | AmyTelecom<br>Kuromis | [查看](README.md#category-no-aff) |
 
 > 一次性购买不等于永久有效，请核对对应套餐的有效期与流量重置规则。游戏用途需另测目标区服延迟和丢包。
 

@@ -169,7 +169,7 @@ function generateQuickSelectionGuide(data, detailPath = '') {
     '',
     `> 数据版本：${markdownCell(data.version || '未知日期')}；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。`,
     '',
-    '| 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情链接 |',
+    '| 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情 |',
     '|---------|---------|---------|---------|---------|',
   ];
   for (const group of groups) {
@@ -177,7 +177,7 @@ function generateQuickSelectionGuide(data, detailPath = '') {
     if (!airports.length) continue;
     const prices = airports.map(a => `${markdownCell(a.name)}：${markdownCell(a.pricing || '见详情')}`).join('<br>');
     const names = airports.map(a => markdownCell(a.name)).join('<br>');
-    lines.push(`| ${group.scene} | ${group.type} | ${prices} | ${names} | [查看详情](${detailPath}#${group.anchor}) |`);
+    lines.push(`| ${group.scene} | ${group.type} | ${prices} | ${names} | [查看](${detailPath}#${group.anchor}) |`);
   }
   lines.push('');
   lines.push('> 一次性购买不等于永久有效，请核对对应套餐的有效期与流量重置规则。游戏用途需另测目标区服延迟和丢包。');

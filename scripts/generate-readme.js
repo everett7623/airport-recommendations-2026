@@ -232,6 +232,9 @@ function generateFullReadme(data) {
   // TOC
   lines.push('## 📋 目录导航');
   lines.push('');
+  lines.push('- [📢 最新活动与公告](#-最新活动与公告)');
+  lines.push('- [⚡ 快速选择指南](#-快速选择指南)');
+  lines.push('- [🏆 本期主推机场](#-本期主推机场)');
   for (const [key, cat] of Object.entries(cats)) {
     lines.push(`- [${cat.icon} ${cat.title}](#${categoryAnchor(key)})`);
   }
@@ -247,28 +250,6 @@ function generateFullReadme(data) {
 
   // Risk warning
   lines.push('> ⚠️ **风险提示：** 机场行业存在停服/跑路风险，建议**优先月付**，避免大额年付。同时备用 2–3 个机场互为容灾。详见 [免责声明](#disclaimer) 与 [风险控制指南](docs/blacklist.md)。');
-  lines.push('');
-  lines.push('---');
-  lines.push('');
-
-  // 本期编辑推荐
-  lines.push('## 🏆 本期主推机场');
-  lines.push('');
-  lines.push('以下按大众读者的使用场景与购买门槛排序。');
-  lines.push('');
-  lines.push('- **日常主力高性价比**：选 **COCODUCK**（月付 17 元）或 **Fastlink**（月付 20 元）。');
-  lines.push('- **延迟与晚高峰追求**：选 **肯の机**（三网直连天花板）或 **MESL**（纯专线）。');
-  lines.push('- **常备防失联**：买一个 **喵喵网络**（20 元一次性不限时按量）作为主线波动时的救急备用。');
-  lines.push('');
-  lines.push('| 排序与定位 | 机场名称 | 类型/协议 | 起步价与规格 | 核心特点与定位描述 | 链接 |');
-  lines.push('|---|---|---|---|---|---|');
-  const airportByName = new Map(allAirports.map(a => [String(a.name || '').trim().toLowerCase(), a]));
-  for (const featured of FIXED_FEATURED_AIRPORTS) {
-    const a = airportByName.get(featured.name.trim().toLowerCase());
-    if (!a) continue;
-    const link = a.url ? `[官网直达](${a.url})` : '-';
-    lines.push(`| **${markdownCell(featured.positioning)}** | **${markdownCell(featured.name)}** | ${markdownCell(featured.lineType)} | ${markdownCell(featured.pricing)} | ${markdownCell(featured.description)} | ${link} |`);
-  }
   lines.push('');
   lines.push('---');
   lines.push('');
@@ -314,6 +295,28 @@ function generateFullReadme(data) {
 
   // Quick selection guide
   lines.push(...generateQuickSelectionGuide(data));
+  lines.push('');
+  lines.push('---');
+  lines.push('');
+
+  // 本期编辑推荐
+  lines.push('## 🏆 本期主推机场');
+  lines.push('');
+  lines.push('以下按大众读者的使用场景与购买门槛排序。');
+  lines.push('');
+  lines.push('- **日常主力高性价比**：选 **COCODUCK**（月付 17 元）或 **Fastlink**（月付 20 元）。');
+  lines.push('- **延迟与晚高峰追求**：选 **肯の机**（三网直连天花板）或 **MESL**（纯专线）。');
+  lines.push('- **常备防失联**：买一个 **喵喵网络**（20 元一次性不限时按量）作为主线波动时的救急备用。');
+  lines.push('');
+  lines.push('| 排序与定位 | 机场名称 | 类型/协议 | 起步价与规格 | 核心特点与定位描述 | 链接 |');
+  lines.push('|---|---|---|---|---|---|');
+  const airportByName = new Map(allAirports.map(a => [String(a.name || '').trim().toLowerCase(), a]));
+  for (const featured of FIXED_FEATURED_AIRPORTS) {
+    const a = airportByName.get(featured.name.trim().toLowerCase());
+    if (!a) continue;
+    const link = a.url ? `[官网直达](${a.url})` : '-';
+    lines.push(`| **${markdownCell(featured.positioning)}** | **${markdownCell(featured.name)}** | ${markdownCell(featured.lineType)} | ${markdownCell(featured.pricing)} | ${markdownCell(featured.description)} | ${link} |`);
+  }
   lines.push('');
   lines.push('---');
   lines.push('');

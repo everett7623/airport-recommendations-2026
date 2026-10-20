@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-10-16
+// 更新时间: 2026-10-20
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-10-16",
+  "version": "2026-10-20",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST专线",
@@ -363,27 +363,6 @@
           ]
         },
         {
-          "name": "EdgeNova",
-          "url": "https://go.uukk.de/edgenova",
-          "coupon": "优惠码: XK808",
-          "logoSvg": "/logo/airports/edgenova.png",
-          "description": "EdgeNova，2026年新晋高性能机场。全节点采用 IEPL 专线直连，绕过公网拥堵，确保在高峰时段依然拥有极低的延迟与超高的稳定性。完美流媒体与 AI 工具解锁，全套餐不限速、不限设备数、无流量倍率。",
-          "features": [
-            "IEPL专线低延迟",
-            "60+全球优质节点",
-            "AI工具全兼容",
-            "不限设备/不限速"
-          ],
-          "lineType": "IEPL专线",
-          "accessType": "dedicated",
-          "pricing": "¥86/年起（优惠后）",
-          "tags": [
-            "专线",
-            "新锐",
-            "全兼容"
-          ]
-        },
-        {
           "name": "秒秒云",
           "url": "https://go.uukk.de/miaomiaoyun",
           "coupon": "优惠券: j4u5eVFw（8折）",
@@ -422,27 +401,6 @@
             "VLESS",
             "低价入门",
             "短周期先试"
-          ]
-        },
-        {
-          "name": "瞬云",
-          "url": "https://go.uukk.de/sy",
-          "coupon": "优惠码: 20OFF（8折）",
-          "logoSvg": "/logo/airports/shunyun.webp",
-          "description": "瞬云采用直连加专线架构与 ANYCAST 网络，主打三网入口优化、流媒体与 AI 服务支持；入门套餐低至 ¥16/月，另有 ¥99/年限量小包，晚高峰表现仍建议短周期实测。",
-          "features": [
-            "ANYCAST专线",
-            "原生IP全解锁",
-            "多设备共享",
-            "7×24真人客服"
-          ],
-          "lineType": "ANYCAST专线",
-          "accessType": "both",
-          "pricing": "¥16/月起（优惠后）",
-          "tags": [
-            "原生节点",
-            "流媒体解锁",
-            "高性价比"
           ]
         },
         {
@@ -601,27 +559,6 @@
           ]
         },
         {
-          "name": "二猫云",
-          "url": "https://go.uukk.de/2maoyun",
-          "coupon": "优惠码: ermao888（8折）",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23d946ef'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e猫%3c/text%3e%3c/svg%3e",
-          "description": "二猫云，新晋高品质机场，全线采用 IEPL/IPLC 专线，晚高峰稳定不卡。稳定解锁流媒体与AI服务，不限速、不限制设备数量，仅提供全平台专用客户端，不提供通用订阅。",
-          "features": [
-            "IEPL/IPLC专线",
-            "专用客户端",
-            "不限设备数",
-            "抗封锁容灾"
-          ],
-          "lineType": "IEPL/IPLC专线",
-          "accessType": "dedicated",
-          "pricing": "¥89/年起",
-          "tags": [
-            "专用客户端",
-            "不限设备",
-            "新晋推荐"
-          ]
-        },
-        {
           "name": "一翻云",
           "url": "https://go.uukk.de/1flyun",
           "coupon": "优惠码: 1FLYYUN（9折）",
@@ -661,27 +598,6 @@
             "专用客户端",
             "IEPL专线",
             "流媒体解锁"
-          ]
-        },
-        {
-          "name": "U1S1",
-          "url": "https://go.uukk.de/u1s1",
-          "coupon": "优惠码: U1S1（85折）",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3ctext x='50' y='65' font-size='42' font-weight='900' text-anchor='middle' fill='white' font-family='Arial Black, Arial, sans-serif' letter-spacing='-1'>U1S1</text>%3c/svg%3e",
-          "description": "U1S1机场，完美解锁 TikTok、ChatGPT，以及 Netflix、Disney+、HBO 等全球主流流媒体平台。承诺晚高峰绝不降速，不限制IP地址与连接设备的数量，58 个节点畅连全球。新人特惠85折：U1S1",
-          "features": [
-            "不限设备与IP",
-            "千兆极速带宽",
-            "晚高峰不降速",
-            "流媒体/AI全解锁"
-          ],
-          "lineType": "中转专线",
-          "accessType": "dedicated",
-          "pricing": "¥18.8/月起",
-          "tags": [
-            "不限设备",
-            "千兆带宽",
-            "流媒体全解锁"
           ]
         },
         {
@@ -969,6 +885,90 @@
     }
   ],
   "directory_only": [
+    {
+      "name": "瞬云",
+      "url": "https://go.uukk.de/sy",
+      "coupon": "优惠码: 20OFF（8折）",
+      "logoSvg": "/logo/airports/shunyun.webp",
+      "description": "瞬云采用直连加专线架构与 ANYCAST 网络，主打三网入口优化、流媒体与 AI 服务支持；入门套餐低至 ¥16/月，另有 ¥99/年限量小包，晚高峰表现仍建议短周期实测。",
+      "features": [
+        "ANYCAST专线",
+        "原生IP全解锁",
+        "多设备共享",
+        "7×24真人客服"
+      ],
+      "lineType": "ANYCAST专线",
+      "accessType": "both",
+      "pricing": "¥16/月起（优惠后）",
+      "tags": [
+        "原生节点",
+        "流媒体解锁",
+        "高性价比"
+      ]
+    },
+    {
+      "name": "EdgeNova",
+      "url": "https://go.uukk.de/edgenova",
+      "coupon": "优惠码: XK808",
+      "logoSvg": "/logo/airports/edgenova.png",
+      "description": "EdgeNova，2026年新晋高性能机场。全节点采用 IEPL 专线直连，绕过公网拥堵，确保在高峰时段依然拥有极低的延迟与超高的稳定性。完美流媒体与 AI 工具解锁，全套餐不限速、不限设备数、无流量倍率。",
+      "features": [
+        "IEPL专线低延迟",
+        "60+全球优质节点",
+        "AI工具全兼容",
+        "不限设备/不限速"
+      ],
+      "lineType": "IEPL专线",
+      "accessType": "dedicated",
+      "pricing": "¥86/年起（优惠后）",
+      "tags": [
+        "专线",
+        "新锐",
+        "全兼容"
+      ]
+    },
+    {
+      "name": "二猫云",
+      "url": "https://go.uukk.de/2maoyun",
+      "coupon": "优惠码: ermao888（8折）",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23d946ef'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e猫%3c/text%3e%3c/svg%3e",
+      "description": "二猫云，新晋高品质机场，全线采用 IEPL/IPLC 专线，晚高峰稳定不卡。稳定解锁流媒体与AI服务，不限速、不限制设备数量，仅提供全平台专用客户端，不提供通用订阅。",
+      "features": [
+        "IEPL/IPLC专线",
+        "专用客户端",
+        "不限设备数",
+        "抗封锁容灾"
+      ],
+      "lineType": "IEPL/IPLC专线",
+      "accessType": "dedicated",
+      "pricing": "¥89/年起",
+      "tags": [
+        "专用客户端",
+        "不限设备",
+        "新晋推荐"
+      ]
+    },
+    {
+      "name": "U1S1",
+      "url": "https://go.uukk.de/u1s1",
+      "coupon": "优惠码: U1S1（85折）",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3ctext x='50' y='65' font-size='42' font-weight='900' text-anchor='middle' fill='white' font-family='Arial Black, Arial, sans-serif' letter-spacing='-1'>U1S1</text>%3c/svg%3e",
+      "description": "U1S1机场，完美解锁 TikTok、ChatGPT，以及 Netflix、Disney+、HBO 等全球主流流媒体平台。承诺晚高峰绝不降速，不限制IP地址与连接设备的数量，58 个节点畅连全球。新人特惠85折：U1S1",
+      "features": [
+        "不限设备与IP",
+        "千兆极速带宽",
+        "晚高峰不降速",
+        "流媒体/AI全解锁"
+      ],
+      "lineType": "中转专线",
+      "accessType": "dedicated",
+      "pricing": "¥18.8/月起",
+      "tags": [
+        "不限设备",
+        "千兆带宽",
+        "流媒体全解锁"
+      ]
+    },
     {
       "name": "Happy Vless",
       "url": "https://go.uukk.de/happyvless",
@@ -1510,12 +1510,15 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-10-16",
+    "version": "2026-10-20",
     "added": [],
     "removed": [],
     "renamed": [],
     "adjusted": [
-      "拼好连"
+      "EdgeNova",
+      "U1S1",
+      "二猫云",
+      "瞬云"
     ],
     "defunctAdded": [],
     "defunctRemoved": [],

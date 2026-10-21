@@ -270,12 +270,21 @@ function generateFullReadme(data) {
   lines.push('- [❓ 常见问题](#-常见问题)');
   lines.push(`- [📄 许可与利益披露](#${LICENSE_ANCHOR})`);
   lines.push('- [⚠️ 免责声明](#disclaimer)');
+  lines.push('- [🛡️ 风险反馈与下架记录](#-风险反馈与下架记录)');
   lines.push('');
   lines.push('---');
   lines.push('');
 
   // Risk warning
   lines.push('> ⚠️ **风险提示：** 机场行业存在停服/跑路风险，建议**优先月付**，避免大额年付。同时备用 2–3 个机场互为容灾。详见 [免责声明](#disclaimer) 与 [风险控制指南](docs/blacklist.md)。');
+  lines.push('');
+  lines.push('## 🛡️ 风险反馈与下架记录');
+  lines.push('');
+  lines.push('发现机场长期不可用、疑似跑路、异常扣费或其他风险，请使用 [⚠️ 下架 / 风险反馈模板](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md)，附上核验日期、复现范围和脱敏证据。一次超时不等于跑路，未核实的 Issue 不代表项目结论。');
+  lines.push('');
+  lines.push('- [查看风险反馈 Issue](https://github.com/everett7623/airport-recommendations-2026/issues?q=is%3Aissue+label%3A%22%E2%9A%A0%EF%B8%8F+%E9%A3%8E%E9%99%A9%E5%8F%8D%E9%A6%88%22)');
+  lines.push('- [查看已核实下架名单](docs/blacklist.md)');
+  lines.push('- [查看评分与证据规则](docs/methodology.md)');
   lines.push('');
   lines.push('---');
   lines.push('');
@@ -549,6 +558,7 @@ function generateSimpleReadme(data) {
   lines.push(`> 📖 **完整版（${allAirports.length} 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)`);
   lines.push('>');
   lines.push(`> 🔄 **数据同步：** ${data.version || '未知日期'} 已同步 VPSKnow，当前收录 ${allAirports.length} 个推荐条目。`);
+  lines.push('> 🛡️ **风险反馈：** [提交风险反馈](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md) · [查看已核实下架名单](docs/blacklist.md)');
   if (defunctAirports.length) {
     lines.push(`> ⛔ **下架记录：** ${defunctAirports.map(d => d.name).join('、')}（详见 [风险控制指南](docs/blacklist.md)）。`);
   }
@@ -611,6 +621,7 @@ function generateSimpleReadme(data) {
   lines.push('- **Android:** [Clash Meta](https://github.com/MetaCubeX/ClashMetaForAndroid)');
   lines.push('- **iOS:** Shadowrocket（美区）/ Quantumult X');
   lines.push('- **详细教程：** [docs/client-setup.md](docs/client-setup.md) | [VPSKnow 指导中心](https://www.vpsknow.com/guides)');
+  lines.push('- **风险反馈：** [提交下架/风险报告](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md) | [已核实下架名单](docs/blacklist.md)');
   lines.push('');
   lines.push('---');
   lines.push('');

@@ -241,7 +241,7 @@ function generateFullReadme(data) {
   lines.push('![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)');
   lines.push(`![Included](https://img.shields.io/badge/Included-${allAirports.length}%20Airports-informational)`);
   lines.push('![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)');
-  lines.push('![License](https://img.shields.io/github/license/everett7623/airport-recommendations-2026)');
+  lines.push('[![许可证：CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-lightgrey)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)');
   lines.push('');
   lines.push('> **📌 本项目定位：** 机场推荐索引与筛选工具 | 覆盖免费试用、入门经济、性价比、高端专线、按量计费等全类型 | 支持关键词搜索与标签筛选 | 每日自动同步 VPSKnow 数据');
   lines.push('> 如果这个项目对你有帮助，请点个 Star ⭐ 支持一下！');

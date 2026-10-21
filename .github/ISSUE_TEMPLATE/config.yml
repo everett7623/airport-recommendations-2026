@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 先看 README 与贡献指南
+    url: https://github.com/everett7623/airport-recommendations-2026/blob/main/CONTRIBUTING.md
+    about: 了解 VPSKnow 同步、证据要求、AFF 披露和隐私规则
+  - name: 🧰 技术问题与客户端排障
+    url: https://github.com/everett7623/airport-recommendations-2026/blob/main/docs/faq.md
+    about: 先查看客户端、DNS、TUN、协议和订阅排障文档

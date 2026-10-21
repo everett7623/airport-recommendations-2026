@@ -10,7 +10,7 @@
 > 📖 **完整版（61 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
 > 🔄 **数据同步：** 2026-10-20 已同步 VPSKnow，当前收录 61 个推荐条目。
-> 🛡️ **风险反馈：** [提交风险反馈](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md) · [查看已核实下架名单](docs/blacklist.md)
+> 🛡️ **风险反馈：** [提交服务问题](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=service-issue.md) · [提交疑似跑路/下架](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md) · [查看已核实下架名单](docs/blacklist.md)
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
@@ -118,7 +118,8 @@
 - **Android:** [Clash Meta](https://github.com/MetaCubeX/ClashMetaForAndroid)
 - **iOS:** Shadowrocket（美区）/ Quantumult X
 - **详细教程：** [docs/client-setup.md](docs/client-setup.md) | [VPSKnow 指导中心](https://www.vpsknow.com/guides)
-- **风险反馈：** [提交下架/风险报告](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md) | [已核实下架名单](docs/blacklist.md)
+- **服务问题：** [提交机场问题/故障](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=service-issue.md)
+- **疑似跑路：** [提交跑路/下架报告](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md) | [已核实下架名单](docs/blacklist.md)
 
 ---
 

@@ -36,6 +36,7 @@
       "中转专线",
       "优质直连",
       "全 IPLC 专线",
+      "全隧道中转页面口径",
       "公网中转",
       "公网中转/中继",
       "南北双通道专线",
@@ -991,6 +992,28 @@
       ]
     },
     {
+      "name": "顺畅网络",
+      "url": "https://go.uukk.de/scl168",
+      "coupon": "优惠码: 9999（宣传页截图，结账页复核）",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='22' fill='%230d9488'/%3e%3ctext x='50' y='64' font-size='42' font-weight='bold' text-anchor='middle' fill='white'%3e顺%3c/text%3e%3c/svg%3e",
+      "description": "顺畅网络新增 2026-10-20 首轮实测，仅进入完整总榜供对比。套餐从 ¥11/月 500GB、¥20.99/年 128GB/月起，Clash 通用订阅可见 VLESS / AnyTLS / Hysteria2；美国样本 Speedtest 下载 97.79Mbps、上传 3.72Mbps，YouTube 4K 可播放。出口 AS174 Cogent，IPPure 与 Scamalytics 对住宅/服务器属性结论分歧，并观察到 DNS 泄漏嫌疑，建议先月付验证。",
+      "features": [
+        "完整总榜收录",
+        "¥11月付500GB",
+        "通用订阅",
+        "IP属性需核对"
+      ],
+      "lineType": "全隧道中转页面口径",
+      "accessType": "universal",
+      "pricing": "¥11/月 500GB起",
+      "tags": [
+        "总榜收录",
+        "低价月付",
+        "通用订阅",
+        "短周期验证"
+      ]
+    },
+    {
       "name": "Nexitally",
       "url": "https://go.uukk.de/naiixi",
       "coupon": "",
@@ -1511,15 +1534,12 @@
   ],
   "last_sync_changes": {
     "version": "2026-10-20",
-    "added": [],
+    "added": [
+      "顺畅网络"
+    ],
     "removed": [],
     "renamed": [],
-    "adjusted": [
-      "EdgeNova",
-      "U1S1",
-      "二猫云",
-      "瞬云"
-    ],
+    "adjusted": [],
     "defunctAdded": [],
     "defunctRemoved": [],
     "notes": []

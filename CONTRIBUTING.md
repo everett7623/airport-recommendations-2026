@@ -7,7 +7,7 @@
 ## 📮 贡献方式
 
 ### 1. 推荐新机场
-如果你发现了一个质量不错但尚未收录的机场，请 [提交机场推荐 Issue](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=airport-request.md)，提供公开来源、核验日期和独立使用证据。必须明确你与机场的关系，并标注**无 AFF**或完整披露 AFF/推广返利；带推广链接但未披露的提交不进入推荐评估。
+如果你发现了一个质量不错但尚未收录的机场，请 [提交机场推荐 Issue](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=airport-request.md)，提供公开来源、核验日期和独立使用证据。必须明确你与机场的关系，并确认来源**无 AFF、无推广、无返利**；带推广返利的推荐不进入评估。
 
 - 机场名称与官网链接（不粘贴完整订阅令牌）
 - 线路类型（IPLC / IEPL / 中转 / 直连）
@@ -15,7 +15,7 @@
 - 是否支持流媒体解锁（Netflix / ChatGPT / TikTok）
 - 你的使用体验（稳定性、速度、网络、时间段和节点样本）
 
-无 AFF 的资料请使用 `🧼 无AFF链接` 标签；含推广返利的资料使用 `🔗 AFF已披露` 标签。标签、模板和证据要求见 [.github/ISSUE_TEMPLATE/README.md](.github/ISSUE_TEMPLATE/README.md)。
+机场推荐资料必须使用 `🧼 无AFF链接` 标签；含推广返利的推荐不受理。标签、模板和证据要求见 [.github/ISSUE_TEMPLATE/README.md](.github/ISSUE_TEMPLATE/README.md)。
 
 ### 2. 更新价格/优惠码
 如果你发现某机场的价格或优惠码已过期，请提交 Issue 或直接发起 Pull Request。
@@ -90,3 +90,4 @@
 ---
 
 感谢每一位贡献者！🚀
+

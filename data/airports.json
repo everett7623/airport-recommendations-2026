@@ -1,13 +1,13 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-10-20
+// 更新时间: 2026-10-21
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-10-20",
+  "version": "2026-10-21",
   "tags_vocabulary": {
     "line_type": [
-      "ANYCAST专线",
+      "ANYCAST页面口径",
       "AnyTLS/IEPL",
       "BGP/IEPL专线",
       "BGP/IEPL口径",
@@ -19,6 +19,7 @@
       "IEPL/BGP",
       "IEPL/IPLC+BGP页面口径",
       "IEPL/IPLC专线",
+      "IEPL/IPLC页面口径",
       "IEPL专线",
       "IEPL页面口径",
       "IPLC/BGP-IEPL页面口径",
@@ -35,7 +36,7 @@
       "专线+优化直连",
       "中转专线",
       "优质直连",
-      "全 IPLC 专线",
+      "全 IPLC 页面口径",
       "全隧道中转页面口径",
       "公网中转",
       "公网中转/中继",
@@ -312,7 +313,7 @@
             "本地联通下载8.56Mbps",
             "电信5G下载129Mbps"
           ],
-          "lineType": "全 IPLC 专线",
+          "lineType": "全 IPLC 页面口径",
           "accessType": "dedicated",
           "pricing": "¥90/年起（折前）",
           "tags": [
@@ -402,27 +403,6 @@
             "VLESS",
             "低价入门",
             "短周期先试"
-          ]
-        },
-        {
-          "name": "唯兔云",
-          "url": "https://go.uukk.de/wty",
-          "coupon": "优惠码: rabbit",
-          "logoSvg": "/logo/airports/weituyun.png",
-          "description": "唯兔云，主打高性价比 IPLC 专线。采用新 SS 协议，不限设备数且无倍率，稳定解锁流媒体与AI服务。年付 79.9 元（约 ¥6.6/月），另有不限时套餐可选。",
-          "features": [
-            "IPLC专线",
-            "不限设备数",
-            "流媒体/TikTok解锁",
-            "年付¥79.9起"
-          ],
-          "lineType": "IPLC专线",
-          "accessType": "dedicated",
-          "pricing": "¥6.6/月起（年付）",
-          "tags": [
-            "高性价比",
-            "流媒体",
-            "不限时可选"
           ]
         }
       ]
@@ -529,7 +509,7 @@
             "晚高峰不限速",
             "月付¥17起"
           ],
-          "lineType": "IPLC专线",
+          "lineType": "IPLC页面口径",
           "accessType": "dedicated",
           "pricing": "¥17/月起",
           "tags": [
@@ -550,97 +530,13 @@
             "晚高峰高冗余不卡顿",
             "轻量版年付99元起"
           ],
-          "lineType": "IPLC/IEPL专线",
+          "lineType": "IPLC/IEPL页面口径",
           "accessType": "dedicated",
           "pricing": "¥20/月起（年付¥99起）",
           "tags": [
             "流媒体",
             "专线",
             "高性价比"
-          ]
-        },
-        {
-          "name": "一翻云",
-          "url": "https://go.uukk.de/1flyun",
-          "coupon": "优惠码: 1FLYYUN（9折）",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f97316'/%3e%3cpath d='M30 70 L50 25 L70 70' fill='none' stroke='white' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M22 70 L78 70' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
-          "description": "一翻云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点 x1 倍率，晚高峰不限速。流媒体稳定解锁，年付版 ¥100/年，性价比突出。",
-          "features": [
-            "VLESS+IEPL专线",
-            "60+节点x1倍率",
-            "晚高峰不限速",
-            "年付¥100/年起"
-          ],
-          "lineType": "IEPL专线",
-          "accessType": "dedicated",
-          "pricing": "¥25/月起（年付¥100/年）",
-          "tags": [
-            "新晋推荐",
-            "流媒体解锁",
-            "专线稳定"
-          ]
-        },
-        {
-          "name": "快狸",
-          "url": "https://go.uukk.de/kuaili",
-          "coupon": "优惠码: vpsknow（8折）",
-          "logoSvg": "/logo/airports/kuaili.png",
-          "description": "快狸提供 VLESS 协议与企业级 IEPL 专线接入，支持三网优化分流、流媒体与 AI 服务。目前仅支持专用客户端，不提供通用订阅。",
-          "features": [
-            "IEPL专线接入",
-            "专用客户端",
-            "全线流媒体/AI解锁",
-            "晚高峰4K流畅"
-          ],
-          "lineType": "IEPL专线",
-          "accessType": "dedicated",
-          "pricing": "¥96/年起（折后）",
-          "tags": [
-            "专用客户端",
-            "IEPL专线",
-            "流媒体解锁"
-          ]
-        },
-        {
-          "name": "光年梯",
-          "url": "https://go.uukk.de/lightyearti",
-          "coupon": "",
-          "logoSvg": "/logo/airports/lightyearti.png",
-          "description": "光年梯, 新加坡团队运营的 IEPL SS 专线机场。全节点 1 倍率，晚高峰不限速，稳定解锁 ChatGPT 及流媒体。",
-          "features": [
-            "IEPL专线",
-            "全节点1倍率",
-            "7折优惠中",
-            "不限时套餐"
-          ],
-          "lineType": "IEPL专线",
-          "accessType": "dedicated",
-          "pricing": "¥18/月起",
-          "tags": [
-            "SS协议",
-            "稳定",
-            "新加坡背景"
-          ]
-        },
-        {
-          "name": "宇宙云",
-          "url": "https://go.uukk.de/yuzhoucloud",
-          "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3ccircle cx='50' cy='50' r='22' fill='none' stroke='white' stroke-width='5'/%3e%3ccircle cx='50' cy='50' r='8' fill='white'/%3e%3cellipse cx='50' cy='50' rx='38' ry='16' fill='none' stroke='white' stroke-width='3' transform='rotate(-30 50 50)'/%3e%3c/svg%3e",
-          "description": "宇宙云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点专线接入，晚高峰不限速4K秒开。流媒体稳定解锁，提供超值年付小包 ¥120/年，仅提供专用客户端一键连接，不提供通用订阅。",
-          "features": [
-            "VLESS+IEPL专线",
-            "60+节点x1倍率",
-            "晚高峰不限速",
-            "专用客户端"
-          ],
-          "lineType": "IEPL专线",
-          "accessType": "dedicated",
-          "pricing": "¥12.5/月起（年付¥96/年）",
-          "tags": [
-            "新晋推荐",
-            "流媒体解锁",
-            "专线稳定"
           ]
         }
       ]
@@ -887,6 +783,111 @@
   ],
   "directory_only": [
     {
+      "name": "唯兔云",
+      "url": "https://go.uukk.de/wty",
+      "coupon": "优惠码: rabbit",
+      "logoSvg": "/logo/airports/weituyun.png",
+      "description": "唯兔云，主打高性价比 IPLC 专线。采用新 SS 协议，不限设备数且无倍率，稳定解锁流媒体与AI服务。年付 79.9 元（约 ¥6.6/月），另有不限时套餐可选。",
+      "features": [
+        "IPLC专线",
+        "不限设备数",
+        "流媒体/TikTok解锁",
+        "年付¥79.9起"
+      ],
+      "lineType": "IPLC页面口径",
+      "accessType": "dedicated",
+      "pricing": "¥6.6/月起（年付）",
+      "tags": [
+        "高性价比",
+        "流媒体",
+        "不限时可选"
+      ]
+    },
+    {
+      "name": "一翻云",
+      "url": "https://go.uukk.de/1flyun",
+      "coupon": "优惠码: 1FLYYUN（9折）",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f97316'/%3e%3cpath d='M30 70 L50 25 L70 70' fill='none' stroke='white' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M22 70 L78 70' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
+      "description": "一翻云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点 x1 倍率，晚高峰不限速。流媒体稳定解锁，年付版 ¥100/年，性价比突出。",
+      "features": [
+        "VLESS+IEPL专线",
+        "60+节点x1倍率",
+        "晚高峰不限速",
+        "年付¥100/年起"
+      ],
+      "lineType": "IEPL页面口径",
+      "accessType": "dedicated",
+      "pricing": "¥25/月起（年付¥100/年）",
+      "tags": [
+        "新晋推荐",
+        "流媒体解锁",
+        "专线稳定"
+      ]
+    },
+    {
+      "name": "光年梯",
+      "url": "https://go.uukk.de/lightyearti",
+      "coupon": "",
+      "logoSvg": "/logo/airports/lightyearti.png",
+      "description": "光年梯, 新加坡团队运营的 IEPL SS 专线机场。全节点 1 倍率，晚高峰不限速，稳定解锁 ChatGPT 及流媒体。",
+      "features": [
+        "IEPL专线",
+        "全节点1倍率",
+        "7折优惠中",
+        "不限时套餐"
+      ],
+      "lineType": "IEPL页面口径",
+      "accessType": "dedicated",
+      "pricing": "¥18/月起",
+      "tags": [
+        "SS协议",
+        "稳定",
+        "新加坡背景"
+      ]
+    },
+    {
+      "name": "快狸",
+      "url": "https://go.uukk.de/kuaili",
+      "coupon": "优惠码: vpsknow（8折）",
+      "logoSvg": "/logo/airports/kuaili.png",
+      "description": "快狸提供 VLESS 协议与企业级 IEPL 专线接入，支持三网优化分流、流媒体与 AI 服务。目前仅支持专用客户端，不提供通用订阅。",
+      "features": [
+        "IEPL专线接入",
+        "专用客户端",
+        "全线流媒体/AI解锁",
+        "晚高峰4K流畅"
+      ],
+      "lineType": "IEPL页面口径",
+      "accessType": "dedicated",
+      "pricing": "¥96/年起（折后）",
+      "tags": [
+        "专用客户端",
+        "IEPL专线",
+        "流媒体解锁"
+      ]
+    },
+    {
+      "name": "宇宙云",
+      "url": "https://go.uukk.de/yuzhoucloud",
+      "coupon": "",
+      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3ccircle cx='50' cy='50' r='22' fill='none' stroke='white' stroke-width='5'/%3e%3ccircle cx='50' cy='50' r='8' fill='white'/%3e%3cellipse cx='50' cy='50' rx='38' ry='16' fill='none' stroke='white' stroke-width='3' transform='rotate(-30 50 50)'/%3e%3c/svg%3e",
+      "description": "宇宙云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点专线接入，晚高峰不限速4K秒开。流媒体稳定解锁，提供超值年付小包 ¥120/年，仅提供专用客户端一键连接，不提供通用订阅。",
+      "features": [
+        "VLESS+IEPL专线",
+        "60+节点x1倍率",
+        "晚高峰不限速",
+        "专用客户端"
+      ],
+      "lineType": "IEPL页面口径",
+      "accessType": "dedicated",
+      "pricing": "¥12.5/月起（年付¥96/年）",
+      "tags": [
+        "新晋推荐",
+        "流媒体解锁",
+        "专线稳定"
+      ]
+    },
+    {
       "name": "瞬云",
       "url": "https://go.uukk.de/sy",
       "coupon": "优惠码: 20OFF（8折）",
@@ -898,7 +899,7 @@
         "多设备共享",
         "7×24真人客服"
       ],
-      "lineType": "ANYCAST专线",
+      "lineType": "ANYCAST页面口径",
       "accessType": "both",
       "pricing": "¥16/月起（优惠后）",
       "tags": [
@@ -940,7 +941,7 @@
         "不限设备数",
         "抗封锁容灾"
       ],
-      "lineType": "IEPL/IPLC专线",
+      "lineType": "IEPL/IPLC页面口径",
       "accessType": "dedicated",
       "pricing": "¥89/年起",
       "tags": [
@@ -1533,13 +1534,22 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-10-20",
-    "added": [
-      "顺畅网络"
-    ],
+    "version": "2026-10-21",
+    "added": [],
     "removed": [],
     "renamed": [],
-    "adjusted": [],
+    "adjusted": [
+      "一翻云",
+      "二猫云",
+      "光年梯",
+      "光速云",
+      "全球云",
+      "唯兔云",
+      "宇宙云",
+      "快狸",
+      "瞬云",
+      "速界"
+    ],
     "defunctAdded": [],
     "defunctRemoved": [],
     "notes": []

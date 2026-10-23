@@ -9,7 +9,7 @@
 >
 > 📖 **完整版（61 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-10-21 已同步 VPSKnow，当前收录 61 个推荐条目。
+> 🔄 **数据同步：** 2026-10-23 已同步 VPSKnow，当前收录 61 个推荐条目。
 > 🛡️ **风险反馈：** [提交服务问题](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=service-issue.md) · [提交疑似跑路/下架](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md) · [查看已核实下架名单](docs/blacklist.md)
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
@@ -19,12 +19,12 @@
 
 **按使用场景初筛，先核对套餐再试用：**
 
-> 数据版本：2026-10-21；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
+> 数据版本：2026-10-23；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
 
 | 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情 |
 |---------|---------|---------|---------|---------|
 | 🆓 先测试后购买 | 免费试用 | 网际快车：免费试用，¥6.8/20GB起<br>喵喵网络：免费试用，¥8/月起 | 网际快车<br>喵喵网络 | [查看](README.md#category-free-trial) |
-| 💰 预算有限（学生党） | 入门经济 | 山水云：¥12/月 100GB起（年付¥77起）<br>锦云：¥4.8/月 50GB起<br>鲤云：¥7/月 50GB起 | 山水云<br>锦云<br>鲤云 | [查看](README.md#category-budget) |
+| 💰 预算有限（学生党） | 入门经济 | 熊猫cloud：¥8试用；¥7/月50GB<br>锦云：¥4.8/月 50GB起<br>鲤云：¥7/月 50GB起 | 熊猫cloud<br>锦云<br>鲤云 | [查看](README.md#category-budget) |
 | ⚡ 日常使用（看剧、办公） | 性价比均衡 | Fastlink：¥20/月起<br>极速Cloud：¥15/月起<br>Nice加速专线机场：¥15/月 50GB起 | Fastlink<br>极速Cloud<br>Nice加速专线机场 | [查看](README.md#category-balanced) |
 | 👔 商务办公（专线候选） | 高端专线 | TAG：¥114/月 500GB<br>MESL：¥50/月起 | TAG<br>MESL | [查看](README.md#category-premium) |
 | 📦 轻度使用（备用） | 按量计费 | 喵喵网络：¥20/100GB起（一次性）<br>魔戒：按GB计费 | 喵喵网络<br>魔戒 | [查看](README.md#category-pay-as-you-go) |
@@ -48,14 +48,14 @@
 |---------|---------|---------|---------|-------|---------|-------|------|
 | **网际快车** | Vless/Hysteria2 | 通用订阅 + 专用客户端 | 免费试用，¥6.8/20GB起 | ❓ | ✅ | ⭐⭐⭐⭐ · 备用候选 · 证据中 | [进入](https://go.uukk.de/wjkc) |
 | **喵喵网络** | Hysteria2直连 | 通用订阅 + 专用客户端 | ¥20/100GB起（一次性） | ❓ | ❓ | ⭐⭐⭐ · 备用候选 · 证据中 | [进入](https://go.uukk.de/vpnmiao) |
-| **山水云** | VLESS/通用订阅 | 通用订阅 | ¥12/月 100GB起（年付¥77起） | ❓ | ✅ | ⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/shanshuiyun) |
+| **熊猫cloud** | VLESS节点 | 通用订阅 | ¥8试用；¥7/月50GB | ❓ | ❓ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/cly) |
 | **锦云** | Vless节点 | 通用订阅 | ¥4.8/月 50GB起 | ✅ | ✅ | ⭐⭐ · 争议待核 · 证据低 | [进入](https://go.uukk.de/jinyun) |
 | **鲤云** | VLESS节点 | 通用订阅 | ¥7/月 50GB起 | ✅ | ✅ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/liyun) |
 | **速界** | 全 IPLC 页面口径 | 专用客户端 | ¥90/年起（折前） | ❓ | ❓ | ⭐⭐ · 线路差异 · 证据中 | [进入](https://go.uukk.de/speedworld) |
 | **轻语机场** | AnyTLS/IEPL | 通用订阅 | ¥10/月起 | ✅ | ✅ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/qingyu) |
 | **COCODUCK VPN** | IEPL/BGP | 通用订阅 + 专用客户端 | ¥17/月 100GB起 | ❓ | ✅ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/cocoduck) |
 | **秒秒云** | 隧道中转 | 待核对 | ¥14/月起（年付¥79起） | ❓ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/miaomiaoyun) |
-| **熊猫cloud** | VLESS节点 | 通用订阅 | ¥8试用；¥7/月50GB | ❓ | ❓ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/cly) |
+| **山水云** | VLESS/通用订阅 | 通用订阅 | ¥12/月 100GB起（年付¥77起） | ❓ | ✅ | ⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/shanshuiyun) |
 | **Fastlink** | BGP/IPLC页面口径 | 专用客户端 | ¥20/月起 | ❓ | ❓ | ⭐⭐⭐ · 恢复观察 · 证据中 | [进入](https://go.uukk.de/fastlink) |
 | **极速Cloud** | CN2 GIA/AS9929/CMIN2 | 通用订阅 | ¥15/月起 | ❓ | ❓ | ⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/jscloud) |
 | **Nice加速专线机场** | 南北双通道专线 | 通用订阅 + 专用客户端 | ¥15/月 50GB起 | ✅ | ✅ | ⭐⭐ · 争议待核 · 证据低 | [进入](https://go.uukk.de/nicecc) |

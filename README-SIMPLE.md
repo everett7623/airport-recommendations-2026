@@ -24,7 +24,7 @@
 | 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情 |
 |---------|---------|---------|---------|---------|
 | 🆓 先测试后购买 | 免费试用 | 网际快车：免费试用，¥6.8/20GB起<br>喵喵网络：免费试用，¥8/月起 | 网际快车<br>喵喵网络 | [查看](README.md#category-free-trial) |
-| 💰 预算有限（学生党） | 入门经济 | 熊猫cloud：¥8试用；¥7/月50GB<br>锦云：¥4.8/月 50GB起<br>鲤云：¥7/月 50GB起 | 熊猫cloud<br>锦云<br>鲤云 | [查看](README.md#category-budget) |
+| 💰 预算有限（学生党） | 入门经济 | COCODUCK VPN：¥17/月 100GB起<br>轻语机场：¥10/月起<br>熊猫cloud：¥8试用；¥7/月50GB | COCODUCK VPN<br>轻语机场<br>熊猫cloud | [查看](README.md#category-budget) |
 | ⚡ 日常使用（看剧、办公） | 性价比均衡 | Fastlink：¥20/月起<br>极速Cloud：¥15/月起<br>Nice加速专线机场：¥15/月 50GB起 | Fastlink<br>极速Cloud<br>Nice加速专线机场 | [查看](README.md#category-balanced) |
 | 👔 商务办公（专线候选） | 高端专线 | TAG：¥114/月 500GB<br>MESL：¥50/月起 | TAG<br>MESL | [查看](README.md#category-premium) |
 | 📦 轻度使用（备用） | 按量计费 | 喵喵网络：¥20/100GB起（一次性）<br>魔戒：按GB计费 | 喵喵网络<br>魔戒 | [查看](README.md#category-pay-as-you-go) |
@@ -48,12 +48,12 @@
 |---------|---------|---------|---------|-------|---------|-------|------|
 | **网际快车** | Vless/Hysteria2 | 通用订阅 + 专用客户端 | 免费试用，¥6.8/20GB起 | ❓ | ✅ | ⭐⭐⭐⭐ · 备用候选 · 证据中 | [进入](https://go.uukk.de/wjkc) |
 | **喵喵网络** | Hysteria2直连 | 通用订阅 + 专用客户端 | ¥20/100GB起（一次性） | ❓ | ❓ | ⭐⭐⭐ · 备用候选 · 证据中 | [进入](https://go.uukk.de/vpnmiao) |
+| **COCODUCK VPN** | IEPL/BGP | 通用订阅 + 专用客户端 | ¥17/月 100GB起 | ❓ | ✅ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/cocoduck) |
+| **轻语机场** | AnyTLS/IEPL | 通用订阅 | ¥10/月起 | ✅ | ✅ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/qingyu) |
 | **熊猫cloud** | VLESS节点 | 通用订阅 | ¥8试用；¥7/月50GB | ❓ | ❓ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/cly) |
 | **锦云** | Vless节点 | 通用订阅 | ¥4.8/月 50GB起 | ✅ | ✅ | ⭐⭐ · 争议待核 · 证据低 | [进入](https://go.uukk.de/jinyun) |
 | **鲤云** | VLESS节点 | 通用订阅 | ¥7/月 50GB起 | ✅ | ✅ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/liyun) |
 | **速界** | 全 IPLC 页面口径 | 专用客户端 | ¥90/年起（折前） | ❓ | ❓ | ⭐⭐ · 线路差异 · 证据中 | [进入](https://go.uukk.de/speedworld) |
-| **轻语机场** | AnyTLS/IEPL | 通用订阅 | ¥10/月起 | ✅ | ✅ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/qingyu) |
-| **COCODUCK VPN** | IEPL/BGP | 通用订阅 + 专用客户端 | ¥17/月 100GB起 | ❓ | ✅ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/cocoduck) |
 | **秒秒云** | 隧道中转 | 待核对 | ¥14/月起（年付¥79起） | ❓ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/miaomiaoyun) |
 | **山水云** | VLESS/通用订阅 | 通用订阅 | ¥12/月 100GB起（年付¥77起） | ❓ | ✅ | ⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/shanshuiyun) |
 | **Fastlink** | BGP/IPLC页面口径 | 专用客户端 | ¥20/月起 | ❓ | ❓ | ⭐⭐⭐ · 恢复观察 · 证据中 | [进入](https://go.uukk.de/fastlink) |

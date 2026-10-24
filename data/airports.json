@@ -239,6 +239,48 @@
       "description": "价格友好，适合预算有限的新手与学生党，满足日常上网等需求",
       "airports": [
         {
+          "name": "COCODUCK VPN",
+          "url": "https://go.uukk.de/cocoduck",
+          "coupon": "",
+          "logoSvg": "/logo/airports/cocoduck.png",
+          "description": "COCODUCK VPN 已完成首轮实测并确认同时支持通用订阅与专用客户端：套餐含 ¥17/月 100GB 至 ¥115/月 1000GB，以及 ¥77/年、每月 40GB 的迷你鸭77。截图记录 51 项 VLESS 节点、约 139.94Mbps 下载与 YouTube 4K 播放；AI 可用，但测试出口为机房 IP，DNS/WebRTC 环境仍需注意。",
+          "features": [
+            "51项VLESS节点",
+            "4K/AI首轮可用",
+            "¥77/年40GB/月",
+            "不限设备/支持试用"
+          ],
+          "lineType": "IEPL/BGP",
+          "accessType": "both",
+          "pricing": "¥17/月 100GB起",
+          "tags": [
+            "VLESS",
+            "性价比",
+            "短周期先试"
+          ]
+        },
+        {
+          "name": "轻语机场",
+          "url": "https://go.uukk.de/qingyu",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3cpath d='M26 58 C34 36 54 24 76 28 C67 47 52 61 31 66 L24 76 Z' fill='white' opacity='.96'/%3e%3ccircle cx='58' cy='43' r='5' fill='%236366f1'/%3e%3c/svg%3e",
+          "description": "轻语机场已补首轮测评，¥10/月起，并提供 Emby 影音权益；具体开通方式、片库和套餐范围需在下单前核对。截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。",
+          "features": [
+            "Emby影音权益",
+            "¥10/月起",
+            "AnyTLS/IEPL",
+            "4K/AI首轮可用"
+          ],
+          "lineType": "AnyTLS/IEPL",
+          "accessType": "universal",
+          "pricing": "¥10/月起",
+          "tags": [
+            "AI解锁",
+            "Emby影音",
+            "低价入门"
+          ]
+        },
+        {
           "name": "熊猫cloud",
           "url": "https://go.uukk.de/cly",
           "coupon": "优惠券: 88888（8折）",
@@ -320,48 +362,6 @@
             "线路差异明显",
             "不限设备",
             "全节点x1"
-          ]
-        },
-        {
-          "name": "轻语机场",
-          "url": "https://go.uukk.de/qingyu",
-          "coupon": "",
-          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3cpath d='M26 58 C34 36 54 24 76 28 C67 47 52 61 31 66 L24 76 Z' fill='white' opacity='.96'/%3e%3ccircle cx='58' cy='43' r='5' fill='%236366f1'/%3e%3c/svg%3e",
-          "description": "轻语机场已补首轮测评，¥10/月起，并提供 Emby 影音权益；具体开通方式、片库和套餐范围需在下单前核对。截图显示 28 个节点，主打 AnyTLS / Shadowsocks、专线 IEPL 和中转线路。YouTube 4K、ChatGPT、Claude、Gemini、Netflix 等首轮可用，但 BAGE CLOUD 机房 IP 风险中等，建议先月付验证晚高峰。",
-          "features": [
-            "Emby影音权益",
-            "¥10/月起",
-            "AnyTLS/IEPL",
-            "4K/AI首轮可用"
-          ],
-          "lineType": "AnyTLS/IEPL",
-          "accessType": "universal",
-          "pricing": "¥10/月起",
-          "tags": [
-            "AI解锁",
-            "Emby影音",
-            "低价入门"
-          ]
-        },
-        {
-          "name": "COCODUCK VPN",
-          "url": "https://go.uukk.de/cocoduck",
-          "coupon": "",
-          "logoSvg": "/logo/airports/cocoduck.png",
-          "description": "COCODUCK VPN 已完成首轮实测并确认同时支持通用订阅与专用客户端：套餐含 ¥17/月 100GB 至 ¥115/月 1000GB，以及 ¥77/年、每月 40GB 的迷你鸭77。截图记录 51 项 VLESS 节点、约 139.94Mbps 下载与 YouTube 4K 播放；AI 可用，但测试出口为机房 IP，DNS/WebRTC 环境仍需注意。",
-          "features": [
-            "51项VLESS节点",
-            "4K/AI首轮可用",
-            "¥77/年40GB/月",
-            "不限设备/支持试用"
-          ],
-          "lineType": "IEPL/BGP",
-          "accessType": "both",
-          "pricing": "¥17/月 100GB起",
-          "tags": [
-            "VLESS",
-            "性价比",
-            "短周期先试"
           ]
         },
         {

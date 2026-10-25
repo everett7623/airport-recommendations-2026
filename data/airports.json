@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-10-23
+// 更新时间: 2026-10-25
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-10-23",
+  "version": "2026-10-25",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST页面口径",
@@ -31,6 +31,7 @@
       "VLESS + XHTTP",
       "VLESS/通用订阅",
       "VLESS节点",
+      "VMess/AnyTLS/Hysteria2",
       "Vless/Hysteria2",
       "Vless节点",
       "专线+优化直连",
@@ -115,6 +116,7 @@
       "低价月付",
       "低调",
       "佩奇系",
+      "先小额验证",
       "免费试用",
       "全兼容",
       "全球节点",
@@ -138,7 +140,6 @@
       "家庭共享",
       "性价比",
       "总榜收录",
-      "按量",
       "按量/一次性",
       "按量备用",
       "新人优惠",
@@ -174,7 +175,6 @@
       "运营变更",
       "进阶",
       "通用订阅",
-      "长期备用",
       "隐私待查",
       "风险观察",
       "高峰期稳定",
@@ -682,20 +682,20 @@
           "url": "https://go.uukk.de/mojie",
           "coupon": "",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23ca8a04'/%3e%3ccircle cx='50' cy='50' r='30' stroke='white' stroke-width='10' fill='none'/%3e%3ccircle cx='50' cy='50' r='15' stroke='white' stroke-width='5' fill='none'/%3e%3c/svg%3e",
-          "description": "魔戒，老牌按流量计费机场，纯按流量计费模式，流量长期有效，节点稳定，老用户的长期备用首选。",
+          "description": "魔戒已补首轮实测：¥1/1GB 试用（不可续费）、¥19.9/130GB 起不限时流量包，支持 Clash 通用订阅。美国样本下载 121.95Mbps、YouTube 4K 与 Netflix 实际播放可用；部分节点超时，机房 IP 风险库结论分歧，DNS/WebRTC 需排查，适合先小额按量备用。",
           "features": [
-            "纯按量计费",
-            "流量长期有效",
-            "节点稳定",
-            "规则清晰"
+            "¥1/1GB试用",
+            "不限时流量包",
+            "通用订阅",
+            "4K/Netflix首轮可用"
           ],
-          "lineType": "公网中转",
+          "lineType": "VMess/AnyTLS/Hysteria2",
           "accessType": "universal",
-          "pricing": "按GB计费",
+          "pricing": "¥19.9/130GB（一次性）",
           "tags": [
-            "老牌",
-            "按量",
-            "长期备用"
+            "按量备用",
+            "不限时流量",
+            "先小额验证"
           ]
         },
         {
@@ -1534,12 +1534,12 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-10-23",
+    "version": "2026-10-25",
     "added": [],
     "removed": [],
     "renamed": [],
     "adjusted": [
-      "顺畅网络"
+      "魔戒"
     ],
     "defunctAdded": [],
     "defunctRemoved": [],

@@ -77,8 +77,8 @@
 | **光年梯** | IEPL页面口径 | 专用客户端 | ¥18/月起 | ❓ | ✅ | 待评 · 证据低 | [进入](https://go.uukk.de/lightyearti) |
 | **快狸** | IEPL页面口径 | 专用客户端 | ¥96/年起（折后） | ✅ | ✅ | 待评 · 证据低 | [进入](https://go.uukk.de/kuaili) |
 | **宇宙云** | IEPL页面口径 | 专用客户端 | ¥12.5/月起（年付¥96/年） | ✅ | ❓ | ⭐ · 暂停推荐 · 证据中 | [进入](https://go.uukk.de/yuzhoucloud) |
-| **瞬云** | ANYCAST页面口径 | 通用订阅 + 专用客户端 | ¥16/月起（优惠后） | ✅ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/sy) |
-| **EdgeNova** | IEPL专线 | 专用客户端 | ¥86/年起（优惠后） | ❓ | ✅ | 待评 · 证据低 | [进入](https://go.uukk.de/edgenova) |
+| **瞬云** | ANYCAST页面口径 | 通用订阅 + 专用客户端 | ¥18/月150GB；¥99/年59GB/月 | ❓ | ✅ | 待评 · 证据低 | [进入](https://go.uukk.de/sy) |
+| **边缘节点** | IPLC页面口径 | 专用客户端 | ¥15/月50GB；¥98/年45GB/月 | ✅ | ❓ | 待评（新收录） | [进入](https://go.uukk.de/edgenova) |
 | **二猫云** | IEPL/IPLC页面口径 | 专用客户端 | ¥89/年起 | ❓ | ❓ | ⭐⭐ · 争议待核 · 证据低 | [进入](https://go.uukk.de/2maoyun) |
 | **U1S1** | 中转专线 | 专用客户端 | ¥18.8/月起 | ✅ | ✅ | 待评 · 证据低 | [进入](https://go.uukk.de/u1s1) |
 | **Happy Vless** | VLESS + XHTTP | 通用订阅 | 0元1GB试用；¥9.9/月起 | ❓ | ❓ | 待评（新收录） | [进入](https://go.uukk.de/happyvless) |

@@ -56,7 +56,8 @@
 
 ### 2026-10-25 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
-- 🔄 **调整：** 魔戒 的资料、分类或运营状态已更新。
+- 🏷️ **更名：** EdgeNova → 边缘节点。
+- 🔄 **调整：** 瞬云 的资料、分类或运营状态已更新。
 - ⛔ **当前正式下架记录：** Sogo云、OneStep。
 
 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）
@@ -714,8 +715,8 @@
 | **光年梯** | IEPL页面口径 | ¥18/月起 | 流媒体 ❓ · ChatGPT ✅ | `SS协议` `稳定` `新加坡背景` | 待评 · 证据低 | [直达](https://go.uukk.de/lightyearti) |
 | **快狸** | IEPL页面口径 | ¥96/年起（折后） | 流媒体 ✅ · ChatGPT ✅ | `专用客户端` `IEPL专线` `流媒体解锁` | 待评 · 证据低 | [直达](https://go.uukk.de/kuaili) |
 | **宇宙云** | IEPL页面口径 | ¥12.5/月起（年付¥96/年） | 流媒体 ✅ · ChatGPT ❓ | `新晋推荐` `流媒体解锁` `专线稳定` | ⭐ · 暂停推荐 · 证据中 | [直达](https://go.uukk.de/yuzhoucloud) |
-| **瞬云** | ANYCAST页面口径 | ¥16/月起（优惠后） | 流媒体 ✅ · ChatGPT ❓ | `原生节点` `流媒体解锁` `高性价比` | 待评 · 证据低 | [直达](https://go.uukk.de/sy) |
-| **EdgeNova** | IEPL专线 | ¥86/年起（优惠后） | 流媒体 ❓ · ChatGPT ✅ | `专线` `新锐` `全兼容` | 待评 · 证据低 | [直达](https://go.uukk.de/edgenova) |
+| **瞬云** | ANYCAST页面口径 | ¥18/月150GB；¥99/年59GB/月 | 流媒体 ❓ · ChatGPT ✅ | `先月付验证` `通用订阅` `晚间实测` | 待评 · 证据低 | [直达](https://go.uukk.de/sy) |
+| **边缘节点** | IPLC页面口径 | ¥15/月50GB；¥98/年45GB/月 | 流媒体 ✅ · ChatGPT ❓ | `短周期先试` `专用客户端` `美国实测` | 待评（新收录） | [直达](https://go.uukk.de/edgenova) |
 | **二猫云** | IEPL/IPLC页面口径 | ¥89/年起 | 流媒体 ❓ · ChatGPT ❓ | `专用客户端` `不限设备` `新晋推荐` | ⭐⭐ · 争议待核 · 证据低 | [直达](https://go.uukk.de/2maoyun) |
 | **U1S1** | 中转专线 | ¥18.8/月起 | 流媒体 ✅ · ChatGPT ✅ | `不限设备` `千兆带宽` `流媒体全解锁` | 待评 · 证据低 | [直达](https://go.uukk.de/u1s1) |
 | **Happy Vless** | VLESS + XHTTP | 0元1GB试用；¥9.9/月起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `试用` `短周期先试` | 待评（新收录） | [直达](https://go.uukk.de/happyvless) |

@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-10-25
+// 更新时间: 2026-10-29
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-10-25",
+  "version": "2026-10-29",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST页面口径",
@@ -136,6 +136,7 @@
       "多地区节点",
       "大流量",
       "套餐涨价",
+      "客户端",
       "客户端接入",
       "家庭共享",
       "性价比",
@@ -786,21 +787,21 @@
     {
       "name": "唯兔云",
       "url": "https://go.uukk.de/wty",
-      "coupon": "优惠码: rabbit",
+      "coupon": "",
       "logoSvg": "/logo/airports/weituyun.png",
-      "description": "唯兔云，主打高性价比 IPLC 专线。采用新 SS 协议，不限设备数且无倍率，稳定解锁流媒体与AI服务。年付 79.9 元（约 ¥6.6/月），另有不限时套餐可选。",
+      "description": "唯兔云已补 2026-10-29 首轮晚间测评。截图列出普通版 ¥19.90/月150GB、年付限量 ¥79.90/年每月45GB，以及 ¥100/100GB 起的一次性不限时包；客户端节点覆盖港、台、新、日、美，少量 Timeout 与美国机房 IP 风险需复查。",
       "features": [
-        "IPLC专线",
-        "不限设备数",
-        "流媒体/TikTok解锁",
-        "年付¥79.9起"
+        "¥19.90/月150GB",
+        "¥79.90/年45GB/月",
+        "¥100/100GB不限时",
+        "节点与IP风险待复查"
       ],
       "lineType": "IPLC页面口径",
       "accessType": "dedicated",
-      "pricing": "¥6.6/月起（年付）",
+      "pricing": "¥19.90/月150GB；¥79.90/年45GB/月",
       "tags": [
-        "高性价比",
-        "流媒体",
+        "客户端",
+        "多地区节点",
         "不限时可选"
       ]
     },
@@ -1535,17 +1536,12 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-10-25",
+    "version": "2026-10-29",
     "added": [],
     "removed": [],
-    "renamed": [
-      {
-        "from": "EdgeNova",
-        "to": "边缘节点"
-      }
-    ],
+    "renamed": [],
     "adjusted": [
-      "瞬云"
+      "唯兔云"
     ],
     "defunctAdded": [],
     "defunctRemoved": [],

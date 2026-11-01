@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-10-29
+// 更新时间: 2026-10-31
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-10-29",
+  "version": "2026-10-31",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST页面口径",
@@ -134,7 +134,7 @@
       "多协议",
       "多地区",
       "多地区节点",
-      "大流量",
+      "套餐已核对",
       "套餐涨价",
       "客户端",
       "客户端接入",
@@ -171,6 +171,7 @@
       "美国视频",
       "老牌",
       "自研客户端",
+      "节点波动",
       "试用",
       "贵族机场",
       "超高带宽",
@@ -504,20 +505,20 @@
           "url": "https://go.uukk.de/lightspeed",
           "coupon": "",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%233b82f6'/%3e%3cpath d='M65 25 C 30 25, 30 50, 60 55 C 85 60, 85 85, 35 85' fill='none' stroke='white' stroke-width='10' stroke-linecap='round'/%3e%3c/svg%3e",
-          "description": "光速云, 主打极高性价比的隧道中转与 IPLC 专线机场。拥有 60+ 独立 IP 节点，带宽冗余充足。原生 IP 稳定解锁 Netflix、TikTok 等流媒体，是晚高峰稳定观影的优质选择。",
+          "description": "光速云 2026-10-31 首轮及补测已核对套餐与节点：截图显示 ¥25/月168GB、¥99/年69GB/月及一次性 ¥147/247GB；20:48 复测所见日本05–10、美国01–10全部 Timeout，当前可用性需复查。",
           "features": [
-            "IPLC专线",
-            "原生IP流媒体",
-            "晚高峰不限速",
-            "月付¥17起"
+            "套餐价格已核对",
+            "¥25/月168GB",
+            "VLESS客户端",
+            "复测部分节点Timeout"
           ],
           "lineType": "IPLC页面口径",
           "accessType": "dedicated",
-          "pricing": "¥17/月起",
+          "pricing": "¥25/月168GB；年付¥99",
           "tags": [
-            "高性价比",
-            "流媒体",
-            "大流量"
+            "套餐已核对",
+            "节点波动",
+            "短周期验证"
           ]
         },
         {
@@ -1536,12 +1537,12 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-10-29",
+    "version": "2026-10-31",
     "added": [],
     "removed": [],
     "renamed": [],
     "adjusted": [
-      "唯兔云"
+      "光速云"
     ],
     "defunctAdded": [],
     "defunctRemoved": [],

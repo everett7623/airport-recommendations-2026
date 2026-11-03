@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-10-31
+// 更新时间: 2026-11-03
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-10-31",
+  "version": "2026-11-03",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST页面口径",
@@ -27,7 +27,6 @@
       "IPLC/IEPL页面口径",
       "IPLC专线",
       "IPLC页面口径",
-      "SD-WAN",
       "VLESS + XHTTP",
       "VLESS/通用订阅",
       "VLESS节点",
@@ -43,6 +42,7 @@
       "公网中转/中继",
       "南北双通道专线",
       "多线国际加速",
+      "广东IEPL页面口径",
       "海外中转",
       "海外公有云中转",
       "线路待重新核对",
@@ -74,6 +74,7 @@
       "季付起"
     ],
     "feature": [
+      "4K/Netflix首轮",
       "4K秒开",
       "4K观影",
       "AI友好",
@@ -86,9 +87,9 @@
       "Emby影音",
       "Hysteria2",
       "IEPL专线",
+      "IEPL页面口径",
       "IPLC",
       "IPLC专线",
-      "SD-WAN",
       "SS协议",
       "Trojan",
       "VLESS",
@@ -118,6 +119,7 @@
       "佩奇系",
       "先小额验证",
       "先月付验证",
+      "先试用",
       "免费试用",
       "全球节点",
       "全球覆盖",
@@ -232,6 +234,27 @@
             "4K秒开",
             "Emby影音",
             "免费试用"
+          ]
+        },
+        {
+          "name": "Bitz Net",
+          "url": "https://go.uukk.de/Bitz",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eB%3c/text%3e%3c/svg%3e",
+          "description": "Bitz Net 购买页写明核心访问与试用订阅同款（约 ¥119.99/季400GB 档能力，整体与既往公开档位接近）；首轮实测 Clash 通用订阅可见 Trojan/VLESS，美国样本 YouTube 4K 与 Netflix 正片可用。机房 IP、WebRTC 国内地址及提现/客服响应需复查，先试用再决定是否季付。",
+          "features": [
+            "试用订阅同款（页面）",
+            "首轮实测已补",
+            "Clash通用订阅",
+            "售后响应待核实"
+          ],
+          "lineType": "广东IEPL页面口径",
+          "accessType": "universal",
+          "pricing": "试用同款；正式¥69.99/季起",
+          "tags": [
+            "先试用",
+            "4K/Netflix首轮",
+            "短周期先试"
           ]
         }
       ]
@@ -498,6 +521,27 @@
             "专线",
             "流媒体",
             "高性价比"
+          ]
+        },
+        {
+          "name": "Bitz Net",
+          "url": "https://go.uukk.de/Bitz",
+          "coupon": "",
+          "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eB%3c/text%3e%3c/svg%3e",
+          "description": "Bitz Net 首轮实测：核心访问 ¥119.99/季400GB（页面写明试用同款），边缘 ¥69.99/季80GB 不含亚太，深度 ¥199.99/季1000GB，档位与既往公开套餐接近；Clash 通用订阅可见广东 IEPL（页面口径）与 Trojan/VLESS。美国样本 Speedtest 约 72Mbps，YouTube 4K 与 Netflix 正片可用；机房 IP、WebRTC 国内地址、Disney+ 失败及提现/客服响应需复查。",
+          "features": [
+            "首轮实测已补",
+            "试用同款/季付三档",
+            "4K/Netflix首轮可用",
+            "售后响应待核实"
+          ],
+          "lineType": "广东IEPL页面口径",
+          "accessType": "universal",
+          "pricing": "¥69.99/季80GB起；核心¥119.99/季",
+          "tags": [
+            "通用订阅",
+            "IEPL页面口径",
+            "短周期先试"
           ]
         },
         {
@@ -1376,26 +1420,6 @@
       ]
     },
     {
-      "name": "Bitz Net",
-      "url": "https://go.uukk.de/Bitz",
-      "coupon": "",
-      "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eB%3c/text%3e%3c/svg%3e",
-      "description": "Bitz Net 当前主推 SD-WAN 接入，官方页面提供注册后 24 小时、5GB 试用，适合先验证本地网络、客户端和晚高峰表现后再购买。",
-      "features": [
-        "注册即用",
-        "试用24小时5GB",
-        "SD-WAN接入",
-        "适合先测再买"
-      ],
-      "lineType": "SD-WAN",
-      "pricing": "免费试用",
-      "tags": [
-        "试用",
-        "SD-WAN",
-        "总榜收录"
-      ]
-    },
-    {
       "name": "69云",
       "url": "https://go.uukk.de/69yun",
       "coupon": "",
@@ -1537,12 +1561,12 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-10-31",
+    "version": "2026-11-03",
     "added": [],
     "removed": [],
     "renamed": [],
     "adjusted": [
-      "光速云"
+      "Bitz Net"
     ],
     "defunctAdded": [],
     "defunctRemoved": [],

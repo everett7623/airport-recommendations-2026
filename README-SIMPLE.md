@@ -2,14 +2,14 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-61%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-62%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 
 > **⚠️ 前言：** 本项目为科研、外贸、开发人员提供网络加速服务推荐。请遵守当地法律法规。**机场有跑路风险，建议优先月付。**
 >
-> 📖 **完整版（61 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
+> 📖 **完整版（62 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-11-03 已同步 VPSKnow，当前收录 61 个推荐条目。
+> 🔄 **数据同步：** 2026-11-04 已同步 VPSKnow，当前收录 62 个推荐条目。
 > 🛡️ **风险反馈：** [提交服务问题](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=service-issue.md) · [提交疑似跑路/下架](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md) · [查看已核实下架名单](docs/blacklist.md)
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
@@ -19,7 +19,7 @@
 
 **按使用场景初筛，先核对套餐再试用：**
 
-> 数据版本：2026-11-03；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
+> 数据版本：2026-11-04；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
 
 | 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情 |
 |---------|---------|---------|---------|---------|
@@ -48,7 +48,6 @@
 |---------|---------|---------|---------|-------|---------|-------|------|
 | **网际快车** | Vless/Hysteria2 | 通用订阅 + 专用客户端 | 免费试用，¥6.8/20GB起 | ❓ | ✅ | ⭐⭐⭐⭐ · 备用候选 · 证据中 | [进入](https://go.uukk.de/wjkc) |
 | **喵喵网络** | Hysteria2直连 | 通用订阅 + 专用客户端 | ¥20/100GB起（一次性） | ❓ | ❓ | ⭐⭐⭐ · 备用候选 · 证据中 | [进入](https://go.uukk.de/vpnmiao) |
-| **Bitz Net** | 广东IEPL页面口径 | 通用订阅 | ¥69.99/季80GB起；核心¥119.99/季 | ✅ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/Bitz) |
 | **COCODUCK VPN** | IEPL/BGP | 通用订阅 + 专用客户端 | ¥17/月 100GB起 | ❓ | ✅ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/cocoduck) |
 | **轻语机场** | AnyTLS/IEPL | 通用订阅 | ¥10/月起 | ✅ | ✅ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/qingyu) |
 | **熊猫cloud** | VLESS节点 | 通用订阅 | ¥8试用；¥7/月50GB | ❓ | ❓ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/cly) |
@@ -73,6 +72,8 @@
 | **AmyTelecom** | IEPL专线 | 通用订阅 | ¥273/年起 | ✅ | ❓ | ⭐⭐ · 可用待核 · 证据低 | [进入](https://go.uukk.de/amytele) |
 | **Kuromis** | IEPL专线 | 待核对 | ¥34/月起 | ❓ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/kuromis) |
 | **WgetCloud** | BGP专线 | 通用订阅 | ¥79/月起 | ❓ | ❓ | ⭐⭐⭐⭐ · 主力候选 · 证据中 | [进入](https://go.uukk.de/wgetcloud) |
+| **Bitz Net** | 广东IEPL页面口径 | 通用订阅 | ¥69.99/季80GB起；核心¥119.99/季 | ✅ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/Bitz) |
+| **无忧链接** | IPLC页面口径 | 通用订阅 + 专用客户端 | ¥79/年40GB；¥19/月100GB起 | ❓ | ✅ | 待评（新收录） | [进入](https://wuyoulink.org/) |
 | **唯兔云** | IPLC页面口径 | 专用客户端 | ¥19.90/月150GB；¥79.90/年45GB/月 | ❓ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/wty) |
 | **一翻云** | IEPL页面口径 | 专用客户端 | ¥25/月起（年付¥100/年） | ✅ | ❓ | ⭐⭐ · 争议待核 · 证据低 | [进入](https://go.uukk.de/1flyun) |
 | **光年梯** | IEPL页面口径 | 专用客户端 | ¥18/月起 | ❓ | ✅ | 待评 · 证据低 | [进入](https://go.uukk.de/lightyearti) |
@@ -146,7 +147,7 @@ VPSKnow 上游机场数据、第三方 Logo/商标、机场名称与外部链接
 
 <p align="center">
   ⭐ 如果对你有帮助，请点亮 Star！<br>
-  📖 <a href="README.md">查看完整版（61机场详细评测）</a> | 🌐 <a href="https://www.vpsknow.com/airport-recommendations">VPSKnow 实时榜单</a>
+  📖 <a href="README.md">查看完整版（62机场详细评测）</a> | 🌐 <a href="https://www.vpsknow.com/airport-recommendations">VPSKnow 实时榜单</a>
 </p>
 
 **关键词：** `机场推荐` `VPN推荐` `科学上网` `梯子` `SS机场` `V2Ray` `Trojan` `IPLC专线` `流媒体解锁` `Netflix` `ChatGPT` `2026`

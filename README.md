@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
 ![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-61%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-62%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 [![许可证：CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-lightgrey)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)
 
@@ -54,8 +54,9 @@
 
 ## 📢 最新活动与公告
 
-### 2026-11-03 更新
+### 2026-11-04 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
+- 🆕 **新增：** 无忧链接。
 - 🔄 **调整：** Bitz Net 的资料、分类或运营状态已更新。
 - ⛔ **当前正式下架记录：** Sogo云、OneStep。
 
@@ -67,7 +68,7 @@
 
 **按使用场景初筛，先核对套餐再试用：**
 
-> 数据版本：2026-11-03；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
+> 数据版本：2026-11-04；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
 
 | 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情 |
 |---------|---------|---------|---------|---------|
@@ -146,25 +147,6 @@
 **简介：** 喵喵网络已补首轮测评，免费试用和 ¥8/月起入口降低试错成本，并提供 Emby 影音权益；具体开通方式、片库和套餐范围需在下单前核对。Hysteria2 节点、美国 0.1x 节点、AI/部分流媒体解锁和 YouTube 4K 首轮可用，但 HostPapa 机房 IP 风险较高，建议先短周期试用。
 
 **标签：** `4K秒开` `Emby影音` `免费试用`
-
----
-
-### 3. Bitz Net
-
-**🔗 官网：** [直达](https://go.uukk.de/Bitz)
-
-| 参数 | 说明 |
-|:---|:---|
-| **价格** | 试用同款；正式¥69.99/季起 |
-| **线路** | 广东IEPL页面口径 |
-| **接入** | 通用订阅 |
-| **优惠** | 未提供 |
-| **特点** | 试用订阅同款（页面），首轮实测已补，Clash通用订阅，售后响应待核实 |
-| **推荐** | 待评 · 证据低 |
-
-**简介：** Bitz Net 购买页写明核心访问与试用订阅同款（约 ¥119.99/季400GB 档能力，整体与既往公开档位接近）；首轮实测 Clash 通用订阅可见 Trojan/VLESS，美国样本 YouTube 4K 与 Netflix 正片可用。机房 IP、WebRTC 国内地址及提现/客服响应需复查，先试用再决定是否季付。
-
-**标签：** `先试用` `4K/Netflix首轮` `短周期先试`
 
 ---
 
@@ -416,26 +398,7 @@
 
 ---
 
-### 5. Bitz Net
-
-**🔗 官网：** [直达](https://go.uukk.de/Bitz)
-
-| 参数 | 说明 |
-|:---|:---|
-| **价格** | ¥69.99/季80GB起；核心¥119.99/季 |
-| **线路** | 广东IEPL页面口径 |
-| **接入** | 通用订阅 |
-| **优惠** | 未提供 |
-| **特点** | 首轮实测已补，试用同款/季付三档，4K/Netflix首轮可用，售后响应待核实 |
-| **推荐** | 待评 · 证据低 |
-
-**简介：** Bitz Net 首轮实测：核心访问 ¥119.99/季400GB（页面写明试用同款），边缘 ¥69.99/季80GB 不含亚太，深度 ¥199.99/季1000GB，档位与既往公开套餐接近；Clash 通用订阅可见广东 IEPL（页面口径）与 Trojan/VLESS。美国样本 Speedtest 约 72Mbps，YouTube 4K 与 Netflix 正片可用；机房 IP、WebRTC 国内地址、Disney+ 失败及提现/客服响应需复查。
-
-**标签：** `通用订阅` `IEPL页面口径` `短周期先试`
-
----
-
-### 6. 光速云
+### 5. 光速云
 
 **🔗 官网：** [直达](https://go.uukk.de/lightspeed)
 
@@ -454,7 +417,7 @@
 
 ---
 
-### 7. 全球云
+### 6. 全球云
 
 **🔗 官网：** [直达](https://go.uukk.de/globalyun)
 
@@ -723,7 +686,6 @@
 |---|---|---|---|---|---|---|
 | **网际快车** | Vless/Hysteria2 | 免费试用，¥6.8/20GB起 | 流媒体 ❓ · ChatGPT ✅ | `白嫖` `试用` `按量备用` | ⭐⭐⭐⭐ · 备用候选 · 证据中 | [直达](https://go.uukk.de/wjkc) |
 | **喵喵网络** | Hysteria2直连 | ¥20/100GB起（一次性） | 流媒体 ❓ · ChatGPT ❓ | `Hysteria2` `不限时流量` `按量备用` | ⭐⭐⭐ · 备用候选 · 证据中 | [直达](https://go.uukk.de/vpnmiao) |
-| **Bitz Net** | 广东IEPL页面口径 | ¥69.99/季80GB起；核心¥119.99/季 | 流媒体 ✅ · ChatGPT ❓ | `通用订阅` `IEPL页面口径` `短周期先试` | 待评 · 证据低 | [直达](https://go.uukk.de/Bitz) |
 | **COCODUCK VPN** | IEPL/BGP | ¥17/月 100GB起 | 流媒体 ❓ · ChatGPT ✅ | `VLESS` `性价比` `短周期先试` | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [直达](https://go.uukk.de/cocoduck) |
 | **轻语机场** | AnyTLS/IEPL | ¥10/月起 | 流媒体 ✅ · ChatGPT ✅ | `AI解锁` `Emby影音` `低价入门` | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [直达](https://go.uukk.de/qingyu) |
 | **熊猫cloud** | VLESS节点 | ¥8试用；¥7/月50GB | 流媒体 ❓ · ChatGPT ❓ | `VLESS` `低价入门` `短周期先试` | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [直达](https://go.uukk.de/cly) |
@@ -748,6 +710,8 @@
 | **AmyTelecom** | IEPL专线 | ¥273/年起 | 流媒体 ✅ · ChatGPT ❓ | `佩奇系` `流媒体解锁` `稳定` | ⭐⭐ · 可用待核 · 证据低 | [直达](https://go.uukk.de/amytele) |
 | **Kuromis** | IEPL专线 | ¥34/月起 | 流媒体 ❓ · ChatGPT ❓ | `贵族机场` `IEPL专线` `高峰期稳定` | 待评 · 证据低 | [直达](https://go.uukk.de/kuromis) |
 | **WgetCloud** | BGP专线 | ¥79/月起 | 流媒体 ❓ · ChatGPT ❓ | `稳定` `企业级` `不差钱` | ⭐⭐⭐⭐ · 主力候选 · 证据中 | [直达](https://go.uukk.de/wgetcloud) |
+| **Bitz Net** | 广东IEPL页面口径 | ¥69.99/季80GB起；核心¥119.99/季 | 流媒体 ✅ · ChatGPT ❓ | `总榜收录` `通用订阅` `短周期先试` | 待评 · 证据低 | [直达](https://go.uukk.de/Bitz) |
+| **无忧链接** | IPLC页面口径 | ¥79/年40GB；¥19/月100GB起 | 流媒体 ❓ · ChatGPT ✅ | `总榜收录` `订阅/专用客户端` `短周期先试` | 待评（新收录） | [直达](https://wuyoulink.org/) |
 | **唯兔云** | IPLC页面口径 | ¥19.90/月150GB；¥79.90/年45GB/月 | 流媒体 ❓ · ChatGPT ❓ | `客户端` `多地区节点` `不限时可选` | 待评 · 证据低 | [直达](https://go.uukk.de/wty) |
 | **一翻云** | IEPL页面口径 | ¥25/月起（年付¥100/年） | 流媒体 ✅ · ChatGPT ❓ | `新晋推荐` `流媒体解锁` `专线稳定` | ⭐⭐ · 争议待核 · 证据低 | [直达](https://go.uukk.de/1flyun) |
 | **光年梯** | IEPL页面口径 | ¥18/月起 | 流媒体 ❓ · ChatGPT ✅ | `SS协议` `稳定` `新加坡背景` | 待评 · 证据低 | [直达](https://go.uukk.de/lightyearti) |

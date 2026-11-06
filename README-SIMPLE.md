@@ -9,7 +9,7 @@
 >
 > 📖 **完整版（62 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-11-04 已同步 VPSKnow，当前收录 62 个推荐条目。
+> 🔄 **数据同步：** 2026-11-05 已同步 VPSKnow，当前收录 62 个推荐条目。
 > 🛡️ **风险反馈：** [提交服务问题](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=service-issue.md) · [提交疑似跑路/下架](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md) · [查看已核实下架名单](docs/blacklist.md)
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
@@ -19,7 +19,7 @@
 
 **按使用场景初筛，先核对套餐再试用：**
 
-> 数据版本：2026-11-04；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
+> 数据版本：2026-11-05；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
 
 | 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情 |
 |---------|---------|---------|---------|---------|

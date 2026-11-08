@@ -54,10 +54,9 @@
 
 ## 📢 最新活动与公告
 
-### 2026-11-05 更新
+### 2026-11-07 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
-- 🆕 **新增（2026-11-04）：** 无忧链接。
-- 🔄 **调整（2026-11-04）：** Bitz Net 的资料、分类或运营状态已更新。
+- 🔄 **调整：** Bywave 的资料、分类或运营状态已更新。
 - ⛔ **当前正式下架记录：** Sogo云、OneStep。
 
 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）
@@ -68,7 +67,7 @@
 
 **按使用场景初筛，先核对套餐再试用：**
 
-> 数据版本：2026-11-05；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
+> 数据版本：2026-11-07；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
 
 | 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情 |
 |---------|---------|---------|---------|---------|
@@ -742,7 +741,7 @@
 | **可信云** | IPLC/IEPL专线 | ¥96/年 60GB/月起 | 流媒体 ✅ · ChatGPT ✅ | `不限设备` `AI解锁` `专线小包` | ⭐ · 暂停推荐 · 证据中 | [直达](https://go.uukk.de/kexinyun) |
 | **69云** | 公网中转/中继 | ¥13.36/月起 | 流媒体 ❓ · ChatGPT ❓ | `Emby影音` `冷门节点` `性价比` | 待评 · 证据低 | [直达](https://go.uukk.de/69yun) |
 | **SsrDog** | IPLC/IEPL专线 | ¥45/月 季付起 | 流媒体 ✅ · ChatGPT ❓ | `流媒体` `原生IP` `注意季付起` | ⭐⭐ · 风险观察 · 证据中 | [直达](https://go.uukk.de/ssrdog) |
-| **Bywave** | IEPL专线 | ¥30/月起 | 流媒体 ✅ · ChatGPT ❓ | `争议预警` `EMBY` `进阶` | ⭐⭐ · 风险观察 · 证据中 | [直达](https://go.uukk.de/ByWave) |
+| **Bywave** | IEPL页面口径 | ¥30/月 150GB起 | 流媒体 ❓ · ChatGPT ✅ | `EMBY` `AnyTLS` `短周期先试` | ⭐⭐ · 风险观察 · 证据中 | [直达](https://go.uukk.de/ByWave) |
 | **TNTCloud** | IPLC页面口径 | ¥20/月 110GB起 | 流媒体 ❓ · ChatGPT ❓ | `IPLC` `日本/美国节点` `风险观察` | ⭐ · 暂停推荐 · 证据中 | [直达](https://go.uukk.de/tnt) |
 | **龙猫云** | IPLC专线 | ¥15/月 100GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `IPLC专线` `短周期验证` | ⭐⭐ · 证据有限 · 证据中 | [直达](https://go.uukk.de/longmaoyun) |
 | **拼好连** | BGP/IEPL口径 | ¥19.90/月 50GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `套餐涨价` `短周期核对` | ⭐⭐⭐ · 短期候选 · 证据中 | [直达](https://go.uukk.de/runway) |

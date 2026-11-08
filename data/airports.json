@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-11-05
+// 更新时间: 2026-11-07
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-11-05",
+  "version": "2026-11-07",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST页面口径",
@@ -106,7 +106,6 @@
       "专线",
       "专线小包",
       "专线稳定",
-      "争议预警",
       "企业级",
       "优惠码",
       "低价",
@@ -176,7 +175,6 @@
       "贵族机场",
       "超高带宽",
       "运营变更",
-      "进阶",
       "通用订阅",
       "隐私待查",
       "风险观察",
@@ -1462,19 +1460,19 @@
       "url": "https://go.uukk.de/ByWave",
       "coupon": "",
       "logoSvg": "/logo/airports/bywave.png",
-      "description": "Bywave，万兆金融级 IEPL 专线，按流量与速度阶梯定价，创立于2020年。⚠️ 注意：专线节点为2倍率（中继节点0.7倍率），购买前需确认套餐实际可用流量；2026年1月曾出现长达两周的断线且无法联系客服，口碑争议较大。极不推荐直接年付，务必先月付充分测试。",
+      "description": "Bywave 2026-11-07 首轮测评确认商店与订阅可用后，已对照原入观察原因（2026-01 断线与客服失联）移出风险观察，保留故障历史。当前标价 Bronze ¥30/月150GB、Gold ¥60/月500GB（含 Emby）、Platinum ¥110/月1TiB，另有 Special ¥140/年200GB 一次性包；Clash 通用订阅 + ByWave 专用客户端。纽约家宽样本可播 YouTube 4K60 且 ChatGPT 可生成；连接余量偏低、Gemini 地区拦截、部分亚太 Timeout、AS174 住宅/机房标签分歧与 DNS/WebRTC 仍建议先月付短周期验证，不建议直接年付。",
       "features": [
-        "IEPL专线",
-        "分级套餐",
-        "流媒体解锁",
-        "专线2倍率请注意"
+        "通用订阅+专用客户端",
+        "纽约家宽样本4K",
+        "先月付验证"
       ],
-      "lineType": "IEPL专线",
-      "pricing": "¥30/月起",
+      "lineType": "IEPL页面口径",
+      "accessType": "both",
+      "pricing": "¥30/月 150GB起",
       "tags": [
-        "争议预警",
         "EMBY",
-        "进阶"
+        "AnyTLS",
+        "短周期先试"
       ]
     },
     {
@@ -1559,14 +1557,12 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-11-04",
-    "added": [
-      "无忧链接"
-    ],
+    "version": "2026-11-07",
+    "added": [],
     "removed": [],
     "renamed": [],
     "adjusted": [
-      "Bitz Net"
+      "Bywave"
     ],
     "defunctAdded": [],
     "defunctRemoved": [],

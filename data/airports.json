@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-11-07
+// 更新时间: 2026-11-09
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-11-07",
+  "version": "2026-11-09",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST页面口径",
@@ -48,7 +48,6 @@
       "线路待重新核对",
       "线路架构待验证",
       "跨境专线",
-      "隧道中转",
       "高端专线"
     ],
     "access_type": [
@@ -370,19 +369,20 @@
           "url": "https://go.uukk.de/miaomiaoyun",
           "coupon": "优惠券: j4u5eVFw（8折）",
           "logoSvg": "/logo/airports/miaomiaoyun.png",
-          "description": "秒秒云采用海外中转节点和 AnyTLS 协议，提供低至 ¥79/年的轻量套餐以及不限时一次性流量包；线路、解锁和晚高峰表现仍建议先用短周期套餐自行验证。",
+          "description": "秒秒云 2026-11-09 首轮测评按商店截图展示探花 ¥9/月128GB、榜眼 ¥15/月256GB、状元 ¥29/月512GB，另有 ¥18/季64GB/月、¥29.9/365天100G 与 ¥88 不限时100G；Clash 通用订阅可见 VLESS。洛杉矶样本同晚 YouTube 4K 高低连接并存，ChatGPT/Gemini 可生成，出口为 AS38136 机房 IP，DNS/WebRTC 与测速失败需复查，建议先月付短周期验证。",
           "features": [
-            "海外中转节点",
-            "AnyTLS协议",
-            "年付低至¥79起",
-            "支持不限时套餐"
+            "首轮实测已补",
+            "¥9/月128GB起",
+            "Clash VLESS节点",
+            "同晚4K吞吐波动"
           ],
-          "lineType": "隧道中转",
-          "pricing": "¥14/月起（年付¥79起）",
+          "lineType": "海外中转",
+          "accessType": "universal",
+          "pricing": "¥9/月 128GB起",
           "tags": [
-            "高性价比",
-            "AnyTLS",
-            "不限时可选"
+            "低价入门",
+            "通用订阅",
+            "短周期先试"
           ]
         },
         {
@@ -1557,12 +1557,12 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-11-07",
+    "version": "2026-11-09",
     "added": [],
     "removed": [],
     "renamed": [],
     "adjusted": [
-      "Bywave"
+      "秒秒云"
     ],
     "defunctAdded": [],
     "defunctRemoved": [],

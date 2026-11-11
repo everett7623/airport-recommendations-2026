@@ -9,7 +9,7 @@
 >
 > 📖 **完整版（62 家机场详细评测）：** [README.md](README.md) | 🌐 **实时测速与图文详解：** [VPSKnow.com](https://www.vpsknow.com/airport-recommendations)
 >
-> 🔄 **数据同步：** 2026-11-09 已同步 VPSKnow，当前收录 62 个推荐条目。
+> 🔄 **数据同步：** 2026-11-11 已同步 VPSKnow，当前收录 62 个推荐条目。
 > 🛡️ **风险反馈：** [提交服务问题](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=service-issue.md) · [提交疑似跑路/下架](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md) · [查看已核实下架名单](docs/blacklist.md)
 > ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
@@ -19,7 +19,7 @@
 
 **按使用场景初筛，先核对套餐再试用：**
 
-> 数据版本：2026-11-09；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
+> 数据版本：2026-11-11；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
 
 | 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情 |
 |---------|---------|---------|---------|---------|
@@ -66,12 +66,12 @@
 | **MESL** | IEPL专线 | 通用订阅 + 专用客户端 | ¥50/月起 | ✅ | ✅ | ⭐⭐⭐⭐ · 升级待核 · 证据中 | [进入](https://go.uukk.de/mesl) |
 | **ImmTelecom** | IEPL/IPLC专线 | 通用订阅 | ¥72.45/月起 | ✅ | ✅ | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [进入](https://go.uukk.de/immtele) |
 | **肯の机** | CN2 GIA/9929/CMIN2 | 待核对 | ¥40/月 100GB起 | ✅ | ✅ | 待评 · 证据低 | [进入](https://go.uukk.de/kendeji) |
-| **ViKing Links** | 专线+优化直连 | 待核对 | ¥72/月 500GB | ❓ | ❓ | ⭐⭐ · 可用待核 · 证据低 | [进入](https://go.uukk.de/vikinglinks) |
 | **魔戒** | VMess/AnyTLS/Hysteria2 | 通用订阅 | ¥19.9/130GB（一次性） | ✅ | ❓ | ⭐⭐ · 可用待核 · 证据低 | [进入](https://go.uukk.de/mojie) |
 | **Gatern** | 跨境专线 | 通用订阅 | ¥24/月起 | ❓ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/Gatern) |
 | **AmyTelecom** | IEPL专线 | 通用订阅 | ¥273/年起 | ✅ | ❓ | ⭐⭐ · 可用待核 · 证据低 | [进入](https://go.uukk.de/amytele) |
 | **Kuromis** | IEPL专线 | 待核对 | ¥34/月起 | ❓ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/kuromis) |
 | **WgetCloud** | BGP专线 | 通用订阅 | ¥79/月起 | ❓ | ❓ | ⭐⭐⭐⭐ · 主力候选 · 证据中 | [进入](https://go.uukk.de/wgetcloud) |
+| **Forest** | MPLS专线页面口径 | 通用订阅 | ¥29.88/月 200GB起 | ❓ | ✅ | 待评（新收录） | [进入](https://go.uukk.de/forest) |
 | **Bitz Net** | 广东IEPL页面口径 | 通用订阅 | ¥69.99/季80GB起；核心¥119.99/季 | ✅ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/Bitz) |
 | **无忧链接** | IPLC页面口径 | 通用订阅 + 专用客户端 | ¥79/年40GB；¥19/月100GB起 | ❓ | ✅ | 待评（新收录） | [进入](https://wuyoulink.org/) |
 | **唯兔云** | IPLC页面口径 | 专用客户端 | ¥19.90/月150GB；¥79.90/年45GB/月 | ❓ | ❓ | 待评 · 证据低 | [进入](https://go.uukk.de/wty) |

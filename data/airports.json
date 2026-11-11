@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-11-09
+// 更新时间: 2026-11-11
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-11-09",
+  "version": "2026-11-11",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST页面口径",
@@ -27,13 +27,13 @@
       "IPLC/IEPL页面口径",
       "IPLC专线",
       "IPLC页面口径",
+      "MPLS专线页面口径",
       "VLESS + XHTTP",
       "VLESS/通用订阅",
       "VLESS节点",
       "VMess/AnyTLS/Hysteria2",
       "Vless/Hysteria2",
       "Vless节点",
-      "专线+优化直连",
       "中转专线",
       "优质直连",
       "全 IPLC 页面口径",
@@ -88,11 +88,9 @@
       "IPLC",
       "IPLC专线",
       "SS协议",
-      "Trojan",
       "VLESS",
       "一年有效期",
       "三网优化",
-      "下单前复核",
       "不主推",
       "不差钱",
       "不建议长期付费",
@@ -629,26 +627,6 @@
             "多协议",
             "短周期先试"
           ]
-        },
-        {
-          "name": "ViKing Links",
-          "url": "https://go.uukk.de/vikinglinks",
-          "coupon": "优惠码: WELCOME（88折）",
-          "logoSvg": "/logo/airports/viking-links.svg",
-          "description": "ViKing Links 2025 年上线，近期公开资料显示已切换 Trojan 协议，采用多入口专线与三网优化直连组合。当前初级套餐 ¥118/季 250GB/月，中级套餐 ¥72/月 500GB；官网直连受限，购买前应再次核对套餐页和线路可用性。",
-          "features": [
-            "Trojan协议",
-            "专线+优化直连",
-            "250GB季付起",
-            "常用及冷门地区"
-          ],
-          "lineType": "专线+优化直连",
-          "pricing": "¥72/月 500GB",
-          "tags": [
-            "高端线路",
-            "Trojan",
-            "下单前复核"
-          ]
         }
       ]
     },
@@ -783,6 +761,27 @@
     }
   ],
   "directory_only": [
+    {
+      "name": "Forest",
+      "url": "https://go.uukk.de/forest",
+      "coupon": "优惠码: 1099（月付9折）/ 1088（年付及以上8折，至2026-11-16）",
+      "logoSvg": "/logo/airports/forest.png",
+      "description": "Forest 由 ViKing Links 官方迁移升级而来，2026-11-10/11 首轮测评仅进入完整总榜静默位。商店标价轻量 ¥29.88/月200GB、高级 ¥68.88/月500GB、旗舰 ¥188.88/月2000GB，另有不限时200G ¥388.88；Clash 通用订阅可见 AnyTLS / MPLS 专线节点。美国盐湖城样本 Speedtest 下载约 1.84Mbps、YouTube 4K 连接余量偏低且丢帧明显，ChatGPT/Gemini 可生成；出口为机房 IP，DNS/WebRTC 需复查，建议先月付短周期验证，暂不进高端分类卡。",
+      "features": [
+        "完整总榜静默位",
+        "¥29.88/月200GB起",
+        "AnyTLS/MPLS专线",
+        "机房IP/先月付"
+      ],
+      "lineType": "MPLS专线页面口径",
+      "accessType": "universal",
+      "pricing": "¥29.88/月 200GB起",
+      "tags": [
+        "总榜收录",
+        "通用订阅",
+        "短周期先试"
+      ]
+    },
     {
       "name": "Bitz Net",
       "url": "https://go.uukk.de/Bitz",
@@ -1557,13 +1556,15 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-11-09",
-    "added": [],
-    "removed": [],
-    "renamed": [],
-    "adjusted": [
-      "秒秒云"
+    "version": "2026-11-11",
+    "added": [
+      "Forest"
     ],
+    "removed": [
+      "ViKing Links"
+    ],
+    "renamed": [],
+    "adjusted": [],
     "defunctAdded": [],
     "defunctRemoved": [],
     "notes": []

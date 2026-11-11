@@ -54,9 +54,10 @@
 
 ## 📢 最新活动与公告
 
-### 2026-11-09 更新
+### 2026-11-11 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
-- 🔄 **调整：** 秒秒云 的资料、分类或运营状态已更新。
+- 🆕 **新增：** Forest。
+- 🧹 **清理：** ViKing Links 已移出推荐目录。
 - ⛔ **当前正式下架记录：** Sogo云、OneStep。
 
 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）
@@ -67,7 +68,7 @@
 
 **按使用场景初筛，先核对套餐再试用：**
 
-> 数据版本：2026-11-09；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
+> 数据版本：2026-11-11；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
 
 | 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情 |
 |---------|---------|---------|---------|---------|
@@ -96,7 +97,6 @@
 | **No.2 硬核直连主力** | **肯の机** | CN2 GIA / 9929 / CMIN2（VLESS） | **¥35~40/月**（100GB） | 三网顶级优化直连，晚高峰延迟低、丢包少，适合游戏与代码玩家。 | [直达](https://go.uukk.de/kendeji) |
 | **No.3 亲民老牌** | **Fastlink** | BGP 入口 / IPLC | **¥20/月**（100GB） | 老牌大厂，月付门槛亲民，适合预算有限但想要稳定日常过渡的用户。 | [直达](https://go.uukk.de/fastlink) |
 | **No.4 最佳防失联备用** | **喵喵网络** | Hysteria2 协议直连 | **¥20 一次性**（100GB 不限时） | 新协议暴力抗封锁，流量永久不过期，强烈推荐作为防失联的第二备用。 | [直达](https://go.uukk.de/vpnmiao) |
-| **No.5 大流量/家庭合租** | **Viking Links** | 专线 + 优化直连 | **¥72/月**（500GB）或季付 ¥118 | 单月总价略高但给足 500GB，每 GB 均摊极便宜，适合 4K 影音与多设备。 | [直达](https://go.uukk.de/vikinglinks) |
 | **No.6 进阶专线** | **MESL** | IEPL 纯专线 | **¥49~50/月**（120~200GB） | 正规高规格专线，晚高峰稳定性强，适合对画质与连通率有进阶要求的用户。 | [直达](https://go.uukk.de/mesl) |
 | **No.7 超低门槛尝鲜** | **网际快车** | Vless / Hysteria2 | **免费试用 / ¥6.8 起**（20GB） | 门槛极低支持试用，但节点与流量规格较小，仅适合轻度网页浏览。 | [直达](https://go.uukk.de/wjkc) |
 | **No.8 全球全能冷门库** | **TAG** | IEPL 专线（Shadowsocks） | **¥114/月**（500GB）或季付 ¥185 | 节点覆盖 190+ 国家和地区，流媒体与特殊地区首选，但价格昂贵适合极客。 | [直达](https://go.uukk.de/tag) |
@@ -521,25 +521,6 @@
 
 ---
 
-### 5. ViKing Links
-
-**🔗 官网：** [直达](https://go.uukk.de/vikinglinks)
-
-| 参数 | 说明 |
-|:---|:---|
-| **价格** | ¥72/月 500GB |
-| **线路** | 专线+优化直连 |
-| **接入** | 待核对 |
-| **优惠** | `优惠码: WELCOME（88折）` |
-| **特点** | Trojan协议，专线+优化直连，250GB季付起，常用及冷门地区 |
-| **推荐** | ⭐⭐ · 可用待核 · 证据低 |
-
-**简介：** ViKing Links 2025 年上线，近期公开资料显示已切换 Trojan 协议，采用多入口专线与三网优化直连组合。当前初级套餐 ¥118/季 250GB/月，中级套餐 ¥72/月 500GB；官网直连受限，购买前应再次核对套餐页和线路可用性。
-
-**标签：** `高端线路` `Trojan` `下单前复核`
-
----
-
 > 🔗 **更多高端专线机场评测 →** [VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)
 
 ---
@@ -703,12 +684,12 @@
 | **MESL** | IEPL专线 | ¥50/月起 | 流媒体 ✅ · ChatGPT ✅ | `低调` `高端线路` `AI友好` | ⭐⭐⭐⭐ · 升级待核 · 证据中 | [直达](https://go.uukk.de/mesl) |
 | **ImmTelecom** | IEPL/IPLC专线 | ¥72.45/月起 | 流媒体 ✅ · ChatGPT ✅ | `AnyTLS` `多地区节点` `高端` | ⭐⭐⭐⭐ · 短期候选 · 证据中 | [直达](https://go.uukk.de/immtele) |
 | **肯の机** | CN2 GIA/9929/CMIN2 | ¥40/月 100GB起 | 流媒体 ✅ · ChatGPT ✅ | `高端线路` `多协议` `短周期先试` | 待评 · 证据低 | [直达](https://go.uukk.de/kendeji) |
-| **ViKing Links** | 专线+优化直连 | ¥72/月 500GB | 流媒体 ❓ · ChatGPT ❓ | `高端线路` `Trojan` `下单前复核` | ⭐⭐ · 可用待核 · 证据低 | [直达](https://go.uukk.de/vikinglinks) |
 | **魔戒** | VMess/AnyTLS/Hysteria2 | ¥19.9/130GB（一次性） | 流媒体 ✅ · ChatGPT ❓ | `按量备用` `不限时流量` `先小额验证` | ⭐⭐ · 可用待核 · 证据低 | [直达](https://go.uukk.de/mojie) |
 | **Gatern** | 跨境专线 | ¥24/月起 | 流媒体 ❓ · ChatGPT ❓ | `按量/一次性` `全球节点` `一年有效期` | 待评 · 证据低 | [直达](https://go.uukk.de/Gatern) |
 | **AmyTelecom** | IEPL专线 | ¥273/年起 | 流媒体 ✅ · ChatGPT ❓ | `佩奇系` `流媒体解锁` `稳定` | ⭐⭐ · 可用待核 · 证据低 | [直达](https://go.uukk.de/amytele) |
 | **Kuromis** | IEPL专线 | ¥34/月起 | 流媒体 ❓ · ChatGPT ❓ | `贵族机场` `IEPL专线` `高峰期稳定` | 待评 · 证据低 | [直达](https://go.uukk.de/kuromis) |
 | **WgetCloud** | BGP专线 | ¥79/月起 | 流媒体 ❓ · ChatGPT ❓ | `稳定` `企业级` `不差钱` | ⭐⭐⭐⭐ · 主力候选 · 证据中 | [直达](https://go.uukk.de/wgetcloud) |
+| **Forest** | MPLS专线页面口径 | ¥29.88/月 200GB起 | 流媒体 ❓ · ChatGPT ✅ | `总榜收录` `通用订阅` `短周期先试` | 待评（新收录） | [直达](https://go.uukk.de/forest) |
 | **Bitz Net** | 广东IEPL页面口径 | ¥69.99/季80GB起；核心¥119.99/季 | 流媒体 ✅ · ChatGPT ❓ | `总榜收录` `通用订阅` `短周期先试` | 待评 · 证据低 | [直达](https://go.uukk.de/Bitz) |
 | **无忧链接** | IPLC页面口径 | ¥79/年40GB；¥19/月100GB起 | 流媒体 ❓ · ChatGPT ✅ | `总榜收录` `订阅/专用客户端` `短周期先试` | 待评（新收录） | [直达](https://wuyoulink.org/) |
 | **唯兔云** | IPLC页面口径 | ¥19.90/月150GB；¥79.90/年45GB/月 | 流媒体 ❓ · ChatGPT ❓ | `客户端` `多地区节点` `不限时可选` | 待评 · 证据低 | [直达](https://go.uukk.de/wty) |

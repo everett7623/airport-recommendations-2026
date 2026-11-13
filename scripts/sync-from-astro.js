@@ -45,12 +45,14 @@ function backup(filePath) {
 
 function validateSource(source, sourceLabel) {
   // The page may import the data from src/data/*.ts instead of declaring it
-  // inline.  Keep the guard strict enough to reject HTML/404 responses while
-  // allowing the resolver to follow that import afterwards.
+  // inline. Reject bare 404 text and HTML error pages that lack airport
+  // exports, but allow real Astro sources that mention <html> in comments
+  // or templates.
   const hasAirportData = /\b(?:airportCategories|noAffAirports|fullListOnlyAirports|defunctAirports)\b/.test(source);
-  const looksLikeErrorPage = /^(404:\s*Not Found|Not Found)$/i.test(source.trim()) || /<html[\s>]/i.test(source);
+  const looksLikeBareNotFound = /^(404:\s*Not Found|Not Found)$/i.test(source.trim());
+  const looksLikeHtmlWithoutAirportData = /<html[\s>]/i.test(source) && !hasAirportData;
 
-  if (looksLikeErrorPage) {
+  if (looksLikeBareNotFound || looksLikeHtmlWithoutAirportData) {
     throw new Error(`${sourceLabel} returned an error page instead of Astro source`);
   }
   if (!hasAirportData) {

@@ -125,6 +125,16 @@ function computeSyncChanges(existing, output, version) {
     if (!after.has(key)) removed.push(previous.name);
   }
 
+  // Same display name with a changed URL key looks like remove+add; treat as adjusted.
+  const addedNames = new Set(added);
+  const removedNames = new Set(removed);
+  for (const name of [...addedNames]) {
+    if (!name || !removedNames.has(name)) continue;
+    added.splice(added.indexOf(name), 1);
+    removed.splice(removed.indexOf(name), 1);
+    if (!adjusted.includes(name)) adjusted.push(name);
+  }
+
   const previousDefunct = new Set((existing.defunct || []).map(item => item.name));
   const currentDefunct = new Set((output.defunct || []).map(item => item.name));
   const defunctAdded = [...currentDefunct].filter(name => !previousDefunct.has(name));
@@ -307,14 +317,44 @@ function jsToJSON(jsStr) {
 }
 
 /**
+ * Builds helpers needed to evaluate upstream airport object literals that call
+ * functions such as activeAirportCoupon(...).
+ */
+function buildEvalHelpers(source) {
+  const expiryRaw = extractJSObject(source, 'airportCouponExpiryTerms');
+  let airportCouponExpiryTerms = {};
+  if (expiryRaw) {
+    const parsed = (() => {
+      try {
+        const cleaned = jsToJSON(expiryRaw);
+        return new Function(`return (${cleaned})`)();
+      } catch {
+        return null;
+      }
+    })();
+    if (parsed && typeof parsed === 'object') airportCouponExpiryTerms = parsed;
+  }
+
+  const activeAirportCoupon = (name, coupon) => {
+    const expiresAt = airportCouponExpiryTerms[name];
+    if (!expiresAt || !String(coupon || '').trim()) return coupon || '';
+    return Date.now() < new Date(expiresAt).getTime() ? coupon : '';
+  };
+
+  return { activeAirportCoupon, airportCouponExpiryTerms };
+}
+
+/**
  * Safely evaluates a JS object literal by wrapping it in a function.
  */
-function safeEval(jsObjectStr) {
+function safeEval(jsObjectStr, helpers = {}) {
   try {
     const cleaned = jsToJSON(jsObjectStr);
     // Use eval in a controlled way - the source is from the same owner
-    const fn = new Function(`return (${cleaned})`);
-    return fn();
+    const helperNames = Object.keys(helpers);
+    const helperValues = Object.values(helpers);
+    const fn = new Function(...helperNames, `return (${cleaned})`);
+    return fn(...helperValues);
   } catch (e) {
     log(`Eval error: ${e.message}`, 'err');
     return null;
@@ -397,13 +437,19 @@ async function main() {
   }
 
   // 3. Parse
-  const astroCategories = safeEval(airportCategoriesRaw);
-  const astroNoAff = noAffRaw ? safeEval(noAffRaw) : [];
-  const astroDirectoryOnly = directoryOnlyRaw ? safeEval(directoryOnlyRaw) : null;
-  const astroDefunct = defunctRaw ? safeEval(defunctRaw) : [];
+  const evalHelpers = buildEvalHelpers(source);
+  const astroCategories = safeEval(airportCategoriesRaw, evalHelpers);
+  const astroNoAff = noAffRaw ? safeEval(noAffRaw, evalHelpers) : [];
+  const astroDirectoryOnly = directoryOnlyRaw ? safeEval(directoryOnlyRaw, evalHelpers) : null;
+  const astroDefunct = defunctRaw ? safeEval(defunctRaw, evalHelpers) : [];
 
   if (!astroCategories) {
     log('Failed to parse airportCategories', 'err');
+    loaded.cleanup?.();
+    process.exit(1);
+  }
+  if (directoryOnlyRaw && !Array.isArray(astroDirectoryOnly)) {
+    log('Failed to parse fullListOnlyAirports; refusing to preserve stale directory_only data', 'err');
     loaded.cleanup?.();
     process.exit(1);
   }

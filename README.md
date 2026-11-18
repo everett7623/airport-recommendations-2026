@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/everett7623/airport-recommendations-2026)
 ![Stars](https://img.shields.io/github/stars/everett7623/airport-recommendations-2026?style=social)
 ![Forks](https://img.shields.io/github/forks/everett7623/airport-recommendations-2026?style=social)
-![Included](https://img.shields.io/badge/Included-62%20Airports-informational)
+![Included](https://img.shields.io/badge/Included-61%20Airports-informational)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=everett7623.airport-recommendations-2026)
 [![许可证：CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-lightgrey)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)
 
@@ -54,10 +54,10 @@
 
 ## 📢 最新活动与公告
 
-### 2026-11-14 更新
+### 2026-11-18 更新
 - ✅ **同步：** 与 [VPSKnow.com](https://www.vpsknow.com/airport-recommendations) 机场推荐数据同步更新。
-- 🆕 **新增（2026-11-11）：** Forest。
-- 🧹 **清理（2026-11-11）：** ViKing Links 已移出推荐目录。
+- 🔄 **调整：** Forest、无忧链接 的资料、分类或运营状态已更新。
+- 🧹 **清理：** SKYLUMO 已移出推荐目录。
 - ⛔ **当前正式下架记录：** Sogo云、OneStep。
 
 👉 **查看完整评测与详细图文教程：[VPSKnow 机场推荐榜单](https://www.vpsknow.com/airport-recommendations)**（实时更新，内容更全）
@@ -68,7 +68,7 @@
 
 **按使用场景初筛，先核对套餐再试用：**
 
-> 数据版本：2026-11-14；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
+> 数据版本：2026-11-18；代表机场与价格随 VPSKnow 每日同步更新，按源分类顺序展示。
 
 | 使用场景 | 推荐类型 | 参考价格（逐家对应） | 代表机场 | 详情 |
 |---------|---------|---------|---------|---------|
@@ -691,7 +691,7 @@
 | **WgetCloud** | BGP专线 | ¥79/月起 | 流媒体 ❓ · ChatGPT ❓ | `稳定` `企业级` `不差钱` | ⭐⭐⭐⭐ · 主力候选 · 证据中 | [直达](https://go.uukk.de/wgetcloud) |
 | **Forest** | MPLS专线页面口径 | ¥29.88/月 200GB起 | 流媒体 ❓ · ChatGPT ✅ | `总榜收录` `通用订阅` `短周期先试` | 待评（新收录） | [直达](https://go.uukk.de/forest) |
 | **Bitz Net** | 广东IEPL页面口径 | ¥69.99/季80GB起；核心¥119.99/季 | 流媒体 ✅ · ChatGPT ❓ | `总榜收录` `通用订阅` `短周期先试` | 待评 · 证据低 | [直达](https://go.uukk.de/Bitz) |
-| **无忧链接** | IPLC页面口径 | ¥79/年40GB；¥19/月100GB起 | 流媒体 ❓ · ChatGPT ✅ | `总榜收录` `订阅/专用客户端` `短周期先试` | 待评（新收录） | [直达](https://wuyoulink.org/) |
+| **无忧链接** | IPLC页面口径 | ¥79/年40GB；¥19/月100GB起 | 流媒体 ❓ · ChatGPT ✅ | `总榜收录` `订阅/专用客户端` `短周期先试` | 待评（新收录） | [直达](https://go.uukk.de/wylj) |
 | **唯兔云** | IPLC页面口径 | ¥19.90/月150GB；¥79.90/年45GB/月 | 流媒体 ❓ · ChatGPT ❓ | `客户端` `多地区节点` `不限时可选` | 待评 · 证据低 | [直达](https://go.uukk.de/wty) |
 | **一翻云** | IEPL页面口径 | ¥25/月起（年付¥100/年） | 流媒体 ✅ · ChatGPT ❓ | `新晋推荐` `流媒体解锁` `专线稳定` | ⭐⭐ · 争议待核 · 证据低 | [直达](https://go.uukk.de/1flyun) |
 | **光年梯** | IEPL页面口径 | ¥18/月起 | 流媒体 ❓ · ChatGPT ✅ | `SS协议` `稳定` `新加坡背景` | 待评 · 证据低 | [直达](https://go.uukk.de/lightyearti) |
@@ -707,7 +707,6 @@
 | **寰宇云** | 线路待重新核对 | 当前套餐待复核 | 流媒体 ❓ · ChatGPT ❓ | `运营变更` `总榜收录` `短周期测试` | ⭐⭐ · 运营待核 · 证据中 | [直达](https://go.uukk.de/huanyuyunvip) |
 | **YToo** | 多线国际加速 | ¥98/年起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `全球覆盖` `备用方案` | 待评 · 证据低 | [直达](https://go.uukk.de/ytoo) |
 | **星岛梦** | IEPL/IPLC+BGP页面口径 | ¥25/月 150GB起（年付¥96/60GB） | 流媒体 ✅ · ChatGPT ❓ | `通用订阅` `流媒体首轮可用` `不主推` | ⭐⭐ · 体验受限 · 证据中 | [直达](https://go.uukk.de/stardream) |
-| **SKYLUMO** | 公网中转 | ¥9.90起（历史页面） | 流媒体 ❓ · ChatGPT ❓ | `风险观察` `售后失联` `不建议长期付费` | ⭐ · 暂停推荐 · 证据中 | [直达](https://go.uukk.de/skylumo) |
 | **灵猫网络** | IPLC页面口径 | ¥85/年 45GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `客户端接入` `短周期验证` | ⭐⭐⭐ · 短期候选 · 证据中 | [直达](https://go.uukk.de/lmwl) |
 | **微风网络** | IPLC页面口径 | ¥137/年 100GB起 | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `客户端接入` `短周期验证` | ⭐⭐ · 体验受限 · 证据中 | [直达](https://go.uukk.de/wfwl) |
 | **榴莲云** | IEPL页面口径 | 约¥5.6/月 60GB | 流媒体 ❓ · ChatGPT ❓ | `总榜收录` `低价月付` `自研客户端` | ⭐⭐ · 体验受限 · 证据中 | [直达](https://go.uukk.de/liulianyun) |

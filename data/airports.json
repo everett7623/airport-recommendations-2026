@@ -1519,6 +1519,13 @@
   ],
   "defunct": [
     {
+      "name": "SKYLUMO",
+      "defunctDate": "2026-11-18",
+      "lineType": "公网中转（历史）",
+      "note": "2026-11-18 工单截图显示对方以“贵站点存在关于本站的负面言论”为由冻结全部余额并关闭工单；此前已因售后失联进入风险观察。本站停止一切导流与 AFF 审计请求，不单独写成停服或跑路结论。",
+      "pricingWas": "¥9.90起（历史页面）"
+    },
+    {
       "name": "Sogo云",
       "defunctDate": "2026-07-12",
       "lineType": "IEPL专线",
@@ -1536,15 +1543,12 @@
   "last_sync_changes": {
     "version": "2026-11-18",
     "added": [],
-    "removed": [
+    "removed": [],
+    "renamed": [],
+    "adjusted": [],
+    "defunctAdded": [
       "SKYLUMO"
     ],
-    "renamed": [],
-    "adjusted": [
-      "Forest",
-      "无忧链接"
-    ],
-    "defunctAdded": [],
     "defunctRemoved": [],
     "notes": []
   }

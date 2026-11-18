@@ -11,7 +11,7 @@
 >
 > 🔄 **数据同步：** 2026-11-18 已同步 VPSKnow，当前收录 61 个推荐条目。
 > 🛡️ **风险反馈：** [提交服务问题](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=service-issue.md) · [提交疑似跑路/下架](https://github.com/everett7623/airport-recommendations-2026/issues/new?template=delist-report.md) · [查看已核实下架名单](docs/blacklist.md)
-> ⛔ **下架记录：** Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
+> ⛔ **下架记录：** SKYLUMO、Sogo云、OneStep（详见 [风险控制指南](docs/blacklist.md)）。
 
 ---
 

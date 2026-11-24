@@ -1,10 +1,10 @@
 // 名称: Airport-recommendations (auto-synced from VPSKnow Astro source)
 // 来源: configured VPSKnow Astro source
-// 更新时间: 2026-11-18
+// 更新时间: 2026-11-24
 // 自动同步脚本: scripts/sync-from-astro.js
 // ─────────────────────────────────────────────────────────────────────────────
 {
-  "version": "2026-11-18",
+  "version": "2026-11-24",
   "tags_vocabulary": {
     "line_type": [
       "ANYCAST页面口径",
@@ -342,7 +342,7 @@
         {
           "name": "速界",
           "url": "https://go.uukk.de/speedworld",
-          "coupon": "优惠码: sujie888（8折）",
+          "coupon": "优惠码: sujie888（新客）；xf888（老用户续费）",
           "logoSvg": "/logo/airports/speedworld.png",
           "description": "速界仅支持专用客户端，当前有 ¥15/月 50GB 体验包和 ¥90/年 50GB/月限时包，页面标注全 IPLC、全节点 x1、不限设备。2026-08-28 复测中，本地联通美国节点下载 8.56Mbps，手机电信 5G 下载 129Mbps，线路差异明显，建议先月付。",
           "features": [
@@ -412,7 +412,7 @@
         {
           "name": "Fastlink",
           "url": "https://go.uukk.de/fastlink",
-          "coupon": "",
+          "coupon": "优惠码: iYDaff（指定套餐9折，长期有效）；季付95折/半年付9折/年付8折（指定套餐，无需码）",
           "logoSvg": "/logo/airports/fastlink.png",
           "description": "Fastlink 已补首轮测评：专用客户端可见约30项节点，主要覆盖港澳台、东南亚、欧美等常用地区；YouTube 4K、Claude 与 Cloudflare 样本首轮可用，但少量节点 Timeout，节点覆盖与长期稳定性不宜夸大，建议先月付。",
           "features": [
@@ -497,7 +497,7 @@
         {
           "name": "光速云",
           "url": "https://go.uukk.de/lightspeed",
-          "coupon": "",
+          "coupon": "优惠码: ok88",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%233b82f6'/%3e%3cpath d='M65 25 C 30 25, 30 50, 60 55 C 85 60, 85 85, 35 85' fill='none' stroke='white' stroke-width='10' stroke-linecap='round'/%3e%3c/svg%3e",
           "description": "光速云 2026-10-31 首轮及补测已核对套餐与节点：截图显示 ¥25/月168GB、¥99/年69GB/月及一次性 ¥147/247GB；20:48 复测所见日本05–10、美国01–10全部 Timeout，当前可用性需复查。",
           "features": [
@@ -518,7 +518,7 @@
         {
           "name": "全球云",
           "url": "https://go.uukk.de/globalyun",
-          "coupon": "月付及以上 8 折：gz80；年付 85 折：gz85（有效期 2026-09-24 至 2026-10-25，结账页复核）",
+          "coupon": "优惠码: qq88（新人8折）；ygjc（8折全场，长期有效）",
           "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230ea5e9'/%3e%3ctext x='50' y='65' font-size='45' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3e云%3c/text%3e%3c/svg%3e",
           "description": "全球云，采用企业级 IPLC/IEPL 专线，结合智能负载均衡与三网入口优化，2Gbps+ 带宽接入，晚高峰稳定。原生节点完美解锁 Netflix、Disney+、TikTok 及 ChatGPT。",
           "features": [
@@ -783,7 +783,7 @@
     {
       "name": "Bitz Net",
       "url": "https://go.uukk.de/Bitz",
-      "coupon": "",
+      "coupon": "优惠码: 2026BF85（黑五全场85折，至2026-11-28）",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%231e293b'/%3e%3ctext x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3eB%3c/text%3e%3c/svg%3e",
       "description": "Bitz Net 新增 2026-11-02 首轮测评，仅进入完整总榜供对比。核心访问 ¥119.99/季400GB（页面写明试用同款，新用户注册可见 1 天 5GB「核心访问-试用」），边缘 ¥69.99/季80GB 不含亚太，深度 ¥199.99/季1000GB；Clash 通用订阅可见广东 IEPL（页面口径）与 Trojan/VLESS。美国样本 Speedtest 约 72Mbps，YouTube 4K 与 Netflix 正片可用；机房 IP、WebRTC 国内地址、Disney+ 失败及提现/客服响应需复查，先试用再决定是否季付。",
       "features": [
@@ -804,7 +804,7 @@
     {
       "name": "无忧链接",
       "url": "https://go.uukk.de/wylj",
-      "coupon": "",
+      "coupon": "优惠码: wuyou",
       "logoSvg": "/logo/airports/wylj.png",
       "description": "无忧链接经 2026-10-11、10-15 与 11-03 三轮实测，仅进入完整总榜供对比。套餐 ¥79/年40GB mini、¥19/月100GB 起，另有永久不限时包与 ¥40/月「专线套餐·真无忧链接」；年付套餐支持导入通用订阅（最低档 mini ¥79/年40GB 起，各档年付均可），其余套餐走专用客户端，可见港/台/新/日/美专线节点（个别 Timeout），美国样本 Netflix 正片与 ChatGPT 生成可用。出口为 AS54600 机房 IP，DNS/WebRTC 有泄漏信号、晚高峰与退款售后仍需复查，建议先月付。",
       "features": [
@@ -825,7 +825,7 @@
     {
       "name": "唯兔云",
       "url": "https://go.uukk.de/wty",
-      "coupon": "",
+      "coupon": "优惠码: rabbit（新用户9折）",
       "logoSvg": "/logo/airports/weituyun.png",
       "description": "唯兔云已补 2026-10-29 首轮晚间测评。截图列出普通版 ¥19.90/月150GB、年付限量 ¥79.90/年每月45GB，以及 ¥100/100GB 起的一次性不限时包；客户端节点覆盖港、台、新、日、美，少量 Timeout 与美国机房 IP 风险需复查。",
       "features": [
@@ -846,7 +846,7 @@
     {
       "name": "一翻云",
       "url": "https://go.uukk.de/1flyun",
-      "coupon": "优惠码: 1FLYYUN（9折）",
+      "coupon": "优惠码: 1FLYYUN（8折；另有9折限新口径，结账页复核）",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%23f97316'/%3e%3cpath d='M30 70 L50 25 L70 70' fill='none' stroke='white' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M22 70 L78 70' fill='none' stroke='white' stroke-width='8' stroke-linecap='round'/%3e%3c/svg%3e",
       "description": "一翻云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点 x1 倍率，晚高峰不限速。流媒体稳定解锁，年付版 ¥100/年，性价比突出。",
       "features": [
@@ -888,7 +888,7 @@
     {
       "name": "快狸",
       "url": "https://go.uukk.de/kuaili",
-      "coupon": "优惠码: vpsknow（8折）",
+      "coupon": "优惠码: kl888（新人）；vpsknow（8折）",
       "logoSvg": "/logo/airports/kuaili.png",
       "description": "快狸提供 VLESS 协议与企业级 IEPL 专线接入，支持三网优化分流、流媒体与 AI 服务。目前仅支持专用客户端，不提供通用订阅。",
       "features": [
@@ -909,7 +909,7 @@
     {
       "name": "宇宙云",
       "url": "https://go.uukk.de/yuzhoucloud",
-      "coupon": "",
+      "coupon": "优惠码: YUZHOU553（新人8折）",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3ccircle cx='50' cy='50' r='22' fill='none' stroke='white' stroke-width='5'/%3e%3ccircle cx='50' cy='50' r='8' fill='white'/%3e%3cellipse cx='50' cy='50' rx='38' ry='16' fill='none' stroke='white' stroke-width='3' transform='rotate(-30 50 50)'/%3e%3c/svg%3e",
       "description": "宇宙云，VLESS 协议 + 企业级 IEPL 专线，三网优化智能负载均衡。60+节点覆盖港台日新马美等全球地区，全节点专线接入，晚高峰不限速4K秒开。流媒体稳定解锁，提供超值年付小包 ¥120/年，仅提供专用客户端一键连接，不提供通用订阅。",
       "features": [
@@ -930,7 +930,7 @@
     {
       "name": "瞬云",
       "url": "https://go.uukk.de/sy",
-      "coupon": "",
+      "coupon": "优惠码: 20OFF（新人8折）",
       "logoSvg": "/logo/airports/shunyun.webp",
       "description": "瞬云已补晚间首轮测评：截图标价 ¥18/月150GB、¥99/年每月59GB，另有不限时包，支持 Clash 通用订阅。美国样本下载111.75Mbps，Netflix播放与ChatGPT/Gemini实际生成完成；部分节点超时，YouTube 4K缓冲归零且丢帧明显，IP与DNS风险仍需复查，建议先月付。",
       "features": [
@@ -951,7 +951,7 @@
     {
       "name": "边缘节点",
       "url": "https://go.uukk.de/edgenova",
-      "coupon": "优惠码: xk808（截图标8折，结账确认）",
+      "coupon": "优惠码: DR888（8折，续费可用）；xk808（新客8折）",
       "logoSvg": "/logo/airports/edgenova.png",
       "description": "边缘节点（原 EdgeNova）已补首轮测评：截图显示 ¥15/月 50GB 体验包、¥98/年每月45GB、¥22/月120GB 与不限时流量包，使用专用客户端。美国样本下载 108.30Mbps、YouTube 4K 与 Netflix 实播可用；机房/住宅属性多库分歧，DNS/WebRTC 需排查，晚高峰和真实 AI 对话待补，建议先月付。",
       "features": [
@@ -993,7 +993,7 @@
     {
       "name": "U1S1",
       "url": "https://go.uukk.de/u1s1",
-      "coupon": "优惠码: U1S1（85折）",
+      "coupon": "优惠码: U1S1（85折，¥96年包不适用）",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%236366f1'/%3e%3ctext x='50' y='65' font-size='42' font-weight='900' text-anchor='middle' fill='white' font-family='Arial Black, Arial, sans-serif' letter-spacing='-1'>U1S1</text>%3c/svg%3e",
       "description": "U1S1机场，完美解锁 TikTok、ChatGPT，以及 Netflix、Disney+、HBO 等全球主流流媒体平台。承诺晚高峰绝不降速，不限制IP地址与连接设备的数量，58 个节点畅连全球。新人特惠85折：U1S1",
       "features": [
@@ -1098,7 +1098,7 @@
     {
       "name": "YToo",
       "url": "https://go.uukk.de/ytoo",
-      "coupon": "",
+      "coupon": "优惠码: TBAKG878（85折）",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%234f46e5'/%3e%3cpath d='M30 65 L50 35 L70 65 M50 35 V 75' fill='none' stroke='white' stroke-width='10' stroke-linejoin='round' stroke-linecap='round'/%3e%3c/svg%3e",
       "description": "YToo 保留在完整总榜供对比，覆盖大量非主流地区并采用多线国际传输架构；本轮不再占用高端机场分类卡片。购买前建议先复核当前套餐、线路和节点状态。",
       "features": [
@@ -1118,7 +1118,7 @@
     {
       "name": "星岛梦",
       "url": "https://go.uukk.de/stardream",
-      "coupon": "优惠码: nmw888（9折）",
+      "coupon": "优惠码: 2happy80（8折，年付及以上，年付小包不参与）/ 2happy85（85折，年付以下）（至2026-11-30）",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%237c3aed'/%3e%3cpath d='M50 20 L60 40 L85 45 L65 60 L70 85 L50 75 L30 85 L35 60 L15 45 L40 40 Z' fill='white' stroke='white' stroke-width='2'/%3e%3c/svg%3e",
       "description": "星岛梦已补 2026-09-13 首轮复测：通用订阅可见多地区 VLESS 节点，套餐含 ¥25/月 150GB、¥50/月 300GB 与 ¥96/年 60GB；美国 Netflix 可访问、YouTube 4K 可播放，但单次 Speedtest 下载 9.57Mbps、YouTube 连接约 1.1Mbps 且有丢帧，出口为 AS401243 机房 IP，Claude 信任分 77，DNS/WebRTC 仍需注意。测速偏慢，不作为主推，仅建议先月付。",
       "features": [
@@ -1140,7 +1140,7 @@
     {
       "name": "灵猫网络",
       "url": "https://go.uukk.de/lmwl",
-      "coupon": "",
+      "coupon": "优惠码: LM80（8折）；lmao888（新人9折）",
       "logoSvg": "/logo/airports/lingmao.png",
       "description": "灵猫网络新增 2026-09-21 首轮测评，仅进入完整总榜供对比。套餐从年付小包 ¥85/年 45GB 起，页面标注全 IPLC、不限速和不限设备；客户端可见香港、新加坡、台湾、日本、美国节点。美国节点 YouTube 4K 可播放、Speedtest 下载 80.46Mbps / 上传 43.13Mbps，但出口为 AS54600 PEG TECH INC 机房 IP，IPPure 系数 28%，不同 Claude 检测入口分数存在差异，建议先短期验证。",
       "features": [
@@ -1161,7 +1161,7 @@
     {
       "name": "微风网络",
       "url": "https://go.uukk.de/wfwl",
-      "coupon": "",
+      "coupon": "优惠码: weifeng90（7折，新老用户全场）",
       "logoSvg": "/logo/airports/weifeng.svg",
       "description": "微风网络新增 2026-09-20 首轮测评，仅进入完整总榜供对比。套餐从清风 ¥137/年 100GB 起，页面标注全 IPLC、不限设备和不限速；客户端可见香港、新加坡、台湾、日本、美国、德国节点。美国节点 YouTube 4K 可播放、Speedtest 下载 116.26Mbps，但上传仅 1.05Mbps，出口在 IPPure 中为 AS54600 PEG TECH INC 机房 IP，Cloudflare 风险指数 53，Claude AI 出口检测失败，建议先短周期验证。",
       "features": [
@@ -1291,7 +1291,7 @@
     {
       "name": "环球梯",
       "url": "https://go.uukk.de/huanqiuti",
-      "coupon": "",
+      "coupon": "优惠码: HQ66（8折，至2026-11-30）",
       "logoSvg": "/logo/airports/huanqiuti.svg",
       "description": "环球梯新增 2026-09-27 首轮实测，仅进入完整总榜供对比。套餐从 ¥23/月 120GB 起，提供 60–600GB 档位和一次性流量包；美国节点 Speedtest 下载 119.75Mbps、上传 3.27Mbps，YouTube 4K 截图中 2145 帧未见丢帧。出口为 AS54600 PEG TECH INC 机房 IP，商家宣称的全解锁、60+ 节点、纯专线和抗封锁能力待复测，建议先月付。",
       "features": [
@@ -1312,7 +1312,7 @@
     {
       "name": "飞猫云",
       "url": "https://go.uukk.de/flyingcat",
-      "coupon": "",
+      "coupon": "优惠码: flycat888（新用户季付及以上8折）",
       "logoSvg": "/logo/airports/feimaoyun.png",
       "description": "飞猫云仅保留在完整总榜供对比。当前套餐从学生版 ¥8/月 50GB 起，页面标注全 IPLC、最高 2.5Gbps 与全节点 1 倍率；专用客户端截图可见新加坡 / 美国 BGP-IEPL Vless 节点，并公告暂停 Clash、小火箭等通用订阅。美国节点晚间复测 YouTube 4K 可播放、Speedtest 下载 111.92Mbps，但出口在 ping0.cc / IPPure 中为机房 IP，Cloudflare 风险指数 94，DNS 可能泄漏中国出口，建议先月付。",
       "features": [
@@ -1333,7 +1333,7 @@
     {
       "name": "FlowerCloud",
       "url": "https://go.uukk.de/flowercloud",
-      "coupon": "",
+      "coupon": "优惠码: YE9E5X19ZP（全场8折，不含Air和企业套餐）",
       "logoSvg": "/logo/airports/flowercloud.png",
       "description": "FlowerCloud（花云）保留在完整总榜供对比。它是老牌 Trojan / BGP / IEPL 机场，当前不再放入高端专线分类卡片；购买前建议先短周期复查线路、解锁和晚高峰表现。",
       "features": [
@@ -1374,7 +1374,7 @@
     {
       "name": "可信云",
       "url": "https://go.uukk.de/kexinyun",
-      "coupon": "优惠码: kexinyun330",
+      "coupon": "优惠码: kxy80（8折）；kexinyun330（套餐加量不加价）",
       "logoSvg": "data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%230f766e'/%3e%3cpath d='M24 56 C28 40 43 31 57 38 C66 42 73 50 76 62 C69 57 62 55 54 58 C44 63 34 61 24 56 Z' fill='white' opacity='.96'/%3e%3ccircle cx='61' cy='45' r='5' fill='%230f766e'/%3e%3c/svg%3e",
       "description": "可信云 2026-10-08 第二轮美日节点恢复响应，美国节点 Speedtest 下载 116.69Mbps、上传 7.64Mbps，YouTube 4K 与 Netflix 实际播放可见，AI 页面可打开；已移出风险观察并保留 9 月故障历史。当前仍为专用客户端，IP 属性存在分歧，DNS/WebRTC 国内信号和长期稳定性待复查，建议先短期验证。",
       "features": [
@@ -1541,14 +1541,34 @@
     }
   ],
   "last_sync_changes": {
-    "version": "2026-11-18",
+    "version": "2026-11-24",
     "added": [],
     "removed": [],
     "renamed": [],
-    "adjusted": [],
-    "defunctAdded": [
-      "SKYLUMO"
+    "adjusted": [
+      "Bitz Net",
+      "Fastlink",
+      "FlowerCloud",
+      "U1S1",
+      "YToo",
+      "一翻云",
+      "光速云",
+      "全球云",
+      "可信云",
+      "唯兔云",
+      "宇宙云",
+      "微风网络",
+      "快狸",
+      "无忧链接",
+      "星岛梦",
+      "灵猫网络",
+      "环球梯",
+      "瞬云",
+      "边缘节点",
+      "速界",
+      "飞猫云"
     ],
+    "defunctAdded": [],
     "defunctRemoved": [],
     "notes": []
   }
